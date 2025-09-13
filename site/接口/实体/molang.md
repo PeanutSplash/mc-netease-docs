@@ -1,8 +1,8 @@
 ---
 title: "molang"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E5%AE%9E%E4%BD%93/molang.html?catalog=1"
-scraped_at: "2025-09-13T09:58:36.223Z"
-batch_id: "2025-09-13T09-58-27-375Z"
+scraped_at: "2025-09-13T10:33:34.601Z"
+batch_id: "2025-09-13T10-33-25-510Z"
 tree_path: ["接口","实体","molang"]
 output_path: "接口/实体/molang.md"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "UI"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E4%BA%8B%E4%BB%B6/UI.html?catalog=1"
-scraped_at: "2025-09-13T09:58:51.785Z"
-batch_id: "2025-09-13T09-58-27-375Z"
+scraped_at: "2025-09-13T10:33:50.426Z"
+batch_id: "2025-09-13T10-33-25-510Z"
 tree_path: ["事件","UI"]
 output_path: "事件/UI.md"
 ---
@@ -15,103 +15,103 @@ output_path: "事件/UI.md"
 
 描述
 
-[AchievementButtonMovedClientEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#achievementbuttonmovedclientevent)
+[AchievementButtonMovedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#achievementbuttonmovedclientevent)
 
 客户端
 
 触发时机：使用自定义成就系统的时，拖动成就入口结束时触发
 
-[ClientChestCloseEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientchestcloseevent)
+[ClientChestCloseEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientchestcloseevent)
 
 客户端
 
 关闭箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
 
-[ClientChestOpenEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientchestopenevent)
+[ClientChestOpenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientchestopenevent)
 
 客户端
 
 打开箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
 
-[ClientPlayerInventoryCloseEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientplayerinventorycloseevent)
+[ClientPlayerInventoryCloseEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientplayerinventorycloseevent)
 
 客户端
 
 关闭物品背包界面时触发
 
-[ClientPlayerInventoryOpenEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientplayerinventoryopenevent)
+[ClientPlayerInventoryOpenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientplayerinventoryopenevent)
 
 客户端
 
 打开物品背包界面时触发
 
-[CloseNeteaseShopEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#closeneteaseshopevent)
+[CloseNeteaseShopEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#closeneteaseshopevent)
 
 客户端
 
 关闭商城界面时触发，包括脚本商城和Apollo插件商城
 
-[GridComponentSizeChangedClientEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#gridcomponentsizechangedclientevent)
+[GridComponentSizeChangedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#gridcomponentsizechangedclientevent)
 
 客户端
 
 UI grid控件里格子重新排列时触发
 
-[HudButtonChangedClientEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#hudbuttonchangedclientevent)
+[HudButtonChangedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#hudbuttonchangedclientevent)
 
 客户端
 
 当原生HUD按钮位置或大小发生改变时触发，例如玩家使用了自定义控件功能会触发，可在该事件中修改mod按钮的位置防止重叠
 
-[OnItemSlotButtonClickedEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#onitemslotbuttonclickedevent)
+[OnItemSlotButtonClickedEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#onitemslotbuttonclickedevent)
 
 客户端
 
 点击快捷栏、背包栏、盔甲栏、副手栏的物品槽时触发
 
-[PlayerChatButtonClickClientEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#playerchatbuttonclickclientevent)
+[PlayerChatButtonClickClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#playerchatbuttonclickclientevent)
 
 客户端
 
 玩家点击聊天按钮或回车键触发呼出聊天窗口时客户端抛出的事件
 
-[PlayerInventoryOpenScriptServerEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#playerinventoryopenscriptserverevent)
+[PlayerInventoryOpenScriptServerEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#playerinventoryopenscriptserverevent)
 
 服务端
 
 某个客户端打开物品背包界面时触发
 
-[PopScreenAfterClientEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#popscreenafterclientevent)
+[PopScreenAfterClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#popscreenafterclientevent)
 
 客户端
 
 screen移除触发
 
-[PopScreenEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#popscreenevent)
+[PopScreenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#popscreenevent)
 
 客户端
 
 screen移除触发
 
-[PushScreenEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#pushscreenevent)
+[PushScreenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#pushscreenevent)
 
 客户端
 
 screen创建触发
 
-[ScreenSizeChangedClientEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#screensizechangedclientevent)
+[ScreenSizeChangedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#screensizechangedclientevent)
 
 客户端
 
 改变屏幕大小时会触发的事件
 
-[UiInitFinished](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#uiinitfinished)
+[UiInitFinished](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#uiinitfinished)
 
 客户端
 
 UI初始化框架完成,此时可以创建UI
 
-[UrgeShipEvent](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#urgeshipevent)
+[UrgeShipEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#urgeshipevent)
 
 服务端
 
@@ -214,7 +214,7 @@ UI初始化框架完成,此时可以创建UI
     无
     
 
-在零件中直接声明一个同名函数，即可完成监听，详情参考[零件事件](../../../mcguide/20-玩法开发/14-预设玩法编程/12-深入理解零件/0-零件开发.html#零件事件)
+在零件中直接声明一个同名函数，即可完成监听，详情参考[零件事件](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/14-预设玩法编程/12-深入理解零件/0-零件开发.html#零件事件)
 
 ##  ClientPlayerInventoryCloseEvent
 
@@ -350,7 +350,7 @@ UI初始化框架完成,此时可以创建UI
         
         str
         
-        [HUD原生UI枚举值](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/OriginGUIName.html)
+        [HUD原生UI枚举值](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/OriginGUIName.html)
         
         beforeSize
         
@@ -445,7 +445,7 @@ UI初始化框架完成,此时可以创建UI
     
     *   可以监听此事件判定客户端是否打开了创造背包
 
-在零件中直接声明一个同名函数，即可完成监听，详情参考[零件事件](../../../mcguide/20-玩法开发/14-预设玩法编程/12-深入理解零件/0-零件开发.html#零件事件)
+在零件中直接声明一个同名函数，即可完成监听，详情参考[零件事件](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/14-预设玩法编程/12-深入理解零件/0-零件开发.html#零件事件)
 
 ##  PopScreenAfterClientEvent
 
@@ -647,4 +647,4 @@ UI初始化框架完成,此时可以创建UI
     无
     
 
-在零件中直接声明一个同名函数，即可完成监听，详情参考[零件事件](../../../mcguide/20-玩法开发/14-预设玩法编程/12-深入理解零件/0-零件开发.html#零件事件)
+在零件中直接声明一个同名函数，即可完成监听，详情参考[零件事件](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/14-预设玩法编程/12-深入理解零件/0-零件开发.html#零件事件)

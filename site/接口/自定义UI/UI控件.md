@@ -1,8 +1,8 @@
 ---
 title: "UI控件"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E6%8E%A7%E4%BB%B6.html?catalog=1"
-scraped_at: "2025-09-13T09:58:45.744Z"
-batch_id: "2025-09-13T09-58-27-375Z"
+scraped_at: "2025-09-13T10:33:44.356Z"
+batch_id: "2025-09-13T10-33-25-510Z"
 tree_path: ["接口","自定义UI","UI控件"]
 output_path: "接口/自定义UI/UI控件.md"
 ---
@@ -1385,7 +1385,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   备注
     
-    *   点击面板拖拽功能及拖拽偏移量相关，详见[InputPanel](../../../../mcguide/18-界面与交互/30-UI说明文档.html#InputPanel)
+    *   点击面板拖拽功能及拖拽偏移量相关，详见[InputPanel](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#InputPanel)
 *   示例
     
 
@@ -2266,7 +2266,7 @@ method in mod.client.ui.controls.itemRendererUIControl.ItemRendererUIControl
 
 *   描述
     
-    获取ItemRenderer控件显示的物品，ItemRenderer控件的配置方式详见[控件介绍ItemRenderer](../../../../mcguide/18-界面与交互/30-UI说明文档.html#itemrenderer)
+    获取ItemRenderer控件显示的物品，ItemRenderer控件的配置方式详见[控件介绍ItemRenderer](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#itemrenderer)
     
 *   参数
     
@@ -2393,7 +2393,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -2475,7 +2475,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -2528,7 +2528,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -2735,7 +2735,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -2783,7 +2783,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -3095,8 +3095,8 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   备注
     
-    *   网格体模型使用[CombineBlockPaletteToGeometry](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#combineblockpalettetogeometry)生成
-    *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#serializeblockpalette)和[DeserializeBlockPalette](/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#deserializeblockpalette)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
+    *   网格体模型使用[CombineBlockPaletteToGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#combineblockpalettetogeometry)生成
+    *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#serializeblockpalette)和[DeserializeBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#deserializeblockpalette)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
     *   RenderBlockGeometryModel参数params说明： params参数解释如下：
         
         参数
@@ -3796,7 +3796,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -3866,7 +3866,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
     *   需要注意，设置动画本质上是拷贝动画数据到控件的动画组件里面，所以如果动画数据发生了改变（比如通过接口RegisterUIAnimations修改了动画数据），如果想要控件应用修改需要再次调用setAnimation进行更新
 *   示例
     
@@ -5468,7 +5468,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   备注
     
-    *   点击面板拖拽功能及拖拽偏移量相关，详见[InputPanel](../../../../mcguide/18-界面与交互/30-UI说明文档.html#InputPanel)
+    *   点击面板拖拽功能及拖拽偏移量相关，详见[InputPanel](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#InputPanel)
 *   示例
     
 
@@ -6579,7 +6579,7 @@ method in mod.client.ui.controls.itemRendererUIControl.ItemRendererUIControl
 
 *   描述
     
-    设置ItemRenderer控件显示的物品，ItemRenderer控件的配置方式详见[控件介绍ItemRenderer](../../../../mcguide/18-界面与交互/30-UI说明文档.html#itemrenderer)
+    设置ItemRenderer控件显示的物品，ItemRenderer控件的配置方式详见[控件介绍ItemRenderer](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#itemrenderer)
     
 *   参数
     
@@ -6773,7 +6773,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
@@ -7485,7 +7485,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   备注
     
-    *   UI属性动画相关，详见[属性动画](../../../../mcguide/18-界面与交互/19-控件属性动画.html)
+    *   UI属性动画相关，详见[属性动画](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/19-控件属性动画.html)
 *   示例
     
 
