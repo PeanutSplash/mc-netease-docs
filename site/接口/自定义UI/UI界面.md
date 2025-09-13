@@ -75,7 +75,7 @@ method in mod.client.ui.screenNode.ScreenNode
 
 *   描述
     
-    设置已绑定实体的UI是否根据绑定实体与本地玩家间的距离动态缩放，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#CreateUI)接口**
+    设置已绑定实体的UI是否根据绑定实体与本地玩家间的距离动态缩放，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
     
 *   参数
     
@@ -123,7 +123,7 @@ method in mod.client.ui.screenNode.ScreenNode
 
 *   描述
     
-    修改绑定的实体id，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#CreateUI)接口**
+    修改绑定的实体id，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
     
 *   参数
     
@@ -165,7 +165,7 @@ method in mod.client.ui.screenNode.ScreenNode
 
 *   描述
     
-    修改与绑定实体之间的偏移量，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#CreateUI)接口**
+    修改与绑定实体之间的偏移量，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
     
 *   参数
     

@@ -13,7 +13,7 @@ class in mod.common.minecraftEnum
 
 *   描述
     
-    刷怪设置参数枚举，用于[SpawnCustomModule](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/生物生成.html#spawncustommodule)
+    刷怪设置参数枚举，用于[SpawnCustomModule](/接口/世界/生物生成)
     
 
 ```

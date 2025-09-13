@@ -161,73 +161,73 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[CreateComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#createcomponent)
+[CreateComponent](/接口/通用/Component)
 
 服务端
 
 给实体创建服务端组件
 
-[CreateComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#createcomponent)
+[CreateComponent](/接口/通用/Component)
 
 客户端
 
 给实体创建客户端组件
 
-[DestroyComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#destroycomponent)
+[DestroyComponent](/接口/通用/Component)
 
 服务端
 
 删除实体的服务端组件
 
-[DestroyComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#destroycomponent)
+[DestroyComponent](/接口/通用/Component)
 
 客户端
 
 删除实体的客户端组件
 
-[GetComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#getcomponent)
+[GetComponent](/接口/通用/Component)
 
 服务端
 
 获取实体的服务端组件。一般用来判断某个组件是否创建过，其他情况请使用CreateComponent
 
-[GetComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#getcomponent)
+[GetComponent](/接口/通用/Component)
 
 客户端
 
 获取实体的客户端组件。一般用来判断某个组件是否创建过，其他情况请使用CreateComponent
 
-[GetComponentCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#getcomponentcls)
+[GetComponentCls](/接口/通用/Component)
 
 服务端
 
 用于获取服务器component基类。实现新的component时，需要继承该接口返回的类
 
-[GetComponentCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#getcomponentcls)
+[GetComponentCls](/接口/通用/Component)
 
 客户端
 
 用于获取客户端component基类。实现新的component时，需要继承该接口返回的类
 
-[GetEngineCompFactory](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#getenginecompfactory)
+[GetEngineCompFactory](/接口/通用/Component)
 
 服务端
 
 获取引擎组件的工厂，通过工厂可以创建服务端的引擎组件
 
-[GetEngineCompFactory](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#getenginecompfactory)
+[GetEngineCompFactory](/接口/通用/Component)
 
 客户端
 
 获取引擎组件的工厂，通过工厂可以创建客户端的引擎组件
 
-[RegisterComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#registercomponent)
+[RegisterComponent](/接口/通用/Component)
 
 服务端
 
 用于将组件注册到引擎中
 
-[RegisterComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/Component.html#registercomponent)
+[RegisterComponent](/接口/通用/Component)
 
 客户端
 
@@ -239,37 +239,37 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[GetClientSystemCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/System.html#getclientsystemcls)
+[GetClientSystemCls](/接口/通用/System)
 
 客户端
 
 用于获取客户端system基类。实现新的system时，需要继承该接口返回的类
 
-[GetServerSystemCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/System.html#getserversystemcls)
+[GetServerSystemCls](/接口/通用/System)
 
 服务端
 
 用于获取服务器system基类。实现新的system时，需要继承该接口返回的类
 
-[GetSystem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/System.html#getsystem)
+[GetSystem](/接口/通用/System)
 
 服务端
 
 获取已注册的系统
 
-[GetSystem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/System.html#getsystem)
+[GetSystem](/接口/通用/System)
 
 客户端
 
 用于获取其他系统实例
 
-[RegisterSystem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/System.html#registersystem)
+[RegisterSystem](/接口/通用/System)
 
 服务端
 
 用于将系统注册到引擎中，引擎会创建一个该系统的实例，并在退出游戏时回收。系统可以执行我们引擎赋予的基本逻辑，例如监听事件、执行Tick函数、与客户端进行通讯等。
 
-[RegisterSystem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/System.html#registersystem)
+[RegisterSystem](/接口/通用/System)
 
 客户端
 
@@ -281,88 +281,88 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[BroadcastEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#broadcastevent)
+[BroadcastEvent](/接口/通用/事件)
 
 服务端  
 客户端
 
 本地广播事件，客户端system广播的事件仅客户端system能监听，服务器system广播的事件仅服务端system能监听。
 
-[BroadcastToAllClient](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#broadcasttoallclient)
+[BroadcastToAllClient](/接口/通用/事件)
 
 服务端
 
 服务器广播事件到所有客户端
 
-[CreateEventData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#createeventdata)
+[CreateEventData](/接口/通用/事件)
 
 服务端  
 客户端
 
 创建自定义事件的数据，eventData用于发送事件。创建的eventData可以理解为一个dict，可以嵌套赋值dict,list和基本数据类型，但不支持tuple
 
-[GetEngineNamespace](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#getenginenamespace)
+[GetEngineNamespace](/接口/通用/事件)
 
 服务端
 
 获取引擎事件的命名空间。监听引擎事件时，namespace传该接口返回的namespace
 
-[GetEngineNamespace](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#getenginenamespace)
+[GetEngineNamespace](/接口/通用/事件)
 
 客户端
 
 获取引擎事件的命名空间。监听引擎事件时，namespace传该接口返回的namespace
 
-[GetEngineSystemName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#getenginesystemname)
+[GetEngineSystemName](/接口/通用/事件)
 
 服务端
 
 获取引擎系统名。监听引擎事件时，systemName传该接口返回的systemName
 
-[GetEngineSystemName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#getenginesystemname)
+[GetEngineSystemName](/接口/通用/事件)
 
 客户端
 
 获取引擎系统名。监听引擎事件时，systemName传该接口返回的systemName
 
-[ListenForEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#listenforevent)
+[ListenForEvent](/接口/通用/事件)
 
 服务端  
 客户端
 
 注册监听某个系统抛出的事件。若监听引擎事件时，namespace和systemName分别为GetEngineNamespace()和GetEngineSystemName()。具体每个事件的详细事件data可以参考"事件"分类下的内容
 
-[NotifyToClient](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#notifytoclient)
+[NotifyToClient](/接口/通用/事件)
 
 服务端
 
 服务器发送事件到指定客户端
 
-[NotifyToMultiClients](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#notifytomulticlients)
+[NotifyToMultiClients](/接口/通用/事件)
 
 服务端
 
 服务器发送事件到指定一批客户端，相比于在for循环内使用NotifyToClient性能更好
 
-[NotifyToServer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#notifytoserver)
+[NotifyToServer](/接口/通用/事件)
 
 客户端
 
 客户端发送事件到服务器
 
-[UnListenAllEvents](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#unlistenallevents)
+[UnListenAllEvents](/接口/通用/事件)
 
 服务端  
 客户端
 
 反注册监听某个系统抛出的所有事件，即不再监听。
 
-[UnListenForEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#unlistenforevent)
+[UnListenForEvent](/接口/通用/事件)
 
 服务端  
 客户端
 
-反注册监听某个系统抛出的事件，即不再监听。若是引擎事件，则namespace和systemName分别为[GetEngineNamespace](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#getenginenamespace)和[GetEngineSystemName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/事件.html#getenginesystemname)。与ListenForEvent对应。
+反注册监听某个系统抛出的事件，即不再监听。若是引擎事件，则namespace和systemName分别为[GetEngineNamespace](/接口/通用/事件)和[GetEngineSystemName](/接口/通用/事件)。与ListenForEvent对应。
 
 ####  本地设备
 
@@ -370,49 +370,49 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[GetEngineVersion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#getengineversion)
+[GetEngineVersion](/接口/通用/本地设备)
 
 客户端
 
 获取游戏版本-客户端。
 
-[GetIP](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#getip)
+[GetIP](/接口/通用/本地设备)
 
 客户端
 
 获取本地玩家的ip地址
 
-[GetMinecraftVersion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#getminecraftversion)
+[GetMinecraftVersion](/接口/通用/本地设备)
 
 服务端
 
 获取Minecraft版本-服务端。
 
-[GetMinecraftVersion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#getminecraftversion)
+[GetMinecraftVersion](/接口/通用/本地设备)
 
 客户端
 
 获取Minecraft版本-客户端。
 
-[GetPlatform](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#getplatform)
+[GetPlatform](/接口/通用/本地设备)
 
 服务端
 
 获取脚本运行的平台
 
-[GetPlatform](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#getplatform)
+[GetPlatform](/接口/通用/本地设备)
 
 客户端
 
 获取脚本运行的平台
 
-[IsInApollo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#isinapollo)
+[IsInApollo](/接口/通用/本地设备)
 
 服务端
 
 返回当前游戏Mod是否运行在Apollo网络服
 
-[IsInServer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地设备.html#isinserver)
+[IsInServer](/接口/通用/本地设备)
 
 服务端
 
@@ -424,13 +424,13 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[GetConfigData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地存储.html#getconfigdata)
+[GetConfigData](/接口/通用/本地存储)
 
 客户端
 
 获取本地配置文件中存储的数据
 
-[SetConfigData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/本地存储.html#setconfigdata)
+[SetConfigData](/接口/通用/本地存储)
 
 客户端
 
@@ -442,61 +442,61 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[GetDirFromRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getdirfromrot)
+[GetDirFromRot](/接口/通用/数学)
 
 服务端
 
 通过旋转角度获取朝向
 
-[GetDirFromRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getdirfromrot)
+[GetDirFromRot](/接口/通用/数学)
 
 客户端
 
 通过旋转角度获取朝向
 
-[GetIntPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getintpos)
+[GetIntPos](/接口/通用/数学)
 
 服务端
 
 获取坐标所在方块的位置，即浮点数坐标向下取整后的整数坐标。
 
-[GetIntPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getintpos)
+[GetIntPos](/接口/通用/数学)
 
 客户端
 
 获取坐标所在方块的位置，即浮点数坐标向下取整后的整数坐标。
 
-[GetLocalPosFromWorld](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getlocalposfromworld)
+[GetLocalPosFromWorld](/接口/通用/数学)
 
 服务端
 
 获取基于实体的世界坐标对应的局部坐标
 
-[GetLocalPosFromWorld](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getlocalposfromworld)
+[GetLocalPosFromWorld](/接口/通用/数学)
 
 客户端
 
 获取基于实体的世界坐标对应的局部坐标
 
-[GetRotFromDir](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getrotfromdir)
+[GetRotFromDir](/接口/通用/数学)
 
 服务端
 
 通过朝向获取旋转角度
 
-[GetRotFromDir](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getrotfromdir)
+[GetRotFromDir](/接口/通用/数学)
 
 客户端
 
 通过朝向获取旋转角度
 
-[GetWorldPosFromLocal](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getworldposfromlocal)
+[GetWorldPosFromLocal](/接口/通用/数学)
 
 服务端
 
 获取基于实体的局部坐标对应的世界坐标
 
-[GetWorldPosFromLocal](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/数学.html#getworldposfromlocal)
+[GetWorldPosFromLocal](/接口/通用/数学)
 
 客户端
 
@@ -508,163 +508,163 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[AddRepeatedTimer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#addrepeatedtimer)
+[AddRepeatedTimer](/接口/通用/工具)
 
 服务端
 
 添加服务端触发的定时器，重复执行
 
-[AddRepeatedTimer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#addrepeatedtimer)
+[AddRepeatedTimer](/接口/通用/工具)
 
 客户端
 
 添加客户端触发的定时器，重复执行
 
-[AddTimer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#addtimer)
+[AddTimer](/接口/通用/工具)
 
 服务端
 
 添加服务端触发的定时器，非重复
 
-[AddTimer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#addtimer)
+[AddTimer](/接口/通用/工具)
 
 客户端
 
 添加客户端触发的定时器，非重复
 
-[CancelTimer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#canceltimer)
+[CancelTimer](/接口/通用/工具)
 
 服务端
 
 取消定时器
 
-[CancelTimer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#canceltimer)
+[CancelTimer](/接口/通用/工具)
 
 客户端
 
 取消定时器
 
-[CheckNameValid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#checknamevalid)
+[CheckNameValid](/接口/通用/工具)
 
 服务端
 
 检查昵称是否合法，即不包含敏感词
 
-[CheckNameValid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#checknamevalid)
+[CheckNameValid](/接口/通用/工具)
 
 客户端
 
 检查昵称是否合法，即不包含敏感词
 
-[CheckWordsValid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#checkwordsvalid)
+[CheckWordsValid](/接口/通用/工具)
 
 服务端
 
 检查语句是否合法，即不包含敏感词
 
-[CheckWordsValid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#checkwordsvalid)
+[CheckWordsValid](/接口/通用/工具)
 
 客户端
 
 检查语句是否合法，即不包含敏感词
 
-[GetChinese](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getchinese)
+[GetChinese](/接口/通用/工具)
 
 服务端
 
 获取langStr对应的中文，可参考PC开发包中\\handheld\\localization\\handheld\\data\\resource\_packs\\vanilla\\texts\\zh\_CN.lang
 
-[GetChinese](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getchinese)
+[GetChinese](/接口/通用/工具)
 
 客户端
 
 获取langStr对应的中文，可参考PC开发包中\\handheld\\localization\\handheld\\data\\resource\_packs\\vanilla\\texts\\zh\_CN.lang
 
-[GetClipboardContent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getclipboardcontent)
+[GetClipboardContent](/接口/通用/工具)
 
 客户端
 
 获取系统剪贴板内容
 
-[GetFps](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getfps)
+[GetFps](/接口/通用/工具)
 
 客户端
 
 获取fps
 
-[GetHostPlayerId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#gethostplayerid)
+[GetHostPlayerId](/接口/通用/工具)
 
 服务端
 
 获取房主的entityId
 
-[GetHostPlayerId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#gethostplayerid)
+[GetHostPlayerId](/接口/通用/工具)
 
 客户端
 
 获取房主的entityId
 
-[GetMinecraftEnum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getminecraftenum)
+[GetMinecraftEnum](/接口/通用/工具)
 
 服务端
 
-用于获取[枚举值文档](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/索引.html)中的枚举值
+用于获取[枚举值文档](/枚举值/索引)中的枚举值
 
-[GetMinecraftEnum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getminecraftenum)
+[GetMinecraftEnum](/接口/通用/工具)
 
 客户端
 
-用于获取[枚举值文档](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/索引.html)中的枚举值
+用于获取[枚举值文档](/枚举值/索引)中的枚举值
 
-[GetModConfigJson](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getmodconfigjson)
+[GetModConfigJson](/接口/通用/工具)
 
 客户端
 
 以字典形式返回指定路径的json格式配置文件的内容，文件必须放置在资源包的/modconfigs目录下
 
-[GetServerTickTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#getserverticktime)
+[GetServerTickTime](/接口/通用/工具)
 
 服务端
 
 获取服务端引擎上一帧的帧消耗时间
 
-[ImportModule](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#importmodule)
+[ImportModule](/接口/通用/工具)
 
 服务端
 
 使用字符串路径导入模块，作用与importlib.import\_module类似，但只能导入当前加载的mod中的模块
 
-[ImportModule](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#importmodule)
+[ImportModule](/接口/通用/工具)
 
 客户端
 
 使用字符串路径导入模块，作用与importlib.import\_module类似，但只能导入当前加载的mod中的模块
 
-[SetClipboardContent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#setclipboardcontent)
+[SetClipboardContent](/接口/通用/工具)
 
 客户端
 
 设置系统剪贴板内容
 
-[StartCoroutine](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#startcoroutine)
+[StartCoroutine](/接口/通用/工具)
 
 服务端
 
 开启服务端协程，实现函数分段式执行，可用于缓解复杂逻辑计算导致游戏卡顿问题
 
-[StartCoroutine](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#startcoroutine)
+[StartCoroutine](/接口/通用/工具)
 
 客户端
 
 开启客户端协程，实现函数分段式执行，可用于缓解复杂逻辑计算导致游戏卡顿问题
 
-[StopCoroutine](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#stopcoroutine)
+[StopCoroutine](/接口/通用/工具)
 
 服务端
 
 停止协程
 
-[StopCoroutine](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/工具.html#stopcoroutine)
+[StopCoroutine](/接口/通用/工具)
 
 客户端
 
@@ -676,191 +676,191 @@ output_path: "接口/API索引表.md"
 
 描述
 
-[GetEnableReconnectNetgame](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#getenablereconnectnetgame)
+[GetEnableReconnectNetgame](/接口/通用/调试)
 
 客户端
 
 获取是否允许断线重连
 
-[GetKeepResourceWhenTransfer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#getkeepresourcewhentransfer)
+[GetKeepResourceWhenTransfer](/接口/通用/调试)
 
 客户端
 
 获取快速切服设置
 
-[GetMcpModLogCanPostDump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#getmcpmodlogcanpostdump)
+[GetMcpModLogCanPostDump](/接口/通用/调试)
 
 服务端
 
 获取是否可以打印错误信息到McpModLog日志。
 
-[GetMcpModLogCanPostDump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#getmcpmodlogcanpostdump)
+[GetMcpModLogCanPostDump](/接口/通用/调试)
 
 客户端
 
 获取是否可以打印错误信息到McpModLog日志。
 
-[GetResourceFastload](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#getresourcefastload)
+[GetResourceFastload](/接口/通用/调试)
 
 客户端
 
 获取资源快速加载设置
 
-[PostMcpModDump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#postmcpmoddump)
+[PostMcpModDump](/接口/通用/调试)
 
 服务端
 
 主动打印信息到McpModLog日志，需要先调用 SetMcpModLogCanPostDump 接口进行设置，才能生效。
 
-[PostMcpModDump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#postmcpmoddump)
+[PostMcpModDump](/接口/通用/调试)
 
 客户端
 
 主动打印信息到McpModLog日志，需要先调用 SetMcpModLogCanPostDump 接口进行设置，才能生效。
 
-[ReloadAllMaterials](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#reloadallmaterials)
+[ReloadAllMaterials](/接口/通用/调试)
 
 客户端
 
 重新加载所有材质文件
 
-[ReloadAllShaders](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#reloadallshaders)
+[ReloadAllShaders](/接口/通用/调试)
 
 客户端
 
 重新加载所有Shader文件
 
-[ReloadOneShader](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#reloadoneshader)
+[ReloadOneShader](/接口/通用/调试)
 
 客户端
 
 重新加载某个Shader文件
 
-[SetEnableReconnectNetgame](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#setenablereconnectnetgame)
+[SetEnableReconnectNetgame](/接口/通用/调试)
 
 客户端
 
 设置是否允许断线重连
 
-[SetKeepResourceWhenTransfer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#setkeepresourcewhentransfer)
+[SetKeepResourceWhenTransfer](/接口/通用/调试)
 
 客户端
 
 设置快速切服
 
-[SetMcpModLogCanPostDump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#setmcpmodlogcanpostdump)
+[SetMcpModLogCanPostDump](/接口/通用/调试)
 
 服务端
 
 设置是否可以打印错误信息到McpModLog日志。
 
-[SetMcpModLogCanPostDump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#setmcpmodlogcanpostdump)
+[SetMcpModLogCanPostDump](/接口/通用/调试)
 
 客户端
 
 设置是否可以打印错误信息到McpModLog日志。
 
-[SetResourceFastload](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#setresourcefastload)
+[SetResourceFastload](/接口/通用/调试)
 
 客户端
 
 设置资源快速加载
 
-[StartMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startmemprofile)
+[StartMemProfile](/接口/通用/调试)
 
 服务端
 
-开始启动服务端脚本内存分析，启动后调用[StopMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopMemProfile)即可在路径fileName生成函数内存火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
+开始启动服务端脚本内存分析，启动后调用[StopMemProfile](/接口/通用/调试)即可在路径fileName生成函数内存火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
 
-[StartMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startmemprofile)
+[StartMemProfile](/接口/通用/调试)
 
 客户端
 
-开始启动客户端脚本内存分析，启动后调用[StopMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopMemProfile)即可在路径fileName生成函数内存火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
+开始启动客户端脚本内存分析，启动后调用[StopMemProfile](/接口/通用/调试)即可在路径fileName生成函数内存火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
 
-[StartMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startmultiprofile)
+[StartMultiProfile](/接口/通用/调试)
 
 服务端
 
-开始启动服务端与客户端双端脚本性能分析，启动后调用[StopMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopmultiprofile)即可在路径fileName生成函数性能火焰图。双端采集时数据误差较大，建议优先使用[StartProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startprofile)单端版本，此接口只支持PC端
+开始启动服务端与客户端双端脚本性能分析，启动后调用[StopMultiProfile](/接口/通用/调试)即可在路径fileName生成函数性能火焰图。双端采集时数据误差较大，建议优先使用[StartProfile](/接口/通用/调试)单端版本，此接口只支持PC端
 
-[StartMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startmultiprofile)
+[StartMultiProfile](/接口/通用/调试)
 
 客户端
 
-开始启动服务端与客户端双端脚本性能分析，启动后调用[StopMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopmultiprofile)即可在路径fileName生成函数性能火焰图。双端采集时数据误差较大，建议优先使用[StartProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startprofile)单端版本，此接口只支持PC端
+开始启动服务端与客户端双端脚本性能分析，启动后调用[StopMultiProfile](/接口/通用/调试)即可在路径fileName生成函数性能火焰图。双端采集时数据误差较大，建议优先使用[StartProfile](/接口/通用/调试)单端版本，此接口只支持PC端
 
-[StartProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startprofile)
+[StartProfile](/接口/通用/调试)
 
 服务端
 
-开始启动服务端脚本性能分析，启动后调用[StopProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopprofile)即可在路径fileName生成函数性能火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
+开始启动服务端脚本性能分析，启动后调用[StopProfile](/接口/通用/调试)即可在路径fileName生成函数性能火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
 
-[StartProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startprofile)
+[StartProfile](/接口/通用/调试)
 
 客户端
 
-开始启动客户端脚本性能分析，启动后调用[StopProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopprofile)即可在路径fileName生成函数性能火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
+开始启动客户端脚本性能分析，启动后调用[StopProfile](/接口/通用/调试)即可在路径fileName生成函数性能火焰图，此接口只支持PC端。生成的火焰图可以用浏览器打开，推荐chrome浏览器。
 
-[StartRecordEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startrecordevent)
+[StartRecordEvent](/接口/通用/调试)
 
 Apollo
 
-开始启动服务端与客户端之间的脚本事件收发统计，启动后调用[StopRecordEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stoprecordevent)即可获取两个函数调用之间脚本事件收发的统计信息，仅支持租赁服与Apollo网络服环境（不支持单机环境）
+开始启动服务端与客户端之间的脚本事件收发统计，启动后调用[StopRecordEvent](/接口/通用/调试)即可获取两个函数调用之间脚本事件收发的统计信息，仅支持租赁服与Apollo网络服环境（不支持单机环境）
 
-[StartRecordPacket](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startrecordpacket)
-
-Apollo
-
-开始启动服务端与客户端之间的引擎收发包统计，启动后调用[StopRecordPacket](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stoprecordpacket)即可获取两个函数调用之间引擎收发包的统计信息，仅支持租赁服与Apollo网络服环境（不支持单机环境）
-
-[StopMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopmemprofile)
-
-服务端
-
-停止服务端脚本内存分析并生成火焰图，与[StartMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startMemProfile)配合使用，此接口只支持PC端
-
-[StopMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopmemprofile)
-
-客户端
-
-停止客户端脚本内存分析并生成火焰图，与[StartMemProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startMemProfile)配合使用，此接口只支持PC端
-
-[StopMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopmultiprofile)
-
-服务端
-
-停止双端脚本性能分析并生成火焰图，与[StartMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startmultiprofile)配合使用，此接口只支持PC端
-
-[StopMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopmultiprofile)
-
-客户端
-
-停止双端脚本性能分析并生成火焰图，与[StartMultiProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startmultiprofile)配合使用，此接口只支持PC端
-
-[StopProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopprofile)
-
-服务端
-
-停止服务端脚本性能分析并生成火焰图，与[StartProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startprofile)配合使用，此接口只支持PC端
-
-[StopProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stopprofile)
-
-客户端
-
-停止客户端脚本性能分析并生成火焰图，与[StartProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startprofile)配合使用，此接口只支持PC端
-
-[StopRecordEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stoprecordevent)
+[StartRecordPacket](/接口/通用/调试)
 
 Apollo
 
-停止服务端与客户端之间的脚本事件收发统计并输出结果，与[StartRecordEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startrecordevent)配合使用，输出结果为字典，key为网络包名，value字典中记录收发信息，具体见示例，仅支持租赁服与Apollo网络服环境（不支持单机环境）
+开始启动服务端与客户端之间的引擎收发包统计，启动后调用[StopRecordPacket](/接口/通用/调试)即可获取两个函数调用之间引擎收发包的统计信息，仅支持租赁服与Apollo网络服环境（不支持单机环境）
 
-[StopRecordPacket](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#stoprecordpacket)
+[StopMemProfile](/接口/通用/调试)
+
+服务端
+
+停止服务端脚本内存分析并生成火焰图，与[StartMemProfile](/接口/通用/调试)配合使用，此接口只支持PC端
+
+[StopMemProfile](/接口/通用/调试)
+
+客户端
+
+停止客户端脚本内存分析并生成火焰图，与[StartMemProfile](/接口/通用/调试)配合使用，此接口只支持PC端
+
+[StopMultiProfile](/接口/通用/调试)
+
+服务端
+
+停止双端脚本性能分析并生成火焰图，与[StartMultiProfile](/接口/通用/调试)配合使用，此接口只支持PC端
+
+[StopMultiProfile](/接口/通用/调试)
+
+客户端
+
+停止双端脚本性能分析并生成火焰图，与[StartMultiProfile](/接口/通用/调试)配合使用，此接口只支持PC端
+
+[StopProfile](/接口/通用/调试)
+
+服务端
+
+停止服务端脚本性能分析并生成火焰图，与[StartProfile](/接口/通用/调试)配合使用，此接口只支持PC端
+
+[StopProfile](/接口/通用/调试)
+
+客户端
+
+停止客户端脚本性能分析并生成火焰图，与[StartProfile](/接口/通用/调试)配合使用，此接口只支持PC端
+
+[StopRecordEvent](/接口/通用/调试)
 
 Apollo
 
-停止服务端与客户端之间的引擎收发包统计并输出结果，与[StartRecordPacket](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/通用/调试.html#startrecordpacket)配合使用，输出结果为字典，key为网络包名，value字典中记录收发信息，具体见示例，仅支持租赁服与Apollo网络服环境（不支持单机环境）
+停止服务端与客户端之间的脚本事件收发统计并输出结果，与[StartRecordEvent](/接口/通用/调试)配合使用，输出结果为字典，key为网络包名，value字典中记录收发信息，具体见示例，仅支持租赁服与Apollo网络服环境（不支持单机环境）
+
+[StopRecordPacket](/接口/通用/调试)
+
+Apollo
+
+停止服务端与客户端之间的引擎收发包统计并输出结果，与[StartRecordPacket](/接口/通用/调试)配合使用，输出结果为字典，key为网络包名，value字典中记录收发信息，具体见示例，仅支持租赁服与Apollo网络服环境（不支持单机环境）
 
 ####  地图
 
@@ -868,319 +868,319 @@ Apollo
 
 描述
 
-[CanSee](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#cansee)
+[CanSee](/接口/世界/地图)
 
 服务端
 
 判断起始对象是否可看见目标对象,基于对象的Head位置判断
 
-[CanSee](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#cansee)
+[CanSee](/接口/世界/地图)
 
 客户端
 
 判断起始对象是否可看见目标对象,基于对象的Head位置判断
 
-[CheckBlockToPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#checkblocktopos)
+[CheckBlockToPos](/接口/世界/地图)
 
 服务端
 
 判断位置之间是否有方块
 
-[CheckChunkState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#checkchunkstate)
+[CheckChunkState](/接口/世界/地图)
 
 服务端
 
 判断指定位置的chunk是否加载完成
 
-[CreateDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#createdimension)
+[CreateDimension](/接口/世界/地图)
 
 服务端
 
 创建新的dimension
 
-[CreateExplosion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#createexplosion)
+[CreateExplosion](/接口/世界/地图)
 
 服务端
 
 用于生成爆炸
 
-[DeleteAllArea](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#deleteallarea)
+[DeleteAllArea](/接口/世界/地图)
 
 服务端
 
 删除所有常加载区域
 
-[DeleteArea](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#deletearea)
+[DeleteArea](/接口/世界/地图)
 
 服务端
 
 删除一个常加载区域
 
-[DetectStructure](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#detectstructure)
+[DetectStructure](/接口/世界/地图)
 
 服务端
 
 检测自定义门的结构
 
-[DoTaskOnChunkAsync](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#dotaskonchunkasync)
+[DoTaskOnChunkAsync](/接口/世界/地图)
 
 服务端
 
 异步加载指定范围区块，加载完成后调用输入的回调函数。
 
-[GetAllAreaKeys](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getallareakeys)
+[GetAllAreaKeys](/接口/世界/地图)
 
 服务端
 
 获取所有常加载区域名称列表
 
-[GetBiomeInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getbiomeinfo)
+[GetBiomeInfo](/接口/世界/地图)
 
 服务端
 
 获取群系天气相关参数
 
-[GetBiomeName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getbiomename)
+[GetBiomeName](/接口/世界/地图)
 
 服务端
 
 获取某一位置所属的生物群系信息
 
-[GetBiomeName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getbiomename)
+[GetBiomeName](/接口/世界/地图)
 
 客户端
 
 获取客户端当前维度已加载区域某一位置所属的生物群系信息
 
-[GetBlockLightLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getblocklightlevel)
+[GetBlockLightLevel](/接口/世界/地图)
 
 服务端
 
 获取方块位置的光照等级
 
-[GetChunkEntites](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getchunkentites)
+[GetChunkEntites](/接口/世界/地图)
 
 服务端
 
 获取指定位置的区块中，全部的实体和玩家的ID列表
 
-[GetChunkMaxPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getchunkmaxpos)
+[GetChunkMaxPos](/接口/世界/地图)
 
 服务端
 
 获取某区块最大点的坐标
 
-[GetChunkMinPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getchunkminpos)
+[GetChunkMinPos](/接口/世界/地图)
 
 服务端
 
 获取某区块最小点的坐标
 
-[GetChunkMobNum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getchunkmobnum)
+[GetChunkMobNum](/接口/世界/地图)
 
 服务端
 
 获取某区块中的生物数量（不包括玩家，但包括盔甲架）
 
-[GetChunkPosFromBlockPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getchunkposfromblockpos)
+[GetChunkPosFromBlockPos](/接口/世界/地图)
 
 服务端
 
 通过方块坐标获得该方块所在区块坐标
 
-[GetChunkPosFromBlockPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getchunkposfromblockpos)
+[GetChunkPosFromBlockPos](/接口/世界/地图)
 
 客户端
 
 通过方块坐标获得该方块所在区块坐标
 
-[GetCurrentDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getcurrentdimension)
+[GetCurrentDimension](/接口/世界/地图)
 
 客户端
 
 获取客户端当前维度
 
-[GetEntitiesAround](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getentitiesaround)
+[GetEntitiesAround](/接口/世界/地图)
 
 服务端
 
 获取区域内的entity列表
 
-[GetEntitiesAround](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getentitiesaround)
+[GetEntitiesAround](/接口/世界/地图)
 
 客户端
 
 获取区域内的entity列表
 
-[GetEntitiesAroundByType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getentitiesaroundbytype)
+[GetEntitiesAroundByType](/接口/世界/地图)
 
 服务端
 
 获取区域内的某类型的entity列表
 
-[GetEntitiesAroundByType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getentitiesaroundbytype)
+[GetEntitiesAroundByType](/接口/世界/地图)
 
 客户端
 
 获取区域内的某类型的entity列表
 
-[GetEntitiesInSquareArea](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getentitiesinsquarearea)
+[GetEntitiesInSquareArea](/接口/世界/地图)
 
 服务端
 
 获取区域内的entity列表
 
-[GetEntitiesInSquareArea](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getentitiesinsquarearea)
+[GetEntitiesInSquareArea](/接口/世界/地图)
 
 客户端
 
 获取区域内的entity列表
 
-[GetLevelId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getlevelid)
+[GetLevelId](/接口/世界/地图)
 
 服务端
 
 获取levelId。某些组件需要levelId创建，可以用此接口获取levelId。其中level即为当前地图的游戏。
 
-[GetLevelId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getlevelid)
+[GetLevelId](/接口/世界/地图)
 
 客户端
 
 获取levelId。某些组件需要levelId创建，可以用此接口获取levelId。其中level即为当前地图的游戏。
 
-[GetLoadedChunks](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getloadedchunks)
+[GetLoadedChunks](/接口/世界/地图)
 
 服务端
 
 获取指定维度当前已经加载完毕的全部区块的坐标列表
 
-[GetSpawnDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getspawndimension)
+[GetSpawnDimension](/接口/世界/地图)
 
 服务端
 
 获取世界出生维度
 
-[GetSpawnPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getspawnposition)
+[GetSpawnPosition](/接口/世界/地图)
 
 服务端
 
 获取世界出生点坐标
 
-[GetStructureSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#getstructuresize)
+[GetStructureSize](/接口/世界/地图)
 
 服务端
 
 获取结构体的长宽高
 
-[IsChunkGenerated](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#ischunkgenerated)
+[IsChunkGenerated](/接口/世界/地图)
 
 服务端
 
 获取某个区块是否生成过。
 
-[IsSlimeChunk](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#isslimechunk)
+[IsSlimeChunk](/接口/世界/地图)
 
 服务端
 
 获取某个区块是否是史莱姆区块。
 
-[LocateNeteaseFeatureRule](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#locateneteasefeaturerule)
+[LocateNeteaseFeatureRule](/接口/世界/地图)
 
 服务端
 
 与[/locate指令 (opens new window)](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4/locate)相似，用于定位[网易自定义特征规则](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/4-自定义维度/4-自定义特征.html#特征规则（feature-rules）)
 
-[LocateStructureFeature](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#locatestructurefeature)
+[LocateStructureFeature](/接口/世界/地图)
 
 服务端
 
 与[/locate指令 (opens new window)](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4/locate)相似，用于定位原版的部分结构，如海底神殿、末地城等。
 
-[MayPlace](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#mayplace)
+[MayPlace](/接口/世界/地图)
 
 服务端
 
 判断方块是否可以放置
 
-[MayPlaceOn](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#mayplaceon)
+[MayPlaceOn](/接口/世界/地图)
 
 服务端
 
 判断物品是否可以放到指定的位置上
 
-[MirrorDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#mirrordimension)
+[MirrorDimension](/接口/世界/地图)
 
 服务端
 
 复制不同dimension的地形
 
-[OpenClientChunkGeneration](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#openclientchunkgeneration)
+[OpenClientChunkGeneration](/接口/世界/地图)
 
 服务端
 
 开启/关闭客户端区块生成功能，需要在LoadServerAddonScriptsAfter事件触发时调用。开启客户端区块生成功能时，如果使用了netease:structure\_feature或修改了大部分地图，会导致客户端和服务端地图不一致的问题。此时可以通过关闭客户端区块生成功能解决该问题。
 
-[PlaceFeature](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#placefeature)
+[PlaceFeature](/接口/世界/地图)
 
 服务端
 
 放置特征，与[/placefeature指令 (opens new window)](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4/placefeature)相似
 
-[PlaceNeteaseLargeFeature](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#placeneteaselargefeature)
+[PlaceNeteaseLargeFeature](/接口/世界/地图)
 
 服务端
 
 放置[网易版大型结构特征](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/4-自定义维度/6-自定义大型特征.html#自定义大型特征)
 
-[PlaceStructure](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#placestructure)
+[PlaceStructure](/接口/世界/地图)
 
 服务端
 
 放置结构
 
-[SetAddArea](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setaddarea)
+[SetAddArea](/接口/世界/地图)
 
 服务端
 
 设置区块的常加载
 
-[SetBiomeByPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setbiomebypos)
+[SetBiomeByPos](/接口/世界/地图)
 
 服务端
 
 设置某一位置所属的生物群系信息
 
-[SetBiomeByPosList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setbiomebyposlist)
+[SetBiomeByPosList](/接口/世界/地图)
 
 服务端
 
 设置所有列表中位置所属的生物群系信息
 
-[SetBiomeByVolume](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setbiomebyvolume)
+[SetBiomeByVolume](/接口/世界/地图)
 
 服务端
 
 设置长方体空间中所属的生物群系信息
 
-[SetBiomeInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setbiomeinfo)
+[SetBiomeInfo](/接口/世界/地图)
 
 服务端
 
 设置群系天气相关参数
 
-[SetMergeSpawnItemRadius](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setmergespawnitemradius)
+[SetMergeSpawnItemRadius](/接口/世界/地图)
 
 服务端
 
 设置新生成的物品是否合堆
 
-[SetSpawnDimensionAndPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#setspawndimensionandposition)
+[SetSpawnDimensionAndPosition](/接口/世界/地图)
 
 服务端
 
 设置世界出生点维度与坐标
 
-[UpgradeMapDimensionVersion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/地图.html#upgrademapdimensionversion)
+[UpgradeMapDimensionVersion](/接口/世界/地图)
 
 服务端
 
@@ -1192,163 +1192,163 @@ Apollo
 
 描述
 
-[CreateClientEntityByTypeStr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createcliententitybytypestr)
+[CreateClientEntityByTypeStr](/接口/世界/实体管理)
 
 客户端
 
 创建客户端实体
 
-[CreateEngineEntityByNBT](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createengineentitybynbt)
+[CreateEngineEntityByNBT](/接口/世界/实体管理)
 
 服务端
 
 根据nbt数据创建实体
 
-[CreateEngineEntityByTypeStr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createengineentitybytypestr)
+[CreateEngineEntityByTypeStr](/接口/世界/实体管理)
 
 服务端
 
 创建指定identifier的实体
 
-[CreateEngineItemEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createengineitementity)
+[CreateEngineItemEntity](/接口/世界/实体管理)
 
 服务端
 
 用于创建物品实体（即掉落物），返回物品实体的entityId
 
-[CreateEntityAOI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createentityaoi)
+[CreateEntityAOI](/接口/世界/实体管理)
 
 服务端
 
 注册感应区域，有实体进入时和离开时会触发回调函数func
 
-[CreateExperienceOrb](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createexperienceorb)
+[CreateExperienceOrb](/接口/世界/实体管理)
 
 服务端
 
 创建专属经验球
 
-[CreateProjectileEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createprojectileentity)
+[CreateProjectileEntity](/接口/世界/实体管理)
 
 服务端
 
 创建抛射物（直接发射）
 
-[DeleteEntityAOI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#deleteentityaoi)
+[DeleteEntityAOI](/接口/世界/实体管理)
 
 服务端
 
-删除使用[CreateEntityAOI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#createentityaoi)注册的感应区
+删除使用[CreateEntityAOI](/接口/世界/实体管理)注册的感应区
 
-[DestroyClientEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#destroycliententity)
+[DestroyClientEntity](/接口/世界/实体管理)
 
 客户端
 
 销毁客户端实体
 
-[DestroyEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#destroyentity)
+[DestroyEntity](/接口/世界/实体管理)
 
 服务端
 
 销毁实体
 
-[GetDroppedItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getdroppeditem)
+[GetDroppedItem](/接口/世界/实体管理)
 
 服务端
 
 获取掉落物的物品信息
 
-[GetEngineActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getengineactor)
+[GetEngineActor](/接口/世界/实体管理)
 
 服务端
 
 获取所有维度中已加载的所有实体（不包含玩家）。
 
-[GetEngineActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getengineactor)
+[GetEngineActor](/接口/世界/实体管理)
 
 客户端
 
 获取客户端当前维度中已加载的所有实体（不包含玩家）。
 
-[GetLocalPlayerId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getlocalplayerid)
+[GetLocalPlayerId](/接口/世界/实体管理)
 
 客户端
 
 获取本地玩家的id
 
-[GetLootItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getlootitems)
+[GetLootItems](/接口/世界/实体管理)
 
 服务端
 
 指定战利品表获取一次战利品，返回的物品与json定义的概率有关
 
-[GetPlayerList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getplayerlist)
+[GetPlayerList](/接口/世界/实体管理)
 
 服务端
 
 获取所有维度中的全部玩家的id列表
 
-[GetPlayerList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getplayerlist)
+[GetPlayerList](/接口/世界/实体管理)
 
 客户端
 
 获取所有维度中的全部玩家的id列表
 
-[HasEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#hasentity)
+[HasEntity](/接口/世界/实体管理)
 
 客户端
 
 判断 entity 是否存在
 
-[IsEntityAlive](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#isentityalive)
+[IsEntityAlive](/接口/世界/实体管理)
 
 服务端
 
 判断生物实体是否存活或非生物实体是否存在
 
-[IsEntityAlive](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#isentityalive)
+[IsEntityAlive](/接口/世界/实体管理)
 
 客户端
 
 判断生物实体是否存活或非生物实体是否存在
 
-[KillEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#killentity)
+[KillEntity](/接口/世界/实体管理)
 
 服务端
 
 杀死某个Entity
 
-[SpawnLootTable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#spawnloottable)
+[SpawnLootTable](/接口/世界/实体管理)
 
 服务端
 
 使用生物类型模拟一次随机掉落，生成的物品与json定义的概率有关
 
-[SpawnLootTableWithActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#spawnloottablewithactor)
+[SpawnLootTableWithActor](/接口/世界/实体管理)
 
 服务端
 
 使用生物实例模拟一次随机掉落，生成的物品与json定义的概率有关
 
-[SpawnResources](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#spawnresources)
+[SpawnResources](/接口/世界/实体管理)
 
 服务端
 
 产生方块随机掉落（该方法不适用于实体方块）
 
-[SpawnResourcesSilkTouched](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#spawnresourcessilktouched)
+[SpawnResourcesSilkTouched](/接口/世界/实体管理)
 
 服务端
 
 模拟方块精准采集掉落
 
-[getEntitiesOrBlockFromRay](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getentitiesorblockfromray)
+[getEntitiesOrBlockFromRay](/接口/世界/实体管理)
 
 服务端
 
 从指定位置发射一条射线，获取与射线相交的实体和方块
 
-[getEntitiesOrBlockFromRay](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/实体管理.html#getentitiesorblockfromray)
+[getEntitiesOrBlockFromRay](/接口/世界/实体管理)
 
 客户端
 
@@ -1360,91 +1360,91 @@ Apollo
 
 描述
 
-[GetBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getblock)
+[GetBlock](/接口/世界/方块管理)
 
 客户端
 
 获取某一位置的block
 
-[GetBlockClip](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getblockclip)
+[GetBlockClip](/接口/世界/方块管理)
 
 服务端
 
 获取某一位置方块当前[clip的aabb](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/2-自定义方块/1-JSON组件.html#netease-aabb)
 
-[GetBlockClip](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getblockclip)
+[GetBlockClip](/接口/世界/方块管理)
 
 客户端
 
 获取指定位置方块当前clip的aabb
 
-[GetBlockCollision](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getblockcollision)
+[GetBlockCollision](/接口/世界/方块管理)
 
 服务端
 
 获取某一位置方块当前collision的aabb
 
-[GetBlockCollision](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getblockcollision)
+[GetBlockCollision](/接口/世界/方块管理)
 
 客户端
 
 获取指定位置方块当前collision的aabb
 
-[GetBlockNew](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getblocknew)
+[GetBlockNew](/接口/世界/方块管理)
 
 服务端
 
 获取某一位置的block
 
-[GetDestroyTotalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getdestroytotaltime)
+[GetDestroyTotalTime](/接口/世界/方块管理)
 
 服务端
 
 获取使用物品破坏方块需要的时间
 
-[GetDestroyTotalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getdestroytotaltime)
+[GetDestroyTotalTime](/接口/世界/方块管理)
 
 客户端
 
 获取使用物品破坏方块需要的时间
 
-[GetLiquidBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#getliquidblock)
+[GetLiquidBlock](/接口/世界/方块管理)
 
 服务端
 
 获取某个位置的方块所含流体的信息
 
-[GetTopBlockHeight](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#gettopblockheight)
+[GetTopBlockHeight](/接口/世界/方块管理)
 
 服务端
 
 获取某一位置最高的非空气方块的高度
 
-[GetTopBlockHeight](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#gettopblockheight)
+[GetTopBlockHeight](/接口/世界/方块管理)
 
 客户端
 
 获取当前维度某一位置最高的非空气方块的高度
 
-[SetBlockNew](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#setblocknew)
+[SetBlockNew](/接口/世界/方块管理)
 
 服务端
 
 设置某一位置的方块
 
-[SetJigsawBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#setjigsawblock)
+[SetJigsawBlock](/接口/世界/方块管理)
 
 服务端
 
 在某一位置放置拼图方块
 
-[SetLiquidBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#setliquidblock)
+[SetLiquidBlock](/接口/世界/方块管理)
 
 服务端
 
 设置某一位置的方块的extraBlock，可在此设置方块含水等
 
-[SetSnowBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块管理.html#setsnowblock)
+[SetSnowBlock](/接口/世界/方块管理)
 
 服务端
 
@@ -1456,19 +1456,19 @@ Apollo
 
 描述
 
-[GetEntityLimit](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/生物生成.html#getentitylimit)
+[GetEntityLimit](/接口/世界/生物生成)
 
 服务端
 
-获取世界最大可生成实体数量上限。可生成实体的含义见[SetEntityLimit](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/生物生成.html#setentitylimit)
+获取世界最大可生成实体数量上限。可生成实体的含义见[SetEntityLimit](/接口/世界/生物生成)
 
-[SetEntityLimit](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/生物生成.html#setentitylimit)
+[SetEntityLimit](/接口/世界/生物生成)
 
 服务端
 
 设置世界最大可生成实体数量上限。可生成实体指具有spawnrule的实体。当前世界上被加载的可生成实体数量超过这个上限时，生物就不会再通过spawnrule刷出。
 
-[SpawnCustomModule](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/生物生成.html#spawncustommodule)
+[SpawnCustomModule](/接口/世界/生物生成)
 
 服务端
 
@@ -1480,49 +1480,49 @@ Apollo
 
 描述
 
-[AddBrewingRecipes](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#addbrewingrecipes)
+[AddBrewingRecipes](/接口/世界/配方)
 
 服务端
 
 添加酿造台配方的接口
 
-[AddRecipe](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#addrecipe)
+[AddRecipe](/接口/世界/配方)
 
 服务端
 
 动态注册配方，支持配方类型详见[\[配方类型说明\]](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/5-自定义配方.html#配方类型说明)
 
-[GetRecipeResult](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#getreciperesult)
+[GetRecipeResult](/接口/世界/配方)
 
 服务端
 
 根据配方id获取配方结果。仅支持合成配方
 
-[GetRecipesByInput](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#getrecipesbyinput)
+[GetRecipesByInput](/接口/世界/配方)
 
 服务端
 
 通过输入物品查询配方
 
-[GetRecipesByInput](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#getrecipesbyinput)
+[GetRecipesByInput](/接口/世界/配方)
 
 客户端
 
 通过输入物品查询配方
 
-[GetRecipesByResult](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#getrecipesbyresult)
+[GetRecipesByResult](/接口/世界/配方)
 
 服务端
 
 通过输出物品查询配方所需要的输入材料
 
-[GetRecipesByResult](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#getrecipesbyresult)
+[GetRecipesByResult](/接口/世界/配方)
 
 客户端
 
 通过输出物品查询配方所需要的输入材料
 
-[RemoveRecipe](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/配方.html#removerecipe)
+[RemoveRecipe](/接口/世界/配方)
 
 服务端
 
@@ -1534,55 +1534,55 @@ Apollo
 
 描述
 
-[CreateMicroBlockResStr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#createmicroblockresstr)
+[CreateMicroBlockResStr](/接口/世界/方块组合)
 
 服务端
 
 生成微缩方块资源Json字符串
 
-[GetBlankBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#getblankblockpalette)
+[GetBlankBlockPalette](/接口/世界/方块组合)
 
 服务端
 
 获取一个空白的方块调色板。
 
-[GetBlankBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#getblankblockpalette)
+[GetBlankBlockPalette](/接口/世界/方块组合)
 
 客户端
 
 获取一个空白的方块调色板。
 
-[GetBlockPaletteBetweenPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#getblockpalettebetweenpos)
+[GetBlockPaletteBetweenPos](/接口/世界/方块组合)
 
 服务端
 
 根据输入的两个方块位置创建并获取一个方块调色板，方块调色板用于描述和记录世界中的多个方块的组合。这个方块调色板包含了这两个位置之间的所有方块及其相对位置。
 
-[GetBlockPaletteBetweenPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#getblockpalettebetweenpos)
+[GetBlockPaletteBetweenPos](/接口/世界/方块组合)
 
 客户端
 
 根据输入的两个位置创建并获取一个方块调色板，该接口会搜索这两个位置之间的所有方块创建方块调色板，方块调色板用于描述和记录世界中的多个方块的组合。这个方块调色板包含了这两个位置之间的所有方块及其相对位置。
 
-[GetBlockPaletteFromPosList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#getblockpalettefromposlist)
+[GetBlockPaletteFromPosList](/接口/世界/方块组合)
 
 服务端
 
 根据输入的方块位置列表创建并获取一个方块调色板，方块调色板用于描述和记录世界中的多个方块的组合。创建的方块调色板包含了这个位置列表中的所有方块及其相对位置。
 
-[GetBlockPaletteFromPosList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#getblockpalettefromposlist)
+[GetBlockPaletteFromPosList](/接口/世界/方块组合)
 
 客户端
 
 根据输入的方块位置列表创建并获取一个方块调色板，方块调色板用于描述和记录世界中的多个方块的组合。创建的方块调色板包含了这个位置列表中的所有方块及其相对位置。
 
-[RegisterBlockPatterns](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#registerblockpatterns)
+[RegisterBlockPatterns](/接口/世界/方块组合)
 
 服务端
 
 注册特殊方块组合
 
-[SetBlockByBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/方块组合.html#setblockbyblockpalette)
+[SetBlockByBlockPalette](/接口/世界/方块组合)
 
 服务端
 
@@ -1594,229 +1594,229 @@ Apollo
 
 描述
 
-[AddTerrainDestroyParticleEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#addterraindestroyparticleeffect)
+[AddTerrainDestroyParticleEffect](/接口/世界/渲染)
 
 客户端
 
 在指定位置播放指定方块被开始破坏时的粒子效果（如果有）。
 
-[AddUseItemParticleEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#adduseitemparticleeffect)
+[AddUseItemParticleEffect](/接口/世界/渲染)
 
 客户端
 
 在指定位置播放指定物品被开始使用时的粒子效果（如果有）。
 
-[GetAmbientBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getambientbrightness)
+[GetAmbientBrightness](/接口/世界/渲染)
 
 客户端
 
 获取环境光亮度，影响天空亮度，不影响实体与方块光照
 
-[GetFogColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getfogcolor)
+[GetFogColor](/接口/世界/渲染)
 
 客户端
 
 获取当前雾效颜色
 
-[GetFogLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getfoglength)
+[GetFogLength](/接口/世界/渲染)
 
 客户端
 
 获取雾效范围
 
-[GetMoonRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getmoonrot)
+[GetMoonRot](/接口/世界/渲染)
 
 客户端
 
 获取月亮角度
 
-[GetSkyColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getskycolor)
+[GetSkyColor](/接口/世界/渲染)
 
 客户端
 
 获取天空颜色
 
-[GetSkyTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getskytextures)
+[GetSkyTextures](/接口/世界/渲染)
 
 客户端
 
 获取当前维度天空盒贴图，天空盒共6张贴图
 
-[GetStarBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getstarbrightness)
+[GetStarBrightness](/接口/世界/渲染)
 
 客户端
 
 获取星星亮度
 
-[GetSunRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getsunrot)
+[GetSunRot](/接口/世界/渲染)
 
 客户端
 
 获取太阳角度
 
-[GetUseAmbientBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getuseambientbrightness)
+[GetUseAmbientBrightness](/接口/世界/渲染)
 
 客户端
 
 判断是否在mod设置了环境光亮度
 
-[GetUseFogColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getusefogcolor)
+[GetUseFogColor](/接口/世界/渲染)
 
 客户端
 
 判断当前是否开启设置雾效颜色，该值默认为False，使用mod传入的颜色值后为True
 
-[GetUseFogLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getusefoglength)
+[GetUseFogLength](/接口/世界/渲染)
 
 客户端
 
 判断当前是否开启设置雾效范围,该值默认为False，使用mod传入的范围值后为True
 
-[GetUseMoonRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getusemoonrot)
+[GetUseMoonRot](/接口/世界/渲染)
 
 客户端
 
 判断是否在mod设置了月亮角度
 
-[GetUseSkyColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getuseskycolor)
+[GetUseSkyColor](/接口/世界/渲染)
 
 客户端
 
 判断是否在mod设置了天空颜色
 
-[GetUseStarBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getusestarbrightness)
+[GetUseStarBrightness](/接口/世界/渲染)
 
 客户端
 
 判断是否在mod设置了星星亮度
 
-[GetUseSunRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#getusesunrot)
+[GetUseSunRot](/接口/世界/渲染)
 
 客户端
 
 判断是否在mod设置了太阳角度
 
-[HideNameTag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#hidenametag)
+[HideNameTag](/接口/世界/渲染)
 
 客户端
 
 隐藏场景内所有名字，包括玩家名字，生物的自定义名称，物品展示框与命令方块的悬浮文本等
 
-[IsHideNameTag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#ishidenametag)
+[IsHideNameTag](/接口/世界/渲染)
 
 客户端
 
 获取是否隐藏场景内所有名字
 
-[RemoveTerrainDestroyParticleEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#removeterraindestroyparticleeffect)
+[RemoveTerrainDestroyParticleEffect](/接口/世界/渲染)
 
 客户端
 
 停止指定位置播放的方块被开始破坏时的粒子效果。
 
-[RemoveUseItemParticleEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#removeuseitemparticleeffect)
+[RemoveUseItemParticleEffect](/接口/世界/渲染)
 
 客户端
 
 停止指定位置播放的物品被开始使用时的粒子效果。
 
-[ResetAmbientBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetambientbrightness)
+[ResetAmbientBrightness](/接口/世界/渲染)
 
 客户端
 
 重置环境光亮度
 
-[ResetFogColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetfogcolor)
+[ResetFogColor](/接口/世界/渲染)
 
 客户端
 
 重置雾效颜色
 
-[ResetFogLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetfoglength)
+[ResetFogLength](/接口/世界/渲染)
 
 客户端
 
 重置雾效范围
 
-[ResetMoonRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetmoonrot)
+[ResetMoonRot](/接口/世界/渲染)
 
 客户端
 
 重置月亮角度
 
-[ResetSkyColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetskycolor)
+[ResetSkyColor](/接口/世界/渲染)
 
 客户端
 
 重置天空颜色
 
-[ResetSkyTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetskytextures)
+[ResetSkyTextures](/接口/世界/渲染)
 
 客户端
 
 重置当前维度天空盒贴图。如果有使用addon配置贴图则会使用配置的贴图，否则为游戏内默认无贴图的情况
 
-[ResetStarBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetstarbrightness)
+[ResetStarBrightness](/接口/世界/渲染)
 
 客户端
 
 重置星星亮度
 
-[ResetSunRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#resetsunrot)
+[ResetSunRot](/接口/世界/渲染)
 
 客户端
 
 重置太阳角度
 
-[SetAmbientBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setambientbrightness)
+[SetAmbientBrightness](/接口/世界/渲染)
 
 客户端
 
 设置环境光亮度，影响天空亮度，不影响实体与方块光照
 
-[SetFogColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setfogcolor)
+[SetFogColor](/接口/世界/渲染)
 
 客户端
 
 设置雾效颜色
 
-[SetFogLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setfoglength)
+[SetFogLength](/接口/世界/渲染)
 
 客户端
 
 设置雾效范围
 
-[SetMoonRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setmoonrot)
+[SetMoonRot](/接口/世界/渲染)
 
 客户端
 
 设置月亮所在角度
 
-[SetSkyColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setskycolor)
+[SetSkyColor](/接口/世界/渲染)
 
 客户端
 
 设置天空颜色
 
-[SetSkyTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setskytextures)
+[SetSkyTextures](/接口/世界/渲染)
 
 客户端
 
 设置当前维度天空盒贴图，天空盒需要6张贴图
 
-[SetStarBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setstarbrightness)
+[SetStarBrightness](/接口/世界/渲染)
 
 客户端
 
 设置星星亮度，白天也可以显示星星
 
-[SetSunRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#setsunrot)
+[SetSunRot](/接口/世界/渲染)
 
 客户端
 
 设置太阳所在角度
 
-[SkyTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/渲染.html#skytextures)
+[SkyTextures](/接口/世界/渲染)
 
 客户端
 
@@ -1828,73 +1828,73 @@ Apollo
 
 描述
 
-[GetLocalDoDayNightCycle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#getlocaldodaynightcycle)
+[GetLocalDoDayNightCycle](/接口/世界/时间)
 
 服务端
 
 获取维度是否打开昼夜更替
 
-[GetLocalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#getlocaltime)
+[GetLocalTime](/接口/世界/时间)
 
 服务端
 
 获取维度的时间
 
-[GetLocalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#getlocaltime)
+[GetLocalTime](/接口/世界/时间)
 
 客户端
 
 获取当前维度的时间
 
-[GetTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#gettime)
+[GetTime](/接口/世界/时间)
 
 服务端
 
 获取当前世界时间
 
-[GetTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#gettime)
+[GetTime](/接口/世界/时间)
 
 客户端
 
 获取当前世界时间
 
-[GetUseLocalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#getuselocaltime)
+[GetUseLocalTime](/接口/世界/时间)
 
 服务端
 
 获取某个维度是否设置了使用局部时间规则
 
-[SetLocalDoDayNightCycle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#setlocaldodaynightcycle)
+[SetLocalDoDayNightCycle](/接口/世界/时间)
 
 服务端
 
 设置使用局部时间规则的维度是否打开昼夜更替
 
-[SetLocalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#setlocaltime)
+[SetLocalTime](/接口/世界/时间)
 
 服务端
 
 设置使用局部时间规则维度的时间
 
-[SetLocalTimeOfDay](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#setlocaltimeofday)
+[SetLocalTimeOfDay](/接口/世界/时间)
 
 服务端
 
 设置使用局部时间规则维度在一天内所在的时间
 
-[SetTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#settime)
+[SetTime](/接口/世界/时间)
 
 服务端
 
 设置当前世界时间
 
-[SetTimeOfDay](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#settimeofday)
+[SetTimeOfDay](/接口/世界/时间)
 
 服务端
 
 设置当前世界在一天内所在的时间
 
-[SetUseLocalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/时间.html#setuselocaltime)
+[SetUseLocalTime](/接口/世界/时间)
 
 服务端
 
@@ -1906,61 +1906,61 @@ Apollo
 
 描述
 
-[GetDimensionLocalWeatherInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#getdimensionlocalweatherinfo)
+[GetDimensionLocalWeatherInfo](/接口/世界/天气)
 
 服务端
 
 获取独立维度天气信息(必须先使用SetDimensionUseLocalWeather接口设置此维度拥有自己的独立天气)
 
-[GetDimensionUseLocalWeather](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#getdimensionuselocalweather)
+[GetDimensionUseLocalWeather](/接口/世界/天气)
 
 服务端
 
 获取某个维度是否拥有自己的天气规则
 
-[IsRaining](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#israining)
+[IsRaining](/接口/世界/天气)
 
 服务端
 
 获取是否下雨
 
-[IsThunder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#isthunder)
+[IsThunder](/接口/世界/天气)
 
 服务端
 
 获取是否打雷
 
-[SetDimensionLocalDoWeatherCycle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#setdimensionlocaldoweathercycle)
+[SetDimensionLocalDoWeatherCycle](/接口/世界/天气)
 
 服务端
 
 设置某个维度是否开启天气循环(必须先使用SetDimensionUseLocalWeather接口设置此维度拥有自己的独立天气)
 
-[SetDimensionLocalRain](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#setdimensionlocalrain)
+[SetDimensionLocalRain](/接口/世界/天气)
 
 服务端
 
 设置某个维度下雨(必须先使用SetDimensionUseLocalWeather接口设置此维度拥有自己的独立天气)
 
-[SetDimensionLocalThunder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#setdimensionlocalthunder)
+[SetDimensionLocalThunder](/接口/世界/天气)
 
 服务端
 
 设置某个维度打雷(必须先使用SetDimensionUseLocalWeather接口设置此维度拥有自己的独立天气)
 
-[SetDimensionUseLocalWeather](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#setdimensionuselocalweather)
+[SetDimensionUseLocalWeather](/接口/世界/天气)
 
 服务端
 
 设置某个维度拥有自己的天气规则，开启后该维度可以拥有与其他维度不同的天气和天气更替的规则
 
-[SetRaining](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#setraining)
+[SetRaining](/接口/世界/天气)
 
 服务端
 
 设置是否下雨
 
-[SetThunder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/天气.html#setthunder)
+[SetThunder](/接口/世界/天气)
 
 服务端
 
@@ -1972,223 +1972,223 @@ Apollo
 
 描述
 
-[AddBannedItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#addbanneditem)
+[AddBannedItem](/接口/世界/游戏规则)
 
 服务端
 
 增加禁用物品
 
-[AddBlockProtectField](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#addblockprotectfield)
+[AddBlockProtectField](/接口/世界/游戏规则)
 
 Apollo
 
 设置一个方块无法被玩家/实体破坏的区域
 
-[CleanBlockProtectField](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#cleanblockprotectfield)
+[CleanBlockProtectField](/接口/世界/游戏规则)
 
 Apollo
 
 取消全部已设置的方块无法被玩家/实体破坏的区域
 
-[ClearBannedItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#clearbanneditems)
+[ClearBannedItems](/接口/世界/游戏规则)
 
 服务端
 
 清空禁用物品
 
-[DisableVineBlockSpread](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#disablevineblockspread)
+[DisableVineBlockSpread](/接口/世界/游戏规则)
 
 服务端
 
 设置是否禁用藤曼蔓延生长
 
-[ForbidLiquidFlow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#forbidliquidflow)
+[ForbidLiquidFlow](/接口/世界/游戏规则)
 
 服务端
 
 禁止/允许地图中的流体流动
 
-[GetBannedItemList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getbanneditemlist)
+[GetBannedItemList](/接口/世界/游戏规则)
 
 服务端
 
 获取禁用物品列表
 
-[GetGameDiffculty](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getgamediffculty)
+[GetGameDiffculty](/接口/世界/游戏规则)
 
 服务端
 
 获取游戏难度
 
-[GetGameRulesInfoServer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getgamerulesinfoserver)
+[GetGameRulesInfoServer](/接口/世界/游戏规则)
 
 服务端
 
 获取游戏规则
 
-[GetGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getgametype)
+[GetGameType](/接口/世界/游戏规则)
 
 服务端
 
 获取默认游戏模式
 
-[GetLevelGravity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getlevelgravity)
+[GetLevelGravity](/接口/世界/游戏规则)
 
 服务端
 
 获取重力因子
 
-[GetPistonMaxInteractionCount](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getpistonmaxinteractioncount)
+[GetPistonMaxInteractionCount](/接口/世界/游戏规则)
 
 服务端
 
 获取活塞/粘性活塞最多推动的方块数量，默认为12个方块，可能被其他开发者修改。
 
-[GetPistonMaxInteractionCount](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getpistonmaxinteractioncount)
+[GetPistonMaxInteractionCount](/接口/世界/游戏规则)
 
 客户端
 
 获取活塞/粘性活塞最多推动的方块数量，默认为12个方块，可能被其他开发者修改。
 
-[GetSeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#getseed)
+[GetSeed](/接口/世界/游戏规则)
 
 服务端
 
 获取存档种子
 
-[IsDisableCommandMinecart](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#isdisablecommandminecart)
+[IsDisableCommandMinecart](/接口/世界/游戏规则)
 
 服务端
 
 获取当前是否允许运行命令方块矿车内置逻辑指令，当前仅Apollo网络服可用
 
-[IsLockDifficulty](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#islockdifficulty)
+[IsLockDifficulty](/接口/世界/游戏规则)
 
 服务端
 
 获取当前世界的游戏难度是否被锁定
 
-[IsLockGameRulesInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#islockgamerulesinfo)
+[IsLockGameRulesInfo](/接口/世界/游戏规则)
 
 服务端
 
 获取当前世界的游戏规则是否被锁定
 
-[IsLockGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#islockgametype)
+[IsLockGameType](/接口/世界/游戏规则)
 
 服务端
 
 获取当前世界的游戏类型是否被锁定，包括默认游戏类型和个人游戏类型
 
-[LockDifficulty](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#lockdifficulty)
+[LockDifficulty](/接口/世界/游戏规则)
 
 服务端
 
 锁定当前世界游戏难度（仅本次游戏有效），锁定后任何玩家在游戏内都无法通过指令或暂停菜单修改游戏难度
 
-[LockGameRulesInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#lockgamerulesinfo)
+[LockGameRulesInfo](/接口/世界/游戏规则)
 
 服务端
 
-锁定当前世界游戏规则（仅本次游戏有效），玩家无法通过指令、游戏菜单或api修改游戏规则（包括[SetGameRulesInfoServer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setgamerulesinfoserver)示例中列举的规则）
+锁定当前世界游戏规则（仅本次游戏有效），玩家无法通过指令、游戏菜单或api修改游戏规则（包括[SetGameRulesInfoServer](/接口/世界/游戏规则)示例中列举的规则）
 
-[LockGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#lockgametype)
+[LockGameType](/接口/世界/游戏规则)
 
 服务端
 
-锁定当前世界游戏类型（仅本次游戏有效），玩家无法通过指令、游戏菜单或相关api如[SetPlayerGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/游戏模式.html#setplayergametype)和[SetDefaultGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdefaultgametype)修改游戏类型，包括默认游戏类型和个人游戏类型
+锁定当前世界游戏类型（仅本次游戏有效），玩家无法通过指令、游戏菜单或相关api如[SetPlayerGameType](/接口/玩家/游戏模式)和[SetDefaultGameType](/接口/世界/游戏规则)修改游戏类型，包括默认游戏类型和个人游戏类型
 
-[OpenCityProtect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#opencityprotect)
+[OpenCityProtect](/接口/世界/游戏规则)
 
 Apollo
 
 开启城市保护，包括禁止破坏方块，禁止对方块使用物品，禁止怪物攻击玩家，禁止玩家之间互相攻击，禁止日夜切换，禁止天气变化，禁止怪物群落刷新
 
-[RemoveBannedItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#removebanneditem)
+[RemoveBannedItem](/接口/世界/游戏规则)
 
 服务端
 
 移除禁用物品
 
-[RemoveBlockProtectField](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#removeblockprotectfield)
+[RemoveBlockProtectField](/接口/世界/游戏规则)
 
 Apollo
 
 取消一个方块无法被玩家/实体破坏的区域
 
-[SetCanActorSetOnFireByLightning](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setcanactorsetonfirebylightning)
+[SetCanActorSetOnFireByLightning](/接口/世界/游戏规则)
 
 服务端
 
 禁止/允许闪电点燃实体
 
-[SetCanBlockSetOnFireByLightning](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setcanblocksetonfirebylightning)
+[SetCanBlockSetOnFireByLightning](/接口/世界/游戏规则)
 
 服务端
 
 禁止/允许闪电点燃方块
 
-[SetDefaultGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdefaultgametype)
+[SetDefaultGameType](/接口/世界/游戏规则)
 
 服务端
 
 设置默认游戏模式
 
-[SetDisableCommandMinecart](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdisablecommandminecart)
+[SetDisableCommandMinecart](/接口/世界/游戏规则)
 
 服务端
 
 设置停止/开启运行命令方块矿车内置逻辑指令，当前仅Apollo网络服可用
 
-[SetDisableContainers](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdisablecontainers)
+[SetDisableContainers](/接口/世界/游戏规则)
 
 服务端
 
 禁止所有容器界面的打开，包括玩家背包，各种包含背包界面的容器方块如工作台与箱子，以及包含背包界面的实体交互如马背包与村民交易
 
-[SetDisableDropItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdisabledropitem)
+[SetDisableDropItem](/接口/世界/游戏规则)
 
 服务端
 
 设置禁止丢弃物品
 
-[SetDisableGravityInLiquid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdisablegravityinliquid)
+[SetDisableGravityInLiquid](/接口/世界/游戏规则)
 
 服务端
 
 是否屏蔽所有实体在液体（水、岩浆）中的重力
 
-[SetDisableHunger](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setdisablehunger)
+[SetDisableHunger](/接口/世界/游戏规则)
 
 服务端
 
 设置是否屏蔽饥饿度
 
-[SetGameDifficulty](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setgamedifficulty)
+[SetGameDifficulty](/接口/世界/游戏规则)
 
 服务端
 
 设置游戏难度
 
-[SetGameRulesInfoServer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setgamerulesinfoserver)
+[SetGameRulesInfoServer](/接口/世界/游戏规则)
 
 服务端
 
 设置游戏规则。所有参数均可选。
 
-[SetHurtCD](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#sethurtcd)
+[SetHurtCD](/接口/世界/游戏规则)
 
 服务端
 
 设置全局受击间隔CD
 
-[SetLevelGravity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setlevelgravity)
+[SetLevelGravity](/接口/世界/游戏规则)
 
 服务端
 
 设置重力因子
 
-[SetPistonMaxInteractionCount](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/游戏规则.html#setpistonmaxinteractioncount)
+[SetPistonMaxInteractionCount](/接口/世界/游戏规则)
 
 服务端
 
@@ -2200,31 +2200,31 @@ Apollo
 
 描述
 
-[CleanExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/自定义数据.html#cleanextradata)
+[CleanExtraData](/接口/世界/自定义数据)
 
 服务端
 
 清除实体的自定义数据或者世界的自定义数据，清除实体数据时使用对应实体id创建组件，清除世界数据时使用levelId创建组件
 
-[GetExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/自定义数据.html#getextradata)
+[GetExtraData](/接口/世界/自定义数据)
 
 服务端
 
 获取实体的自定义数据或者世界的自定义数据，某个键所对应的值。获取实体数据时使用对应实体id创建组件，获取世界数据时使用levelId创建组件
 
-[GetWholeExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/自定义数据.html#getwholeextradata)
+[GetWholeExtraData](/接口/世界/自定义数据)
 
 服务端
 
 获取完整的实体的自定义数据或者世界的自定义数据，获取实体数据时使用对应实体id创建组件，获取世界数据时使用levelId创建组件
 
-[SaveExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/自定义数据.html#saveextradata)
+[SaveExtraData](/接口/世界/自定义数据)
 
 服务端
 
 用于保存实体的自定义数据或者世界的自定义数据
 
-[SetExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/自定义数据.html#setextradata)
+[SetExtraData](/接口/世界/自定义数据)
 
 服务端
 
@@ -2236,31 +2236,31 @@ Apollo
 
 描述
 
-[GetCommandPermissionLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/指令.html#getcommandpermissionlevel)
+[GetCommandPermissionLevel](/接口/世界/指令)
 
 服务端
 
 返回设定使用/op命令时OP的权限等级（对应server.properties中的op-permission-level配置）
 
-[GetDefaultPlayerPermissionLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/指令.html#getdefaultplayerpermissionlevel)
+[GetDefaultPlayerPermissionLevel](/接口/世界/指令)
 
 服务端
 
 返回新玩家加入时的权限身份（对应server.properties中的default-player-permission-level配置）
 
-[SetCommand](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/指令.html#setcommand)
+[SetCommand](/接口/世界/指令)
 
 服务端
 
 使用游戏内指令
 
-[SetCommandPermissionLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/指令.html#setcommandpermissionlevel)
+[SetCommandPermissionLevel](/接口/世界/指令)
 
 服务端
 
 设置当玩家使用/op命令时OP的权限等级（对应server.properties中的op-permission-level配置）
 
-[SetDefaultPlayerPermissionLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/指令.html#setdefaultplayerpermissionlevel)
+[SetDefaultPlayerPermissionLevel](/接口/世界/指令)
 
 服务端
 
@@ -2272,73 +2272,73 @@ Apollo
 
 描述
 
-[NotifyOneMessage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#notifyonemessage)
+[NotifyOneMessage](/接口/世界/消息)
 
 服务端
 
 给指定玩家发送聊天框消息
 
-[SendMsg](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#sendmsg)
+[SendMsg](/接口/世界/消息)
 
 服务端
 
 模拟玩家给所有人发送聊天栏消息
 
-[SendMsgToPlayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#sendmsgtoplayer)
+[SendMsgToPlayer](/接口/世界/消息)
 
 服务端
 
 模拟玩家给另一个玩家发送聊天栏消息
 
-[SetLeftCornerNotify](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setleftcornernotify)
+[SetLeftCornerNotify](/接口/世界/消息)
 
 客户端
 
 客户端设置左上角通知信息
 
-[SetNotifyMsg](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setnotifymsg)
+[SetNotifyMsg](/接口/世界/消息)
 
 服务端
 
 设置消息通知
 
-[SetOnePopupNotice](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setonepopupnotice)
+[SetOnePopupNotice](/接口/世界/消息)
 
 服务端
 
 在具体某个玩家的物品栏上方弹出popup类型通知，位置位于tip类型消息下方，此功能更建议客户端使用game组件的对应接口SetPopupNotice
 
-[SetOneTipMessage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setonetipmessage)
+[SetOneTipMessage](/接口/世界/消息)
 
 服务端
 
 在具体某个玩家的物品栏上方弹出tip类型通知，位置位于popup类型通知上方，此功能更建议在客户端使用game组件的对应接口SetTipMessage
 
-[SetPopupNotice](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setpopupnotice)
+[SetPopupNotice](/接口/世界/消息)
 
 服务端
 
 在所有玩家物品栏上方弹出popup类型通知，位置位于tip类型消息下方
 
-[SetPopupNotice](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setpopupnotice)
+[SetPopupNotice](/接口/世界/消息)
 
 客户端
 
 在本地玩家的物品栏上方弹出popup类型通知，位置位于tip类型消息下方
 
-[SetPopupState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#setpopupstate)
+[SetPopupState](/接口/世界/消息)
 
 客户端
 
 设置Popup消息栏状态
 
-[SetTipMessage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#settipmessage)
+[SetTipMessage](/接口/世界/消息)
 
 服务端
 
 在所有玩家物品栏上方弹出tip类型通知，位置位于popup类型通知上方
 
-[SetTipMessage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/消息.html#settipmessage)
+[SetTipMessage](/接口/世界/消息)
 
 客户端
 
@@ -2350,25 +2350,25 @@ Apollo
 
 描述
 
-[GetAllPlayerScoreboardObjects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/记分板.html#getallplayerscoreboardobjects)
+[GetAllPlayerScoreboardObjects](/接口/世界/记分板)
 
 服务端
 
 获取玩家记分项
 
-[GetAllPlayerScoreboardObjects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/记分板.html#getallplayerscoreboardobjects)
+[GetAllPlayerScoreboardObjects](/接口/世界/记分板)
 
 客户端
 
 获取玩家记分项
 
-[GetAllScoreboardObjects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/记分板.html#getallscoreboardobjects)
+[GetAllScoreboardObjects](/接口/世界/记分板)
 
 服务端
 
 获取所有记分板项
 
-[GetAllScoreboardObjects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/世界/记分板.html#getallscoreboardobjects)
+[GetAllScoreboardObjects](/接口/世界/记分板)
 
 客户端
 
@@ -2380,37 +2380,37 @@ Apollo
 
 描述
 
-[GetEngineType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/实体类型.html#getenginetype)
+[GetEngineType](/接口/实体/实体类型)
 
 服务端
 
 获取实体类型，主要用于判断实体是否属于某一类型的生物。
 
-[GetEngineType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/实体类型.html#getenginetype)
+[GetEngineType](/接口/实体/实体类型)
 
 客户端
 
 获取实体类型，主要用于判断实体是否属于某一类型的生物。
 
-[GetEngineTypeStr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/实体类型.html#getenginetypestr)
+[GetEngineTypeStr](/接口/实体/实体类型)
 
 服务端
 
 获取实体的类型名称
 
-[GetEngineTypeStr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/实体类型.html#getenginetypestr)
+[GetEngineTypeStr](/接口/实体/实体类型)
 
 客户端
 
 获取实体的类型名称
 
-[GetEntityDefinitions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/实体类型.html#getentitydefinitions)
+[GetEntityDefinitions](/接口/实体/实体类型)
 
 服务端
 
 获取实体的命名空间ID及其当前和之前的定义组件群
 
-[GetEntityNBTTags](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/实体类型.html#getentitynbttags)
+[GetEntityNBTTags](/接口/实体/实体类型)
 
 服务端
 
@@ -2422,13 +2422,13 @@ Apollo
 
 描述
 
-[GetAuxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/附加值.html#getauxvalue)
+[GetAuxValue](/接口/实体/附加值)
 
 服务端
 
 获取射出的弓箭或投掷出的药水的附加值
 
-[GetAuxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/附加值.html#getauxvalue)
+[GetAuxValue](/接口/实体/附加值)
 
 客户端
 
@@ -2440,517 +2440,517 @@ Apollo
 
 描述
 
-[ChangeEntityDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#changeentitydimension)
+[ChangeEntityDimension](/接口/实体/属性)
 
 服务端
 
 传送实体
 
-[GetAllComponentsName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getallcomponentsname)
+[GetAllComponentsName](/接口/实体/属性)
 
 服务端
 
 获取实体所拥有的原版组件list
 
-[GetAttrMaxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getattrmaxvalue)
+[GetAttrMaxValue](/接口/实体/属性)
 
 服务端
 
 获取实体的引擎属性的最大值
 
-[GetAttrMaxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getattrmaxvalue)
+[GetAttrMaxValue](/接口/实体/属性)
 
 客户端
 
 获取属性最大值，包括生命值，饥饿度，移速等
 
-[GetAttrValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getattrvalue)
+[GetAttrValue](/接口/实体/属性)
 
 服务端
 
 获取实体的引擎属性
 
-[GetAttrValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getattrvalue)
+[GetAttrValue](/接口/实体/属性)
 
 客户端
 
 获取属性值，包括生命值，饥饿度，移速
 
-[GetBodyRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getbodyrot)
+[GetBodyRot](/接口/实体/属性)
 
 客户端
 
 获取实体的身体的角度
 
-[GetCurrentAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getcurrentairsupply)
+[GetCurrentAirSupply](/接口/实体/属性)
 
 服务端
 
 生物当前氧气储备值
 
-[GetCurrentAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getcurrentairsupply)
+[GetCurrentAirSupply](/接口/实体/属性)
 
 客户端
 
 玩家当前氧气储备值
 
-[GetDeathTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getdeathtime)
+[GetDeathTime](/接口/实体/属性)
 
 服务端
 
 获取生物死亡后持续的时间（刻，1秒20刻），用于控制死亡动画。0表示生物未死亡。
 
-[GetEntitiesBySelector](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getentitiesbyselector)
+[GetEntitiesBySelector](/接口/实体/属性)
 
 服务端
 
 传入目标选择器，获取对应实体id (最大范围是所有已加载的实体)
 
-[GetEntityDamage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getentitydamage)
+[GetEntityDamage](/接口/实体/属性)
 
 服务端
 
 获取生物(包括玩家)的攻击力
 
-[GetEntityDimensionId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getentitydimensionid)
+[GetEntityDimensionId](/接口/实体/属性)
 
 服务端
 
 获取实体所在维度
 
-[GetEntityFallDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getentityfalldistance)
+[GetEntityFallDistance](/接口/实体/属性)
 
 服务端
 
-获取实体的坠落高度，越大的值会给予实体更大的坠落伤害，建议在[OnGroundServerEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/实体.html#ongroundserverevent)事件中调用
+获取实体的坠落高度，越大的值会给予实体更大的坠落伤害，建议在[OnGroundServerEvent](/事件/实体)事件中调用
 
-[GetEntityLinksTag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getentitylinkstag)
+[GetEntityLinksTag](/接口/实体/属性)
 
 服务端
 
 获取实体相连接的实体，如获取entityId为马，会返回骑乘者的信息
 
-[GetEntityOwner](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getentityowner)
+[GetEntityOwner](/接口/实体/属性)
 
 服务端
 
 获取实体的属主（包括可驯服生物的主人，或者掉落物的丢弃者，弹射物的发射者等）
 
-[GetFootPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getfootpos)
+[GetFootPos](/接口/实体/属性)
 
 服务端
 
 获取实体脚所在的位置
 
-[GetFootPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getfootpos)
+[GetFootPos](/接口/实体/属性)
 
 客户端
 
 获取实体脚所在的位置
 
-[GetGravity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getgravity)
+[GetGravity](/接口/实体/属性)
 
 服务端
 
 获取实体的重力因子，当生物重力因子为0时则应用世界的重力因子
 
-[GetLoadActors](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getloadactors)
+[GetLoadActors](/接口/实体/属性)
 
 服务端
 
 获取已加载的实体id
 
-[GetMarkVariant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getmarkvariant)
+[GetMarkVariant](/接口/实体/属性)
 
 服务端
 
 获取实体的标记变种属性值
 
-[GetMaxAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getmaxairsupply)
+[GetMaxAirSupply](/接口/实体/属性)
 
 服务端
 
 获取生物最大氧气储备值
 
-[GetMaxAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getmaxairsupply)
+[GetMaxAirSupply](/接口/实体/属性)
 
 客户端
 
 玩家最大氧气储备值
 
-[GetMobColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getmobcolor)
+[GetMobColor](/接口/实体/属性)
 
 服务端
 
 获取生物的颜色，截止至网易2.9版本，只对羊和热带鱼有效
 
-[GetMobStrength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getmobstrength)
+[GetMobStrength](/接口/实体/属性)
 
 服务端
 
 获取生物的强度，截止至网易2.9版本，只对羊驼有效，强度越大羊驼驮运的箱子时格子数量越多
 
-[GetMobStrengthMax](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getmobstrengthmax)
+[GetMobStrengthMax](/接口/实体/属性)
 
 服务端
 
-获取生物强度的最大值，截止至网易2.9版本，只对羊驼有效，强度越大羊驼驮运的箱子时格子数量越多，[SetMobStrength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setstrength)无法超过SetMobStrengthMax的值
+获取生物强度的最大值，截止至网易2.9版本，只对羊驼有效，强度越大羊驼驮运的箱子时格子数量越多，[SetMobStrength](/接口/实体/属性)无法超过SetMobStrengthMax的值
 
-[GetName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getname)
+[GetName](/接口/实体/属性)
 
 服务端
 
 获取生物的自定义名称（即使用命名牌或者SetName接口设置的名称），或者玩家的名字。
 
-[GetName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getname)
+[GetName](/接口/实体/属性)
 
 客户端
 
 获取生物的自定义名称（即使用命名牌或者SetName接口设置的名称），或者玩家的名字。
 
-[GetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getpos)
+[GetPos](/接口/实体/属性)
 
 服务端
 
 获取实体位置
 
-[GetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getpos)
+[GetPos](/接口/实体/属性)
 
 客户端
 
 获取实体位置
 
-[GetRiderId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getriderid)
+[GetRiderId](/接口/实体/属性)
 
 客户端
 
 获取玩家坐骑entityid
 
-[GetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getrot)
+[GetRot](/接口/实体/属性)
 
 服务端
 
 获取实体头与水平方向的俯仰角度和竖直方向的旋转角度，获得角度后可用GetDirFromRot接口转换为朝向的单位向量 [MC坐标系说明](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/10-Vector3.html)
 
-[GetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getrot)
+[GetRot](/接口/实体/属性)
 
 客户端
 
 获取实体头与水平方向的俯仰角度和竖直方向的旋转角度，获得角度后可用GetDirFromRot接口转换为朝向的单位向量 [MC坐标系说明](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/10-Vector3.html)
 
-[GetSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getsize)
+[GetSize](/接口/实体/属性)
 
 服务端
 
 获取实体的包围盒
 
-[GetSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getsize)
+[GetSize](/接口/实体/属性)
 
 客户端
 
 获取实体的包围盒
 
-[GetTradeLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#gettradelevel)
+[GetTradeLevel](/接口/实体/属性)
 
 服务端
 
 获取村民的交易等级
 
-[GetTypeFamily](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#gettypefamily)
+[GetTypeFamily](/接口/实体/属性)
 
 服务端
 
 获取生物行为包字段 type\_family
 
-[GetUnitBubbleAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getunitbubbleairsupply)
+[GetUnitBubbleAirSupply](/接口/实体/属性)
 
 服务端
 
 单位气泡数对应的氧气储备值
 
-[GetVariant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#getvariant)
+[GetVariant](/接口/实体/属性)
 
 服务端
 
 获取实体的变种属性值
 
-[HasChest](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#haschest)
+[HasChest](/接口/实体/属性)
 
 服务端
 
 判断生物是否背负了箱子，截止至网易2.9版本，只对羊驼、驴、骡生效
 
-[HasComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#hascomponent)
+[HasComponent](/接口/实体/属性)
 
 服务端
 
 判断实体是否有原版组件
 
-[HasSaddle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#hassaddle)
+[HasSaddle](/接口/实体/属性)
 
 服务端
 
 判断实体是否装备了鞍
 
-[IsAngry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isangry)
+[IsAngry](/接口/实体/属性)
 
 服务端
 
 判断实体是否处于激怒状态
 
-[IsBaby](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isbaby)
+[IsBaby](/接口/实体/属性)
 
 服务端
 
 判断实体是否为幼年
 
-[IsConsumingAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isconsumingairsupply)
+[IsConsumingAirSupply](/接口/实体/属性)
 
 服务端
 
 获取生物当前是否在消耗氧气
 
-[IsIllagerCaptain](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isillagercaptain)
+[IsIllagerCaptain](/接口/实体/属性)
 
 服务端
 
 判断实体是否为袭击队长，截止至网易2.9版本，只对掠夺者和卫道士有效
 
-[IsNaturallySpawned](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isnaturallyspawned)
+[IsNaturallySpawned](/接口/实体/属性)
 
 服务端
 
 获取生物是否为自然生成的
 
-[IsOutOfControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isoutofcontrol)
+[IsOutOfControl](/接口/实体/属性)
 
 服务端
 
 判断实体是否处于失控状态，截止至网易2.9版本，只对船有效
 
-[IsPregnant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#ispregnant)
+[IsPregnant](/接口/实体/属性)
 
 服务端
 
 获取生物是否怀孕，截止至网易2.9版本，只对海龟有效
 
-[IsSheared](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#issheared)
+[IsSheared](/接口/实体/属性)
 
 服务端
 
 判断实体是否被剃毛，截止至网易2.9版本，只对羊有效
 
-[IsSitting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#issitting)
+[IsSitting](/接口/实体/属性)
 
 服务端
 
 判断实体是否处于坐下状态
 
-[IsTamed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#istamed)
+[IsTamed](/接口/实体/属性)
 
 服务端
 
 判断实体是否被驯服
 
-[LockLocalPlayerRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#locklocalplayerrot)
+[LockLocalPlayerRot](/接口/实体/属性)
 
 客户端
 
 在分离摄像机时，锁定本地玩家的头部角度
 
-[PromoteToIllagerCaptain](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#promotetoillagercaptain)
+[PromoteToIllagerCaptain](/接口/实体/属性)
 
 服务端
 
 晋升实体为袭击队长，截止至网易2.9版本，只对掠夺者和卫道士有效
 
-[ResetToDefaultValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#resettodefaultvalue)
+[ResetToDefaultValue](/接口/实体/属性)
 
 服务端
 
 重置实体引擎属性到默认值
 
-[ResetToMaxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#resettomaxvalue)
+[ResetToMaxValue](/接口/实体/属性)
 
 服务端
 
 重置实体引擎属性到最大值
 
-[SetAngry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setangry)
+[SetAngry](/接口/实体/属性)
 
 服务端
 
 设置实体是否处于激怒状态
 
-[SetAsAdult](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setasadult)
+[SetAsAdult](/接口/实体/属性)
 
 服务端
 
 设置实体为成年体
 
-[SetAttrMaxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setattrmaxvalue)
+[SetAttrMaxValue](/接口/实体/属性)
 
 服务端
 
 设置实体的引擎属性的最大值
 
-[SetAttrValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setattrvalue)
+[SetAttrValue](/接口/实体/属性)
 
 服务端
 
 设置实体的引擎属性
 
-[SetChest](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setchest)
+[SetChest](/接口/实体/属性)
 
 服务端
 
 设置生物是否背负了箱子，截止至网易2.9版本，只对羊驼、驴、骡生效
 
-[SetCurrentAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setcurrentairsupply)
+[SetCurrentAirSupply](/接口/实体/属性)
 
 服务端
 
 设置生物氧气储备值
 
-[SetEntityLookAtPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setentitylookatpos)
+[SetEntityLookAtPos](/接口/实体/属性)
 
 服务端
 
 设置非玩家的实体看向某个位置
 
-[SetEntityOwner](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setentityowner)
+[SetEntityOwner](/接口/实体/属性)
 
 服务端
 
 设置实体的属主（包括可驯服生物的主人，或者掉落物的丢弃者，弹射物的发射者等）
 
-[SetFootPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setfootpos)
+[SetFootPos](/接口/实体/属性)
 
 服务端
 
 设置实体脚底所在的位置
 
-[SetGravity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setgravity)
+[SetGravity](/接口/实体/属性)
 
 服务端
 
 设置实体的重力因子，当生物重力因子为0时则应用世界的重力因子
 
-[SetMarkVariant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setmarkvariant)
+[SetMarkVariant](/接口/实体/属性)
 
 服务端
 
 设置实体的标记变种属性值
 
-[SetMaxAirSupply](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setmaxairsupply)
+[SetMaxAirSupply](/接口/实体/属性)
 
 服务端
 
 设置生物最大氧气储备值
 
-[SetMobColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setmobcolor)
+[SetMobColor](/接口/实体/属性)
 
 服务端
 
 设置生物的颜色，截止至网易2.9版本，只对羊和热带鱼有效
 
-[SetMobStrength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setmobstrength)
+[SetMobStrength](/接口/实体/属性)
 
 服务端
 
 设置生物的强度，截止至网易2.9版本，只对羊驼有效，强度越大羊驼驮运的箱子时格子数量越多
 
-[SetMobStrengthMax](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setmobstrengthmax)
+[SetMobStrengthMax](/接口/实体/属性)
 
 服务端
 
-设置生物强度的最大值，截止至网易2.9版本，只对羊驼有效，强度越大羊驼驮运的箱子时格子数量越多，[SetMobStrength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setmobstrength)无法超过SetMobStrengthMax的值。由于引擎限制，在羊驼被打时候会reload组件，strengthMax会恢复成llama.json中的配置值(minecraft:strength)
+设置生物强度的最大值，截止至网易2.9版本，只对羊驼有效，强度越大羊驼驮运的箱子时格子数量越多，[SetMobStrength](/接口/实体/属性)无法超过SetMobStrengthMax的值。由于引擎限制，在羊驼被打时候会reload组件，strengthMax会恢复成llama.json中的配置值(minecraft:strength)
 
-[SetName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setname)
+[SetName](/接口/实体/属性)
 
 服务端
 
 用于设置生物的自定义名称，跟原版命名牌作用相同，玩家和新版流浪商人暂不支持
 
-[SetOutOfControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setoutofcontrol)
+[SetOutOfControl](/接口/实体/属性)
 
 服务端
 
 设置实体是否处于失控状态，截止至网易2.9版本，只对船有效
 
-[SetPersistent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setpersistent)
+[SetPersistent](/接口/实体/属性)
 
 服务端
 
 设置实体不会因为离玩家太远而被[清除 (opens new window)](https://zh.minecraft.wiki/w/%E7%94%9F%E6%88%90#%E6%B8%85%E9%99%A4)
 
-[SetPlayerLookAtPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setplayerlookatpos)
+[SetPlayerLookAtPos](/接口/实体/属性)
 
 客户端
 
 设置本地玩家看向某个位置
 
-[SetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setpos)
+[SetPos](/接口/实体/属性)
 
 服务端
 
 设置实体位置
 
-[SetRecoverTotalAirSupplyTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setrecovertotalairsupplytime)
+[SetRecoverTotalAirSupplyTime](/接口/实体/属性)
 
 服务端
 
 设置恢复最大氧气量的时间，单位秒
 
-[SetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setrot)
+[SetRot](/接口/实体/属性)
 
 服务端
 
 设置实体头与水平方向的俯仰角度和竖直方向的旋转角度 [MC坐标系说明](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/10-Vector3.html)
 
-[SetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setrot)
+[SetRot](/接口/实体/属性)
 
 客户端
 
 设置实体头与水平方向的俯仰角度和竖直方向的旋转角度 [MC坐标系说明](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/10-Vector3.html)
 
-[SetSheared](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setsheared)
+[SetSheared](/接口/实体/属性)
 
 服务端
 
 设置实体是否被剃毛，截止至网易2.9版本，只对羊有效
 
-[SetSitting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setsitting)
+[SetSitting](/接口/实体/属性)
 
 服务端
 
 设置生物是否坐下
 
-[SetSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setsize)
+[SetSize](/接口/实体/属性)
 
 服务端
 
 设置实体的包围盒。设置过大会导致游戏卡顿。实体的scale的立方乘以包围盒的体积不可超过32768
 
-[SetTradeLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#settradelevel)
+[SetTradeLevel](/接口/实体/属性)
 
 服务端
 
 设置村民的交易等级
 
-[SetVariant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#setvariant)
+[SetVariant](/接口/实体/属性)
 
 服务端
 
 设置实体的变种属性值
 
-[isEntityInLava](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isentityinlava)
+[isEntityInLava](/接口/实体/属性)
 
 客户端
 
 实体是否在岩浆中
 
-[isEntityOnGround](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/属性.html#isentityonground)
+[isEntityOnGround](/接口/实体/属性)
 
 客户端
 
@@ -2962,391 +2962,391 @@ Apollo
 
 描述
 
-[AddActorComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addactorcomponent)
+[AddActorComponent](/接口/实体/行为)
 
 服务端
 
 给指定实体自定义添加实体Component
 
-[AddActorComponentGroup](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addactorcomponentgroup)
+[AddActorComponentGroup](/接口/实体/行为)
 
 服务端
 
 给指定实体添加实体json中配置的ComponentGroup
 
-[AddEntityAroundEntityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addentityaroundentitymotion)
+[AddEntityAroundEntityMotion](/接口/实体/行为)
 
 服务端
 
 给实体（不含玩家）添加对实体环绕运动器
 
-[AddEntityAroundPointMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addentityaroundpointmotion)
+[AddEntityAroundPointMotion](/接口/实体/行为)
 
 服务端
 
 给实体（不含玩家）添加对点环绕运动器
 
-[AddEntitySeat](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addentityseat)
+[AddEntitySeat](/接口/实体/行为)
 
 服务端
 
 增加坐骑座位
 
-[AddEntityTrackMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addentitytrackmotion)
+[AddEntityTrackMotion](/接口/实体/行为)
 
 服务端
 
 给实体（不含玩家）添加轨迹运动器
 
-[AddEntityVelocityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#addentityvelocitymotion)
+[AddEntityVelocityMotion](/接口/实体/行为)
 
 服务端
 
 给实体（不含玩家）添加速度运动器
 
-[ChangeRiderSeat](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#changeriderseat)
+[ChangeRiderSeat](/接口/实体/行为)
 
 服务端
 
 设置骑乘者在当前坐骑上的序号
 
-[DeleteEntitySeat](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#deleteentityseat)
+[DeleteEntitySeat](/接口/实体/行为)
 
 服务端
 
 删除坐骑座位
 
-[GetAttackTarget](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getattacktarget)
+[GetAttackTarget](/接口/实体/行为)
 
 服务端
 
 获取仇恨目标
 
-[GetAttackTarget](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getattacktarget)
+[GetAttackTarget](/接口/实体/行为)
 
 客户端
 
 获取仇恨目标
 
-[GetBlockControlAi](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getblockcontrolai)
+[GetBlockControlAi](/接口/实体/行为)
 
 服务端
 
 获取生物原生AI是否被屏蔽
 
-[GetComponents](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getcomponents)
+[GetComponents](/接口/实体/行为)
 
 服务端
 
 获取指定实体的生效Components
 
-[GetCustomGoalCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getcustomgoalcls)
+[GetCustomGoalCls](/接口/实体/行为)
 
 服务端
 
 用于获取服务器自定义行为节点的基类。实现新的行为节点时，需要继承该接口返回的类
 
-[GetEntityMotions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getentitymotions)
+[GetEntityMotions](/接口/实体/行为)
 
 服务端
 
 获取实体（不含玩家）身上的所有运动器
 
-[GetJumpPower](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getjumppower)
+[GetJumpPower](/接口/实体/行为)
 
 服务端
 
 获取生物跳跃力度，0.42表示正常水平
 
-[GetLeashHolder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getleashholder)
+[GetLeashHolder](/接口/实体/行为)
 
 服务端
 
 获取实体被使用拴绳牵引时牵引者的ID
 
-[GetMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getmotion)
+[GetMotion](/接口/实体/行为)
 
 服务端
 
 获取生物（含玩家）的瞬时移动方向向量
 
-[GetMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getmotion)
+[GetMotion](/接口/实体/行为)
 
 客户端
 
 获取生物的瞬时移动方向向量。与服务端不同，客户端不会计算摩擦等因素，获取到的是上一帧的向量，与服务器获取到的值会不相等
 
-[GetOwnerId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getownerid)
+[GetOwnerId](/接口/实体/行为)
 
 服务端
 
 获取驯服生物的主人id
 
-[GetOwnerId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getownerid)
+[GetOwnerId](/接口/实体/行为)
 
 客户端
 
 获取驯服生物的主人id
 
-[GetRiders](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getriders)
+[GetRiders](/接口/实体/行为)
 
 服务端
 
 获取坐骑上的骑乘者信息
 
-[GetStepHeight](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#getstepheight)
+[GetStepHeight](/接口/实体/行为)
 
 服务端
 
 返回玩家前进非跳跃状态下能上的最大台阶高度
 
-[Hurt](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#hurt)
+[Hurt](/接口/实体/行为)
 
 服务端
 
 设置实体伤害
 
-[ImmuneDamage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#immunedamage)
+[ImmuneDamage](/接口/实体/行为)
 
 服务端
 
 设置实体是否免疫伤害（该属性存档）
 
-[IsEating](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#iseating)
+[IsEating](/接口/实体/行为)
 
 服务端
 
 判断非玩家实体是否在进食
 
-[IsEntityOnFire](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#isentityonfire)
+[IsEntityOnFire](/接口/实体/行为)
 
 服务端
 
 获取实体是否着火
 
-[IsLootDropped](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#islootdropped)
+[IsLootDropped](/接口/实体/行为)
 
 服务端
 
 获取生物是否生成掉落物
 
-[IsPersistent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#ispersistent)
+[IsPersistent](/接口/实体/行为)
 
 服务端
 
 判断是否为持久性生物
 
-[IsRoaring](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#isroaring)
+[IsRoaring](/接口/实体/行为)
 
 服务端
 
 判断是否处于咆哮状态，截止至网易2.9版本，仅对劫掠兽有效
 
-[IsStunned](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#isstunned)
+[IsStunned](/接口/实体/行为)
 
 服务端
 
 判断是否处于眩晕状态，截止至网易2.9版本，仅对劫掠兽有效
 
-[RemoveActorComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#removeactorcomponent)
+[RemoveActorComponent](/接口/实体/行为)
 
 服务端
 
 删除指定实体的指定Component
 
-[RemoveActorComponentGroup](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#removeactorcomponentgroup)
+[RemoveActorComponentGroup](/接口/实体/行为)
 
 服务端
 
 移除指定实体在实体json中配置的ComponentGroup
 
-[RemoveEntityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#removeentitymotion)
+[RemoveEntityMotion](/接口/实体/行为)
 
 服务端
 
 移除实体（不含玩家）身上的运动器
 
-[ResetAttackTarget](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#resetattacktarget)
+[ResetAttackTarget](/接口/实体/行为)
 
 服务端
 
 清除仇恨目标
 
-[ResetMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#resetmotion)
+[ResetMotion](/接口/实体/行为)
 
 服务端
 
 重置生物（不含玩家）的瞬时移动方向向量
 
-[ResetStepHeight](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#resetstepheight)
+[ResetStepHeight](/接口/实体/行为)
 
 服务端
 
 恢复引擎默认玩家前进非跳跃状态下能上的最大台阶高度
 
-[SetActorCollidable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setactorcollidable)
+[SetActorCollidable](/接口/实体/行为)
 
 服务端
 
 设置实体是否可碰撞
 
-[SetActorPushable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setactorpushable)
+[SetActorPushable](/接口/实体/行为)
 
 服务端
 
 设置实体是否可推动
 
-[SetAttackTarget](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setattacktarget)
+[SetAttackTarget](/接口/实体/行为)
 
 服务端
 
 设置仇恨目标
 
-[SetBlockControlAi](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setblockcontrolai)
+[SetBlockControlAi](/接口/实体/行为)
 
 服务端
 
 设置屏蔽生物原生AI
 
-[SetCanOtherPlayerRide](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setcanotherplayerride)
+[SetCanOtherPlayerRide](/接口/实体/行为)
 
 服务端
 
 设置其他玩家是否有权限骑乘，True表示每个玩家都能骑乘，False只有驯服者才能骑乘
 
-[SetControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setcontrol)
+[SetControl](/接口/实体/行为)
 
 服务端
 
 设置该生物无需装备鞍就可以控制行走跳跃
 
-[SetEntityInteractFilter](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentityinteractfilter)
+[SetEntityInteractFilter](/接口/实体/行为)
 
 服务端
 
 设置与生物可交互的条件
 
-[SetEntityLockRider](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentitylockrider)
+[SetEntityLockRider](/接口/实体/行为)
 
 服务端
 
 设置坐骑上的实体是否锁定序号
 
-[SetEntityOnFire](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentityonfire)
+[SetEntityOnFire](/接口/实体/行为)
 
 服务端
 
 设置实体着火
 
-[SetEntityRide](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentityride)
+[SetEntityRide](/接口/实体/行为)
 
 服务端
 
 驯服可骑乘生物
 
-[SetEntitySeat](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentityseat)
+[SetEntitySeat](/接口/实体/行为)
 
 服务端
 
 设置坐骑座位的位置、旋转以及允许实体旋转范围
 
-[SetEntityShareablesItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentityshareablesitems)
+[SetEntityShareablesItems](/接口/实体/行为)
 
 服务端
 
 设置生物可分享/可拾取的物品列表
 
-[SetEntityTamed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setentitytamed)
+[SetEntityTamed](/接口/实体/行为)
 
 服务端
 
 设置生物驯服，需要配合 entityEvent组件使用。该类驯服不包含骑乘功能。
 
-[SetJumpPower](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setjumppower)
+[SetJumpPower](/接口/实体/行为)
 
 服务端
 
 设置生物跳跃力度，0.42表示正常水平
 
-[SetLeashHolder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setleashholder)
+[SetLeashHolder](/接口/实体/行为)
 
 服务端
 
 为实体添加牵引者，与原版拴绳的作用相同，详见[基岩版栓绳介绍](https://zh.minecraft.wiki/w/%E6%8B%B4%E7%BB%B3)
 
-[SetLootDropped](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setlootdropped)
+[SetLootDropped](/接口/实体/行为)
 
 服务端
 
 设置生物是否生成掉落物
 
-[SetMobKnockback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setmobknockback)
+[SetMobKnockback](/接口/实体/行为)
 
 服务端
 
 设置击退的初始速度，需要考虑阻力的影响
 
-[SetMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setmotion)
+[SetMotion](/接口/实体/行为)
 
 服务端
 
 设置生物（不含玩家）的瞬时移动方向向量
 
-[SetMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setmotion)
+[SetMotion](/接口/实体/行为)
 
 客户端
 
 设置瞬时的移动方向向量，用于本地玩家
 
-[SetMoveSetting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setmovesetting)
+[SetMoveSetting](/接口/实体/行为)
 
 服务端
 
 寻路组件
 
-[SetPersistence](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setpersistence)
+[SetPersistence](/接口/实体/行为)
 
 服务端
 
 设置实体是否持久化。
 
-[SetRidePos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setridepos)
+[SetRidePos](/接口/实体/行为)
 
 服务端
 
 设置生物骑乘位置
 
-[SetRiderRideEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setriderrideentity)
+[SetRiderRideEntity](/接口/实体/行为)
 
 服务端
 
 设置实体骑乘生物（或者船与矿车）
 
-[SetStepHeight](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#setstepheight)
+[SetStepHeight](/接口/实体/行为)
 
 服务端
 
 设置玩家前进非跳跃状态下能上的最大台阶高度, 默认值为0.5625，1的话表示能上一个台阶
 
-[StartEntityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#startentitymotion)
+[StartEntityMotion](/接口/实体/行为)
 
 服务端
 
 启动实体（不含玩家）身上的某个运动器
 
-[StopEntityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#stopentitymotion)
+[StopEntityMotion](/接口/实体/行为)
 
 服务端
 
 停止实体（不含玩家）身上的某个运动器
 
-[StopEntityRiding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#stopentityriding)
+[StopEntityRiding](/接口/实体/行为)
 
 服务端
 
 强制骑乘者下坐骑。
 
-[TriggerCustomEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/行为.html#triggercustomevent)
+[TriggerCustomEvent](/接口/实体/行为)
 
 服务端
 
@@ -3358,43 +3358,43 @@ Apollo
 
 描述
 
-[AddEffectToEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#addeffecttoentity)
+[AddEffectToEntity](/接口/实体/状态效果)
 
 服务端
 
 为实体添加指定状态效果，如果添加的状态已存在则有以下集中情况：1、等级大于已存在则更新状态等级及持续时间；2、状态等级相等且剩余时间duration大于已存在则刷新剩余时间；3、等级小于已存在则不做修改；4、粒子效果以新的为准
 
-[GetAllEffects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#getalleffects)
+[GetAllEffects](/接口/实体/状态效果)
 
 服务端
 
 获取实体当前所有状态效果
 
-[GetAllEffects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#getalleffects)
+[GetAllEffects](/接口/实体/状态效果)
 
 客户端
 
 获取实体当前所有状态效果
 
-[GetLoadEffects](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#getloadeffects)
+[GetLoadEffects](/接口/实体/状态效果)
 
 服务端
 
 获取所有已加载的状态效果
 
-[HasEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#haseffect)
+[HasEffect](/接口/实体/状态效果)
 
 服务端
 
 获取实体是否存在当前状态效果
 
-[HasEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#haseffect)
+[HasEffect](/接口/实体/状态效果)
 
 客户端
 
 获取实体是否存在当前状态效果
 
-[RemoveEffectFromEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/状态效果.html#removeeffectfromentity)
+[RemoveEffectFromEntity](/接口/实体/状态效果)
 
 服务端
 
@@ -3406,373 +3406,373 @@ Apollo
 
 描述
 
-[AddActorAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactoranimation)
+[AddActorAnimation](/接口/实体/渲染)
 
 客户端
 
 增加生物渲染动画
 
-[AddActorAnimationController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactoranimationcontroller)
+[AddActorAnimationController](/接口/实体/渲染)
 
 客户端
 
 增加生物渲染动画控制器
 
-[AddActorBlockGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorblockgeometry)
+[AddActorBlockGeometry](/接口/实体/渲染)
 
 客户端
 
 为实体添加方块几何体模型。
 
-[AddActorGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorgeometry)
+[AddActorGeometry](/接口/实体/渲染)
 
 客户端
 
 增加生物渲染几何体
 
-[AddActorParticleEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorparticleeffect)
+[AddActorParticleEffect](/接口/实体/渲染)
 
 客户端
 
 增加生物特效资源
 
-[AddActorRenderController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorrendercontroller)
+[AddActorRenderController](/接口/实体/渲染)
 
 客户端
 
 增加生物[渲染控制器](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_7-自定义渲染控制器)
 
-[AddActorRenderControllerArray](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorrendercontrollerarray)
+[AddActorRenderControllerArray](/接口/实体/渲染)
 
 客户端
 
 增加生物渲染控制器列表中字典arrays元素
 
-[AddActorRenderMaterial](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorrendermaterial)
+[AddActorRenderMaterial](/接口/实体/渲染)
 
 客户端
 
 增加生物渲染需要的[材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_3-自定义材质)
 
-[AddActorScriptAnimate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorscriptanimate)
+[AddActorScriptAnimate](/接口/实体/渲染)
 
 客户端
 
 在生物的客户端实体定义（minecraft:client\_entity）json中的scripts/animate节点添加动画/动画控制器
 
-[AddActorSoundEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactorsoundeffect)
+[AddActorSoundEffect](/接口/实体/渲染)
 
 客户端
 
 增加生物音效资源
 
-[AddActorTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addactortexture)
+[AddActorTexture](/接口/实体/渲染)
 
 客户端
 
 增加生物渲染贴图
 
-[AddAnimationControllerToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addanimationcontrollertooneactor)
+[AddAnimationControllerToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物渲染动画控制器
 
-[AddAnimationToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addanimationtooneactor)
+[AddAnimationToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物渲染动画
 
-[AddGeometryToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addgeometrytooneactor)
+[AddGeometryToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物渲染几何体
 
-[AddParticleEffectToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addparticleeffecttooneactor)
+[AddParticleEffectToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加生物特效资源
 
-[AddRenderControllerToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addrendercontrollertooneactor)
+[AddRenderControllerToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物[的渲染控制器](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_7-自定义渲染控制器)
 
-[AddRenderMaterialToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addrendermaterialtooneactor)
+[AddRenderMaterialToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物渲染需要的[材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_3-自定义材质)
 
-[AddScriptAnimateToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addscriptanimatetooneactor)
+[AddScriptAnimateToOneActor](/接口/实体/渲染)
 
 客户端
 
 在单个生物的客户端实体定义（minecraft:client\_entity）json中的scripts/animate节点添加动画/动画控制器
 
-[AddSoundEffectToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addsoundeffecttooneactor)
+[AddSoundEffectToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物的音效资源
 
-[AddTextureToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#addtexturetooneactor)
+[AddTextureToOneActor](/接口/实体/渲染)
 
 客户端
 
 增加单个生物的渲染贴图
 
-[BindEntityToEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#bindentitytoentity)
+[BindEntityToEntity](/接口/实体/渲染)
 
 客户端
 
 绑定骨骼模型跟随其他entity,如果当前entity是本地玩家，摄像机也跟随其他entity
 
-[ClearActorBlockGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#clearactorblockgeometry)
+[ClearActorBlockGeometry](/接口/实体/渲染)
 
 客户端
 
 删除实体中所有的方块几何体模型。
 
-[CopyActorGeometryFromPlayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#copyactorgeometryfromplayer)
+[CopyActorGeometryFromPlayer](/接口/实体/渲染)
 
 客户端
 
 将渲染几何体从某个玩家拷贝到某类生物identifier上
 
-[CopyActorRenderMaterialFromPlayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#copyactorrendermaterialfromplayer)
+[CopyActorRenderMaterialFromPlayer](/接口/实体/渲染)
 
 客户端
 
 将渲染[材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_3-自定义材质)从某个玩家拷贝到某类生物identifier上
 
-[CopyActorTextureFromPlayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#copyactortexturefromplayer)
+[CopyActorTextureFromPlayer](/接口/实体/渲染)
 
 客户端
 
 将贴图从某个玩家拷贝到某类生物identifier上
 
-[CopyPlayerGeometryToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#copyplayergeometrytooneactor)
+[CopyPlayerGeometryToOneActor](/接口/实体/渲染)
 
 客户端
 
 将渲染几何体从某个玩家拷贝到某个生物上
 
-[CopyPlayerRenderMaterialToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#copyplayerrendermaterialtooneactor)
+[CopyPlayerRenderMaterialToOneActor](/接口/实体/渲染)
 
 客户端
 
 将渲染[材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_3-自定义材质)从某个玩家拷贝到某个生物上
 
-[CopyPlayerTextureToOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#copyplayertexturetooneactor)
+[CopyPlayerTextureToOneActor](/接口/实体/渲染)
 
 客户端
 
 将贴图从某个玩家拷贝到某个生物上
 
-[DeleteActorBlockGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#deleteactorblockgeometry)
+[DeleteActorBlockGeometry](/接口/实体/渲染)
 
 客户端
 
 删除实体中指定方块几何体模型。
 
-[GetActorRenderParams](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#getactorrenderparams)
+[GetActorRenderParams](/接口/实体/渲染)
 
 客户端
 
 获取实体（包括玩家）渲染参数
 
-[GetEntityExtraUniforms](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#getentityextrauniforms)
+[GetEntityExtraUniforms](/接口/实体/渲染)
 
 客户端
 
 获取在实体shader当中使用的自定义变量的值。该自定义变量包含EXTRA\_ACTOR\_UNIFORM1,EXTRA\_ACTOR\_UNIFORM2,EXTRA\_ACTOR\_UNIFORM3,EXTRA\_ACTOR\_UNIFORM4，总共4组，每组为一个vec4(float, float, float ,float)类型的向量。
 
-[GetEntityRenderDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#getentityrenderdistance)
+[GetEntityRenderDistance](/接口/实体/渲染)
 
 客户端
 
 获取玩家的实体可渲染距离。玩家周围的实体指这个区块内的实体，也包含玩家自身。实体的渲染距离指，实体的位置到玩家相机位置的距离。可渲染距离指，如果实体的渲染距离在可渲染距离之内，则实体会被渲染出来，如果在距离以外，则实体不会被渲染出来。仅对本地玩家有效。
 
-[GetEntityUIExtraUniforms](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#getentityuiextrauniforms)
+[GetEntityUIExtraUniforms](/接口/实体/渲染)
 
 客户端
 
 获取在实体shader当中使用的UI自定义变量的值，该变量可在微软UI纸娃娃（paperdoll）及网易版纸娃娃（neteasepaperdoll)上使用identifier渲染某一类生物实体时使用。该自定义变量包含EXTRA\_ACTOR\_UNIFORM1,EXTRA\_ACTOR\_UNIFORM2,EXTRA\_ACTOR\_UNIFORM3,EXTRA\_ACTOR\_UNIFORM4，总共4组，每组为一个vec4(float, float, float ,float)类型的向量。
 
-[GetNotRenderAtAll](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#getnotrenderatall)
+[GetNotRenderAtAll](/接口/实体/渲染)
 
 客户端
 
 获取实体是否不渲染
 
-[IsShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#isshowname)
+[IsShowName](/接口/实体/渲染)
 
 客户端
 
 获取生物名字是否按照默认游戏逻辑显示（包括玩家）
 
-[RebuildActorRender](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#rebuildactorrender)
+[RebuildActorRender](/接口/实体/渲染)
 
 客户端
 
 重建生物的数据渲染器（该接口不支持玩家，玩家请使用RebuildPlayerRender）
 
-[RebuildRenderForOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#rebuildrenderforoneactor)
+[RebuildRenderForOneActor](/接口/实体/渲染)
 
 客户端
 
 使用完entity类渲染接口后，重建单个生物渲染控制器（该接口不支持玩家，玩家请使用RebuildPlayerRender）
 
-[RemoveActorAnimationController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removeactoranimationcontroller)
+[RemoveActorAnimationController](/接口/实体/渲染)
 
 客户端
 
 移除生物渲染动画控制器
 
-[RemoveActorGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removeactorgeometry)
+[RemoveActorGeometry](/接口/实体/渲染)
 
 客户端
 
 删除生物渲染几何体
 
-[RemoveActorRenderController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removeactorrendercontroller)
+[RemoveActorRenderController](/接口/实体/渲染)
 
 客户端
 
 删除生物[渲染控制器](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_7-自定义渲染控制器)
 
-[RemoveActorTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removeactortexture)
+[RemoveActorTexture](/接口/实体/渲染)
 
 客户端
 
 删除生物渲染贴图
 
-[RemoveAnimationControllerForOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removeanimationcontrollerforoneactor)
+[RemoveAnimationControllerForOneActor](/接口/实体/渲染)
 
 客户端
 
 移除单个生物渲染动画控制器
 
-[RemoveGeometryForOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removegeometryforoneactor)
+[RemoveGeometryForOneActor](/接口/实体/渲染)
 
 客户端
 
 删除单个生物的渲染几何体
 
-[RemoveRenderControllerForOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removerendercontrollerforoneactor)
+[RemoveRenderControllerForOneActor](/接口/实体/渲染)
 
 客户端
 
 删除单个生物[的渲染控制器](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_7-自定义渲染控制器)
 
-[RemoveTextureForOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#removetextureforoneactor)
+[RemoveTextureForOneActor](/接口/实体/渲染)
 
 客户端
 
 删除单个生物的渲染贴图
 
-[ResetActorRender](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#resetactorrender)
+[ResetActorRender](/接口/实体/渲染)
 
 客户端
 
 重置实体渲染接口，包括动画、动画控制器、渲染控制器、贴图、材质、特效资源、音效资源等。
 
-[ResetBindEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#resetbindentity)
+[ResetBindEntity](/接口/实体/渲染)
 
 客户端
 
 取消目标entity的绑定实体，取消后不再跟随任何其他entity
 
-[ResetRenderForOneActor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#resetrenderforoneactor)
+[ResetRenderForOneActor](/接口/实体/渲染)
 
 客户端
 
 将调用OneActor类渲染接口(CopyPlayerTextureToOneActor、CopyPlayerRenderMaterialToOneActor等)的生物重置回种群
 
-[SetActorAllBlockGeometryVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setactorallblockgeometryvisible)
+[SetActorAllBlockGeometryVisible](/接口/实体/渲染)
 
 客户端
 
 设置实体中所有的方块几何体模型是否显示。
 
-[SetActorBlockGeometryVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setactorblockgeometryvisible)
+[SetActorBlockGeometryVisible](/接口/实体/渲染)
 
 客户端
 
 设置实体中指定的方块几何体模型是否显示。
 
-[SetAlwaysShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setalwaysshowname)
+[SetAlwaysShowName](/接口/实体/渲染)
 
 客户端
 
 设置生物名字是否一直显示，瞄准点不指向生物时也能显示
 
-[SetColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setcolor)
+[SetColor](/接口/实体/渲染)
 
 客户端
 
 设置血条的颜色及背景色
 
-[SetEntityExtraUniforms](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setentityextrauniforms)
+[SetEntityExtraUniforms](/接口/实体/渲染)
 
 客户端
 
 设置可在实体shader当中使用的自定义变量的值。该自定义变量总共可设置EXTRA\_ACTOR\_UNIFORM1,EXTRA\_ACTOR\_UNIFORM2,EXTRA\_ACTOR\_UNIFORM3,EXTRA\_ACTOR\_UNIFORM4，总共4组，每组为一个vec4(float, float, float ,float)类型的向量，向量的默认值为(1.0,1.0,1.0,1.0)。
 
-[SetEntityRenderDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setentityrenderdistance)
+[SetEntityRenderDistance](/接口/实体/渲染)
 
 客户端
 
 设置玩家周围的实体的可渲染距离。玩家周围的实体指这个区块内的实体，也包含玩家自身。实体的渲染距离指，实体的位置到玩家相机位置的距离。可渲染距离指，如果实体的渲染距离在可渲染距离之内，则实体会被渲染出来，如果在距离以外，则实体不会被渲染出来。仅对本地玩家有效。
 
-[SetEntityUIExtraUniforms](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setentityuiextrauniforms)
+[SetEntityUIExtraUniforms](/接口/实体/渲染)
 
 客户端
 
 设置可在实体shader当中使用的UI自定义变量的值，可在微软UI纸娃娃（paperdoll）及网易版纸娃娃（neteasepaperdoll)上使用identifier渲染某一类生物实体时使用。该自定义变量总共可设置EXTRA\_ACTOR\_UNIFORM1,EXTRA\_ACTOR\_UNIFORM2,EXTRA\_ACTOR\_UNIFORM3,EXTRA\_ACTOR\_UNIFORM4，总共4组，每组为一个vec4(float, float, float ,float)类型的向量，向量的默认值为(1.0,1.0,1.0,1.0)。
 
-[SetHealthBarDeviation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#sethealthbardeviation)
+[SetHealthBarDeviation](/接口/实体/渲染)
 
 客户端
 
 设置某个entity血条的相对高度
 
-[SetNameDeeptest](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setnamedeeptest)
+[SetNameDeeptest](/接口/实体/渲染)
 
 客户端
 
 设置名字是否透视
 
-[SetNotRenderAtAll](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setnotrenderatall)
+[SetNotRenderAtAll](/接口/实体/渲染)
 
 客户端
 
 设置是否关闭实体渲染
 
-[SetRenderLocalPlayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setrenderlocalplayer)
+[SetRenderLocalPlayer](/接口/实体/渲染)
 
 客户端
 
 设置本地玩家是否渲染
 
-[SetShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#setshowname)
+[SetShowName](/接口/实体/渲染)
 
 客户端
 
 设置生物名字是否按照默认游戏逻辑显示（包括玩家）
 
-[ShowHealth](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#showhealth)
+[ShowHealth](/接口/实体/渲染)
 
 客户端
 
 设置某个entity是否显示血条，默认为显示
 
-[ShowHealthBar](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/渲染.html#showhealthbar)
+[ShowHealthBar](/接口/实体/渲染)
 
 客户端
 
@@ -3784,25 +3784,25 @@ Apollo
 
 描述
 
-[GetEntityItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/背包.html#getentityitem)
+[GetEntityItem](/接口/实体/背包)
 
 服务端
 
 获取生物物品，支持获取背包，盔甲栏，副手以及主手物品
 
-[GetEquItemEnchant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/背包.html#getequitemenchant)
+[GetEquItemEnchant](/接口/实体/背包)
 
 服务端
 
 获取装备槽位中盔甲的附魔
 
-[GetEquItemModEnchant](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/背包.html#getequitemmodenchant)
+[GetEquItemModEnchant](/接口/实体/背包)
 
 服务端
 
 获取装备槽位中盔甲的自定义附魔
 
-[SetEntityItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/背包.html#setentityitem)
+[SetEntityItem](/接口/实体/背包)
 
 服务端
 
@@ -3814,43 +3814,43 @@ Apollo
 
 描述
 
-[GetAttr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#getattr)
+[GetAttr](/接口/实体/自定义属性)
 
 服务端
 
 获取SetAttr设置的属性值
 
-[GetAttr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#getattr)
+[GetAttr](/接口/实体/自定义属性)
 
 客户端
 
 获取SetAttr设置的属性值
 
-[RegisterUpdateFunc](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#registerupdatefunc)
+[RegisterUpdateFunc](/接口/实体/自定义属性)
 
 客户端
 
 注册属性值变换时的回调函数，当属性变化时会调用该函数
 
-[SaveAttr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#saveattr)
+[SaveAttr](/接口/实体/自定义属性)
 
 服务端
 
 保存SetAttr设置的属性值
 
-[SetAttr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#setattr)
+[SetAttr](/接口/实体/自定义属性)
 
 服务端
 
 设置属性值。服务端设置后会自动同步到客户端，可以用客户端的GetAttr获取。默认不会存档，需要存档的话可以设置needRestore=True。
 
-[SetAttr](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#setattr)
+[SetAttr](/接口/实体/自定义属性)
 
 客户端
 
 设置客户端属性值
 
-[UnRegisterUpdateFunc](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义属性.html#unregisterupdatefunc)
+[UnRegisterUpdateFunc](/接口/实体/自定义属性)
 
 客户端
 
@@ -3862,31 +3862,31 @@ Apollo
 
 描述
 
-[CleanExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义数据.html#cleanextradata)
+[CleanExtraData](/接口/实体/自定义数据)
 
 服务端
 
 清除实体的自定义数据或者世界的自定义数据，清除实体数据时使用对应实体id创建组件，清除世界数据时使用levelId创建组件
 
-[GetExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义数据.html#getextradata)
+[GetExtraData](/接口/实体/自定义数据)
 
 服务端
 
 获取实体的自定义数据或者世界的自定义数据，某个键所对应的值。获取实体数据时使用对应实体id创建组件，获取世界数据时使用levelId创建组件
 
-[GetWholeExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义数据.html#getwholeextradata)
+[GetWholeExtraData](/接口/实体/自定义数据)
 
 服务端
 
 获取完整的实体的自定义数据或者世界的自定义数据，获取实体数据时使用对应实体id创建组件，获取世界数据时使用levelId创建组件
 
-[SaveExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义数据.html#saveextradata)
+[SaveExtraData](/接口/实体/自定义数据)
 
 服务端
 
 用于保存实体的自定义数据或者世界的自定义数据
 
-[SetExtraData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/自定义数据.html#setextradata)
+[SetExtraData](/接口/实体/自定义数据)
 
 服务端
 
@@ -3898,61 +3898,61 @@ Apollo
 
 描述
 
-[EvalMolangExpression](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#evalmolangexpression)
+[EvalMolangExpression](/接口/实体/molang)
 
 服务端
 
 在实体上下文上执行molang表达式
 
-[EvalMolangExpression](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#evalmolangexpression)
+[EvalMolangExpression](/接口/实体/molang)
 
 客户端
 
 在实体上下文上执行molang表达式
 
-[Get](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#get)
+[Get](/接口/实体/molang)
 
 客户端
 
 获取某一个实体计算节点的值，如果不存在返回注册时的默认值
 
-[GetAllProperties](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#getallproperties)
+[GetAllProperties](/接口/实体/molang)
 
 服务端
 
 获取实体属性列表
 
-[GetMolangValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#getmolangvalue)
+[GetMolangValue](/接口/实体/molang)
 
 客户端
 
 获取实体molang变量的值
 
-[GetStringHash64](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#getstringhash64)
+[GetStringHash64](/接口/实体/molang)
 
 客户端
 
 返回字符串变量的hash64
 
-[Register](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#register)
+[Register](/接口/实体/molang)
 
 客户端
 
 注册实体计算节点
 
-[Set](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#set)
+[Set](/接口/实体/molang)
 
 客户端
 
 设置某一个实体计算节点的值
 
-[SetPropertyValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#setpropertyvalue)
+[SetPropertyValue](/接口/实体/molang)
 
 服务端
 
 设置实体属性的值
 
-[UnRegister](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/molang.html#unregister)
+[UnRegister](/接口/实体/molang)
 
 客户端
 
@@ -3964,25 +3964,25 @@ Apollo
 
 描述
 
-[AddEntityTag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/标签.html#addentitytag)
+[AddEntityTag](/接口/实体/标签)
 
 服务端
 
 增加实体标签
 
-[EntityHasTag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/标签.html#entityhastag)
+[EntityHasTag](/接口/实体/标签)
 
 服务端
 
 判断实体是否存在某个指定的标签
 
-[GetEntityTags](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/标签.html#getentitytags)
+[GetEntityTags](/接口/实体/标签)
 
 服务端
 
 获取实体标签列表
 
-[RemoveEntityTag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/标签.html#removeentitytag)
+[RemoveEntityTag](/接口/实体/标签)
 
 服务端
 
@@ -3994,7 +3994,7 @@ Apollo
 
 描述
 
-[GetSourceEntityId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/抛射物.html#getsourceentityid)
+[GetSourceEntityId](/接口/实体/抛射物)
 
 服务端
 
@@ -4006,13 +4006,13 @@ Apollo
 
 描述
 
-[GetOrbExperience](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/经验球.html#getorbexperience)
+[GetOrbExperience](/接口/实体/经验球)
 
 服务端
 
 获取经验球的经验
 
-[SetOrbExperience](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/经验球.html#setorbexperience)
+[SetOrbExperience](/接口/实体/经验球)
 
 服务端
 
@@ -4024,13 +4024,13 @@ Apollo
 
 描述
 
-[Disable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方伙伴.html#disable)
+[Disable](/接口/实体/官方伙伴)
 
 服务端
 
 关闭官方伙伴功能，单人游戏以及本地联机不支持该接口
 
-[Enable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方伙伴.html#enable)
+[Enable](/接口/实体/官方伙伴)
 
 服务端
 
@@ -4042,43 +4042,43 @@ Apollo
 
 描述
 
-[AddCommonPhrases](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#addcommonphrases)
+[AddCommonPhrases](/接口/实体/官方聊天扩展)
 
 服务端
 
 为官方聊天扩展功能添加常用短语。单人模式下单个模组最多添加12条，联机大厅和网络服无条数限制。
 
-[Disable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#disable)
+[Disable](/接口/实体/官方聊天扩展)
 
 服务端
 
 关闭官方聊天扩展功能。需要在ClientLoadAddonsFinishServerEvent事件中调用。仅在联机大厅和网络服中生效。
 
-[Enable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#enable)
+[Enable](/接口/实体/官方聊天扩展)
 
 服务端
 
 启用官方聊天扩展功能。需要在ClientLoadAddonsFinishServerEvent事件中调用。仅在联机大厅和网络服中生效。
 
-[RegisterChatPrefix](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#registerchatprefix)
+[RegisterChatPrefix](/接口/实体/官方聊天扩展)
 
 服务端
 
 为游戏内指定玩家注册聊天前缀。仅在主界面消息框和聊天界面游戏频道生效。建议在AddServerPlayerEvent事件中调用，为新玩家添加前缀。
 
-[RemoveCommonPhrases](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#removecommonphrases)
+[RemoveCommonPhrases](/接口/实体/官方聊天扩展)
 
 服务端
 
 为官方聊天扩展功能移除常用短语。
 
-[SetShowOfficialPhrases](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#setshowofficialphrases)
+[SetShowOfficialPhrases](/接口/实体/官方聊天扩展)
 
 服务端
 
 设置是否显示官方的常用聊天短语。仅在联机大厅和网络服中生效。
 
-[SetShowSocialNearbyInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/官方聊天扩展.html#setshowsocialnearbyinfo)
+[SetShowSocialNearbyInfo](/接口/实体/官方聊天扩展)
 
 服务端
 
@@ -4090,13 +4090,13 @@ Apollo
 
 描述
 
-[Disable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/魔法指令.html#disable)
+[Disable](/接口/实体/魔法指令)
 
 服务端
 
 关闭官方魔法指令功能。需要在ClientLoadAddonsFinishServerEvent事件中调用。仅在联机大厅中生效。
 
-[Enable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/实体/魔法指令.html#enable)
+[Enable](/接口/实体/魔法指令)
 
 服务端
 
@@ -4108,73 +4108,73 @@ Apollo
 
 描述
 
-[AddPlayerExperience](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#addplayerexperience)
+[AddPlayerExperience](/接口/玩家/属性)
 
 服务端
 
 增加玩家经验值
 
-[AddPlayerLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#addplayerlevel)
+[AddPlayerLevel](/接口/玩家/属性)
 
 服务端
 
 修改玩家等级
 
-[CollectOnlineClientData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#collectonlineclientdata)
+[CollectOnlineClientData](/接口/玩家/属性)
 
 服务端
 
 收集在线玩家客户端数据，用于判断玩家是否作弊
 
-[GetArmorValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getarmorvalue)
+[GetArmorValue](/接口/玩家/属性)
 
 客户端
 
 获取玩家护甲值
 
-[GetEnchantmentSeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getenchantmentseed)
+[GetEnchantmentSeed](/接口/玩家/属性)
 
 服务端
 
 获取玩家的附魔种子，该种子会决定附魔台上准备附魔的装备的附魔项
 
-[GetPlayerCurLevelExp](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayercurlevelexp)
+[GetPlayerCurLevelExp](/接口/玩家/属性)
 
 客户端
 
 获取玩家当前等级需要的经验值
 
-[GetPlayerCurrentExhaustionValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayercurrentexhaustionvalue)
+[GetPlayerCurrentExhaustionValue](/接口/玩家/属性)
 
 服务端
 
 获取玩家foodExhaustionLevel的当前消耗度。详见[消耗度介绍](https://zh.minecraft.wiki/w/%E9%A5%A5%E9%A5%BF#%E6%9C%BA%E5%88%B6)
 
-[GetPlayerExp](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerexp)
+[GetPlayerExp](/接口/玩家/属性)
 
 服务端
 
 获取玩家当前等级下的经验值
 
-[GetPlayerExp](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerexp)
+[GetPlayerExp](/接口/玩家/属性)
 
 客户端
 
 获取玩家当前等级下的经验值
 
-[GetPlayerHealthLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerhealthlevel)
+[GetPlayerHealthLevel](/接口/玩家/属性)
 
 服务端
 
 获取玩家健康临界值，当饥饿值大于等于健康临界值时会自动恢复血量，开启饥饿值且开启自然恢复时有效。原版默认值为18
 
-[GetPlayerHealthTick](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerhealthtick)
+[GetPlayerHealthTick](/接口/玩家/属性)
 
 服务端
 
 获取玩家自然恢复速度，当饥饿值大于等于健康临界值时会自动恢复血量，开启饥饿值且开启自然恢复时有效。原版默认值为80刻（即每4秒）恢复1点血量
 
-[GetPlayerHunger](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerhunger)
+[GetPlayerHunger](/接口/玩家/属性)
 
 服务端
 
@@ -4182,7 +4182,7 @@ Apollo
 1）增加方法：吃食物。  
 2）减少方法：每触发一次**消耗事件**，该值减少1，如果该值不大于0，直接把玩家 **饥饿度(hunger)** 减少1。
 
-[GetPlayerHunger](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerhunger)
+[GetPlayerHunger](/接口/玩家/属性)
 
 客户端
 
@@ -4190,157 +4190,157 @@ Apollo
 1）增加方法：吃食物。  
 2）减少方法：每触发一次**消耗事件**，该值减少1，如果该值不大于0，直接把玩家 **饥饿度(hunger)** 减少1。
 
-[GetPlayerLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerlevel)
+[GetPlayerLevel](/接口/玩家/属性)
 
 服务端
 
 获取玩家等级
 
-[GetPlayerMaxExhaustionValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayermaxexhaustionvalue)
+[GetPlayerMaxExhaustionValue](/接口/玩家/属性)
 
 服务端
 
 获取玩家foodExhaustionLevel的归零值，常量值，默认为4。**消耗度（exhaustion）**是指玩家当前消耗度水平，初始值为0，该值会随着玩家一系列动作（如跳跃）的影响而增加，当该值大于最大消耗度（maxExhaustion）后归零，并且把饱和度（saturation）减少1（为了说明饥饿度机制，我们将此定义为**消耗事件**）
 
-[GetPlayerStarveLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerstarvelevel)
+[GetPlayerStarveLevel](/接口/玩家/属性)
 
 服务端
 
 获取玩家饥饿临界值，当饥饿值小于饥饿临界值时会自动扣除血量，开启饥饿值且开启饥饿掉血时有效。原版默认值为1
 
-[GetPlayerStarveTick](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayerstarvetick)
+[GetPlayerStarveTick](/接口/玩家/属性)
 
 服务端
 
 获取玩家饥饿掉血速度，当饥饿值小于饥饿临界值时会自动扣除血量，开启饥饿值且开启饥饿掉血时有效。原版默认值为80刻（即每4秒）扣除1点血量
 
-[GetPlayerTotalExp](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayertotalexp)
+[GetPlayerTotalExp](/接口/玩家/属性)
 
 服务端
 
 获取玩家的总经验值
 
-[GetPlayerTotalExp](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getplayertotalexp)
+[GetPlayerTotalExp](/接口/玩家/属性)
 
 客户端
 
 获取玩家的总经验值
 
-[IsHighLevelMultiJointOfficialSkin](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#ishighlevelmultijointofficialskin)
+[IsHighLevelMultiJointOfficialSkin](/接口/玩家/属性)
 
 客户端
 
 获取玩家穿戴的皮肤是否为史诗及以上的多关节官方4d皮肤 在接收到 UpdatePlayerSkinClientEvent 事件后调用 此事件在客户端接收到玩家皮肤信息同步后触发 参数仅playerId
 
-[IsHighLevelOfficialSkin](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#ishighlevelofficialskin)
+[IsHighLevelOfficialSkin](/接口/玩家/属性)
 
 客户端
 
 获取玩家穿戴的皮肤是否为史诗及以上的官方4d皮肤 在接收到 UpdatePlayerSkinClientEvent 事件后调用 此事件在客户端接收到玩家皮肤信息同步后触发 参数仅playerId
 
-[IsMultiJointOfficialSkin](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#ismultijointofficialskin)
+[IsMultiJointOfficialSkin](/接口/玩家/属性)
 
 客户端
 
 获取玩家穿戴的皮肤是否为多关节官方4d皮肤 在接收到 UpdatePlayerSkinClientEvent 事件后调用 此事件在客户端接收到玩家皮肤信息同步后触发 参数仅playerId
 
-[IsOfficialSkin](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#isofficialskin)
+[IsOfficialSkin](/接口/玩家/属性)
 
 客户端
 
 获取玩家穿戴的皮肤是否为官方4d皮肤 在接收到 UpdatePlayerSkinClientEvent 事件后调用 此事件在客户端接收到玩家皮肤信息同步后触发 参数仅playerId
 
-[IsPlayerNaturalRegen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#isplayernaturalregen)
+[IsPlayerNaturalRegen](/接口/玩家/属性)
 
 服务端
 
 是否开启玩家自然恢复，当饥饿值大于等于健康临界值时会自动恢复血量，开启饥饿值且开启自然恢复时有效。原版默认开启
 
-[IsPlayerNaturalStarve](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#isplayernaturalstarve)
+[IsPlayerNaturalStarve](/接口/玩家/属性)
 
 服务端
 
 是否开启玩家饥饿掉血，当饥饿值小于饥饿临界值时会自动恢复血量，开启饥饿值且开启饥饿掉血时有效。原版默认开启
 
-[SetEnchantmentSeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setenchantmentseed)
+[SetEnchantmentSeed](/接口/玩家/属性)
 
 服务端
 
 设置玩家的附魔种子，该种子会决定附魔台上准备附魔的装备的附魔项
 
-[SetPlayerCurrentExhaustionValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayercurrentexhaustionvalue)
+[SetPlayerCurrentExhaustionValue](/接口/玩家/属性)
 
 服务端
 
 设置玩家foodExhaustionLevel的当前消耗度。详见[消耗度介绍](https://zh.minecraft.wiki/w/%E9%A5%A5%E9%A5%BF#%E6%9C%BA%E5%88%B6)
 
-[SetPlayerHealthLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayerhealthlevel)
+[SetPlayerHealthLevel](/接口/玩家/属性)
 
 服务端
 
 设置玩家健康临界值，当饥饿值大于等于健康临界值时会自动恢复血量，开启饥饿值且开启自然恢复时有效.原版默认值为18
 
-[SetPlayerHealthTick](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayerhealthtick)
+[SetPlayerHealthTick](/接口/玩家/属性)
 
 服务端
 
 设置玩家自然恢复速度，当饥饿值大于等于健康临界值时会自动恢复血量，开启饥饿值且开启自然恢复时有效.原版默认值为80刻（即每4秒）恢复1点血量
 
-[SetPlayerHunger](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayerhunger)
+[SetPlayerHunger](/接口/玩家/属性)
 
 服务端
 
 设置玩家饥饿度。
 
-[SetPlayerMaxExhaustionValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayermaxexhaustionvalue)
+[SetPlayerMaxExhaustionValue](/接口/玩家/属性)
 
 服务端
 
 设置玩家**最大消耗度(maxExhaustion)**，通过调整 **最大消耗度(maxExhaustion)** 的大小，就可以调整 **饥饿度(hunger)** 的消耗速度，当 **最大消耗度(maxExhaustion)** 很大时，饥饿度可以看似一直不下降
 
-[SetPlayerNaturalRegen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayernaturalregen)
+[SetPlayerNaturalRegen](/接口/玩家/属性)
 
 服务端
 
 设置是否开启玩家自然恢复，当饥饿值大于等于健康临界值时会自动恢复血量，开启饥饿值且开启自然恢复时有效.原版默认开启
 
-[SetPlayerNaturalStarve](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayernaturalstarve)
+[SetPlayerNaturalStarve](/接口/玩家/属性)
 
 服务端
 
 设置是否开启玩家饥饿掉血，当饥饿值小于饥饿临界值时会自动扣除血量，开启饥饿值且开启饥饿掉血时有效.原版默认开启
 
-[SetPlayerPrefixAndSuffixName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayerprefixandsuffixname)
+[SetPlayerPrefixAndSuffixName](/接口/玩家/属性)
 
 服务端
 
 设置玩家前缀和后缀名字
 
-[SetPlayerStarveLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayerstarvelevel)
+[SetPlayerStarveLevel](/接口/玩家/属性)
 
 服务端
 
 设置玩家饥饿临界值，当饥饿值小于饥饿临界值时会自动扣除血量，开启饥饿值且开启饥饿掉血时有效。原版默认值为1
 
-[SetPlayerStarveTick](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayerstarvetick)
+[SetPlayerStarveTick](/接口/玩家/属性)
 
 服务端
 
 设置玩家饥饿掉血速度，当饥饿值小于饥饿临界值时会自动扣除血量，开启饥饿值且开启饥饿掉血时有效.原版默认值为80刻（即每4秒）扣除1点血量
 
-[SetPlayerTotalExp](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#setplayertotalexp)
+[SetPlayerTotalExp](/接口/玩家/属性)
 
 服务端
 
 设置玩家的总经验值
 
-[Swing](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#swing)
+[Swing](/接口/玩家/属性)
 
 客户端
 
 本地玩家播放原版攻击动作
 
-[getUid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/属性.html#getuid)
+[getUid](/接口/玩家/属性)
 
 客户端
 
@@ -4352,367 +4352,367 @@ Apollo
 
 描述
 
-[AddPlayerAroundEntityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#addplayeraroundentitymotion)
+[AddPlayerAroundEntityMotion](/接口/玩家/行为)
 
 服务端
 
 给玩家添加对实体环绕运动器
 
-[AddPlayerAroundPointMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#addplayeraroundpointmotion)
+[AddPlayerAroundPointMotion](/接口/玩家/行为)
 
 服务端
 
 给玩家添加对点环绕运动器
 
-[AddPlayerTrackMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#addplayertrackmotion)
+[AddPlayerTrackMotion](/接口/玩家/行为)
 
 服务端
 
 给玩家添加轨迹运动器
 
-[AddPlayerVelocityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#addplayervelocitymotion)
+[AddPlayerVelocityMotion](/接口/玩家/行为)
 
 服务端
 
 给玩家添加速度运动器
 
-[BeginSprinting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#beginsprinting)
+[BeginSprinting](/接口/玩家/行为)
 
 客户端
 
 使本地玩家进入并保持向前疾跑/冲刺状态
 
-[ChangePlayerDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#changeplayerdimension)
+[ChangePlayerDimension](/接口/玩家/行为)
 
 服务端
 
 传送玩家
 
-[ChangePlayerFlyState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#changeplayerflystate)
+[ChangePlayerFlyState](/接口/玩家/行为)
 
 服务端
 
 给予/取消飞行能力, 并根据enterFly参数确定是否进入飞行状态
 
-[EnableKeepInventory](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#enablekeepinventory)
+[EnableKeepInventory](/接口/玩家/行为)
 
 服务端
 
 设置玩家死亡不掉落物品
 
-[EndSprinting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#endsprinting)
+[EndSprinting](/接口/玩家/行为)
 
 客户端
 
 使本地玩家结束向前疾跑/冲刺状态
 
-[GetEntityRider](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getentityrider)
+[GetEntityRider](/接口/玩家/行为)
 
 服务端
 
 获取骑乘者正在骑乘的实体的id。
 
-[GetEntityRider](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getentityrider)
+[GetEntityRider](/接口/玩家/行为)
 
 客户端
 
 获取骑乘者正在骑乘的实体的id。
 
-[GetInteracteCenterOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getinteractecenteroffset)
+[GetInteracteCenterOffset](/接口/玩家/行为)
 
 服务端
 
 获取玩家[服务端交互中心](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/更新信息/2.8.html#玩家摄像机)的偏移
 
-[GetIsBlocking](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getisblocking)
+[GetIsBlocking](/接口/玩家/行为)
 
 服务端
 
 获取玩家激活盾牌状态
 
-[GetPickCenterOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getpickcenteroffset)
+[GetPickCenterOffset](/接口/玩家/行为)
 
 客户端
 
 获取玩家设置的第三人称下客户端交互中心的偏移
 
-[GetPickRange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getpickrange)
+[GetPickRange](/接口/玩家/行为)
 
 客户端
 
 获取玩家客户端的交互距离
 
-[GetPlayerDestroyTotalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getplayerdestroytotaltime)
+[GetPlayerDestroyTotalTime](/接口/玩家/行为)
 
 服务端
 
 获取玩家破坏方块需要的时间，受玩家状态（急迫、潮涌、挖掘疲劳）和手持物及手持物附魔（效率）影响
 
-[GetPlayerDestroyTotalTime](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getplayerdestroytotaltime)
+[GetPlayerDestroyTotalTime](/接口/玩家/行为)
 
 客户端
 
 获取玩家破坏方块需要的时间，受玩家状态（急迫、潮涌、挖掘疲劳）和手持物及手持物附魔（效率）影响
 
-[GetPlayerExhaustionRatioByType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getplayerexhaustionratiobytype)
+[GetPlayerExhaustionRatioByType](/接口/玩家/行为)
 
 服务端
 
 获取玩家某行为饥饿度消耗倍率
 
-[GetPlayerInteracteRange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getplayerinteracterange)
+[GetPlayerInteracteRange](/接口/玩家/行为)
 
 服务端
 
 获取玩家服务端的交互距离
 
-[GetPlayerMotions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getplayermotions)
+[GetPlayerMotions](/接口/玩家/行为)
 
 服务端
 
 获取玩家身上的所有运动器
 
-[GetPlayerRespawnPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getplayerrespawnpos)
+[GetPlayerRespawnPos](/接口/玩家/行为)
 
 服务端
 
 获取玩家复活点
 
-[GetRelevantPlayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#getrelevantplayer)
+[GetRelevantPlayer](/接口/玩家/行为)
 
 服务端
 
 获取附近玩家id列表
 
-[IsEntityRiding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isentityriding)
+[IsEntityRiding](/接口/玩家/行为)
 
 服务端
 
 检查玩家是否骑乘。
 
-[IsInScaffolding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isinscaffolding)
+[IsInScaffolding](/接口/玩家/行为)
 
 客户端
 
 获取玩家是否在脚手架中
 
-[IsOnLadder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isonladder)
+[IsOnLadder](/接口/玩家/行为)
 
 客户端
 
 获取玩家是否在梯子/藤蔓上
 
-[IsPlayerCanFly](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isplayercanfly)
+[IsPlayerCanFly](/接口/玩家/行为)
 
 服务端
 
 获取玩家能否飞行
 
-[IsPlayerFlying](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isplayerflying)
+[IsPlayerFlying](/接口/玩家/行为)
 
 服务端
 
 获取玩家是否在飞行
 
-[OpenWorkBench](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#openworkbench)
+[OpenWorkBench](/接口/玩家/行为)
 
 服务端
 
 在玩家当前位置打开工作台UI，不依赖于工作台方块
 
-[PickUpItemEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#pickupitementity)
+[PickUpItemEntity](/接口/玩家/行为)
 
 服务端
 
 某个Player拾取物品ItemEntity
 
-[PlayerAttackEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#playerattackentity)
+[PlayerAttackEntity](/接口/玩家/行为)
 
 服务端
 
 玩家使用手持武器攻击某个生物
 
-[PlayerDestoryBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#playerdestoryblock)
+[PlayerDestoryBlock](/接口/玩家/行为)
 
 服务端
 
 使用手上工具破坏方块
 
-[PlayerUseItemToEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#playeruseitemtoentity)
+[PlayerUseItemToEntity](/接口/玩家/行为)
 
 服务端
 
 玩家使用手上物品对某个生物使用
 
-[PlayerUseItemToPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#playeruseitemtopos)
+[PlayerUseItemToPos](/接口/玩家/行为)
 
 服务端
 
 模拟玩家对某个坐标使用物品
 
-[RemovePlayerMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#removeplayermotion)
+[RemovePlayerMotion](/接口/玩家/行为)
 
 服务端
 
 移除玩家身上的运动器
 
-[SetBanPlayerFishing](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setbanplayerfishing)
+[SetBanPlayerFishing](/接口/玩家/行为)
 
 服务端
 
 设置是否屏蔽玩家钓鱼功能，屏蔽后玩家可以正常抛甩鱼竿，但无法钓起任何物品
 
-[SetInteracteCenterOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setinteractecenteroffset)
+[SetInteracteCenterOffset](/接口/玩家/行为)
 
 服务端
 
 设置玩家服务端交互中心的偏移
 
-[SetPickCenterOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setpickcenteroffset)
+[SetPickCenterOffset](/接口/玩家/行为)
 
 客户端
 
 设置第三人称下，玩家客户端交互中心的偏移
 
-[SetPickRange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setpickrange)
+[SetPickRange](/接口/玩家/行为)
 
 客户端
 
 设置玩家客户端的交互距离
 
-[SetPickUpArea](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setpickuparea)
+[SetPickUpArea](/接口/玩家/行为)
 
 服务端
 
 设置玩家的拾取物品范围，设置后该玩家的拾取物品范围会在原版拾取范围的基础上进行改变。
 
-[SetPlayerAttackSpeedAmplifier](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayerattackspeedamplifier)
+[SetPlayerAttackSpeedAmplifier](/接口/玩家/行为)
 
 服务端
 
 设置玩家攻击速度倍数，1.0表示正常水平，1.2表示速度减益20%，0.8表示速度增益20%
 
-[SetPlayerExhaustionRatioByType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayerexhaustionratiobytype)
+[SetPlayerExhaustionRatioByType](/接口/玩家/行为)
 
 服务端
 
 设置玩家某行为饥饿度消耗倍率
 
-[SetPlayerInteracteRange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayerinteracterange)
+[SetPlayerInteracteRange](/接口/玩家/行为)
 
 服务端
 
 设置玩家服务端的交互距离
 
-[SetPlayerJumpable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayerjumpable)
+[SetPlayerJumpable](/接口/玩家/行为)
 
 服务端
 
 设置玩家是否可跳跃
 
-[SetPlayerMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayermotion)
+[SetPlayerMotion](/接口/玩家/行为)
 
 服务端
 
 设置玩家的瞬时移动方向向量(可解决SetMotion闪现问题)
 
-[SetPlayerMovable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayermovable)
+[SetPlayerMovable](/接口/玩家/行为)
 
 服务端
 
 设置玩家是否可移动
 
-[SetPlayerRespawnPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setplayerrespawnpos)
+[SetPlayerRespawnPos](/接口/玩家/行为)
 
 服务端
 
 设置玩家复活的位置与维度
 
-[StartPlayerMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#startplayermotion)
+[StartPlayerMotion](/接口/玩家/行为)
 
 服务端
 
 启动玩家身上的某个运动器
 
-[StopPlayerMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#stopplayermotion)
+[StopPlayerMotion](/接口/玩家/行为)
 
 服务端
 
 停止玩家身上的某个运动器
 
-[isGliding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isgliding)
+[isGliding](/接口/玩家/行为)
 
 客户端
 
 是否鞘翅飞行
 
-[isInWater](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isinwater)
+[isInWater](/接口/玩家/行为)
 
 客户端
 
 是否在水中
 
-[isMoving](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#ismoving)
+[isMoving](/接口/玩家/行为)
 
 客户端
 
 是否在行走
 
-[isRiding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isriding)
+[isRiding](/接口/玩家/行为)
 
 客户端
 
 是否骑乘
 
-[isSneaking](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#issneaking)
+[isSneaking](/接口/玩家/行为)
 
 服务端
 
 获取玩家是否处于潜行状态
 
-[isSneaking](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#issneaking)
+[isSneaking](/接口/玩家/行为)
 
 客户端
 
 是否潜行
 
-[isSprinting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#issprinting)
+[isSprinting](/接口/玩家/行为)
 
 客户端
 
 是否在疾跑
 
-[isSwimming](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isswimming)
+[isSwimming](/接口/玩家/行为)
 
 服务端
 
 获取玩家是否处于游泳状态。
 
-[isSwimming](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#isswimming)
+[isSwimming](/接口/玩家/行为)
 
 客户端
 
 是否游泳
 
-[setMoving](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setmoving)
+[setMoving](/接口/玩家/行为)
 
 客户端
 
 设置是否行走，只能设置本地玩家（只适用于移动端）
 
-[setSneaking](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setsneaking)
+[setSneaking](/接口/玩家/行为)
 
 客户端
 
 设置是否潜行，只能设置本地玩家（只适用于移动端）
 
-[setSprinting](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setsprinting)
+[setSprinting](/接口/玩家/行为)
 
 客户端
 
 设置行走模式为疾跑/冲刺，只能设置本地玩家（只适用于移动端）
 
-[setUsingShield](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/行为.html#setusingshield)
+[setUsingShield](/接口/玩家/行为)
 
 客户端
 
@@ -4724,103 +4724,103 @@ Apollo
 
 描述
 
-[AddPlayerAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayeranimation)
+[AddPlayerAnimation](/接口/玩家/渲染)
 
 客户端
 
 增加玩家渲染动画
 
-[AddPlayerAnimationController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayeranimationcontroller)
+[AddPlayerAnimationController](/接口/玩家/渲染)
 
 客户端
 
 增加玩家渲染动画控制器
 
-[AddPlayerAnimationIntoState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayeranimationintostate)
+[AddPlayerAnimationIntoState](/接口/玩家/渲染)
 
 客户端
 
 在玩家的动画控制器中的状态添加动画或者动画控制器
 
-[AddPlayerGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayergeometry)
+[AddPlayerGeometry](/接口/玩家/渲染)
 
 客户端
 
 增加玩家渲染几何体
 
-[AddPlayerParticleEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayerparticleeffect)
+[AddPlayerParticleEffect](/接口/玩家/渲染)
 
 客户端
 
 增加玩家特效资源
 
-[AddPlayerRenderController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayerrendercontroller)
+[AddPlayerRenderController](/接口/玩家/渲染)
 
 客户端
 
 增加玩家[渲染控制器](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_7-自定义渲染控制器)
 
-[AddPlayerRenderMaterial](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayerrendermaterial)
+[AddPlayerRenderMaterial](/接口/玩家/渲染)
 
 客户端
 
 增加玩家渲染需要的[材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_3-自定义材质)
 
-[AddPlayerScriptAnimate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayerscriptanimate)
+[AddPlayerScriptAnimate](/接口/玩家/渲染)
 
 客户端
 
 在玩家的客户端实体定义（minecraft:client\_entity）json中的scripts/animate节点添加动画/动画控制器
 
-[AddPlayerSoundEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayersoundeffect)
+[AddPlayerSoundEffect](/接口/玩家/渲染)
 
 客户端
 
 增加玩家音效资源
 
-[AddPlayerTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#addplayertexture)
+[AddPlayerTexture](/接口/玩家/渲染)
 
 客户端
 
 增加玩家渲染贴图
 
-[RebuildPlayerRender](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#rebuildplayerrender)
+[RebuildPlayerRender](/接口/玩家/渲染)
 
 客户端
 
 重建玩家的数据渲染器
 
-[RemovePlayerAnimationController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#removeplayeranimationcontroller)
+[RemovePlayerAnimationController](/接口/玩家/渲染)
 
 客户端
 
 移除玩家渲染动画控制器
 
-[RemovePlayerGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#removeplayergeometry)
+[RemovePlayerGeometry](/接口/玩家/渲染)
 
 客户端
 
 删除玩家渲染几何体
 
-[RemovePlayerRenderController](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#removeplayerrendercontroller)
+[RemovePlayerRenderController](/接口/玩家/渲染)
 
 客户端
 
 删除玩家[渲染控制器](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/15-自定义游戏内容/3-自定义生物/01-自定义基础生物.html#_7-自定义渲染控制器)
 
-[ResetSkin](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#resetskin)
+[ResetSkin](/接口/玩家/渲染)
 
 客户端
 
 还原默认皮肤
 
-[SetPlayerItemInHandVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#setplayeriteminhandvisible)
+[SetPlayerItemInHandVisible](/接口/玩家/渲染)
 
 客户端
 
 设置是否隐藏玩家的手持物品模型显示
 
-[SetSkin](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/渲染.html#setskin)
+[SetSkin](/接口/玩家/渲染)
 
 客户端
 
@@ -4832,127 +4832,127 @@ Apollo
 
 描述
 
-[AddEnchantToInvItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#addenchanttoinvitem)
+[AddEnchantToInvItem](/接口/玩家/背包)
 
 服务端
 
 给物品栏的物品添加附魔信息
 
-[AddModEnchantToInvItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#addmodenchanttoinvitem)
+[AddModEnchantToInvItem](/接口/玩家/背包)
 
 服务端
 
 给物品栏中物品添加自定义附魔信息
 
-[ChangePlayerItemTipsAndExtraId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#changeplayeritemtipsandextraid)
+[ChangePlayerItemTipsAndExtraId](/接口/玩家/背包)
 
 服务端
 
 修改玩家物品的自定义tips和自定义标识符
 
-[ChangeSelectSlot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#changeselectslot)
+[ChangeSelectSlot](/接口/玩家/背包)
 
 服务端
 
 设置玩家当前选中快捷栏物品的index
 
-[GetCarriedItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getcarrieditem)
+[GetCarriedItem](/接口/玩家/背包)
 
 客户端
 
 获取右手物品的信息
 
-[GetInvItemEnchantData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getinvitemenchantdata)
+[GetInvItemEnchantData](/接口/玩家/背包)
 
 服务端
 
 获取物品栏的物品附魔信息
 
-[GetInvItemModEnchantData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getinvitemmodenchantdata)
+[GetInvItemModEnchantData](/接口/玩家/背包)
 
 服务端
 
 获取物品栏的物品自定义附魔信息
 
-[GetOffhandItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getoffhanditem)
+[GetOffhandItem](/接口/玩家/背包)
 
 客户端
 
 获取左手物品的信息
 
-[GetPlayerAllItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getplayerallitems)
+[GetPlayerAllItems](/接口/玩家/背包)
 
 服务端
 
 获取玩家指定的槽位的批量物品信息
 
-[GetPlayerAllItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getplayerallitems)
+[GetPlayerAllItems](/接口/玩家/背包)
 
 客户端
 
 获取玩家指定的槽位的批量物品信息，支持获取盔甲栏，副手以及主手物品，背包物品仅支持本地玩家
 
-[GetPlayerItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getplayeritem)
+[GetPlayerItem](/接口/玩家/背包)
 
 服务端
 
 获取玩家物品，支持获取背包，盔甲栏，副手以及主手物品
 
-[GetPlayerItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getplayeritem)
+[GetPlayerItem](/接口/玩家/背包)
 
 客户端
 
 获取玩家物品，支持获取背包（本地玩家），盔甲栏，副手以及主手物品
 
-[GetSelectSlotId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getselectslotid)
+[GetSelectSlotId](/接口/玩家/背包)
 
 服务端
 
 获取玩家当前选中槽位
 
-[GetSlotId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#getslotid)
+[GetSlotId](/接口/玩家/背包)
 
 客户端
 
 获取当前手持的快捷栏的槽id
 
-[RemoveEnchantToInvItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#removeenchanttoinvitem)
+[RemoveEnchantToInvItem](/接口/玩家/背包)
 
 服务端
 
 给物品栏的物品移除附魔信息
 
-[RemoveModEnchantToInvItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#removemodenchanttoinvitem)
+[RemoveModEnchantToInvItem](/接口/玩家/背包)
 
 服务端
 
 给物品栏中物品移除自定义附魔信息
 
-[SetInvItemExchange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#setinvitemexchange)
+[SetInvItemExchange](/接口/玩家/背包)
 
 服务端
 
 交换玩家背包物品
 
-[SetInvItemNum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#setinvitemnum)
+[SetInvItemNum](/接口/玩家/背包)
 
 服务端
 
 设置玩家背包物品数目
 
-[SetPlayerAllItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#setplayerallitems)
+[SetPlayerAllItems](/接口/玩家/背包)
 
 服务端
 
 添加批量物品信息到指定槽位
 
-[SpawnItemToPlayerCarried](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#spawnitemtoplayercarried)
+[SpawnItemToPlayerCarried](/接口/玩家/背包)
 
 服务端
 
 生成物品到玩家右手
 
-[SpawnItemToPlayerInv](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/背包.html#spawnitemtoplayerinv)
+[SpawnItemToPlayerInv](/接口/玩家/背包)
 
 服务端
 
@@ -4964,229 +4964,229 @@ Apollo
 
 描述
 
-[AddCameraAroundEntityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#addcameraaroundentitymotion)
+[AddCameraAroundEntityMotion](/接口/玩家/摄像机)
 
 客户端
 
 给相机添加对实体环绕运动器
 
-[AddCameraAroundPointMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#addcameraaroundpointmotion)
+[AddCameraAroundPointMotion](/接口/玩家/摄像机)
 
 客户端
 
 给相机添加对点环绕运动器
 
-[AddCameraTrackMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#addcameratrackmotion)
+[AddCameraTrackMotion](/接口/玩家/摄像机)
 
 客户端
 
 给相机添加轨迹运动器
 
-[AddCameraVelocityMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#addcameravelocitymotion)
+[AddCameraVelocityMotion](/接口/玩家/摄像机)
 
 客户端
 
 给相机添加速度运动器
 
-[DepartCamera](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#departcamera)
+[DepartCamera](/接口/玩家/摄像机)
 
 客户端
 
 分离玩家与摄像机
 
-[GetCameraAnchor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getcameraanchor)
+[GetCameraAnchor](/接口/玩家/摄像机)
 
 客户端
 
 获取相机锚点
 
-[GetCameraMotions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getcameramotions)
+[GetCameraMotions](/接口/玩家/摄像机)
 
 客户端
 
 获取相机上的所有运动器
 
-[GetCameraOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getcameraoffset)
+[GetCameraOffset](/接口/玩家/摄像机)
 
 客户端
 
 获取摄像机偏移量
 
-[GetCameraPitchLimit](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getcamerapitchlimit)
+[GetCameraPitchLimit](/接口/玩家/摄像机)
 
 客户端
 
 获取摄像机上下角度限制值
 
-[GetCameraRotation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getcamerarotation)
+[GetCameraRotation](/接口/玩家/摄像机)
 
 客户端
 
 获取摄像机的朝向
 
-[GetForward](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getforward)
+[GetForward](/接口/玩家/摄像机)
 
 客户端
 
 返回相机向前的方向
 
-[GetFov](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getfov)
+[GetFov](/接口/玩家/摄像机)
 
 客户端
 
 获取视野大小
 
-[GetFpHeight](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getfpheight)
+[GetFpHeight](/接口/玩家/摄像机)
 
 客户端
 
 获取本地玩家当前状态下，第一人称视角时的摄像机高度偏移量。游泳时，滑翔时以及普通状态下会有所不同
 
-[GetPerspective](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getperspective)
+[GetPerspective](/接口/玩家/摄像机)
 
 客户端
 
 获取当前的视角模式
 
-[GetPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#getposition)
+[GetPosition](/接口/玩家/摄像机)
 
 客户端
 
 返回相机中心
 
-[IsModCameraLockPitch](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#ismodcameralockpitch)
+[IsModCameraLockPitch](/接口/玩家/摄像机)
 
 客户端
 
 是否锁定摄像机上下角度
 
-[IsModCameraLockYaw](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#ismodcameralockyaw)
+[IsModCameraLockYaw](/接口/玩家/摄像机)
 
 客户端
 
 是否锁定摄像机左右角度
 
-[LockCamera](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#lockcamera)
+[LockCamera](/接口/玩家/摄像机)
 
 客户端
 
 锁定摄像机
 
-[LockModCameraPitch](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#lockmodcamerapitch)
+[LockModCameraPitch](/接口/玩家/摄像机)
 
 客户端
 
 锁定摄像机上下角度（第三人称下生效，锁定后不能上下调整视角）
 
-[LockModCameraYaw](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#lockmodcamerayaw)
+[LockModCameraYaw](/接口/玩家/摄像机)
 
 客户端
 
 锁定摄像机左右角度（第三人称下生效，锁定后不能通过鼠标左右调整视角）
 
-[LockPerspective](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#lockperspective)
+[LockPerspective](/接口/玩家/摄像机)
 
 客户端
 
 锁定玩家的视角模式
 
-[RemoveCameraMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#removecameramotion)
+[RemoveCameraMotion](/接口/玩家/摄像机)
 
 客户端
 
 移除相机上的某个运动器
 
-[ResetCameraBindActorId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#resetcamerabindactorid)
+[ResetCameraBindActorId](/接口/玩家/摄像机)
 
 客户端
 
 将摄像机重新绑定回主角身上
 
-[SetCameraAnchor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcameraanchor)
+[SetCameraAnchor](/接口/玩家/摄像机)
 
 客户端
 
 设置相机锚点
 
-[SetCameraBindActorId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcamerabindactorid)
+[SetCameraBindActorId](/接口/玩家/摄像机)
 
 客户端
 
 将摄像机绑定到目标实体身上（调用者与目标必须在同一个dimension，同时需要在加载范围之内，若绑定后目标离开了范围或者死亡，则会自动解除绑定）
 
-[SetCameraDistanceFixed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcameradistancefixed)
+[SetCameraDistanceFixed](/接口/玩家/摄像机)
 
 客户端
 
 设置相机弹簧臂固定，即设置当相机遇到阻挡时是否压缩与人物之间的距离
 
-[SetCameraOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcameraoffset)
+[SetCameraOffset](/接口/玩家/摄像机)
 
 客户端
 
 设置摄像机偏移量
 
-[SetCameraPitchLimit](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcamerapitchlimit)
+[SetCameraPitchLimit](/接口/玩家/摄像机)
 
 客户端
 
 设置摄像机上下角度限制值，默认是（-90，90）
 
-[SetCameraPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcamerapos)
+[SetCameraPos](/接口/玩家/摄像机)
 
 客户端
 
 设置相机中心的位置
 
-[SetCameraRotation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setcamerarotation)
+[SetCameraRotation](/接口/玩家/摄像机)
 
 客户端
 
 设定摄像机的朝向
 
-[SetFov](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setfov)
+[SetFov](/接口/玩家/摄像机)
 
 客户端
 
 设置视野大小
 
-[SetPerspective](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setperspective)
+[SetPerspective](/接口/玩家/摄像机)
 
 客户端
 
 设置视角模式
 
-[SetPlayerFovScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setplayerfovscale)
+[SetPlayerFovScale](/接口/玩家/摄像机)
 
 客户端
 
 将渲染实际使用的fov变为设置中的fov乘以fovScale,fovScale越接近0，其效果越接近原版望远镜效果
 
-[SetSpeedFovLock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#setspeedfovlock)
+[SetSpeedFovLock](/接口/玩家/摄像机)
 
 客户端
 
 是否锁定相机视野fov，锁定后不随速度变化而变化
 
-[StartCameraMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#startcameramotion)
+[StartCameraMotion](/接口/玩家/摄像机)
 
 客户端
 
 启动相机上的某个运动器
 
-[StopCameraMotion](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#stopcameramotion)
+[StopCameraMotion](/接口/玩家/摄像机)
 
 客户端
 
 停止相机上的某个运动器
 
-[UnDepartCamera](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#undepartcamera)
+[UnDepartCamera](/接口/玩家/摄像机)
 
 客户端
 
 绑定玩家与摄像机
 
-[UnLockCamera](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/摄像机.html#unlockcamera)
+[UnLockCamera](/接口/玩家/摄像机)
 
 客户端
 
@@ -5198,13 +5198,13 @@ Apollo
 
 描述
 
-[PlayTpAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/动画.html#playtpanimation)
+[PlayTpAnimation](/接口/玩家/动画)
 
 客户端
 
 第三人称视角播放玩家通用动作
 
-[StopAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/动画.html#stopanimation)
+[StopAnimation](/接口/玩家/动画)
 
 客户端
 
@@ -5216,19 +5216,19 @@ Apollo
 
 描述
 
-[GetPlayerGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/游戏模式.html#getplayergametype)
+[GetPlayerGameType](/接口/玩家/游戏模式)
 
 服务端
 
 获取指定玩家的游戏模式
 
-[GetPlayerGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/游戏模式.html#getplayergametype)
+[GetPlayerGameType](/接口/玩家/游戏模式)
 
 客户端
 
 获取指定玩家的游戏模式
 
-[SetPlayerGameType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/游戏模式.html#setplayergametype)
+[SetPlayerGameType](/接口/玩家/游戏模式)
 
 服务端
 
@@ -5240,73 +5240,73 @@ Apollo
 
 描述
 
-[GetPlayerAbilities](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#getplayerabilities)
+[GetPlayerAbilities](/接口/玩家/权限)
 
 服务端
 
 获取玩家具体权限
 
-[GetPlayerOperation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#getplayeroperation)
+[GetPlayerOperation](/接口/玩家/权限)
 
 服务端
 
 获取玩家权限类型信息
 
-[SetAttackMobsAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setattackmobsability)
+[SetAttackMobsAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家能否攻击生物
 
-[SetAttackPlayersAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setattackplayersability)
+[SetAttackPlayersAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家能否攻击其他玩家
 
-[SetBuildAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setbuildability)
+[SetBuildAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家能否放置方块，该接口的设置会存档，且只影响生存模式
 
-[SetMineAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setmineability)
+[SetMineAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家能否摧毁方块，该接口的设置会存档，且只影响生存模式
 
-[SetOpenContainersAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setopencontainersability)
+[SetOpenContainersAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家能否打开容器
 
-[SetOperateDoorsAndSwitchesAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setoperatedoorsandswitchesability)
+[SetOperateDoorsAndSwitchesAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家能否与门和开关交互
 
-[SetOperatorCommandAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setoperatorcommandability)
+[SetOperatorCommandAbility](/接口/玩家/权限)
 
 服务端
 
 设置玩家是否具有操作员命令权限
 
-[SetPermissionLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setpermissionlevel)
+[SetPermissionLevel](/接口/玩家/权限)
 
 服务端
 
 设置玩家权限等级
 
-[SetPlayerMute](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setplayermute)
+[SetPlayerMute](/接口/玩家/权限)
 
 服务端
 
 设置玩家是否禁言，该接口的设置不存档
 
-[SetTeleportAbility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/权限.html#setteleportability)
+[SetTeleportAbility](/接口/玩家/权限)
 
 服务端
 
@@ -5318,19 +5318,19 @@ Apollo
 
 描述
 
-[GetNavPath](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/导航.html#getnavpath)
+[GetNavPath](/接口/玩家/导航)
 
 客户端
 
 获取本地玩家到目标点的寻路路径，开发者可以通过该接口定制自定义的导航系统。
 
-[StartNavTo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/导航.html#startnavto)
+[StartNavTo](/接口/玩家/导航)
 
 客户端
 
 我们提供了一个基于GetNavPath的导航系统实现，做法是在路径上生成序列帧以引导玩家通向目标点，并且当玩家偏离路径会重新进行导航。
 
-[StopNav](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/玩家/导航.html#stopnav)
+[StopNav](/接口/玩家/导航)
 
 客户端
 
@@ -5342,25 +5342,25 @@ Apollo
 
 描述
 
-[GetBlockAuxValueFromStates](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块状态与附加值.html#getblockauxvaluefromstates)
+[GetBlockAuxValueFromStates](/接口/方块/方块状态与附加值)
 
 服务端
 
 根据方块名称和[方块状态](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/1-我的世界基础概念.html#物品信息字典#方块状态)获取方块附加值AuxValue
 
-[GetBlockStates](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块状态与附加值.html#getblockstates)
+[GetBlockStates](/接口/方块/方块状态与附加值)
 
 服务端
 
 获取[方块状态](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/1-我的世界基础概念.html#物品信息字典#方块状态)
 
-[GetBlockStatesFromAuxValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块状态与附加值.html#getblockstatesfromauxvalue)
+[GetBlockStatesFromAuxValue](/接口/方块/方块状态与附加值)
 
 服务端
 
 根据方块名称和方块附加值AuxValue获取[方块状态](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/1-我的世界基础概念.html#物品信息字典#方块状态)
 
-[SetBlockStates](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块状态与附加值.html#setblockstates)
+[SetBlockStates](/接口/方块/方块状态与附加值)
 
 服务端
 
@@ -5372,31 +5372,31 @@ Apollo
 
 描述
 
-[GetBlockBasicInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/属性.html#getblockbasicinfo)
+[GetBlockBasicInfo](/接口/方块/属性)
 
 服务端
 
 获取方块基本信息
 
-[GetBlockTags](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/属性.html#getblocktags)
+[GetBlockTags](/接口/方块/属性)
 
 服务端
 
 获取方块在tags:\*中定义的tags列表
 
-[GetLoadBlocks](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/属性.html#getloadblocks)
+[GetLoadBlocks](/接口/方块/属性)
 
 服务端
 
 获取已经加载的方块id
 
-[SetBlockBasicInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/属性.html#setblockbasicinfo)
+[SetBlockBasicInfo](/接口/方块/属性)
 
 服务端
 
 设置方块基本信息
 
-[SetChestLootTable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/属性.html#setchestloottable)
+[SetChestLootTable](/接口/方块/属性)
 
 服务端
 
@@ -5408,169 +5408,169 @@ Apollo
 
 描述
 
-[CleanBlockTileEntityCustomData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#cleanblocktileentitycustomdata)
+[CleanBlockTileEntityCustomData](/接口/方块/方块实体)
 
 服务端
 
 清空指定位置的特殊方块（箱子、头颅、熔炉、花盆等）绑定的TileEntity内存储的自定义数据。
 
-[CreateFrameEffectForBlockEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#createframeeffectforblockentity)
+[CreateFrameEffectForBlockEntity](/接口/方块/方块实体)
 
 客户端
 
 在自定义方块实体上创建序列帧特效，创建后该接口返回序列帧特效的Id，利用该Id可以使用特效/序列帧中的接口对该序列帧特效进行播放、设置位置、大小等操作。与实体的序列帧特效创建方式类似。
 
-[CreateParticleEffectForBlockEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#createparticleeffectforblockentity)
+[CreateParticleEffectForBlockEntity](/接口/方块/方块实体)
 
 客户端
 
 在自定义方块实体上创建粒子特效，创建后该接口返回粒子特效的Id，利用该Id可以使用特效/粒子中的接口对该粒子特效进行播放、设置位置、大小等操作。与实体的粒子特效创建方式类似。若自定义方块实体已存在键值名称相同的特效，则不会创建新的特效，接口返回已有的特效Id。
 
-[ExecuteCommandBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#executecommandblock)
+[ExecuteCommandBlock](/接口/方块/方块实体)
 
 服务端
 
 执行一次命令方块
 
-[GetBlockEntityData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getblockentitydata)
+[GetBlockEntityData](/接口/方块/方块实体)
 
 服务端
 
 用于获取可操作某个自定义方块实体数据的对象，操作方式与dict类似
 
-[GetBlockEntityData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getblockentitydata)
+[GetBlockEntityData](/接口/方块/方块实体)
 
 服务端
 
 用于获取方块（包括自定义方块）的数据，如需修改，请使用setblockentitydata接口
 
-[GetBlockEntityData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getblockentitydata)
+[GetBlockEntityData](/接口/方块/方块实体)
 
 客户端
 
 用于获取客户端当前维度中方块（包括自定义方块）的数据，数据只读不可写，无法获取箱子内的物品信息。
 
-[GetBlockEntityMolangValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getblockentitymolangvalue)
+[GetBlockEntityMolangValue](/接口/方块/方块实体)
 
 客户端
 
 获取自定义方块实体的Molang变量的值。
 
-[GetBlockTileEntityCustomData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getblocktileentitycustomdata)
+[GetBlockTileEntityCustomData](/接口/方块/方块实体)
 
 服务端
 
 读取指定位置的特殊方块（箱子、头颅、熔炉、花盆等）绑定的TileEntity内存储的自定义数据
 
-[GetBlockTileEntityWholeCustomData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getblocktileentitywholecustomdata)
+[GetBlockTileEntityWholeCustomData](/接口/方块/方块实体)
 
 服务端
 
 读取指定位置的特殊方块（箱子、头颅、熔炉、花盆等）绑定的TileEntity内存储的自定义数据字典。
 
-[GetCommandBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getcommandblock)
+[GetCommandBlock](/接口/方块/方块实体)
 
 服务端
 
 获取命令方块的设置内容
 
-[GetFrameEffectIdInBlockEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getframeeffectidinblockentity)
+[GetFrameEffectIdInBlockEntity](/接口/方块/方块实体)
 
 客户端
 
 获取在自定义方块实体中已创建的指定序列帧特效的Id，已创建的特效分为两种：一是通过resource\_pack/entity/下的实体json文件中使用“netease\_frame\_effects”所定义的特效；二是使用接口CreateFrameEffectForBlockEntity创建的特效。 返回的特效Id可以使用特效/序列帧中的接口对该序列帧特效进行播放、设置位置、大小等操作。与实体的序列帧特效创建方式类似。
 
-[GetFrameItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getframeitem)
+[GetFrameItem](/接口/方块/方块实体)
 
 服务端
 
 获取物品展示框的物品
 
-[GetFrameItemDropChange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getframeitemdropchange)
+[GetFrameItemDropChange](/接口/方块/方块实体)
 
 服务端
 
 获取物品展示框里物品的掉落几率
 
-[GetFrameRotation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getframerotation)
+[GetFrameRotation](/接口/方块/方块实体)
 
 服务端
 
 获取物品展示框里物品的顺时针旋转角度
 
-[GetHopperSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#gethopperspeed)
+[GetHopperSpeed](/接口/方块/方块实体)
 
 服务端
 
 获取漏斗运输一个物品所需的时间（单位：刻）
 
-[GetParticleEffectIdInBlockEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#getparticleeffectidinblockentity)
+[GetParticleEffectIdInBlockEntity](/接口/方块/方块实体)
 
 客户端
 
 获取在自定义方块实体中已创建的指定粒子特效的Id，已创建的特效分为两种：一是通过resource\_pack/entity/下的实体json文件中使用“netease\_particle\_effects”所定义的特效；二是使用接口CreateParticleEffectForBlockEntity创建的特效。 返回的特效Id可以使用特效/粒子中的接口对该粒子特效进行播放、设置位置、大小等操作。与实体的粒子特效创建方式类似。
 
-[RemoveFrameEffectInBlockEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#removeframeeffectinblockentity)
+[RemoveFrameEffectInBlockEntity](/接口/方块/方块实体)
 
 客户端
 
 移除在自定义方块实体上创建的序列帧特效。移除后的特效Id将会失效。
 
-[RemoveParticleEffectInBlockEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#removeparticleeffectinblockentity)
+[RemoveParticleEffectInBlockEntity](/接口/方块/方块实体)
 
 客户端
 
 移除在自定义方块实体上创建的粒子特效。移除后的特效Id将会失效。
 
-[SetBlockEntityData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setblockentitydata)
+[SetBlockEntityData](/接口/方块/方块实体)
 
 服务端
 
 用于设置方块（包括自定义方块）的数据
 
-[SetBlockEntityMolangValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setblockentitymolangvalue)
+[SetBlockEntityMolangValue](/接口/方块/方块实体)
 
 客户端
 
 设置自定义方块实体的Molang变量，与实体的molang变量作用相同。目前主要用于控制自定义实体的动画状态转变。Molang变量的定义方式与原版实体的Molang变量定义方法相同。详细可参考自定义方块实体动画的教学文档。
 
-[SetBlockTileEntityCustomData](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setblocktileentitycustomdata)
+[SetBlockTileEntityCustomData](/接口/方块/方块实体)
 
 服务端
 
 设置指定位置的特殊方块（箱子、头颅、熔炉、花盆等）绑定的TileEntity内存储的自定义数据。
 
-[SetCommandBlock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setcommandblock)
+[SetCommandBlock](/接口/方块/方块实体)
 
 服务端
 
 对命令方块进行内容设置
 
-[SetEnableBlockEntityAnimations](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setenableblockentityanimations)
+[SetEnableBlockEntityAnimations](/接口/方块/方块实体)
 
 客户端
 
 设置是否开启自定义方块实体的动画效果，开启之后，自定义实体方块会按照实体文件中animation\_controller所定义的动画状态机进行动画播放。关闭之后，则会停止所有动画播放。
 
-[SetFrameItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setframeitem)
+[SetFrameItem](/接口/方块/方块实体)
 
 服务端
 
 设置物品展示框的物品
 
-[SetFrameItemDropChange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setframeitemdropchange)
+[SetFrameItemDropChange](/接口/方块/方块实体)
 
 服务端
 
 设置点击物品展示框时生成掉落的几率，默认为1
 
-[SetFrameRotation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#setframerotation)
+[SetFrameRotation](/接口/方块/方块实体)
 
 服务端
 
 设置物品展示框里物品的顺时针旋转角度
 
-[SetHopperSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块实体.html#sethopperspeed)
+[SetHopperSpeed](/接口/方块/方块实体)
 
 服务端
 
@@ -5582,55 +5582,55 @@ Apollo
 
 描述
 
-[CombineBlockBetweenPosToGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#combineblockbetweenpostogeometry)
+[CombineBlockBetweenPosToGeometry](/接口/方块/方块几何体模型)
 
 客户端
 
 根据输入的两个位置，搜索这两个位置之间的所有方块，并将这些方块合并和转换为能用于实体的几何体模型。
 
-[CombineBlockFromPosListToGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#combineblockfromposlisttogeometry)
+[CombineBlockFromPosListToGeometry](/接口/方块/方块几何体模型)
 
 客户端
 
 根据输入的方块位置列表，搜索这些位置的所有方块，并将这些方块合并和转换为能用于实体的几何体模型。
 
-[CombineBlockPaletteToGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#combineblockpalettetogeometry)
+[CombineBlockPaletteToGeometry](/接口/方块/方块几何体模型)
 
 客户端
 
 将BlockPalette中的所有方块合并并转换为能用于实体的几何体模型。
 
-[EnableActorBlockGeometryTransparent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#enableactorblockgeometrytransparent)
+[EnableActorBlockGeometryTransparent](/接口/方块/方块几何体模型)
 
 客户端
 
 设置是否允许实体的方块几何体模型产生透明度，允许开启后通过调节方块几何体的透明度将会使得方块几何体模型变得透明。
 
-[GetActorBlockGeometryScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#getactorblockgeometryscale)
+[GetActorBlockGeometryScale](/接口/方块/方块几何体模型)
 
 客户端
 
 获取实体的方块几何体模型的缩放倍率。
 
-[SetActorBlockGeometryOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#setactorblockgeometryoffset)
+[SetActorBlockGeometryOffset](/接口/方块/方块几何体模型)
 
 客户端
 
 设置实体的方块几何体模型的位置偏移。
 
-[SetActorBlockGeometryRotation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#setactorblockgeometryrotation)
+[SetActorBlockGeometryRotation](/接口/方块/方块几何体模型)
 
 客户端
 
 设置实体的方块几何体模型的旋转角度。
 
-[SetActorBlockGeometryScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#setactorblockgeometryscale)
+[SetActorBlockGeometryScale](/接口/方块/方块几何体模型)
 
 客户端
 
 设置实体的方块几何体模型的缩放倍率。
 
-[SetActorBlockGeometryTransparency](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#setactorblockgeometrytransparency)
+[SetActorBlockGeometryTransparency](/接口/方块/方块几何体模型)
 
 客户端
 
@@ -5642,56 +5642,56 @@ Apollo
 
 描述
 
-[DeleteBlockInBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#deleteblockinblockpalette)
+[DeleteBlockInBlockPalette](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 删除方块调色板BlockPalette中某个类型的方块。
 
-[DeserializeBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#deserializeblockpalette)
+[DeserializeBlockPalette](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 反序列化方块调色板数据字典中的数据，用于方块调色板在客户端及服务端的事件数据之间传输。
 
-[GetBlockCountInBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#getblockcountinblockpalette)
+[GetBlockCountInBlockPalette](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 获取方块调色板BlockPalette中某个类型的方块的数量。
 
-[GetLocalPosListOfBlocks](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#getlocalposlistofblocks)
+[GetLocalPosListOfBlocks](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 获取方块调色板中某种方块的相对位置列表。方块调色板记录了多个方块组成的一个三维空间下的方块组合，而相对位置则指的是，以这些方块中最小坐标的方块所在位置作为原点的坐标轴下的相对位置。
 
-[GetVolumeOfBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#getvolumeofblockpalette)
+[GetVolumeOfBlockPalette](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 获取方块调色板BlockPalette所占据的长方体的长宽高。长指的是在方块调色板BlockPalette在世界坐标中占据的x轴方向的长度，宽指的是z轴方向的长度，高指的是y轴方向的长度。
 
-[ReplaceAirByStructureVoid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#replaceairbystructurevoid)
+[ReplaceAirByStructureVoid](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 设置是否将方块调色板BlockPalette中所有空气替换为结构空位。
 
-[ReplaceBlockInBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#replaceblockinblockpalette)
+[ReplaceBlockInBlockPalette](/接口/方块/方块调色板)
 
 服务端  
 客户端
 
 替换方块调色板BlockPalette中某个类型的方块。
 
-[SerializeBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#serializeblockpalette)
+[SerializeBlockPalette](/接口/方块/方块调色板)
 
 服务端  
 客户端
@@ -5704,91 +5704,91 @@ Apollo
 
 描述
 
-[AddDropItemToWorld](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#adddropitemtoworld)
+[AddDropItemToWorld](/接口/方块/渲染)
 
 客户端
 
 在客户端添加一个掉落物渲染
 
-[ChangeBlockTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#changeblocktextures)
+[ChangeBlockTextures](/接口/方块/渲染)
 
 客户端
 
 替换方块贴图
 
-[DeleteClientDropItemEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#deleteclientdropitementity)
+[DeleteClientDropItemEntity](/接口/方块/渲染)
 
 客户端
 
 删除AddDropItemToWorld创建的客户端掉落物
 
-[GetBlockEntityExtraUniforms](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#getblockentityextrauniforms)
+[GetBlockEntityExtraUniforms](/接口/方块/渲染)
 
 客户端
 
 获取在自定义方块实体的shader当中使用的自定义变量的值，该自定义变量总共可设置EXTRA\_ACTOR\_UNIFORM1,EXTRA\_ACTOR\_UNIFORM2,EXTRA\_ACTOR\_UNIFORM3,EXTRA\_ACTOR\_UNIFORM4，总共4组，每组为一个vec4(float, float, float ,float)类型的向量。
 
-[GetBlockRenderDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#getblockrenderdistance)
+[GetBlockRenderDistance](/接口/方块/渲染)
 
 客户端
 
 获取玩家周围的可渲染距离
 
-[GetBlockTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#getblocktextures)
+[GetBlockTextures](/接口/方块/渲染)
 
 客户端
 
 获取方块的初始贴图信息
 
-[GetClientDropItemEntityIdList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#getclientdropitementityidlist)
+[GetClientDropItemEntityIdList](/接口/方块/渲染)
 
 客户端
 
 获得所有通过AddDropItemToWorld创建的entityId的list
 
-[SetBlockEntityExtraUniforms](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockentityextrauniforms)
+[SetBlockEntityExtraUniforms](/接口/方块/渲染)
 
 客户端
 
 设置可在自定义方块实体的shader当中使用的自定义变量的值，该自定义变量总共可设置EXTRA\_ACTOR\_UNIFORM1,EXTRA\_ACTOR\_UNIFORM2,EXTRA\_ACTOR\_UNIFORM3,EXTRA\_ACTOR\_UNIFORM4，总共4组，每组为一个vec4(float, float, float ,float)类型的向量，向量的默认值为(1.0,1.0,1.0,1.0)。
 
-[SetBlockEntityFramePosOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockentityframeposoffset)
+[SetBlockEntityFramePosOffset](/接口/方块/渲染)
 
 客户端
 
 设置自定义方块实体中序列帧特效位置偏移值，用于调整序列帧特效相对于方块位置的偏移。与特效/序列帧/SetPos接口不同，该接口调整的是相对于方块位置的位置偏移值，而不是世界坐标。
 
-[SetBlockEntityModelPosOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockentitymodelposoffset)
+[SetBlockEntityModelPosOffset](/接口/方块/渲染)
 
 客户端
 
 设置自定义方块实体的实体模型位置偏移值，用于调整实体模型相对于方块位置的偏移。可通过该接口来调整自定义方块实体的实体模型的位置。只有自定义方块实体定义实体模型才生效，实体模型在resource\_pack/entity/下定义，详细可参考自定义方块实体动画的教学文档。
 
-[SetBlockEntityModelRotation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockentitymodelrotation)
+[SetBlockEntityModelRotation](/接口/方块/渲染)
 
 客户端
 
 设置自定义方块实体的实体模型在各个轴上的旋转值，可通过该接口来调整自定义方块实体的实体模型的旋转。只有自定义方块实体定义实体模型才生效，实体模型在resource\_pack/entity/下定义，详细可参考自定义方块实体动画的教学文档。
 
-[SetBlockEntityModelScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockentitymodelscale)
+[SetBlockEntityModelScale](/接口/方块/渲染)
 
 客户端
 
 设置自定义方块实体的实体模型大小的缩放值，可通过该接口来调整自定义方块实体的实体模型的大小。只有自定义方块实体定义实体模型才生效，实体模型在resource\_pack/entity/下定义，详细可参考自定义方块实体动画的教学文档。
 
-[SetBlockEntityParticlePosOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockentityparticleposoffset)
+[SetBlockEntityParticlePosOffset](/接口/方块/渲染)
 
 客户端
 
 设置自定义方块实体中粒子特效位置偏移值，用于调整粒子特效相对于方块位置的偏移。与特效/粒子/SetPos接口不同，该接口调整的是相对于方块位置的位置偏移值，而不是世界坐标。
 
-[SetBlockRenderDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setblockrenderdistance)
+[SetBlockRenderDistance](/接口/方块/渲染)
 
 客户端
 
 设置玩家周围方块的可渲染距离
 
-[SetDropItemTransform](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/渲染.html#setdropitemtransform)
+[SetDropItemTransform](/接口/方块/渲染)
 
 客户端
 
@@ -5800,103 +5800,103 @@ Apollo
 
 描述
 
-[GetBrewingStandSlotItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getbrewingstandslotitem)
+[GetBrewingStandSlotItem](/接口/方块/容器)
 
 服务端
 
 获取酿造台指定槽位物品
 
-[GetChestBoxSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getchestboxsize)
+[GetChestBoxSize](/接口/方块/容器)
 
 服务端
 
 获取箱子容量大小
 
-[GetChestPairedPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getchestpairedposition)
+[GetChestPairedPosition](/接口/方块/容器)
 
 服务端
 
 获取与箱子A合并成一个大箱子的箱子B的坐标
 
-[GetContainerItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getcontaineritem)
+[GetContainerItem](/接口/方块/容器)
 
 服务端
 
 获取容器内的物品
 
-[GetContainerSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getcontainersize)
+[GetContainerSize](/接口/方块/容器)
 
 服务端
 
 获取容器容量大小
 
-[GetEnderChestItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getenderchestitem)
+[GetEnderChestItem](/接口/方块/容器)
 
 服务端
 
 获取末影箱内的物品
 
-[GetInputSlotItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getinputslotitem)
+[GetInputSlotItem](/接口/方块/容器)
 
 服务端
 
 获取熔炉输入栏物品, 支持使用下面参数清空特定槽位:itemDict为空，为{}, 或itemName为minecraft:air，或者count为0
 
-[GetOpenContainerItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getopencontaineritem)
+[GetOpenContainerItem](/接口/方块/容器)
 
 服务端
 
 获取开放容器的物品
 
-[GetOutputSlotItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getoutputslotitem)
+[GetOutputSlotItem](/接口/方块/容器)
 
 服务端
 
 获取熔炉输出栏物品
 
-[GetPlayerUIItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#getplayeruiitem)
+[GetPlayerUIItem](/接口/方块/容器)
 
 服务端
 
 获取合成容器的物品
 
-[SetBrewingStandSlotItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#setbrewingstandslotitem)
+[SetBrewingStandSlotItem](/接口/方块/容器)
 
 服务端
 
 设置酿造台指定槽位物品
 
-[SetChestBoxItemExchange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#setchestboxitemexchange)
+[SetChestBoxItemExchange](/接口/方块/容器)
 
 服务端
 
 交换箱子里物品的槽位
 
-[SetChestBoxItemNum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#setchestboxitemnum)
+[SetChestBoxItemNum](/接口/方块/容器)
 
 服务端
 
 设置箱子槽位物品数目
 
-[SetInputSlotItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#setinputslotitem)
+[SetInputSlotItem](/接口/方块/容器)
 
 服务端
 
 设置熔炉输入栏物品
 
-[SetPlayerUIItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#setplayeruiitem)
+[SetPlayerUIItem](/接口/方块/容器)
 
 服务端
 
 设置合成容器的物品
 
-[SpawnItemToContainer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#spawnitemtocontainer)
+[SpawnItemToContainer](/接口/方块/容器)
 
 服务端
 
 生成物品到容器方块的物品栏
 
-[SpawnItemToEnderChest](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/容器.html#spawnitemtoenderchest)
+[SpawnItemToEnderChest](/接口/方块/容器)
 
 服务端
 
@@ -5908,13 +5908,13 @@ Apollo
 
 描述
 
-[GetBlockPoweredState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/红石.html#getblockpoweredstate)
+[GetBlockPoweredState](/接口/方块/红石)
 
 服务端
 
 获取某个坐标方块的充能状态
 
-[GetStrength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/红石.html#getstrength)
+[GetStrength](/接口/方块/红石)
 
 服务端
 
@@ -5926,25 +5926,25 @@ Apollo
 
 描述
 
-[GetSignBlockText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/告示牌.html#getsignblocktext)
+[GetSignBlockText](/接口/方块/告示牌)
 
 服务端
 
 获取告示牌（方块）的文本内容
 
-[GetSignTextStyle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/告示牌.html#getsigntextstyle)
+[GetSignTextStyle](/接口/方块/告示牌)
 
 服务端
 
 获取告示牌的文本样式信息
 
-[SetSignBlockText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/告示牌.html#setsignblocktext)
+[SetSignBlockText](/接口/方块/告示牌)
 
 服务端
 
 设置告示牌（方块）的文本内容
 
-[SetSignTextStyle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/告示牌.html#setsigntextstyle)
+[SetSignTextStyle](/接口/方块/告示牌)
 
 服务端
 
@@ -5956,13 +5956,13 @@ Apollo
 
 描述
 
-[GetBedColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/床.html#getbedcolor)
+[GetBedColor](/接口/方块/床)
 
 服务端
 
 获取床（方块）的颜色
 
-[SetBedColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/床.html#setbedcolor)
+[SetBedColor](/接口/方块/床)
 
 服务端
 
@@ -5974,223 +5974,223 @@ Apollo
 
 描述
 
-[CancelShearsDestoryBlockSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#cancelshearsdestoryblockspeed)
+[CancelShearsDestoryBlockSpeed](/接口/物品)
 
 服务端
 
 取消剪刀对某一方块的破坏速度设置
 
-[CancelShearsDestoryBlockSpeedAll](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#cancelshearsdestoryblockspeedall)
+[CancelShearsDestoryBlockSpeedAll](/接口/物品)
 
 服务端
 
 取消剪刀对全部方块的破坏速度设置
 
-[ChangeArmorTextures](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#changearmortextures)
+[ChangeArmorTextures](/接口/物品)
 
 客户端
 
 修改盔甲在场景中显示和在UI中显示的贴图
 
-[ChangeItemTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#changeitemtexture)
+[ChangeItemTexture](/接口/物品)
 
 客户端
 
 替换物品的贴图，修改后所有用到该贴图的物品都会被改变，后续创建的此类物品也会被改变。会同时修改物品在UI界面上的显示，手持时候的显示与场景掉落的显示。
 
-[GetAllEnchantsInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getallenchantsinfo)
+[GetAllEnchantsInfo](/接口/物品)
 
 服务端
 
 获取目前已注册的所有附魔信息
 
-[GetAllEnchantsInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getallenchantsinfo)
+[GetAllEnchantsInfo](/接口/物品)
 
 客户端
 
 获取目前已注册的所有附魔信息
 
-[GetCustomName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getcustomname)
+[GetCustomName](/接口/物品)
 
 服务端
 
 获取物品的自定义名称，与铁砧修改的名称一致
 
-[GetItemBasicInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitembasicinfo)
+[GetItemBasicInfo](/接口/物品)
 
 服务端
 
 获取物品的基础信息
 
-[GetItemBasicInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitembasicinfo)
+[GetItemBasicInfo](/接口/物品)
 
 客户端
 
 获取物品的基础信息
 
-[GetItemDefenceAngle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemdefenceangle)
+[GetItemDefenceAngle](/接口/物品)
 
 服务端
 
 获取盾牌物品的抵挡角度范围
 
-[GetItemDurability](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemdurability)
+[GetItemDurability](/接口/物品)
 
 服务端
 
 获取指定槽位的物品耐久
 
-[GetItemEffectName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemeffectname)
+[GetItemEffectName](/接口/物品)
 
 客户端
 
 获取物品的状态描述，如：§7保护 0§r
 
-[GetItemFormattedHoverText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemformattedhovertext)
+[GetItemFormattedHoverText](/接口/物品)
 
 客户端
 
 获取物品的格式化hover文本，如：§f灾厄旗帜§r
 
-[GetItemHoverName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemhovername)
+[GetItemHoverName](/接口/物品)
 
 客户端
 
 获取物品的hover名称，如：灾厄旗帜§r
 
-[GetItemInfoByBlockName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getiteminfobyblockname)
+[GetItemInfoByBlockName](/接口/物品)
 
 服务端
 
 通过方块名称及aux值获取物品信息
 
-[GetItemLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemlayer)
+[GetItemLayer](/接口/物品)
 
 服务端
 
 获取物品的叠加贴图。物品叠加贴图详见SetItemLayer
 
-[GetItemMaxDurability](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemmaxdurability)
+[GetItemMaxDurability](/接口/物品)
 
 服务端
 
 获取指定槽位的物品耐最大耐久
 
-[GetItemTags](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemtags)
+[GetItemTags](/接口/物品)
 
 服务端
 
 获取物品在minecraft:tags中定义的tags列表
 
-[GetItemTags](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemtags)
+[GetItemTags](/接口/物品)
 
 客户端
 
 获取物品在minecraft:tags中定义的tags列表
 
-[GetItemTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getitemtexture)
+[GetItemTexture](/接口/物品)
 
 客户端
 
 获取item\_texture.json中物品的贴图路径。
 
-[GetLoadItems](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getloaditems)
+[GetLoadItems](/接口/物品)
 
 服务端
 
 获取已经加载的物品id
 
-[GetUserDataInEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getuserdatainevent)
+[GetUserDataInEvent](/接口/物品)
 
 服务端
 
 使物品相关服务端事件的[物品信息字典](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/1-我的世界基础概念.html#物品信息字典#物品信息字典)参数带有userData。在mod初始化时调用即可
 
-[GetUserDataInEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#getuserdatainevent)
+[GetUserDataInEvent](/接口/物品)
 
 客户端
 
 使物品相关客户端事件的[物品信息字典](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/20-玩法开发/10-基本概念/1-我的世界基础概念.html#物品信息字典#物品信息字典)参数带有userData。在mod初始化时调用即可
 
-[LookupItemByName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#lookupitembyname)
+[LookupItemByName](/接口/物品)
 
 服务端
 
 判定指定identifier的物品是否存在
 
-[RemoveItemLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#removeitemlayer)
+[RemoveItemLayer](/接口/物品)
 
 服务端
 
 移除物品的叠加贴图。物品叠加贴图详见SetItemLayer
 
-[SetAttackDamage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setattackdamage)
+[SetAttackDamage](/接口/物品)
 
 服务端
 
 设置物品的攻击伤害值
 
-[SetCompassEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setcompassentity)
+[SetCompassEntity](/接口/物品)
 
 客户端
 
 设置指南针朝向的实体
 
-[SetCompassTarget](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setcompasstarget)
+[SetCompassTarget](/接口/物品)
 
 客户端
 
 设置指南针的朝向位置
 
-[SetCustomName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setcustomname)
+[SetCustomName](/接口/物品)
 
 服务端
 
 设置物品的自定义名称，与使用铁砧重命名一致
 
-[SetItemDefenceAngle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setitemdefenceangle)
+[SetItemDefenceAngle](/接口/物品)
 
 服务端
 
 设置盾牌物品的抵挡角度范围
 
-[SetItemDurability](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setitemdurability)
+[SetItemDurability](/接口/物品)
 
 服务端
 
 设置物品的耐久值
 
-[SetItemLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setitemlayer)
+[SetItemLayer](/接口/物品)
 
 服务端
 
 设置物品的叠加贴图，可以在物品的上层与下层叠加自定义贴图。具体使用可参考CustomItemsMod示例。
 
-[SetItemMaxDurability](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setitemmaxdurability)
+[SetItemMaxDurability](/接口/物品)
 
 服务端
 
 设置物品的最大耐久值
 
-[SetItemTierLevel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setitemtierlevel)
+[SetItemTierLevel](/接口/物品)
 
 服务端
 
 设置工具类物品的挖掘等级
 
-[SetItemTierSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setitemtierspeed)
+[SetItemTierSpeed](/接口/物品)
 
 服务端
 
 设置工具类物品的挖掘速度(可通过userData中的ModTierSpeed获取挖掘速度)
 
-[SetMaxStackSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setmaxstacksize)
+[SetMaxStackSize](/接口/物品)
 
 服务端
 
 设置物品的最大堆叠数量（存档）
 
-[SetShearsDestoryBlockSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/物品.html#setshearsdestoryblockspeed)
+[SetShearsDestoryBlockSpeed](/接口/物品)
 
 服务端
 
@@ -6202,7 +6202,7 @@ Apollo
 
 描述
 
-[DestroyEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/通用.html#destroyentity)
+[DestroyEntity](/接口/特效/通用)
 
 客户端
 
@@ -6214,67 +6214,67 @@ Apollo
 
 描述
 
-[CreateTextBoardInWorld](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#createtextboardinworld)
+[CreateTextBoardInWorld](/接口/特效/文字面板)
 
 客户端
 
 创建文字面板
 
-[RemoveTextBoard](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#removetextboard)
+[RemoveTextBoard](/接口/特效/文字面板)
 
 客户端
 
 删除文字面板
 
-[SetBoardBackgroundColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardbackgroundcolor)
+[SetBoardBackgroundColor](/接口/特效/文字面板)
 
 客户端
 
 修改背景颜色
 
-[SetBoardBindEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardbindentity)
+[SetBoardBindEntity](/接口/特效/文字面板)
 
 客户端
 
 文字面板绑定实体对象
 
-[SetBoardDepthTest](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboarddepthtest)
+[SetBoardDepthTest](/接口/特效/文字面板)
 
 客户端
 
 设置是否开启深度测试, 默认状态下是开启
 
-[SetBoardFaceCamera](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardfacecamera)
+[SetBoardFaceCamera](/接口/特效/文字面板)
 
 客户端
 
 设置文字面板的朝向
 
-[SetBoardPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardpos)
+[SetBoardPos](/接口/特效/文字面板)
 
 客户端
 
 修改位置
 
-[SetBoardRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardrot)
+[SetBoardRot](/接口/特效/文字面板)
 
 客户端
 
 修改旋转角度, 若设置了文本朝向相机，则旋转角度的修改不会生效
 
-[SetBoardScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardscale)
+[SetBoardScale](/接口/特效/文字面板)
 
 客户端
 
 内容整体缩放
 
-[SetBoardTextColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#setboardtextcolor)
+[SetBoardTextColor](/接口/特效/文字面板)
 
 客户端
 
 修改字体颜色
 
-[SetText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/文字面板.html#settext)
+[SetText](/接口/特效/文字面板)
 
 客户端
 
@@ -6286,133 +6286,133 @@ Apollo
 
 描述
 
-[Bind](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#bind)
+[Bind](/接口/特效/序列帧)
 
 客户端
 
 绑定entity
 
-[Bind](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#bind)
+[Bind](/接口/特效/序列帧)
 
 客户端
 
 绑定骨骼模型
 
-[CreateEngineSfx](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#createenginesfx)
+[CreateEngineSfx](/接口/特效/序列帧)
 
 客户端
 
 创建序列帧特效
 
-[CreateEngineSfxFromEditor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#createenginesfxfromeditor)
+[CreateEngineSfxFromEditor](/接口/特效/序列帧)
 
 客户端
 
 指使用资源包中effects/xxx.json，按照编辑器中编辑好的参数创建序列帧。支持环状序列帧
 
-[GetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#getpos)
+[GetPos](/接口/特效/序列帧)
 
 客户端
 
 获取序列帧特效的位置
 
-[GetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#getrot)
+[GetRot](/接口/特效/序列帧)
 
 客户端
 
 获取序列帧特效的旋转角度
 
-[GetScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#getscale)
+[GetScale](/接口/特效/序列帧)
 
 客户端
 
 获取序列帧特效的缩放值
 
-[Pause](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#pause)
+[Pause](/接口/特效/序列帧)
 
 客户端
 
 暂停播放，序列帧定格在当前时刻，再次调用Play时继续播放
 
-[Play](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#play)
+[Play](/接口/特效/序列帧)
 
 客户端
 
 播放序列帧
 
-[SetDeepTest](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setdeeptest)
+[SetDeepTest](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧是否透视，默认为否
 
-[SetFaceCamera](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setfacecamera)
+[SetFaceCamera](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧是否始终朝向摄像机，默认为是
 
-[SetFadeDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setfadedistance)
+[SetFadeDistance](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧开始自动调整透明度的距离。序列帧与摄像机之间的距离小于该值时会自动调整序列帧的透明度，距离摄像机越近，序列帧越透明
 
-[SetGlobal](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setglobal)
+[SetGlobal](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧是否是全局的，默认为否
 
-[SetLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setlayer)
+[SetLayer](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧渲染层级，默认层级为1，当层级不为1时表示该特效开启特效分层渲染功能。特效（粒子和帧动画）分层渲染时，层级越高渲染越靠后，层级大的会遮挡层级低的，且同一层级的特效会根据特效的相对位置产生正确的相互遮挡关系。
 
-[SetLoop](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setloop)
+[SetLoop](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧是否循环播放，默认为否
 
-[SetMixColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setmixcolor)
+[SetMixColor](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧混合颜色
 
-[SetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setpos)
+[SetPos](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧的位置
 
-[SetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setrot)
+[SetRot](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧的旋转
 
-[SetRotUseZXY](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setrotusezxy)
+[SetRotUseZXY](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧的旋转，旋转顺序按照绕z,x,y轴旋转
 
-[SetScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setscale)
+[SetScale](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧的缩放
 
-[SetUsePointFiltering](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#setusepointfiltering)
+[SetUsePointFiltering](/接口/特效/序列帧)
 
 客户端
 
 设置序列帧是否使用点滤波
 
-[Stop](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/序列帧.html#stop)
+[Stop](/接口/特效/序列帧)
 
 客户端
 
@@ -6424,145 +6424,145 @@ Apollo
 
 描述
 
-[Bind](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#bind)
+[Bind](/接口/特效/粒子)
 
 客户端
 
 绑定entity
 
-[Bind](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#bind)
+[Bind](/接口/特效/粒子)
 
 客户端
 
 绑定骨骼模型
 
-[CreateEngineParticle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#createengineparticle)
+[CreateEngineParticle](/接口/特效/粒子)
 
 客户端
 
 用于创建粒子特效
 
-[GetParticleEmissionRate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getparticleemissionrate)
+[GetParticleEmissionRate](/接口/特效/粒子)
 
 客户端
 
 获取粒子发射器每帧发射粒子的频率。
 
-[GetParticleMaxNum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getparticlemaxnum)
+[GetParticleMaxNum](/接口/特效/粒子)
 
 客户端
 
 获取粒子发射器包含的最大粒子数量。
 
-[GetParticleMaxSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getparticlemaxsize)
+[GetParticleMaxSize](/接口/特效/粒子)
 
 客户端
 
 获取粒子特效中粒子大小的最大值。
 
-[GetParticleMinSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getparticleminsize)
+[GetParticleMinSize](/接口/特效/粒子)
 
 客户端
 
 获取粒子特效中粒子大小的最小值。
 
-[GetParticleVolumeSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getparticlevolumesize)
+[GetParticleVolumeSize](/接口/特效/粒子)
 
 客户端
 
 获取粒子发射器的体积大小缩放值。
 
-[GetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getpos)
+[GetPos](/接口/特效/粒子)
 
 客户端
 
 获取粒子发射器的世界坐标位置
 
-[GetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#getrot)
+[GetRot](/接口/特效/粒子)
 
 客户端
 
 获取粒子发射器的旋转角度
 
-[Pause](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#pause)
+[Pause](/接口/特效/粒子)
 
 客户端
 
 暂停播放，粒子定格在当前时刻，再次调用Play时继续播放
 
-[Play](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#play)
+[Play](/接口/特效/粒子)
 
 客户端
 
 播放粒子特效
 
-[SetFadeDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setfadedistance)
+[SetFadeDistance](/接口/特效/粒子)
 
 客户端
 
 设置粒子开始自动调整透明度的距离。粒子与摄像机之间的距离小于该值时会自动调整粒子的透明度，距离摄像机越近，粒子越透明
 
-[SetGlobal](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setglobal)
+[SetGlobal](/接口/特效/粒子)
 
 客户端
 
 设置粒子发射器是否为全局粒子发射器, 默认是False
 
-[SetLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setlayer)
+[SetLayer](/接口/特效/粒子)
 
 客户端
 
 粒子默认层级为1，当层级不为1时表示该特效开启特效分层渲染功能。特效（粒子和帧动画）分层渲染时，层级越高渲染越靠后，层级大的会遮挡层级低的，且同一层级的特效会根据特效的相对位置产生正确的相互遮挡关系。
 
-[SetParticleEmissionRate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setparticleemissionrate)
+[SetParticleEmissionRate](/接口/特效/粒子)
 
 客户端
 
 设置粒子发射器每帧发射粒子的频率，频率越大则每帧发射的粒子数量越多，但粒子数量不会超过粒子发射器的粒子容量，同时由于性能考虑，每帧发射的粒子数量也不会超过100个。
 
-[SetParticleMaxNum](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setparticlemaxnum)
+[SetParticleMaxNum](/接口/特效/粒子)
 
 客户端
 
 设置粒子发射器的粒子容量，即粒子发射器所包含的最大粒子数量。该数量并不代表目前粒子发射器所发射的粒子数量，如需要增加发射的粒子数量，需同时改变粒子的发射频率。
 
-[SetParticleSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setparticlesize)
+[SetParticleSize](/接口/特效/粒子)
 
 客户端
 
 设置粒子特效中粒子大小的最小值及最大值。
 
-[SetParticleVolumeSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setparticlevolumesize)
+[SetParticleVolumeSize](/接口/特效/粒子)
 
 客户端
 
 设置粒子发射器的体积大小缩放，不影响单个粒子的尺寸。粒子发射器的体积越大，则粒子的发射范围越大。
 
-[SetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setpos)
+[SetPos](/接口/特效/粒子)
 
 客户端
 
 设置粒子发射器的世界坐标位置
 
-[SetRelative](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setrelative)
+[SetRelative](/接口/特效/粒子)
 
 客户端
 
 当粒子绑定了entity或骨骼模型时，发射出的粒子使用entity坐标系还是世界坐标系。与mcstudio特效编辑器中粒子的“相对挂点运动”选项功能相同。
 
-[SetRotUseZXY](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setrotusezxy)
+[SetRotUseZXY](/接口/特效/粒子)
 
 客户端
 
 设置粒子发射器的旋转，旋转顺序按照绕z,x,y轴旋转
 
-[SetUsePointFiltering](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#setusepointfiltering)
+[SetUsePointFiltering](/接口/特效/粒子)
 
 客户端
 
 设置粒子材质的纹理滤波是否使用点滤波方法。默认为使用双线性滤波
 
-[Stop](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/粒子.html#stop)
+[Stop](/接口/特效/粒子)
 
 客户端
 
@@ -6574,19 +6574,19 @@ Apollo
 
 描述
 
-[CreateEngineEffectBind](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/模型特效.html#createengineeffectbind)
+[CreateEngineEffectBind](/接口/特效/模型特效)
 
 客户端
 
 指用编辑器保存资源包中models/bind/xxx\_bind.json生成编辑好的所有挂点的所有特效。生成的特效会自动进行挂接及播放，编辑器中设为不可见的特效也会进行播放。并且使用这种方式创建的特效，开发者不用维护entity进出视野导致的挂接特效被移除，引擎会在entity每次进入视野时自动创建所有特效。
 
-[Pause](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/模型特效.html#pause)
+[Pause](/接口/特效/模型特效)
 
 客户端
 
 暂停模型特效（即使用CreateEngineEffectBind创建的特效）
 
-[Resume](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/模型特效.html#resume)
+[Resume](/接口/特效/模型特效)
 
 客户端
 
@@ -6598,217 +6598,217 @@ Apollo
 
 描述
 
-[BindEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#bindentity)
+[BindEntity](/接口/特效/微软粒子)
 
 客户端
 
 绑定粒子发射器到指定实体的指定骨骼上
 
-[BindModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#bindmodel)
+[BindModel](/接口/特效/微软粒子)
 
 客户端
 
 绑定粒子发射器到指定骨骼模型的指定骨骼上
 
-[Create](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#create)
+[Create](/接口/特效/微软粒子)
 
 客户端
 
 创建粒子发射器, 创建后立即播放
 
-[CreateBindEntityNew](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#createbindentitynew)
+[CreateBindEntityNew](/接口/特效/微软粒子)
 
 客户端
 
 创建粒子发射器并绑定到指定实体的指定骨骼上, 创建后立即播放
 
-[EmitManually](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#emitmanually)
+[EmitManually](/接口/特效/微软粒子)
 
 客户端
 
 手动发射粒子一次
 
-[Exist](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#exist)
+[Exist](/接口/特效/微软粒子)
 
 客户端
 
 判断指定粒子发射器是否存在
 
-[GetActiveDuration](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getactiveduration)
+[GetActiveDuration](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器的激活周期
 
-[GetBindingID](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getbindingid)
+[GetBindingID](/接口/特效/微软粒子)
 
 客户端
 
 返回粒子绑定的实体id，没有则返回"0"
 
-[GetBindingModelID](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getbindingmodelid)
+[GetBindingModelID](/接口/特效/微软粒子)
 
 客户端
 
 返回绑定的骨骼模型id 没有则返回-1
 
-[GetDuration](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getduration)
+[GetDuration](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器的播放周期(激活+休眠时间)
 
-[GetFacingMode](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getfacingmode)
+[GetFacingMode](/接口/特效/微软粒子)
 
 客户端
 
 返回粒子发射器的粒子朝向模式
 
-[GetLoopAge](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getloopage)
+[GetLoopAge](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器当前播放周期内已播放的时间
 
-[GetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getpos)
+[GetPos](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器位置
 
-[GetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getrot)
+[GetRot](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器局部旋转
 
-[GetSleepDuration](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getsleepduration)
+[GetSleepDuration](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器的休眠周期
 
-[GetTimeScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#gettimescale)
+[GetTimeScale](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器的播放速度
 
-[GetVariable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#getvariable)
+[GetVariable](/接口/特效/微软粒子)
 
 客户端
 
 获取粒子发射器的Molang变量值
 
-[Hide](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#hide)
+[Hide](/接口/特效/微软粒子)
 
 客户端
 
 隐藏粒子发射器(不渲染)
 
-[IsHiding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#ishiding)
+[IsHiding](/接口/特效/微软粒子)
 
 客户端
 
 返回粒子发射器是否正在被隐藏(不渲染)
 
-[IsPausing](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#ispausing)
+[IsPausing](/接口/特效/微软粒子)
 
 客户端
 
 返回粒子发射器的逻辑是否正在被暂停
 
-[Pause](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#pause)
+[Pause](/接口/特效/微软粒子)
 
 客户端
 
 暂停粒子发射器的逻辑更新，但保持渲染状态
 
-[Play](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#play)
+[Play](/接口/特效/微软粒子)
 
 客户端
 
 播放粒子发射器
 
-[PlayAt](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#playat)
+[PlayAt](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子发射器播放时间点
 
-[Remove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#remove)
+[Remove](/接口/特效/微软粒子)
 
 客户端
 
 销毁指定粒子发射器
 
-[RemoveByName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#removebyname)
+[RemoveByName](/接口/特效/微软粒子)
 
 客户端
 
 销毁场景中指定名称(粒子发射器json中的identifier)的所有粒子发射器
 
-[Replay](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#replay)
+[Replay](/接口/特效/微软粒子)
 
 客户端
 
 重播粒子发射器
 
-[Resume](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#resume)
+[Resume](/接口/特效/微软粒子)
 
 客户端
 
 恢复粒子发射器的逻辑更新，不影响渲染状态
 
-[SetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#setpos)
+[SetPos](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子发射器位置
 
-[SetRelative](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#setrelative)
+[SetRelative](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子是否在局部空间进行计算
 
-[SetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#setrot)
+[SetRot](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子发射器局部旋转
 
-[SetRotUseZXY](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#setrotusezxy)
+[SetRotUseZXY](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子发射器局部旋转，旋转顺序按照绕z,x,y轴旋转
 
-[SetTimeScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#settimescale)
+[SetTimeScale](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子发射器的播放速度
 
-[SetVariable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#setvariable)
+[SetVariable](/接口/特效/微软粒子)
 
 客户端
 
 设置粒子发射器的Molang变量值
 
-[Show](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#show)
+[Show](/接口/特效/微软粒子)
 
 客户端
 
 显示粒子发射器(开启渲染)
 
-[Stop](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#stop)
+[Stop](/接口/特效/微软粒子)
 
 客户端
 
 停止粒子发射器播放(不渲染且不更新逻辑)
 
-[Unbind](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/特效/微软粒子.html#unbind)
+[Unbind](/接口/特效/微软粒子)
 
 客户端
 
@@ -6820,361 +6820,361 @@ Apollo
 
 描述
 
-[BindItemToBone](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#binditemtobone)
+[BindItemToBone](/接口/模型)
 
 客户端
 
 将使用了骨骼模型的玩家的手持物绑定到指定的骨骼上
 
-[BindModelToEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#bindmodeltoentity)
+[BindModelToEntity](/接口/模型)
 
 客户端
 
 实体替换骨骼模型后，再往上挂接其他骨骼模型。
 
-[BindModelToModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#bindmodeltomodel)
+[BindModelToModel](/接口/模型)
 
 客户端
 
 在骨骼模型上挂接其他骨骼模型
 
-[CancelAllBoneMask](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#cancelallbonemask)
+[CancelAllBoneMask](/接口/模型)
 
 客户端
 
 取消动画中的所有骨骼屏蔽。
 
-[CreateFreeModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#createfreemodel)
+[CreateFreeModel](/接口/模型)
 
 客户端
 
 创建自由的模型（无需绑定Entity）
 
-[GetAllBindModelToEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getallbindmodeltoentity)
+[GetAllBindModelToEntity](/接口/模型)
 
 客户端
 
 获取实体上某个骨骼上挂接的所有骨骼模型的id
 
-[GetAnimLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getanimlength)
+[GetAnimLength](/接口/模型)
 
 客户端
 
 获取某个骨骼动画的长度，单位为秒
 
-[GetBonePositionFromMinecraftObject](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getbonepositionfromminecraftobject)
+[GetBonePositionFromMinecraftObject](/接口/模型)
 
 客户端
 
 获取原版模型的骨骼世界坐标
 
-[GetBoneWorldPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getboneworldpos)
+[GetBoneWorldPos](/接口/模型)
 
 客户端
 
 获取骨骼的坐标
 
-[GetEntityBoneWorldPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getentityboneworldpos)
+[GetEntityBoneWorldPos](/接口/模型)
 
 客户端
 
 获取换了骨骼模型的实体的骨骼坐标
 
-[GetEntityScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getentityscale)
+[GetEntityScale](/接口/模型)
 
 服务端
 
 获取实体的放缩比例大小
 
-[GetExtraUniformValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getextrauniformvalue)
+[GetExtraUniformValue](/接口/模型)
 
 客户端
 
 获取在骨骼模型shader中使用的自定义变量Uniform的值
 
-[GetModelId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getmodelid)
+[GetModelId](/接口/模型)
 
 客户端
 
 获取骨骼模型的Id，主要用于特效绑定骨骼模型
 
-[GetModelMaterial](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getmodelmaterial)
+[GetModelMaterial](/接口/模型)
 
 客户端
 
 获取骨骼模型的正在使用的材质名称，也可获取骨骼模型中指定骨骼所使用的[材质名称](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/16-美术/6-模型和动作/04-骨骼模型的使用.html#7.模型使用自定义材质及更多贴图)。如果获取指定骨骼所使用的材质，需要先在netease\_model.json下设置"useSplitMeshes"字段为true。
 
-[GetModelName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getmodelname)
+[GetModelName](/接口/模型)
 
 服务端
 
 获取实体的模型名称
 
-[GetModelStyle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getmodelstyle)
+[GetModelStyle](/接口/模型)
 
 客户端
 
 获取模型类型
 
-[GetPlayingAnimList](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#getplayinganimlist)
+[GetPlayingAnimList](/接口/模型)
 
 客户端
 
 获取指定的骨骼模型中正处于播放状态的骨骼动画名称列表
 
-[GetTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#gettexture)
+[GetTexture](/接口/模型)
 
 客户端
 
 获取骨骼模型的贴图路径
 
-[HideModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#hidemodel)
+[HideModel](/接口/模型)
 
 客户端
 
 隐藏纯模型
 
-[ModelPlayAni](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#modelplayani)
+[ModelPlayAni](/接口/模型)
 
 客户端
 
 纯骨骼播放动作。 支持骨骼动画混合，可参考SetAnimationBoneMask接口以及RegisterAnim1DControlParam接口说明。
 
-[ModelStopAni](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#modelstopani)
+[ModelStopAni](/接口/模型)
 
 客户端
 
 暂停指定的骨骼动画
 
-[PlayAnim](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#playanim)
+[PlayAnim](/接口/模型)
 
 客户端
 
 播放骨骼动画
 
-[RegisterAnim1DControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#registeranim1dcontrolparam)
+[RegisterAnim1DControlParam](/接口/模型)
 
 客户端
 
 当同时播放多个骨骼动画时，新建用于控制动画进行1D线性混合的参数。目前线性混合仅支持对两个动画进行混合。新建的参数值范围为\[0,1\]。指定的骨骼将会按照这个参数的值对两个动画进行线性混合。
 
-[RegisterAnim1DMultiControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#registeranim1dmulticontrolparam)
+[RegisterAnim1DMultiControlParam](/接口/模型)
 
 客户端
 
 当同时播放多个骨骼动画时，注册用于根据权重控制多动画进行混合的参数
 
-[RemoveAnim1DMultiControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#removeanim1dmulticontrolparam)
+[RemoveAnim1DMultiControlParam](/接口/模型)
 
 客户端
 
 删除用于根据权重控制多动画进行混合的参数
 
-[RemoveFreeModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#removefreemodel)
+[RemoveFreeModel](/接口/模型)
 
 客户端
 
 移除自由模型
 
-[ResetModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#resetmodel)
+[ResetModel](/接口/模型)
 
 客户端
 
 恢复实体为原版模型
 
-[SetAnim1DControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setanim1dcontrolparam)
+[SetAnim1DControlParam](/接口/模型)
 
 客户端
 
 新建动画的1D控制参数后，使用该接口对相应的参数进行控制。
 
-[SetAnim1DMultiControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setanim1dmulticontrolparam)
+[SetAnim1DMultiControlParam](/接口/模型)
 
 客户端
 
 新建动画的1D控制参数后，设置用于根据权重控制多动画进行混合的参数
 
-[SetAnimLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setanimlayer)
+[SetAnimLayer](/接口/模型)
 
 客户端
 
 设置骨骼动画的层级，动画层级越大，则优先度越高，骨骼模型的骨骼优先播放优先度最高的动画，相同层级的动画则优先播放率先播放的动画。
 
-[SetAnimSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setanimspeed)
+[SetAnimSpeed](/接口/模型)
 
 客户端
 
 设置某个骨骼动画的播放速度
 
-[SetAnimationAllBoneMask](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setanimationallbonemask)
+[SetAnimationAllBoneMask](/接口/模型)
 
 客户端
 
 设置是否屏蔽动画中所有骨骼的动画，若开启骨骼屏蔽后，该骨骼将不再播放该动画中的动作。该接口会对该动画中所有骨骼生效，可通过参数ignoreBoneList来指定不受影响的骨骼名称。通过屏蔽指定骨骼的动画可实现同一个骨骼模型同时在不同骨骼上播放不同的动作动画，从而实现快捷的动作融合。
 
-[SetAnimationBoneMask](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setanimationbonemask)
+[SetAnimationBoneMask](/接口/模型)
 
 客户端
 
 设置是否屏蔽动画中指定的骨骼的动画，若开启骨骼屏蔽后，该骨骼将不再播放该动画中的动作。通过屏蔽指定骨骼的动画可实现同一个骨骼模型同时在不同骨骼上播放不同的动作动画，从而实现快捷的动作融合。
 
-[SetBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setbrightness)
+[SetBrightness](/接口/模型)
 
 客户端
 
 设置实体的亮度
 
-[SetEntityOpacity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setentityopacity)
+[SetEntityOpacity](/接口/模型)
 
 客户端
 
 设置骨骼模型的透明度，只能对骨骼模型生效，如果设置的是原版模型，则模型的影子会被隐藏。
 
-[SetEntityScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setentityscale)
+[SetEntityScale](/接口/模型)
 
 服务端
 
 设置实体的放缩比例大小，设置比例过大会导致游戏卡顿，建议控制在20倍以内。实体的scale的立方乘以包围盒的体积不可超过32768
 
-[SetEntityShadowShow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setentityshadowshow)
+[SetEntityShadowShow](/接口/模型)
 
 客户端
 
 设置实体打开/关闭影子渲染
 
-[SetExtraUniformValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setextrauniformvalue)
+[SetExtraUniformValue](/接口/模型)
 
 客户端
 
 设置shader中特定Uniform的值
 
-[SetFreeModelAniSpeed](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setfreemodelanispeed)
+[SetFreeModelAniSpeed](/接口/模型)
 
 客户端
 
 设置自由模型动画的播放速度
 
-[SetFreeModelBoundingBox](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setfreemodelboundingbox)
+[SetFreeModelBoundingBox](/接口/模型)
 
 客户端
 
 设置自由模型的包围盒
 
-[SetFreeModelPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setfreemodelpos)
+[SetFreeModelPos](/接口/模型)
 
 客户端
 
 设置自由模型的位置
 
-[SetFreeModelRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setfreemodelrot)
+[SetFreeModelRot](/接口/模型)
 
 客户端
 
 设置自由模型的方向
 
-[SetFreeModelScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setfreemodelscale)
+[SetFreeModelScale](/接口/模型)
 
 客户端
 
 设置自由模型的大小
 
-[SetLegacyBindRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setlegacybindrot)
+[SetLegacyBindRot](/接口/模型)
 
 客户端
 
 用于修复特效挂接到骨骼时的方向
 
-[SetModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodel)
+[SetModel](/接口/模型)
 
 服务端
 
 设置骨骼模型
 
-[SetModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodel)
+[SetModel](/接口/模型)
 
 客户端
 
 替换实体的骨骼模型
 
-[SetModelMaterial](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodelmaterial)
+[SetModelMaterial](/接口/模型)
 
 客户端
 
 设置骨骼模型所使用的的材质，除了可以设置骨骼模型所使用的[自定义材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/16-美术/6-模型和动作/04-骨骼模型的使用.html#7.模型使用自定义材质及更多贴图)以外，也可对单个骨骼设置所使用的[自定义材质](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/16-美术/6-模型和动作/04-骨骼模型的使用.html#7.模型使用自定义材质及更多贴图)。如果需要设置单个骨骼所使用的材质，需要先在netease\_model.json下设置"useSplitMeshes"字段为true。
 
-[SetModelMultiPassMaterial](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodelmultipassmaterial)
+[SetModelMultiPassMaterial](/接口/模型)
 
 客户端
 
 设置骨骼模型多pass中使用到的[材质列表](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/16-美术/6-模型和动作/04-骨骼模型的使用.html#9.骨骼模型自定义多pass)，也可对单个骨骼设置所使用的自定义多Pass材质。如果需要设置单个骨骼所使用的多Pass材质，需要先在netease\_model.json下设置"useSplitMeshes"字段为true。
 
-[SetModelOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodeloffset)
+[SetModelOffset](/接口/模型)
 
 服务端
 
 设置骨骼模型相对于局部坐标系的偏移量，初始值为(0, 0, 0)
 
-[SetModelOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodeloffset)
+[SetModelOffset](/接口/模型)
 
 客户端
 
 模型增加偏移量
 
-[SetModelPartVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodelpartvisible)
+[SetModelPartVisible](/接口/模型)
 
 客户端
 
 对骨骼模型中指定的骨骼进行渲染屏蔽，屏蔽后该骨骼不会被渲染出来。
 
-[SetModelPerspectiveEffect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodelperspectiveeffect)
+[SetModelPerspectiveEffect](/接口/模型)
 
 客户端
 
 设置模型透视效果。注：只对自定义骨骼模型生效
 
-[SetModelTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setmodeltexture)
+[SetModelTexture](/接口/模型)
 
 服务端
 
 设置骨骼模型贴图，该接口与SetTexture功能相同，但属于服务端接口。
 
-[SetShowArmModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#setshowarmmodel)
+[SetShowArmModel](/接口/模型)
 
 客户端
 
 设置使用骨骼模型后切换至第一人称时是否显示手部模型。需要先为骨骼模型定义arm\_model，arm\_model的定义可参考demo示例-AwesomeMod中的resourcePack/models/netease\_models.json中的大天狗模型定义
 
-[SetTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#settexture)
+[SetTexture](/接口/模型)
 
 客户端
 
 设置骨骼模型的贴图，该接口与SetModelTexture功能相同，但属于客户端接口。
 
-[ShowCommonHurtColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#showcommonhurtcolor)
+[ShowCommonHurtColor](/接口/模型)
 
 服务端
 
 设置挂接骨骼模型的实体是否显示通用的受伤变红效果
 
-[ShowCommonHurtColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#showcommonhurtcolor)
+[ShowCommonHurtColor](/接口/模型)
 
 客户端
 
 设置挂接骨骼模型的实体是否显示通用的受伤变红效果
 
-[ShowModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#showmodel)
+[ShowModel](/接口/模型)
 
 客户端
 
 显示纯模型
 
-[UnBindModelToEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#unbindmodeltoentity)
+[UnBindModelToEntity](/接口/模型)
 
 客户端
 
 取消实体上挂接的某个骨骼模型。取消挂接后，这个modelId的模型便会销毁，无法再使用，如果是临时隐藏可以使用HideModel
 
-[UnBindModelToModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/模型.html#unbindmodeltomodel)
+[UnBindModelToModel](/接口/模型)
 
 客户端
 
@@ -7186,259 +7186,259 @@ Apollo
 
 描述
 
-[ChangeSneakState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#changesneakstate)
+[ChangeSneakState](/接口/原生UI)
 
 客户端
 
 切换潜行状态
 
-[ClickInteractGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#clickinteractgui)
+[ClickInteractGUI](/接口/原生UI)
 
 客户端
 
 模拟点击交互按钮，交互按钮指的在喂食、钓鱼、交易等交互场景出现的按钮
 
-[GetOriginAreaOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getoriginareaoffset)
+[GetOriginAreaOffset](/接口/原生UI)
 
 客户端
 
 获取指定原生UI的offset,包括左上角和右下角
 
-[GetScreenSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getscreensize)
+[GetScreenSize](/接口/原生UI)
 
 客户端
 
 获取游戏分辨率
 
-[GetScreenViewInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getscreenviewinfo)
+[GetScreenViewInfo](/接口/原生UI)
 
 客户端
 
 获取游戏视角信息。首先获得当前分辨率下UI放大倍数，计算方式可参考[《我的世界》界面适配方法](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/1-界面编辑器使用说明.html#《我的世界》界面适配方法)。则当前游戏视角的宽度的计算方式为：若当前分辨率的宽度能被该放大倍数整除，则等于当前分辨率，若不能，则等于当前分辨率加放大倍数再减去当前分辨率对放大倍数求余的结果，当前游戏视角的高度计算方法类似。例：以分辨率为1792，828的手机计算，画布是分辨率的3倍，所以x = 1792 + 3 - 1 = 1794；y = 828，该接口返回的结果为(1794.0, 828.0, 0.0, 0.0)
 
-[GetWalkState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getwalkstate)
+[GetWalkState](/接口/原生UI)
 
 客户端
 
 获取玩家行走/潜行/跑步状态
 
-[HideAirSupplyGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideairsupplygui)
+[HideAirSupplyGUI](/接口/原生UI)
 
 客户端
 
 隐藏玩家氧气值界面
 
-[HideArmorGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidearmorgui)
+[HideArmorGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的护甲值显示
 
-[HideChangePersonGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidechangepersongui)
+[HideChangePersonGui](/接口/原生UI)
 
 客户端
 
 隐藏切换人称的按钮。隐藏后点击相应位置不会响应
 
-[HideChatGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidechatgui)
+[HideChatGUI](/接口/原生UI)
 
 客户端
 
 隐藏聊天按钮原生UI。该接口在开启新版聊天时不生效
 
-[HideCrossHairGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidecrosshairgui)
+[HideCrossHairGUI](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的十字准心显示
 
-[HideEmoteGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideemotegui)
+[HideEmoteGUI](/接口/原生UI)
 
 客户端
 
 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用。该接口在开启新版聊天时不生效
 
-[HideExpGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideexpgui)
+[HideExpGui](/接口/原生UI)
 
 客户端
 
 非创造者模式下隐藏经验条显示
 
-[HideFoldGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidefoldgui)
+[HideFoldGUI](/接口/原生UI)
 
 客户端
 
 隐藏下拉按钮原生UI。
 
-[HideHealthGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehealthgui)
+[HideHealthGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的血量显示
 
-[HideHorseHealthGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehorsehealthgui)
+[HideHorseHealthGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的坐骑的血量显示
 
-[HideHudGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehudgui)
+[HideHudGUI](/接口/原生UI)
 
 客户端
 
 隐藏HUD游戏界面的游戏原生UI。与原版F1按钮效果一致，只隐藏显示，但点击跳跃键等位置依然会响应
 
-[HideHungerGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehungergui)
+[HideHungerGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的饥饿值显示
 
-[HideInteractGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideinteractgui)
+[HideInteractGui](/接口/原生UI)
 
 客户端
 
 隐藏交互按钮。隐藏后点击相应位置不会响应
 
-[HideJumpGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidejumpgui)
+[HideJumpGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中右下角的跳跃按钮。隐藏后点击相应位置不会响应
 
-[HideMoveGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidemovegui)
+[HideMoveGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中左下角的移动按钮。隐藏后点击相应位置不会响应
 
-[HideNeteaseStoreGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideneteasestoregui)
+[HideNeteaseStoreGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中的网易商店按钮。隐藏后点击相应位置不会响应
 
-[HidePauseGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidepausegui)
+[HidePauseGUI](/接口/原生UI)
 
 客户端
 
 隐藏暂停按钮原生UI。
 
-[HideSlotBarGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideslotbargui)
+[HideSlotBarGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中底部中间的物品栏界面
 
-[HideSneakGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidesneakgui)
+[HideSneakGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中左下角方向键的中心处潜行按钮。隐藏后点击相应位置不会响应
 
-[HideSwimGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideswimgui)
+[HideSwimGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中的浮潜按钮。隐藏后点击相应位置不会响应。
 
-[HideVoiceGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidevoicegui)
+[HideVoiceGUI](/接口/原生UI)
 
 客户端
 
 隐藏语音按钮原生UI。该接口在开启新版聊天时不生效
 
-[HideWalkGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidewalkgui)
+[HideWalkGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中跑/走按钮。隐藏后点击相应位置不会响应
 
-[OpenChatGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openchatgui)
+[OpenChatGui](/接口/原生UI)
 
 客户端
 
 打开原版聊天栏
 
-[OpenEmoteGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openemotegui)
+[OpenEmoteGui](/接口/原生UI)
 
 客户端
 
 打开表情界面
 
-[OpenFoldGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openfoldgui)
+[OpenFoldGui](/接口/原生UI)
 
 客户端
 
 打开原版下拉界面
 
-[OpenInventoryGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openinventorygui)
+[OpenInventoryGui](/接口/原生UI)
 
 客户端
 
 打开原版背包界面，并支持选中某个分页(支持自定义分页名称)
 
-[OpenNeteaseStoreGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openneteasestoregui)
+[OpenNeteaseStoreGui](/接口/原生UI)
 
 客户端
 
 打开游戏中的网易商店购买商品界面
 
-[OpenPauseGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openpausegui)
+[OpenPauseGui](/接口/原生UI)
 
 客户端
 
 打开原版暂停界面
 
-[OpenReportGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openreportgui)
+[OpenReportGui](/接口/原生UI)
 
 客户端
 
 打开原版举报界面
 
-[OpenVoiceGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openvoicegui)
+[OpenVoiceGui](/接口/原生UI)
 
 客户端
 
 打开原版语音界面
 
-[PlayHudHeartBlinkAnim](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#playhudheartblinkanim)
+[PlayHudHeartBlinkAnim](/接口/原生UI)
 
 客户端
 
 播放原版受伤时血量变化的动效
 
-[SetCrossHair](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#setcrosshair)
+[SetCrossHair](/接口/原生UI)
 
 客户端
 
 设置是否使用“准星瞄准”
 
-[SetEmoteSwitch](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#setemoteswitch)
+[SetEmoteSwitch](/接口/原生UI)
 
 客户端
 
 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用，在原生UI初始化前调用设置
 
-[SetHudChatStackPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#sethudchatstackposition)
+[SetHudChatStackPosition](/接口/原生UI)
 
 客户端
 
 设置HUD界面左上小聊天窗口位置
 
-[SetHudChatStackVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#sethudchatstackvisible)
+[SetHudChatStackVisible](/接口/原生UI)
 
 客户端
 
 设置HUD界面左上小聊天窗口可见性
 
-[SetResponse](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#setresponse)
+[SetResponse](/接口/原生UI)
 
 客户端
 
 设置原生UI是否响应
 
-[SimulateJump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#simulatejump)
+[SimulateJump](/接口/原生UI)
 
 客户端
 
@@ -7450,133 +7450,133 @@ Apollo
 
 描述
 
-[CheckCanBindUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#checkcanbindui)
+[CheckCanBindUI](/接口/自定义UI/通用)
 
 客户端
 
-检查实体是否可以绑定头顶UI，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#createui)接口
+检查实体是否可以绑定头顶UI，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口
 
-[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#createui)
+[CreateUI](/接口/自定义UI/通用)
 
 客户端
 
 创建UI，详见[界面创建流程及生命周期](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#界面创建流程及生命周期)
 
-[EnableFontBatchRender](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#enablefontbatchrender)
+[EnableFontBatchRender](/接口/自定义UI/通用)
 
 客户端
 
 是否开启字体合批
 
-[GetCustomUIControlProxyCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getcustomuicontrolproxycls)
+[GetCustomUIControlProxyCls](/接口/自定义UI/通用)
 
 客户端
 
 获得原生界面自定义UI代理基类
 
-[GetMiniMapScreenNodeCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getminimapscreennodecls)
+[GetMiniMapScreenNodeCls](/接口/自定义UI/通用)
 
 客户端
 
 获取小地图ScreenNode基类
 
-[GetNativeScreenManagerCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getnativescreenmanagercls)
+[GetNativeScreenManagerCls](/接口/自定义UI/通用)
 
 客户端
 
 获得NativeScreenManager类
 
-[GetScreenNodeCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getscreennodecls)
+[GetScreenNodeCls](/接口/自定义UI/通用)
 
 客户端
 
 获得ScreenNode类
 
-[GetTopScreen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#gettopscreen)
+[GetTopScreen](/接口/自定义UI/通用)
 
 客户端
 
 获取UI堆栈栈顶的UI节点
 
-[GetTopUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#gettopui)
+[GetTopUI](/接口/自定义UI/通用)
 
 客户端
 
 获取UI栈顶的UI名称
 
-[GetTopUINode](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#gettopuinode)
+[GetTopUINode](/接口/自定义UI/通用)
 
 客户端
 
 获取Push进来的最顶层界面，包括原生界面，详见 [界面创建流程及生命周期](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#界面创建流程及生命周期)
 
-[GetUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getui)
+[GetUI](/接口/自定义UI/通用)
 
 客户端
 
 获取UI节点，详见[界面创建流程及生命周期](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#界面创建流程及生命周期)
 
-[GetUIScreenProxyCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getuiscreenproxycls)
+[GetUIScreenProxyCls](/接口/自定义UI/通用)
 
 客户端
 
 获得原生界面Screen代理基类
 
-[GetViewBinderCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getviewbindercls)
+[GetViewBinderCls](/接口/自定义UI/通用)
 
 客户端
 
 获得ViewBinder类
 
-[GetViewViewRequestCls](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#getviewviewrequestcls)
+[GetViewViewRequestCls](/接口/自定义UI/通用)
 
 客户端
 
 获得ViewRequest类
 
-[OpenDeveloperHomeWindow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#opendeveloperhomewindow)
+[OpenDeveloperHomeWindow](/接口/自定义UI/通用)
 
 客户端
 
 打开网易资源中心开发者主页。该接口只能在横屏版本手机端使用
 
-[OpenResourceCenterDetailWindow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#openresourcecenterdetailwindow)
+[OpenResourceCenterDetailWindow](/接口/自定义UI/通用)
 
 客户端
 
 打开网易资源中心组件详情界面。该接口只能在横屏版本手机端使用
 
-[PopScreen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#popscreen)
+[PopScreen](/接口/自定义UI/通用)
 
 客户端
 
 使用堆栈管理的方式关闭UI
 
-[PopTopUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#poptopui)
+[PopTopUI](/接口/自定义UI/通用)
 
 客户端
 
 弹出UI栈顶的UI
 
-[PushScreen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#pushscreen)
+[PushScreen](/接口/自定义UI/通用)
 
 客户端
 
 使用堆栈管理的方式创建UI
 
-[RegisterUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#registerui)
+[RegisterUI](/接口/自定义UI/通用)
 
 客户端
 
 注册UI，创建UI前，需要先注册UI。同一UI只需要注册一次即可。详见[界面创建流程及生命周期](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#界面创建流程及生命周期)
 
-[RegisterUIAnimations](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#registeruianimations)
+[RegisterUIAnimations](/接口/自定义UI/通用)
 
 客户端
 
 注册UI动画
 
-[UnregisterUIAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#unregisteruianimation)
+[UnregisterUIAnimation](/接口/自定义UI/通用)
 
 客户端
 
@@ -7588,7 +7588,7 @@ Apollo
 
 描述
 
-[GetBookManager](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义书本.html#getbookmanager)
+[GetBookManager](/接口/自定义UI/自定义书本)
 
 客户端
 
@@ -7600,37 +7600,37 @@ Apollo
 
 描述
 
-[AddNodeProgress](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义成就系统.html#addnodeprogress)
+[AddNodeProgress](/接口/自定义UI/自定义成就系统)
 
 服务端
 
 增加对应玩家的对应成就节点的成就进度
 
-[GetAchievementGatePosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义成就系统.html#getachievementgateposition)
+[GetAchievementGatePosition](/接口/自定义UI/自定义成就系统)
 
 客户端
 
 获取自定义成就系统的入口按钮位置
 
-[GetChildrenNode](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义成就系统.html#getchildrennode)
+[GetChildrenNode](/接口/自定义UI/自定义成就系统)
 
 服务端
 
 获得该成就节点的下一级所有孩子节点的list
 
-[GetNodeDetailInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义成就系统.html#getnodedetailinfo)
+[GetNodeDetailInfo](/接口/自定义UI/自定义成就系统)
 
 服务端
 
 获取对应玩家的对应节点信息
 
-[SetAchievementGatePosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义成就系统.html#setachievementgateposition)
+[SetAchievementGatePosition](/接口/自定义UI/自定义成就系统)
 
 客户端
 
 设置自定义成就系统的入口按钮位置
 
-[SetNodeFinish](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/自定义成就系统.html#setnodefinish)
+[SetNodeFinish](/接口/自定义UI/自定义成就系统)
 
 服务端
 
@@ -7642,205 +7642,205 @@ Apollo
 
 描述
 
-[BindVirtualWorldModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#bindvirtualworldmodel)
+[BindVirtualWorldModel](/接口/自定义UI/UI界面)
 
 客户端
 
 绑定虚拟世界中的模型
 
-[ChangeBindAutoScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#changebindautoscale)
+[ChangeBindAutoScale](/接口/自定义UI/UI界面)
 
 客户端
 
-设置已绑定实体的UI是否根据绑定实体与本地玩家间的距离动态缩放，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#CreateUI)接口**
+设置已绑定实体的UI是否根据绑定实体与本地玩家间的距离动态缩放，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
 
-[ChangeBindEntityId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#changebindentityid)
-
-客户端
-
-修改绑定的实体id，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#CreateUI)接口**
-
-[ChangeBindOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#changebindoffset)
+[ChangeBindEntityId](/接口/自定义UI/UI界面)
 
 客户端
 
-修改与绑定实体之间的偏移量，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/通用.html#CreateUI)接口**
+修改绑定的实体id，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
 
-[Clone](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#clone)
+[ChangeBindOffset](/接口/自定义UI/UI界面)
+
+客户端
+
+修改与绑定实体之间的偏移量，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
+
+[Clone](/接口/自定义UI/UI界面)
 
 客户端
 
 克隆一个已有的控件，修改它的名称，并将它挂接到指定的父节点上，目前文本、图片、按钮控件的克隆控件表现正常，其他复杂控件的克隆控件可能存在运行问题，建议在json编写的过程中，手动复制一份对应控件使用。
 
-[Create](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#create)
+[Create](/接口/自定义UI/UI界面)
 
 客户端
 
 UI生命周期函数，当UI创建成功时调用。
 
-[CreateChildControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#createchildcontrol)
+[CreateChildControl](/接口/自定义UI/UI界面)
 
 客户端
 
 在当前画布中创建子控件，如果该子控件已经存在则返回已存在的子控件
 
-[Destroy](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#destroy)
+[Destroy](/接口/自定义UI/UI界面)
 
 客户端
 
 UI生命周期函数，当UI销毁时调用。
 
-[GetAllChildrenPath](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getallchildrenpath)
+[GetAllChildrenPath](/接口/自定义UI/UI界面)
 
 客户端
 
 获取所有子节点的路径list
 
-[GetBaseUIControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getbaseuicontrol)
+[GetBaseUIControl](/接口/自定义UI/UI界面)
 
 客户端
 
 根据路径获取BaseUIControl实例
 
-[GetBindAutoScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getbindautoscale)
+[GetBindAutoScale](/接口/自定义UI/UI界面)
 
 客户端
 
 获取该绑定实体的UI是否动态缩放，未绑定的UI将传回默认值1
 
-[GetBindEntityId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getbindentityid)
+[GetBindEntityId](/接口/自定义UI/UI界面)
 
 客户端
 
 获取该UI绑定的实体id，未绑定的UI将传回默认值None
 
-[GetBindOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getbindoffset)
+[GetBindOffset](/接口/自定义UI/UI界面)
 
 客户端
 
 获取该UI绑定实体的偏移量，未绑定的UI将传回默认值(0, 0, 0)
 
-[GetBindWorldPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getbindworldposition)
+[GetBindWorldPosition](/接口/自定义UI/UI界面)
 
 客户端
 
 获取该UI绑定的worldPosition，未绑定返回默认值None
 
-[GetChildrenName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getchildrenname)
+[GetChildrenName](/接口/自定义UI/UI界面)
 
 客户端
 
 获取子节点的名称list
 
-[GetIsHud](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getishud)
+[GetIsHud](/接口/自定义UI/UI界面)
 
 客户端
 
 获得本界面的输入模式
 
-[GetRichTextItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getrichtextitem)
+[GetRichTextItem](/接口/自定义UI/UI界面)
 
 客户端
 
 返回一个富文本控件实例
 
-[GetScreenName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getscreenname)
+[GetScreenName](/接口/自定义UI/UI界面)
 
 客户端
 
 获得本界面的名称
 
-[GetSelf](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#getself)
+[GetSelf](/接口/自定义UI/UI界面)
 
 客户端
 
 获取零件界面自身
 
-[OnActive](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#onactive)
+[OnActive](/接口/自定义UI/UI界面)
 
 客户端
 
 UI生命周期函数，当UI重新回到栈顶时调用。
 
-[OnDeactive](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#ondeactive)
+[OnDeactive](/接口/自定义UI/UI界面)
 
 客户端
 
 UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
-[RemoveChildControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#removechildcontrol)
+[RemoveChildControl](/接口/自定义UI/UI界面)
 
 客户端
 
 移除当前画布中的子控件
 
-[RemoveComponent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#removecomponent)
+[RemoveComponent](/接口/自定义UI/UI界面)
 
 客户端
 
 动态删除某一控件
 
-[SetBindWorldPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setbindworldposition)
+[SetBindWorldPosition](/接口/自定义UI/UI界面)
 
 客户端
 
 设置UI绑定的worldPosition
 
-[SetIsHud](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setishud)
+[SetIsHud](/接口/自定义UI/UI界面)
 
 客户端
 
 设置本界面的输入模式
 
-[SetRemove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setremove)
+[SetRemove](/接口/自定义UI/UI界面)
 
 客户端
 
 删除本界面节点
 
-[SetScreenVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setscreenvisible)
+[SetScreenVisible](/接口/自定义UI/UI界面)
 
 客户端
 
 设置是否显示本界面
 
-[SetSelectControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setselectcontrol)
+[SetSelectControl](/接口/自定义UI/UI界面)
 
 客户端
 
 设置当前焦点所在的控件,当设置控件为文本输入框时会弹出系统小键盘
 
-[SetStackGridCount](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setstackgridcount)
+[SetStackGridCount](/接口/自定义UI/UI界面)
 
 客户端
 
 设置StackGrid控件的大小
 
-[SetUiEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setuientity)
+[SetUiEntity](/接口/自定义UI/UI界面)
 
 客户端
 
 设置PaperDoll控件需要显示的生物模型,PaperDoll控件的配置方式详见[控件介绍PaperDoll](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#paperdoll)
 
-[SetUiModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setuimodel)
+[SetUiModel](/接口/自定义UI/UI界面)
 
 客户端
 
 设置PaperDoll控件需要显示的模型,PaperDoll控件的配置方式详见[控件介绍PaperDoll](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#paperdoll)
 
-[SetUiModelScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#setuimodelscale)
+[SetUiModelScale](/接口/自定义UI/UI界面)
 
 客户端
 
 设置PaperDoll控件模型的缩放比例
 
-[Update](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#update)
+[Update](/接口/自定义UI/UI界面)
 
 客户端
 
 客户端每帧调用，1秒有30帧
 
-[UpdateScreen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI界面.html#updatescreen)
+[UpdateScreen](/接口/自定义UI/UI界面)
 
 客户端
 
@@ -7852,967 +7852,967 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[AddEntityMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addentitymarker)
+[AddEntityMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 增加实体位置标记
 
-[AddEntityTextMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addentitytextmarker)
+[AddEntityTextMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 在小地图上增加实体文本标记
 
-[AddHoverEventParams](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addhovereventparams)
+[AddHoverEventParams](/接口/自定义UI/UI控件)
 
 客户端
 
 开启按钮的悬浮回调功能，不调用该函数则按钮无悬浮回调
 
-[AddOption](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addoption)
+[AddOption](/接口/自定义UI/UI控件)
 
 客户端
 
 添加下拉框项，若添加成功则返回True，否则返回False
 
-[AddStaticMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addstaticmarker)
+[AddStaticMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 增加地图上静态位置的标记
 
-[AddStaticTextMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addstatictextmarker)
+[AddStaticTextMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 在小地图上增加静态文本的标记
 
-[AddTouchEventParams](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#addtoucheventparams)
+[AddTouchEventParams](/接口/自定义UI/UI控件)
 
 客户端
 
 开启按钮回调功能，不调用该函数则按钮无回调
 
-[ClearOptions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#clearoptions)
+[ClearOptions](/接口/自定义UI/UI控件)
 
 客户端
 
 清空下拉框
 
-[ClearSelection](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#clearselection)
+[ClearSelection](/接口/自定义UI/UI控件)
 
 客户端
 
 清除当前选中，使下拉框恢复未选中内容状态
 
-[DisableTextShadow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#disabletextshadow)
+[DisableTextShadow](/接口/自定义UI/UI控件)
 
 客户端
 
 关闭文本控件显示阴影
 
-[EnableTextShadow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#enabletextshadow)
+[EnableTextShadow](/接口/自定义UI/UI控件)
 
 客户端
 
 使文本控件显示阴影
 
-[GetAnchorFrom](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getanchorfrom)
+[GetAnchorFrom](/接口/自定义UI/UI控件)
 
 客户端
 
 判断控件相对于父节点的哪个锚点来计算位置与大小
 
-[GetAnchorTo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getanchorto)
+[GetAnchorTo](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件自身锚点位置信息
 
-[GetChildByName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getchildbyname)
+[GetChildByName](/接口/自定义UI/UI控件)
 
 客户端
 
 根据子控件的名称获取BaseUIControl实例
 
-[GetChildByPath](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getchildbypath)
+[GetChildByPath](/接口/自定义UI/UI控件)
 
 客户端
 
 根据相对路径获取BaseUIControl实例
 
-[GetClipDirection](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getclipdirection)
+[GetClipDirection](/接口/自定义UI/UI控件)
 
 客户端
 
 获取图片控件的裁剪方向
 
-[GetClipOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getclipoffset)
+[GetClipOffset](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件的裁剪偏移信息
 
-[GetClipsChildren](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getclipschildren)
+[GetClipsChildren](/接口/自定义UI/UI控件)
 
 客户端
 
 根据控件路径返回某控件是否开启裁剪内容
 
-[GetCurrentSliceIndex](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getcurrentsliceindex)
+[GetCurrentSliceIndex](/接口/自定义UI/UI控件)
 
 客户端
 
 获取轮盘当前选择的切片的index，一般是在SetHoverCallback和SetTouchUpCallback中使用，表示当前鼠标悬浮或者点击的轮盘切片index
 
-[GetEditText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getedittext)
+[GetEditText](/接口/自定义UI/UI控件)
 
 客户端
 
 获取edit\_box输入框的文本信息，获取失败会返回None
 
-[GetFullPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getfullposition)
+[GetFullPosition](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件的锚点坐标，支持比例值以及绝对值
 
-[GetFullSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getfullsize)
+[GetFullSize](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件的大小，支持百分比以及绝对值
 
-[GetGlobalPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getglobalposition)
+[GetGlobalPosition](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件全局坐标
 
-[GetGlobalRotateAngle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getglobalrotateangle)
+[GetGlobalRotateAngle](/接口/自定义UI/UI控件)
 
 客户端
 
 获取图片通过RotateAround函数设置进去的角度值
 
-[GetGlobalRotatePoint](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getglobalrotatepoint)
+[GetGlobalRotatePoint](/接口/自定义UI/UI控件)
 
 客户端
 
 获取图片通过RotateAround函数设置进去的point值
 
-[GetGridItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getgriditem)
+[GetGridItem](/接口/自定义UI/UI控件)
 
 客户端
 
 根据网格位置获取元素控件
 
-[GetIsModal](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getismodal)
+[GetIsModal](/接口/自定义UI/UI控件)
 
 客户端
 
 判断当前面板是否为模态框
 
-[GetIsSwallow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getisswallow)
+[GetIsSwallow](/接口/自定义UI/UI控件)
 
 客户端
 
 判断当前面板输入是否会吞噬事件，isSwallow为Ture时，点击时，点击事件不会穿透到世界。如破坏方块、镜头转向不会被响应
 
-[GetMaxSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getmaxsize)
+[GetMaxSize](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件所允许的最大的大小值
 
-[GetMinSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getminsize)
+[GetMinSize](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件所允许的最小的大小值
 
-[GetModelId](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getmodelid)
+[GetModelId](/接口/自定义UI/UI控件)
 
 客户端
 
 获取渲染的骨骼模型Id
 
-[GetOffsetDelta](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getoffsetdelta)
+[GetOffsetDelta](/接口/自定义UI/UI控件)
 
 客户端
 
 获得点击面板的拖拽偏移量
 
-[GetOptionCount](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getoptioncount)
+[GetOptionCount](/接口/自定义UI/UI控件)
 
 客户端
 
 获得选项数量
 
-[GetOptionIndexByShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getoptionindexbyshowname)
+[GetOptionIndexByShowName](/接口/自定义UI/UI控件)
 
 客户端
 
 根据展示文本查找对应下拉框项的索引位置，若找不到返回-1
 
-[GetOptionShowNameByIndex](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getoptionshownamebyindex)
+[GetOptionShowNameByIndex](/接口/自定义UI/UI控件)
 
 客户端
 
 根据索引位置查找当前栈式文本，若找不到返回None
 
-[GetOrientation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getorientation)
+[GetOrientation](/接口/自定义UI/UI控件)
 
 客户端
 
 获取stackPanel的排列方向
 
-[GetPath](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getpath)
+[GetPath](/接口/自定义UI/UI控件)
 
 客户端
 
 返回当前控件的相对路径，路径从画布节点开始算起
 
-[GetPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getposition)
+[GetPosition](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件相对父节点的坐标
 
-[GetPropertyBag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getpropertybag)
+[GetPropertyBag](/接口/自定义UI/UI控件)
 
 客户端
 
 获取PropertyBag
 
-[GetRotateAngle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getrotateangle)
+[GetRotateAngle](/接口/自定义UI/UI控件)
 
 客户端
 
 获取图片相对自身的旋转锚点旋转的角度
 
-[GetRotatePivot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getrotatepivot)
+[GetRotatePivot](/接口/自定义UI/UI控件)
 
 客户端
 
 获取图片相对自身的旋转锚点
 
-[GetRotateRect](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getrotaterect)
+[GetRotateRect](/接口/自定义UI/UI控件)
 
 客户端
 
 获取图片当前的四个边角点
 
-[GetScrollViewContentControl](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getscrollviewcontentcontrol)
+[GetScrollViewContentControl](/接口/自定义UI/UI控件)
 
 客户端
 
 返回该scroll\_view内容的BaseUIControl实例
 
-[GetScrollViewContentPath](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getscrollviewcontentpath)
+[GetScrollViewContentPath](/接口/自定义UI/UI控件)
 
 客户端
 
 返回该scroll\_view内容的路径
 
-[GetScrollViewPercentValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getscrollviewpercentvalue)
+[GetScrollViewPercentValue](/接口/自定义UI/UI控件)
 
 客户端
 
 获取当前scroll\_view内容的百分比位置
 
-[GetScrollViewPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getscrollviewpos)
+[GetScrollViewPos](/接口/自定义UI/UI控件)
 
 客户端
 
 获得当前scroll\_view最上方内容的位置
 
-[GetSelectOptionIndex](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getselectoptionindex)
+[GetSelectOptionIndex](/接口/自定义UI/UI控件)
 
 客户端
 
 获得当前选中项的索引，所无选中项则返回-1
 
-[GetSelectOptionShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getselectoptionshowname)
+[GetSelectOptionShowName](/接口/自定义UI/UI控件)
 
 客户端
 
 获得当前选中项的展示文本，所无选中项则返回None
 
-[GetSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getsize)
+[GetSize](/接口/自定义UI/UI控件)
 
 客户端
 
 获取控件的大小
 
-[GetSliceCount](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getslicecount)
+[GetSliceCount](/接口/自定义UI/UI控件)
 
 客户端
 
 获取轮盘可以选择的总切片数量
 
-[GetSliderValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getslidervalue)
+[GetSliderValue](/接口/自定义UI/UI控件)
 
 客户端
 
 获取滑动条的值，失败返回0
 
-[GetText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#gettext)
+[GetText](/接口/自定义UI/UI控件)
 
 客户端
 
 获取Label的文本信息，获取失败会返回None
 
-[GetTextAlignment](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#gettextalignment)
+[GetTextAlignment](/接口/自定义UI/UI控件)
 
 客户端
 
 获取文本控件的文本对齐方式
 
-[GetTextColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#gettextcolor)
+[GetTextColor](/接口/自定义UI/UI控件)
 
 客户端
 
 获取Label文本颜色
 
-[GetTextLinePadding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#gettextlinepadding)
+[GetTextLinePadding](/接口/自定义UI/UI控件)
 
 客户端
 
 获取文本控件的行间距
 
-[GetToggleState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#gettogglestate)
+[GetToggleState](/接口/自定义UI/UI控件)
 
 客户端
 
 获取Toggle开关控件的状态
 
-[GetUiItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getuiitem)
+[GetUiItem](/接口/自定义UI/UI控件)
 
 客户端
 
 获取ItemRenderer控件显示的物品，ItemRenderer控件的配置方式详见[控件介绍ItemRenderer](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#itemrenderer)
 
-[GetVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#getvisible)
+[GetVisible](/接口/自定义UI/UI控件)
 
 客户端
 
 根据控件路径返回某控件是否已显示
 
-[IsAnimEndCallbackRegistered](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#isanimendcallbackregistered)
+[IsAnimEndCallbackRegistered](/接口/自定义UI/UI控件)
 
 客户端
 
 控件是否对名称为animName的动画进行了注册回调
 
-[IsTextShadowEnabled](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#istextshadowenabled)
+[IsTextShadowEnabled](/接口/自定义UI/UI控件)
 
 客户端
 
 判断文本控件是否显示阴影
 
-[PauseAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#pauseanimation)
+[PauseAnimation](/接口/自定义UI/UI控件)
 
 客户端
 
 暂停动画，暂停后的动画会停在当前的状态
 
-[PlayAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#playanimation)
+[PlayAnimation](/接口/自定义UI/UI控件)
 
 客户端
 
 继续播放动画，从动画当前状态开始播放
 
-[RegisterCloseComboBoxCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#registerclosecomboboxcallback)
+[RegisterCloseComboBoxCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 注册关闭下拉框事件回调
 
-[RegisterOpenComboBoxCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#registeropencomboboxcallback)
+[RegisterOpenComboBoxCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 注册展开下拉框事件回调
 
-[RegisterSelectItemCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#registerselectitemcallback)
+[RegisterSelectItemCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 注册选中下拉框内容事件回调
 
-[RemoveAnimEndCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removeanimendcallback)
+[RemoveAnimEndCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 移除动画播放结束后的回调
 
-[RemoveAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removeanimation)
+[RemoveAnimation](/接口/自定义UI/UI控件)
 
 客户端
 
 删除单一属性的动画，删除后的值与当前状态有关，建议删除后重新设置该属性值
 
-[RemoveEntityMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removeentitymarker)
+[RemoveEntityMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 删除实体位置标记
 
-[RemoveEntityTextMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removeentitytextmarker)
+[RemoveEntityTextMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 在小地图上删除实体文本标记
 
-[RemoveOptionByIndex](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removeoptionbyindex)
+[RemoveOptionByIndex](/接口/自定义UI/UI控件)
 
 客户端
 
 根据提供的索引移除对应下拉框项，移除成功则返回True，否则返回False
 
-[RemoveOptionByShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removeoptionbyshowname)
+[RemoveOptionByShowName](/接口/自定义UI/UI控件)
 
 客户端
 
 根据提供的展示文本移除对应下拉框项，移除成功则返回True，否则返回False
 
-[RemoveStaticMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removestaticmarker)
+[RemoveStaticMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 删除静态位置标记
 
-[RemoveStaticTextMarker](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#removestatictextmarker)
+[RemoveStaticTextMarker](/接口/自定义UI/UI控件)
 
 客户端
 
 在小地图上删除静态文本标记
 
-[RenderBlockGeometryModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#renderblockgeometrymodel)
+[RenderBlockGeometryModel](/接口/自定义UI/UI控件)
 
 客户端
 
 渲染网格体模型
 
-[RenderEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#renderentity)
+[RenderEntity](/接口/自定义UI/UI控件)
 
 客户端
 
 渲染实体
 
-[RenderSkeletonModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#renderskeletonmodel)
+[RenderSkeletonModel](/接口/自定义UI/UI控件)
 
 客户端
 
 渲染骨骼模型（不依赖实体）
 
-[RepaintMiniMap](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#repaintminimap)
+[RepaintMiniMap](/接口/自定义UI/UI控件)
 
 客户端
 
 重新绘制小地图
 
-[Rotate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#rotate)
+[Rotate](/接口/自定义UI/UI控件)
 
 客户端
 
 图片相对自身的旋转锚点进行旋转
 
-[RotateAround](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#rotatearound)
+[RotateAround](/接口/自定义UI/UI控件)
 
 客户端
 
 图片相对全局坐标系中某个固定的点进行旋转
 
-[SetAlpha](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setalpha)
+[SetAlpha](/接口/自定义UI/UI控件)
 
 客户端
 
 设置节点的透明度，仅对image和label控件生效
 
-[SetAnchorFrom](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setanchorfrom)
+[SetAnchorFrom](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件相对于父节点的锚点
 
-[SetAnchorTo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setanchorto)
+[SetAnchorTo](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件自身锚点位置
 
-[SetAnimEndCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setanimendcallback)
+[SetAnimEndCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置动画播放结束后的回调，每次设置都会覆盖上一次的设置
 
-[SetAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setanimation)
+[SetAnimation](/接口/自定义UI/UI控件)
 
 客户端
 
 给单一属性设置动画，已有重复的会设置失败，需要先remove
 
-[SetButtonHoverInCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttonhoverincallback)
+[SetButtonHoverInCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置鼠标进入按钮时触发的悬浮回调函数
 
-[SetButtonHoverOutCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttonhoveroutcallback)
+[SetButtonHoverOutCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置鼠标退出按钮时触发的悬浮回调函数
 
-[SetButtonScreenExitCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttonscreenexitcallback)
+[SetButtonScreenExitCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置按钮所在画布退出时若鼠标仍未抬起时触发回调函数
 
-[SetButtonTouchCancelCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttontouchcancelcallback)
+[SetButtonTouchCancelCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置触控在按钮范围外弹起时触发的回调函数
 
-[SetButtonTouchDownCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttontouchdowncallback)
+[SetButtonTouchDownCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置按钮按下时触发的回调函数
 
-[SetButtonTouchMoveCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttontouchmovecallback)
+[SetButtonTouchMoveCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置按下后触控移动时触发的回调函数
 
-[SetButtonTouchMoveInCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttontouchmoveincallback)
+[SetButtonTouchMoveInCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置按下按钮后进入控件时触发的回调函数
 
-[SetButtonTouchMoveOutCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttontouchmoveoutcallback)
+[SetButtonTouchMoveOutCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置按下按钮后退出控件时触发的回调函数
 
-[SetButtonTouchUpCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setbuttontouchupcallback)
+[SetButtonTouchUpCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置触控在按钮范围内弹起时的回调函数
 
-[SetClipDirection](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setclipdirection)
+[SetClipDirection](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片控件的裁剪方向
 
-[SetClipOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setclipoffset)
+[SetClipOffset](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件的裁剪偏移信息
 
-[SetClipsChildren](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setclipschildren)
+[SetClipsChildren](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件是否开启裁剪内容
 
-[SetCurrentSliceIndex](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setcurrentsliceindex)
+[SetCurrentSliceIndex](/接口/自定义UI/UI控件)
 
 客户端
 
 设置轮盘选择的切片
 
-[SetEditText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setedittext)
+[SetEditText](/接口/自定义UI/UI控件)
 
 客户端
 
 设置edit\_box输入框的文本信息
 
-[SetEditTextMaxLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setedittextmaxlength)
+[SetEditTextMaxLength](/接口/自定义UI/UI控件)
 
 客户端
 
 设置输入框的最大输入长度
 
-[SetFullPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setfullposition)
+[SetFullPosition](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件的锚点坐标（全局坐标），支持比例值以及绝对值
 
-[SetFullSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setfullsize)
+[SetFullSize](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件的大小，支持比例形式以及绝对值
 
-[SetGridDimension](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setgriddimension)
+[SetGridDimension](/接口/自定义UI/UI控件)
 
 客户端
 
 设置Grid控件的大小
 
-[SetHighestY](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#sethighesty)
+[SetHighestY](/接口/自定义UI/UI控件)
 
 客户端
 
 设置绘制地图的最大高度
 
-[SetHoverCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#sethovercallback)
+[SetHoverCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置轮盘选择切片触发回调函数
 
-[SetImageAdaptionType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setimageadaptiontype)
+[SetImageAdaptionType](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片控件的图片适配方式以及信息
 
-[SetIsModal](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setismodal)
+[SetIsModal](/接口/自定义UI/UI控件)
 
 客户端
 
 设置当前面板是否为模态框
 
-[SetIsSwallow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setisswallow)
+[SetIsSwallow](/接口/自定义UI/UI控件)
 
 客户端
 
 设置当前面板输入是否会吞噬事件，isSwallow为Ture时，点击时，点击事件不会穿透到世界。如破坏方块、镜头转向不会被响应
 
-[SetLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setlayer)
+[SetLayer](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件节点的层级，可以通过传入空字符串（""）的方式来调整整个JSON的基础层级
 
-[SetMaxSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setmaxsize)
+[SetMaxSize](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件所允许的最大的大小值
 
-[SetMinSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setminsize)
+[SetMinSize](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件所允许的最小的大小值
 
-[SetOffsetDelta](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setoffsetdelta)
+[SetOffsetDelta](/接口/自定义UI/UI控件)
 
 客户端
 
 设置点击面板的拖拽偏移量
 
-[SetOrientation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setorientation)
+[SetOrientation](/接口/自定义UI/UI控件)
 
 客户端
 
 设置stackPanel的排列方向
 
-[SetPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setposition)
+[SetPosition](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件相对父节点的坐标
 
-[SetPropertyBag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setpropertybag)
+[SetPropertyBag](/接口/自定义UI/UI控件)
 
 客户端
 
 设置PropertyBag,将使用字典中的每个值来覆盖原本PropertyBag中的值
 
-[SetRotatePivot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setrotatepivot)
+[SetRotatePivot](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片自身旋转锚点，该点并不是固定的点，而是相对于自身位置的点
 
-[SetScrollViewPercentValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setscrollviewpercentvalue)
+[SetScrollViewPercentValue](/接口/自定义UI/UI控件)
 
 客户端
 
 设置当前scroll\_view内容的百分比位置
 
-[SetScrollViewPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setscrollviewpos)
+[SetScrollViewPos](/接口/自定义UI/UI控件)
 
 客户端
 
 设置当前scroll\_view内容的位置
 
-[SetSelectOptionByIndex](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setselectoptionbyindex)
+[SetSelectOptionByIndex](/接口/自定义UI/UI控件)
 
 客户端
 
 根据提供的索引选中对应下拉框项
 
-[SetSelectOptionByShowName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setselectoptionbyshowname)
+[SetSelectOptionByShowName](/接口/自定义UI/UI控件)
 
 客户端
 
 根据提供的展示文本选中对应下拉框项
 
-[SetSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setsize)
+[SetSize](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件的大小
 
-[SetSliderValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setslidervalue)
+[SetSliderValue](/接口/自定义UI/UI控件)
 
 客户端
 
 设置滑动条的值
 
-[SetSprite](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setsprite)
+[SetSprite](/接口/自定义UI/UI控件)
 
 客户端
 
 给图片控件换指定贴图
 
-[SetSpriteClipRatio](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspriteclipratio)
+[SetSpriteClipRatio](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片的裁剪区域比例（不改变控件尺寸）。可以配合image控件的clip\_ratio属性控制方向。
 
-[SetSpriteColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspritecolor)
+[SetSpriteColor](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片颜色
 
-[SetSpriteGray](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspritegray)
+[SetSpriteGray](/接口/自定义UI/UI控件)
 
 客户端
 
 给图片控件置灰，比直接SetSprite一张灰图片效率要高
 
-[SetSpritePlatformFrame](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspriteplatformframe)
+[SetSpritePlatformFrame](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片为我的世界移动端启动器当前帐号的头像框
 
-[SetSpritePlatformHead](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspriteplatformhead)
+[SetSpritePlatformHead](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片为我的世界移动端启动器当前帐号的头像
 
-[SetSpriteUV](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspriteuv)
+[SetSpriteUV](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片的起始uv，与json中的"uv"属性作用一致
 
-[SetSpriteUVSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setspriteuvsize)
+[SetSpriteUVSize](/接口/自定义UI/UI控件)
 
 客户端
 
 设置图片的uv大小，与json中的"uv\_size"属性作用一致
 
-[SetText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settext)
+[SetText](/接口/自定义UI/UI控件)
 
 客户端
 
 设置Label的文本信息
 
-[SetTextAlignment](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settextalignment)
+[SetTextAlignment](/接口/自定义UI/UI控件)
 
 客户端
 
 设置文本控件的文本对齐方式
 
-[SetTextColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settextcolor)
+[SetTextColor](/接口/自定义UI/UI控件)
 
 客户端
 
 设置Label文本的颜色
 
-[SetTextFontSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settextfontsize)
+[SetTextFontSize](/接口/自定义UI/UI控件)
 
 客户端
 
 设置Label中文本字体的大小
 
-[SetTextLinePadding](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settextlinepadding)
+[SetTextLinePadding](/接口/自定义UI/UI控件)
 
 客户端
 
 设置文本控件的行间距
 
-[SetToggleState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settogglestate)
+[SetToggleState](/接口/自定义UI/UI控件)
 
 客户端
 
 设置Toggle开关控件的值
 
-[SetTouchEnable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settouchenable)
+[SetTouchEnable](/接口/自定义UI/UI控件)
 
 客户端
 
 设置控件是否可点击交互
 
-[SetTouchUpCallback](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#settouchupcallback)
+[SetTouchUpCallback](/接口/自定义UI/UI控件)
 
 客户端
 
 设置轮盘选择切片并且鼠标按下抬起后触发回调函数
 
-[SetUiItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setuiitem)
+[SetUiItem](/接口/自定义UI/UI控件)
 
 客户端
 
 设置ItemRenderer控件显示的物品，ItemRenderer控件的配置方式详见[控件介绍ItemRenderer](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/30-UI说明文档.html#itemrenderer)
 
-[SetValue](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setvalue)
+[SetValue](/接口/自定义UI/UI控件)
 
 客户端
 
 设置进度条的进度
 
-[SetVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#setvisible)
+[SetVisible](/接口/自定义UI/UI控件)
 
 客户端
 
 根据控件路径选择是否显示某控件，可以通过传入空字符串（""）的方式来调整整个JSON的显示/隐藏
 
-[StopAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#stopanimation)
+[StopAnimation](/接口/自定义UI/UI控件)
 
 客户端
 
 停止动画，动画将恢复到第一段动画片段的from状态
 
-[ZoomIn](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#zoomin)
+[ZoomIn](/接口/自定义UI/UI控件)
 
 客户端
 
 放大地图
 
-[ZoomOut](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#zoomout)
+[ZoomOut](/接口/自定义UI/UI控件)
 
 客户端
 
 缩小地图
 
-[ZoomReset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#zoomreset)
+[ZoomReset](/接口/自定义UI/UI控件)
 
 客户端
 
 恢复地图放缩大小为默认值
 
-[asButton](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asbutton)
+[asButton](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为ButtonUIControl实例，如当前控件非button类型则返回None
 
-[asGrid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asgrid)
+[asGrid](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为GridUIControl实例，如当前控件非grid类型则返回None
 
-[asImage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asimage)
+[asImage](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为ImageUIControl实例，如当前控件非image类型则返回None
 
-[asInputPanel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asinputpanel)
+[asInputPanel](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为InputPanelUIControl实例，如当前控件非inputPanel类型则返回None
 
-[asItemRenderer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asitemrenderer)
+[asItemRenderer](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为ItemRenderer实例，如当前控件非custom类型则返回None
 
-[asLabel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#aslabel)
+[asLabel](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为LabelUIControl实例，如当前控件非Label类型则返回None
 
-[asMiniMap](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asminimap)
+[asMiniMap](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为MiniMapUIControl实例，如当前控件非小地图类型则返回None
 
-[asNeteaseComboBox](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asneteasecombobox)
+[asNeteaseComboBox](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为NeteaseComboBoxUIControl实例，如当前控件非panel类型则返回None
 
-[asNeteasePaperDoll](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asneteasepaperdoll)
+[asNeteasePaperDoll](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为NeteasePaperDollUIControl实例，如当前控件非custom类型则返回None
 
-[asProgressBar](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asprogressbar)
+[asProgressBar](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为ProgressBarUIControl实例，如当前控件非panel类型则返回None
 
-[asScrollView](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asscrollview)
+[asScrollView](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为ScrollViewUIControl实例，如当前控件非scrollview类型则返回None
 
-[asSelectionWheel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asselectionwheel)
+[asSelectionWheel](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为SelectionWheelUIControl实例，如当前控件非selectionWheel类型则返回None
 
-[asSlider](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asslider)
+[asSlider](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为SliderUIControl实例，如当前控件非滑动条类型则返回None
 
-[asStackPanel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asstackpanel)
+[asStackPanel](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为StackPanelUIControl实例，如当前控件非stackPanel类型则返回None
 
-[asSwitchToggle](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#asswitchtoggle)
+[asSwitchToggle](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为SwitchToggleUIControl实例，如当前控件非panel类型或非toggle则返回None
 
-[asTextEditBox](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#astexteditbox)
+[asTextEditBox](/接口/自定义UI/UI控件)
 
 客户端
 
 将当前BaseUIControl转换为TextEditBoxUIControl实例，如当前控件非editbox类型则返回None
 
-[resetAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/自定义UI/UI控件.html#resetanimation)
+[resetAnimation](/接口/自定义UI/UI控件)
 
 客户端
 
@@ -8824,49 +8824,49 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[DisableOriginMusic](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#disableoriginmusic)
+[DisableOriginMusic](/接口/音效)
 
 客户端
 
 停止原生背景音乐
 
-[PlayCustomMusic](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#playcustommusic)
+[PlayCustomMusic](/接口/音效)
 
 客户端
 
 播放场景音效，包括原版音效及自定义音效
 
-[PlayCustomUIMusic](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#playcustomuimusic)
+[PlayCustomUIMusic](/接口/音效)
 
 客户端
 
 播放UI音效，包括原版音效及自定义音效
 
-[PlayGlobalCustomMusic](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#playglobalcustommusic)
+[PlayGlobalCustomMusic](/接口/音效)
 
 客户端
 
 播放背景音乐
 
-[SetCustomMusicLoop](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#setcustommusicloop)
+[SetCustomMusicLoop](/接口/音效)
 
 客户端
 
 设定指定音乐是否循环播放，包括场景音效与背景音乐
 
-[SetCustomMusicLoopById](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#setcustommusicloopbyid)
+[SetCustomMusicLoopById](/接口/音效)
 
 客户端
 
 设定指定音乐是否循环播放
 
-[StopCustomMusic](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#stopcustommusic)
+[StopCustomMusic](/接口/音效)
 
 客户端
 
 停止音效，包括场景音效与背景音乐，将依据fadeOutTime触发OnMusicStopClientEvent事件
 
-[StopCustomMusicById](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/音效.html#stopcustommusicbyid)
+[StopCustomMusicById](/接口/音效)
 
 客户端
 
@@ -8878,289 +8878,289 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[AddPickBlacklist](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#addpickblacklist)
+[AddPickBlacklist](/接口/控制)
 
 客户端
 
 添加使用camera组件（例如GetChosen接口、PickFacing接口）选取实体时的黑名单，即该实体不会被选取到
 
-[ClearPickBlacklist](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#clearpickblacklist)
+[ClearPickBlacklist](/接口/控制)
 
 客户端
 
 清除使用camera组件（例如GetChosen接口、PickFacing接口）选取实体的黑名单
 
-[GetChosen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#getchosen)
+[GetChosen](/接口/控制)
 
 客户端
 
 获取屏幕点击位置的实体或方块信息，通常与GetEntityByCoordEvent配合使用
 
-[GetChosenEntity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#getchosenentity)
+[GetChosenEntity](/接口/控制)
 
 客户端
 
 获取屏幕点击位置的实体id，通常与GetEntityByCoordEvent配合使用
 
-[GetHoldTimeThresholdInMs](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#getholdtimethresholdinms)
+[GetHoldTimeThresholdInMs](/接口/控制)
 
 客户端
 
 获取长按判定时间，即按着屏幕多长时间会触发长按操作
 
-[GetInputVector](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#getinputvector)
+[GetInputVector](/接口/控制)
 
 客户端
 
 获取方向键（移动轮盘）的输入
 
-[GetMousePosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#getmouseposition)
+[GetMousePosition](/接口/控制)
 
 客户端
 
 获取鼠标位置
 
-[GetTouchPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#gettouchpos)
+[GetTouchPos](/接口/控制)
 
 客户端
 
 获取点击的屏幕坐标。可以监听TapBeforeClientEvent或TapOrHoldReleaseClientEvent事件，调用本API获取点击坐标。
 
-[IsCanAttack](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanattack)
+[IsCanAttack](/接口/控制)
 
 客户端
 
 获取玩家是否响应攻击
 
-[IsCanChat](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanchat)
+[IsCanChat](/接口/控制)
 
 客户端
 
 获取玩家是否响应聊天按钮
 
-[IsCanDrag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscandrag)
+[IsCanDrag](/接口/控制)
 
 客户端
 
 获取玩家是否响应屏幕拖动
 
-[IsCanInair](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscaninair)
+[IsCanInair](/接口/控制)
 
 客户端
 
 获取玩家是否响应打上升下降按钮
 
-[IsCanJump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanjump)
+[IsCanJump](/接口/控制)
 
 客户端
 
 获取玩家是否响应跳跃（以及在水中浮起）
 
-[IsCanMove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanmove)
+[IsCanMove](/接口/控制)
 
 客户端
 
 获取玩家是否响应移动
 
-[IsCanOpenInv](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanopeninv)
+[IsCanOpenInv](/接口/控制)
 
 客户端
 
 获取玩家是否响应打开背包按钮
 
-[IsCanPause](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanpause)
+[IsCanPause](/接口/控制)
 
 客户端
 
 获取玩家是否响应暂停按钮
 
-[IsCanPauseScreen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanpausescreen)
+[IsCanPauseScreen](/接口/控制)
 
 客户端
 
 获取玩家是否可以打开暂停界面
 
-[IsCanPerspective](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanperspective)
+[IsCanPerspective](/接口/控制)
 
 客户端
 
 获取玩家是否响应切换视角
 
-[IsCanScreenShot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanscreenshot)
+[IsCanScreenShot](/接口/控制)
 
 客户端
 
 获取玩家是否响应截图按钮
 
-[IsCanWalkMode](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#iscanwalkmode)
+[IsCanWalkMode](/接口/控制)
 
 客户端
 
 获取玩家是否响应切换行走模式
 
-[IsTouchWithMouse](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#istouchwithmouse)
+[IsTouchWithMouse](/接口/控制)
 
 客户端
 
 获取是否正在使用鼠标点击模拟触屏
 
-[LockInputVector](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#lockinputvector)
+[LockInputVector](/接口/控制)
 
 客户端
 
 锁定本地玩家方向键（移动轮盘）的输入，可使本地玩家持续向指定方向前行，且不会再受玩家输入影响
 
-[LockVerticalMove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#lockverticalmove)
+[LockVerticalMove](/接口/控制)
 
 客户端
 
 模拟上升或下降，调用后一直上升或下降
 
-[PickFacing](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#pickfacing)
+[PickFacing](/接口/控制)
 
 客户端
 
 获取准星选中的实体或者方块
 
-[SetCanAll](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanall)
+[SetCanAll](/接口/控制)
 
 客户端
 
 同时设置SetCanMove，SetCanJump，SetCanAttack，SetCanWalkMode，SetCanPerspective，SetCanPause，SetCanChat，SetCanScreenShot，SetCanOpenInv，SetCanDrag，SetCanInair
 
-[SetCanAttack](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanattack)
+[SetCanAttack](/接口/控制)
 
 客户端
 
 设置是否响应攻击
 
-[SetCanChat](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanchat)
+[SetCanChat](/接口/控制)
 
 客户端
 
 设置是否响应聊天按钮
 
-[SetCanDrag](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcandrag)
+[SetCanDrag](/接口/控制)
 
 客户端
 
 设置是否响应屏幕拖动
 
-[SetCanInair](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcaninair)
+[SetCanInair](/接口/控制)
 
 客户端
 
 设置是否响应上升下降按钮（飞在空中时右下角的三个按钮）
 
-[SetCanJump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanjump)
+[SetCanJump](/接口/控制)
 
 客户端
 
 设置是否响应跳跃（以及在水中浮起）
 
-[SetCanMove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanmove)
+[SetCanMove](/接口/控制)
 
 客户端
 
 设置是否响应移动
 
-[SetCanOpenInv](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanopeninv)
+[SetCanOpenInv](/接口/控制)
 
 客户端
 
 设置是否响应打开背包按钮
 
-[SetCanPause](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanpause)
+[SetCanPause](/接口/控制)
 
 客户端
 
 设置是否响应暂停按钮
 
-[SetCanPauseScreen](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanpausescreen)
+[SetCanPauseScreen](/接口/控制)
 
 客户端
 
 设置是否可以打开暂停界面
 
-[SetCanPerspective](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanperspective)
+[SetCanPerspective](/接口/控制)
 
 客户端
 
 设置是否响应切换视角
 
-[SetCanScreenShot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanscreenshot)
+[SetCanScreenShot](/接口/控制)
 
 客户端
 
 设置是否响应截图按钮
 
-[SetCanWalkMode](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcanwalkmode)
+[SetCanWalkMode](/接口/控制)
 
 客户端
 
 设置是否响应切换行走模式
 
-[SetControlMode](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcontrolmode)
+[SetControlMode](/接口/控制)
 
 客户端
 
 设置控制模式
 
-[SetControlModeLock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setcontrolmodelock)
+[SetControlModeLock](/接口/控制)
 
 客户端
 
 设置控制模式是否可以被改变
 
-[SetDeviceVibrate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setdevicevibrate)
+[SetDeviceVibrate](/接口/控制)
 
 客户端
 
 设置设备震动
 
-[SetGyroSensorReportRate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setgyrosensorreportrate)
+[SetGyroSensorReportRate](/接口/控制)
 
 客户端
 
 设置陀螺仪传感器(上报/触发)频率
 
-[SetHoldTimeThreshold](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setholdtimethreshold)
+[SetHoldTimeThreshold](/接口/控制)
 
 客户端
 
 设置长按判定时间，即按着屏幕多长时间会触发长按操作
 
-[SetMoveLock](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setmovelock)
+[SetMoveLock](/接口/控制)
 
 客户端
 
 设置是否锁住移动。实际上为是否响应十字键与遥感的操作。
 
-[SetShowRideUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#setshowrideui)
+[SetShowRideUI](/接口/控制)
 
 服务端
 
 设置是否显示马匹的UI界面
 
-[SimulateTouchWithMouse](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#simulatetouchwithmouse)
+[SimulateTouchWithMouse](/接口/控制)
 
 客户端
 
 模拟使用鼠标控制UI（PC F11快捷键）
 
-[ToggleGyroSensor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#togglegyrosensor)
+[ToggleGyroSensor](/接口/控制)
 
 客户端
 
 开启或关闭陀螺仪传感器采集
 
-[UnLockVerticalMove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#unlockverticalmove)
+[UnLockVerticalMove](/接口/控制)
 
 客户端
 
 解除上升或下降状态
 
-[UnlockInputVector](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/控制.html#unlockinputvector)
+[UnlockInputVector](/接口/控制)
 
 客户端
 
@@ -9172,55 +9172,55 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[GetControllerLayout](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#getcontrollerlayout)
+[GetControllerLayout](/接口/游戏设置)
 
 客户端
 
 获取玩家控制器绑定映射
 
-[GetSliderOption](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#getslideroption)
+[GetSliderOption](/接口/游戏设置)
 
 客户端
 
 获得某个滑动条设置选项的值
 
-[GetToggleOption](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#gettoggleoption)
+[GetToggleOption](/接口/游戏设置)
 
 客户端
 
 获得某个开关设置值的接口
 
-[GetUIProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#getuiprofile)
+[GetUIProfile](/接口/游戏设置)
 
 客户端
 
 获取"UI 档案"模式
 
-[HighlightBoxSelection](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#highlightboxselection)
+[HighlightBoxSelection](/接口/游戏设置)
 
 客户端
 
 镜头移动时高亮当前视角中心所指的方块
 
-[SetSliderOption](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#setslideroption)
+[SetSliderOption](/接口/游戏设置)
 
 客户端
 
 设置某个滑动条设置选项的值
 
-[SetSplitControlCanChange](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#setsplitcontrolcanchange)
+[SetSplitControlCanChange](/接口/游戏设置)
 
 客户端
 
 设置是否允许使用准星瞄准按钮
 
-[SetToggleOption](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#settoggleoption)
+[SetToggleOption](/接口/游戏设置)
 
 客户端
 
 修改开关型设置的接口
 
-[SetUIProfile](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/游戏设置.html#setuiprofile)
+[SetUIProfile](/接口/游戏设置)
 
 客户端
 
@@ -9232,37 +9232,37 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[VirtualWorldCreate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/世界.html#virtualworldcreate)
+[VirtualWorldCreate](/接口/虚拟世界/世界)
 
 客户端
 
 创建虚拟世界，虚拟世界只允许存在一个，已经存在虚拟世界的情况下再调用此方法则无效
 
-[VirtualWorldDestroy](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/世界.html#virtualworlddestroy)
+[VirtualWorldDestroy](/接口/虚拟世界/世界)
 
 客户端
 
 销毁虚拟世界
 
-[VirtualWorldSetCollidersVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/世界.html#virtualworldsetcollidersvisible)
+[VirtualWorldSetCollidersVisible](/接口/虚拟世界/世界)
 
 客户端
 
 设置虚拟世界中模型的包围盒是否显示,主要用于调试,默认为不显示
 
-[VirtualWorldSetSkyBgColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/世界.html#virtualworldsetskybgcolor)
+[VirtualWorldSetSkyBgColor](/接口/虚拟世界/世界)
 
 客户端
 
 设置虚拟世界中天空背景的颜色
 
-[VirtualWorldSetSkyTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/世界.html#virtualworldsetskytexture)
+[VirtualWorldSetSkyTexture](/接口/虚拟世界/世界)
 
 客户端
 
 设置虚拟世界中天空的贴图
 
-[VirtualWorldToggleVisibility](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/世界.html#virtualworldtogglevisibility)
+[VirtualWorldToggleVisibility](/接口/虚拟世界/世界)
 
 客户端
 
@@ -9274,61 +9274,61 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[CameraGetClickModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#cameragetclickmodel)
+[CameraGetClickModel](/接口/虚拟世界/相机)
 
 客户端
 
 获取相机当前指向的模型的id，会返回离相机最近的，通常与GetEntityByCoordEvent配合使用
 
-[CameraGetFov](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#cameragetfov)
+[CameraGetFov](/接口/虚拟世界/相机)
 
 客户端
 
 获取相机视野大小
 
-[CameraGetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#cameragetpos)
+[CameraGetPos](/接口/虚拟世界/相机)
 
 客户端
 
 返回相机位置
 
-[CameraGetZoom](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#cameragetzoom)
+[CameraGetZoom](/接口/虚拟世界/相机)
 
 客户端
 
 获取相机的缩放值
 
-[CameraLookAt](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#cameralookat)
+[CameraLookAt](/接口/虚拟世界/相机)
 
 客户端
 
 修改相机朝向
 
-[CameraMoveTo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#cameramoveto)
+[CameraMoveTo](/接口/虚拟世界/相机)
 
 客户端
 
 设置相机移动动画, 会根据当前相机状态与传入参数按时间进行插值显示
 
-[CameraSetFov](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#camerasetfov)
+[CameraSetFov](/接口/虚拟世界/相机)
 
 客户端
 
 设置相机视野大小
 
-[CameraSetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#camerasetpos)
+[CameraSetPos](/接口/虚拟世界/相机)
 
 客户端
 
 设置相机位置
 
-[CameraSetZoom](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#camerasetzoom)
+[CameraSetZoom](/接口/虚拟世界/相机)
 
 客户端
 
 设置相机缩放
 
-[CameraStopActions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/相机.html#camerastopactions)
+[CameraStopActions](/接口/虚拟世界/相机)
 
 客户端
 
@@ -9340,145 +9340,145 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[ModelCancelAllBoneMask](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelcancelallbonemask)
+[ModelCancelAllBoneMask](/接口/虚拟世界/模型)
 
 客户端
 
 取消动画中的所有骨骼屏蔽。
 
-[ModelCreateMinecraftObject](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelcreateminecraftobject)
+[ModelCreateMinecraftObject](/接口/虚拟世界/模型)
 
 客户端
 
 在虚拟世界中创建微软原版模型
 
-[ModelCreateObject](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelcreateobject)
+[ModelCreateObject](/接口/虚拟世界/模型)
 
 客户端
 
 在虚拟世界中创建网易骨骼模型
 
-[ModelGetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelgetpos)
+[ModelGetPos](/接口/虚拟世界/模型)
 
 客户端
 
 获取模型的坐标
 
-[ModelGetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelgetrot)
+[ModelGetRot](/接口/虚拟世界/模型)
 
 客户端
 
 返回模型的旋转角度
 
-[ModelIsVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelisvisible)
+[ModelIsVisible](/接口/虚拟世界/模型)
 
 客户端
 
 返回模型可见性
 
-[ModelMoveTo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelmoveto)
+[ModelMoveTo](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型平移运动
 
-[ModelPlayAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelplayanimation)
+[ModelPlayAnimation](/接口/虚拟世界/模型)
 
 客户端
 
 模型播放动画，支持动作融合，其功能与模型接口ModelPlayAni相同。
 
-[ModelRegisterAnim1DControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelregisteranim1dcontrolparam)
+[ModelRegisterAnim1DControlParam](/接口/虚拟世界/模型)
 
 客户端
 
 当同时播放多个骨骼动画时，新建用于控制动画进行1D线性混合的参数。目前线性混合仅支持对两个动画进行混合。新建的参数值范围为\[0,1\]。指定的骨骼将会按照这个参数的值对两个动画进行线性混合。
 
-[ModelRemove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelremove)
+[ModelRemove](/接口/虚拟世界/模型)
 
 客户端
 
 销毁虚拟世界中的模型
 
-[ModelRotate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelrotate)
+[ModelRotate](/接口/虚拟世界/模型)
 
 客户端
 
 模型绕某个轴旋转多少度
 
-[ModelRotateTo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelrotateto)
+[ModelRotateTo](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型旋转运动
 
-[ModelSetAnim1DControlParam](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetanim1dcontrolparam)
+[ModelSetAnim1DControlParam](/接口/虚拟世界/模型)
 
 客户端
 
 新建动画的1D控制参数后，使用该接口对相应的参数进行控制。
 
-[ModelSetAnimAllBoneMask](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetanimallbonemask)
+[ModelSetAnimAllBoneMask](/接口/虚拟世界/模型)
 
 客户端
 
 设置是否屏蔽动画中所有骨骼的动画，若开启骨骼屏蔽后，该骨骼将不再播放该动画中的动作。该接口会对该动画中所有骨骼生效，可通过参数ignoreBoneList来指定不受影响的骨骼名称。通过屏蔽指定骨骼的动画可实现同一个骨骼模型同时在不同骨骼上播放不同的动作动画，从而实现快捷的动作融合。
 
-[ModelSetAnimBoneMask](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetanimbonemask)
+[ModelSetAnimBoneMask](/接口/虚拟世界/模型)
 
 客户端
 
 设置是否屏蔽动画中指定的骨骼的动画，若开启骨骼屏蔽后，该骨骼将不再播放该动画中的动作。通过屏蔽指定骨骼的动画可实现同一个骨骼模型同时在不同骨骼上播放不同的动作动画，从而实现快捷的动作融合。
 
-[ModelSetAnimLayer](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetanimlayer)
+[ModelSetAnimLayer](/接口/虚拟世界/模型)
 
 客户端
 
 设置骨骼动画的层级，动画层级越大，则优先度越高，骨骼模型的骨骼优先播放优先度最高的动画，相同层级的动画则优先播放率先播放的动画。
 
-[ModelSetBoxCollider](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetboxcollider)
+[ModelSetBoxCollider](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型的包围盒
 
-[ModelSetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetpos)
+[ModelSetPos](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型坐标
 
-[ModelSetRot](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetrot)
+[ModelSetRot](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型的旋转角度
 
-[ModelSetScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetscale)
+[ModelSetScale](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型的缩放值
 
-[ModelSetVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelsetvisible)
+[ModelSetVisible](/接口/虚拟世界/模型)
 
 客户端
 
 设置模型可见性
 
-[ModelStopActions](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelstopactions)
+[ModelStopActions](/接口/虚拟世界/模型)
 
 客户端
 
 停止模型的移动和旋转运动
 
-[ModelStopAnimation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelstopanimation)
+[ModelStopAnimation](/接口/虚拟世界/模型)
 
 客户端
 
 停止播放指定的模型动画。
 
-[ModelUpdateAnimationMolangVariable](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/模型.html#modelupdateanimationmolangvariable)
+[ModelUpdateAnimationMolangVariable](/接口/虚拟世界/模型)
 
 客户端
 
@@ -9490,13 +9490,13 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[BindModel](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/其它对象.html#bindmodel)
+[BindModel](/接口/虚拟世界/其它对象)
 
 客户端
 
 把对象绑定到模型上, 支持绑定序列帧，粒子，文本和其它模型
 
-[MoveToVirtualWorld](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/虚拟世界/其它对象.html#movetovirtualworld)
+[MoveToVirtualWorld](/接口/虚拟世界/其它对象)
 
 客户端
 
@@ -9508,37 +9508,37 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[CheckVignetteEnabled](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/渐晕.html#checkvignetteenabled)
+[CheckVignetteEnabled](/接口/后处理/渐晕)
 
 客户端
 
 检测是否开启了屏幕渐晕（Vignette）效果。
 
-[SetEnableVignette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/渐晕.html#setenablevignette)
+[SetEnableVignette](/接口/后处理/渐晕)
 
 客户端
 
 设置是否开启屏幕渐晕（Vignette）效果，开启后玩家屏幕周围将出现渐晕，可通过Vignette其他接口设置效果参数。
 
-[SetVignetteCenter](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/渐晕.html#setvignettecenter)
+[SetVignetteCenter](/接口/后处理/渐晕)
 
 客户端
 
 设置渐晕（Vignette）的渐晕中心位置，可改变屏幕渐晕的位置。
 
-[SetVignetteRGB](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/渐晕.html#setvignettergb)
+[SetVignetteRGB](/接口/后处理/渐晕)
 
 客户端
 
 设置渐晕（Vignette）的渐晕颜色，可改变屏幕渐晕的颜色。
 
-[SetVignetteRadius](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/渐晕.html#setvignetteradius)
+[SetVignetteRadius](/接口/后处理/渐晕)
 
 客户端
 
 设置渐晕（Vignette）的渐晕半径，半径越大，渐晕越小，玩家的视野范围越大。
 
-[SetVignetteSmoothness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/渐晕.html#setvignettesmoothness)
+[SetVignetteSmoothness](/接口/后处理/渐晕)
 
 客户端
 
@@ -9550,19 +9550,19 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[CheckGaussianBlurEnabled](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/模糊.html#checkgaussianblurenabled)
+[CheckGaussianBlurEnabled](/接口/后处理/模糊)
 
 客户端
 
 检测是否开启了高斯模糊效果。
 
-[SetEnableGaussianBlur](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/模糊.html#setenablegaussianblur)
+[SetEnableGaussianBlur](/接口/后处理/模糊)
 
 客户端
 
 设置是否开启高斯模糊效果，开启后玩家屏幕周围被模糊，可通过高斯模糊其他接口设置效果参数。
 
-[SetGaussianBlurRadius](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/模糊.html#setgaussianblurradius)
+[SetGaussianBlurRadius](/接口/后处理/模糊)
 
 客户端
 
@@ -9574,37 +9574,37 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[CheckColorAdjustmentEnabled](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/色彩.html#checkcoloradjustmentenabled)
+[CheckColorAdjustmentEnabled](/接口/后处理/色彩)
 
 客户端
 
 检测是否开启了色彩校正效果。
 
-[SetColorAdjustmentBrightness](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/色彩.html#setcoloradjustmentbrightness)
+[SetColorAdjustmentBrightness](/接口/后处理/色彩)
 
 客户端
 
 调整屏幕色彩亮度，亮度值越大，屏幕越亮，反之则越暗。
 
-[SetColorAdjustmentContrast](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/色彩.html#setcoloradjustmentcontrast)
+[SetColorAdjustmentContrast](/接口/后处理/色彩)
 
 客户端
 
 调整屏幕色彩对比度，屏幕对比度值越大，色彩差异则越明显，反之则色彩差异越小。
 
-[SetColorAdjustmentSaturation](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/色彩.html#setcoloradjustmentsaturation)
+[SetColorAdjustmentSaturation](/接口/后处理/色彩)
 
 客户端
 
 调整屏幕色彩饱和度，屏幕饱和度值越大，色彩则越明显，反之则越灰暗。
 
-[SetColorAdjustmentTint](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/色彩.html#setcoloradjustmenttint)
+[SetColorAdjustmentTint](/接口/后处理/色彩)
 
 客户端
 
 调整屏幕色彩的色调，根据输入的色调和强度来调整屏幕色彩，当强度越大时，屏幕整体颜色越偏向输入的色调。
 
-[SetEnableColorAdjustment](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/色彩.html#setenablecoloradjustment)
+[SetEnableColorAdjustment](/接口/后处理/色彩)
 
 客户端
 
@@ -9616,79 +9616,79 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[CheckDepthOfFieldEnabled](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#checkdepthoffieldenabled)
+[CheckDepthOfFieldEnabled](/接口/后处理/镜头效果)
 
 客户端
 
 检测是否开启了景深效果。
 
-[CheckLensStainEnabled](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#checklensstainenabled)
+[CheckLensStainEnabled](/接口/后处理/镜头效果)
 
 客户端
 
 检测是否开启了镜头污迹效果。
 
-[ResetLensStainTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#resetlensstaintexture)
+[ResetLensStainTexture](/接口/后处理/镜头效果)
 
 客户端
 
 重置污迹效果使用的贴图为系统默认贴图。
 
-[SetDepthOfFieldBlurRadius](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setdepthoffieldblurradius)
+[SetDepthOfFieldBlurRadius](/接口/后处理/镜头效果)
 
 客户端
 
 调整景深效果模糊半径，模糊半径越大，模糊程度越大，反之则越小。
 
-[SetDepthOfFieldFarBlurScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setdepthoffieldfarblurscale)
+[SetDepthOfFieldFarBlurScale](/接口/后处理/镜头效果)
 
 客户端
 
 调整景深效果远景模糊大小，远景模糊大小越大，远景的模糊程度越大，反之则越小。注意，远景模糊程度的调节依赖于焦点距离，如果焦点处于较近的距离，那么此时远景处于较清晰的状态，模糊程度大小调节不会很明显。
 
-[SetDepthOfFieldFocusDistance](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setdepthoffieldfocusdistance)
+[SetDepthOfFieldFocusDistance](/接口/后处理/镜头效果)
 
 客户端
 
 调整景深效果焦点距离，距离越小，则远处模糊，近处清晰；距离越大，则远处清晰，近处模糊。该距离为实际距离，即以玩家相机为起点的世界坐标距离。
 
-[SetDepthOfFieldNearBlurScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setdepthoffieldnearblurscale)
+[SetDepthOfFieldNearBlurScale](/接口/后处理/镜头效果)
 
 客户端
 
 调整景深效果近景模糊大小，近景模糊大小越大，近景的模糊程度越大，反之则越小。注意，近景模糊程度的调节依赖于焦点距离，如果焦点处于较近的距离，那么此时近景处于较清晰的状态，模糊程度大小调节不会很明显。
 
-[SetDepthOfFieldUseCenterFocus](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setdepthoffieldusecenterfocus)
+[SetDepthOfFieldUseCenterFocus](/接口/后处理/镜头效果)
 
 客户端
 
 设置景深效果是否开启屏幕中心聚焦模式，开启后聚焦距离将被自动设置为屏幕中心所对应的物体所在的距离。在第一人称视角下，聚焦距离将被自动设置为屏幕准心所对应的物体与相机的距离，即自动聚焦准心所对应的物体。在第三人称视角下，由于屏幕中心总是对应着玩家，因此聚焦距离将被自动设置为玩家与相机的距离，即自动聚焦在玩家自己。
 
-[SetEnableDepthOfField](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setenabledepthoffield)
+[SetEnableDepthOfField](/接口/后处理/镜头效果)
 
 客户端
 
 设置是否开启景深效果，开启后屏幕出现景深效果，根据焦点距离呈现远处模糊近处清晰或者近处模糊远处清晰的效果。
 
-[SetEnableLensStain](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setenablelensstain)
+[SetEnableLensStain](/接口/后处理/镜头效果)
 
 客户端
 
 设置是否开启镜头污迹效果，开启后镜头出现污迹效果，可改变使用的污迹贴图及污迹颜色。
 
-[SetLensStainColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setlensstaincolor)
+[SetLensStainColor](/接口/后处理/镜头效果)
 
 客户端
 
 调整镜头污迹颜色，根据输入的颜色和强度来调整污迹色彩，当强度越大时，污迹颜色越偏向输入的颜色。
 
-[SetLensStainIntensity](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setlensstainintensity)
+[SetLensStainIntensity](/接口/后处理/镜头效果)
 
 客户端
 
 调整镜头污迹强度，强度越大，污迹越明显，反之则越透明。
 
-[SetLensStainTexture](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/镜头效果.html#setlensstaintexture)
+[SetLensStainTexture](/接口/后处理/镜头效果)
 
 客户端
 
@@ -9700,67 +9700,67 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[AddPostProcess](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#addpostprocess)
+[AddPostProcess](/接口/后处理/自定义)
 
 客户端
 
 添加后处理效果，与graphics\_settings/post\_process.json定义的process等效
 
-[CheckEnabledByName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#checkenabledbyname)
+[CheckEnabledByName](/接口/后处理/自定义)
 
 客户端
 
 查询是否开启了自定义后处理效果
 
-[GetParameter](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#getparameter)
+[GetParameter](/接口/后处理/自定义)
 
 客户端
 
 获取指定自定义后处理参数的值
 
-[GetPostProcessOrder](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#getpostprocessorder)
+[GetPostProcessOrder](/接口/后处理/自定义)
 
 客户端
 
 获取后处理效果的渲染顺序
 
-[InsertPassToPostprocess](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#insertpasstopostprocess)
+[InsertPassToPostprocess](/接口/后处理/自定义)
 
 客户端
 
 往自定义后处理的多pass中的指定位置插入自定义pass。多pass指定的是graphics\_settings/post\_process.json中的"pass\_array"渲染pass数组。这个后处理会按照这个数组所定义的pass来逐个渲染，每个pass之间的像素输入输出相互连接，即pass数组中第一个pass所使用的fragment shader中的TEXTURE\_0为游戏原始输出到屏幕的像素信息。下一个pass所使用的fragment shader中的TEXTURE\_0为上一个Pass的fragment shader的输出。最后一个pass的fragment shader的输出即为输出到游戏屏幕的像素信息。
 
-[PopBackPassInPostprocess](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#popbackpassinpostprocess)
+[PopBackPassInPostprocess](/接口/后处理/自定义)
 
 客户端
 
 删除自定义后处理的多pass的最末尾的pass。多pass指定的是graphics\_settings/post\_process.json中的"pass\_array"渲染pass数组。这个后处理会按照这个数组所定义的pass来逐个渲染，每个pass之间的像素输入输出相互连接，即pass数组中第一个pass所使用的fragment shader中的TEXTURE\_0为游戏原始输出到屏幕的像素信息。下一个pass所使用的fragment shader中的TEXTURE\_0为上一个Pass的fragment shader的输出。最后一个pass的fragment shader的输出即为输出到游戏屏幕的像素信息。
 
-[PostPassResultToOtherPass](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#postpassresulttootherpass)
+[PostPassResultToOtherPass](/接口/后处理/自定义)
 
 客户端
 
 将自定义pass的纹理结果传递到其他自定义pass的fragmentShader指定纹理单元槽位
 
-[PushBackPassToPostprocess](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#pushbackpasstopostprocess)
+[PushBackPassToPostprocess](/接口/后处理/自定义)
 
 客户端
 
 往自定义后处理的多pass最末尾插入自定义pass。多pass指定的是graphics\_settings/post\_process.json中的"pass\_array"渲染pass数组。这个后处理会按照这个数组所定义的pass来逐个渲染，每个pass之间的像素输入输出相互连接，即pass数组中第一个pass所使用的fragment shader中的TEXTURE\_0为游戏原始输出到屏幕的像素信息。下一个pass所使用的fragment shader中的TEXTURE\_0为上一个Pass的fragment shader的输出。最后一个pass的fragment shader的输出即为输出到游戏屏幕的像素信息。
 
-[RemovePassInPostprocess](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#removepassinpostprocess)
+[RemovePassInPostprocess](/接口/后处理/自定义)
 
 客户端
 
 删除自定义后处理的多pass中指定位置的pass。多pass指定的是graphics\_settings/post\_process.json中的"pass\_array"渲染pass数组。这个后处理会按照这个数组所定义的pass来逐个渲染，每个pass之间的像素输入输出相互连接，即pass数组中第一个pass所使用的fragment shader中的TEXTURE\_0为游戏原始输出到屏幕的像素信息。下一个pass所使用的fragment shader中的TEXTURE\_0为上一个Pass的fragment shader的输出。最后一个pass的fragment shader的输出即为输出到游戏屏幕的像素信息。
 
-[SetEnableByName](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#setenablebyname)
+[SetEnableByName](/接口/后处理/自定义)
 
 客户端
 
 设置是否开启自定义后处理效果
 
-[SetParameter](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/后处理/自定义.html#setparameter)
+[SetParameter](/接口/后处理/自定义)
 
 客户端
 
@@ -9772,31 +9772,31 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[GetPlayerUid](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/联机大厅.html#getplayeruid)
+[GetPlayerUid](/接口/联机大厅)
 
 服务端
 
 获取玩家的uid。只有在线玩家才可获取
 
-[LobbyGetStorage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/联机大厅.html#lobbygetstorage)
+[LobbyGetStorage](/接口/联机大厅)
 
 服务端
 
 获取存储的数据。仅联机大厅可用
 
-[LobbyGetStorageBySort](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/联机大厅.html#lobbygetstoragebysort)
+[LobbyGetStorageBySort](/接口/联机大厅)
 
 服务端
 
 排序获取存储的数据。仅联机大厅可用
 
-[LobbySetStorageAndUserItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/联机大厅.html#lobbysetstorageanduseritem)
+[LobbySetStorageAndUserItem](/接口/联机大厅)
 
 服务端
 
 设置订单已发货或者存数据。仅联机大厅可用
 
-[QueryLobbyUserItem](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/联机大厅.html#querylobbyuseritem)
+[QueryLobbyUserItem](/接口/联机大厅)
 
 服务端
 
@@ -9808,13 +9808,13 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[LobbyGetAchievementStorage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/成就.html#lobbygetachievementstorage)
+[LobbyGetAchievementStorage](/接口/成就)
 
 服务端
 
 获取成就节点的存储的数据。
 
-[LobbySetAchievementStorage](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/成就.html#lobbysetachievementstorage)
+[LobbySetAchievementStorage](/接口/成就)
 
 服务端
 
@@ -9826,31 +9826,31 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[CloseShopWindow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/商城.html#closeshopwindow)
+[CloseShopWindow](/接口/商城)
 
 客户端
 
 关闭网易商城窗口
 
-[HideShopGate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/商城.html#hideshopgate)
+[HideShopGate](/接口/商城)
 
 客户端
 
 隐藏网易商城入口
 
-[OpenItemDetailWindow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/商城.html#openitemdetailwindow)
+[OpenItemDetailWindow](/接口/商城)
 
 客户端
 
 打开特定商品的详情界面
 
-[OpenShopWindow](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/商城.html#openshopwindow)
+[OpenShopWindow](/接口/商城)
 
 客户端
 
 打开网易商城窗口。PC端无效（Apollo的PC端请使用商城插件）
 
-[ShowShopGate](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/商城.html#showshopgate)
+[ShowShopGate](/接口/商城)
 
 客户端
 
@@ -9862,175 +9862,175 @@ UI生命周期函数，当栈顶UI有其他UI入栈时调用。
 
 描述
 
-[AddArrowShape](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#addarrowshape)
+[AddArrowShape](/接口/渲染)
 
 客户端
 
 新建箭头形状
 
-[AddBoxShape](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#addboxshape)
+[AddBoxShape](/接口/渲染)
 
 客户端
 
 新建盒子形状
 
-[AddCircleShape](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#addcircleshape)
+[AddCircleShape](/接口/渲染)
 
 客户端
 
 新建圆形状
 
-[AddLineShape](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#addlineshape)
+[AddLineShape](/接口/渲染)
 
 客户端
 
 新建线条形状
 
-[AddSphereShape](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#addsphereshape)
+[AddSphereShape](/接口/渲染)
 
 客户端
 
 新建球形状
 
-[AddTextShape](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#addtextshape)
+[AddTextShape](/接口/渲染)
 
 客户端
 
 新建文本形状
 
-[GetBoxScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getboxscale)
+[GetBoxScale](/接口/渲染)
 
 客户端
 
 获取BoxShape的大小
 
-[GetColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getcolor)
+[GetColor](/接口/渲染)
 
 客户端
 
 获取Shape的颜色
 
-[GetEndPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getendpos)
+[GetEndPos](/接口/渲染)
 
 客户端
 
 获取LineShape或ArrowShape的结束位置
 
-[GetLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getlength)
+[GetLength](/接口/渲染)
 
 客户端
 
 获取ArrowShape的头部长度
 
-[GetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getpos)
+[GetPos](/接口/渲染)
 
 客户端
 
 获取Shape的位置
 
-[GetPriority](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getpriority)
+[GetPriority](/接口/渲染)
 
 客户端
 
 获取Shape的优先级
 
-[GetRadius](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getradius)
+[GetRadius](/接口/渲染)
 
 客户端
 
 获取CircleShape或ArrowShape或SphereShape的半径
 
-[GetSegments](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getsegments)
+[GetSegments](/接口/渲染)
 
 客户端
 
 获取CircleShape或ArrowShape头部的分段数
 
-[GetText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#gettext)
+[GetText](/接口/渲染)
 
 客户端
 
 获取TextShape的文本
 
-[GetType](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#gettype)
+[GetType](/接口/渲染)
 
 客户端
 
 获取Shape的类型
 
-[GetVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#getvisible)
+[GetVisible](/接口/渲染)
 
 客户端
 
 获取Shape是否可见
 
-[Remove](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#remove)
+[Remove](/接口/渲染)
 
 客户端
 
 删除Shape
 
-[RemoveAll](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#removeall)
+[RemoveAll](/接口/渲染)
 
 客户端
 
 删除当前所有Shape
 
-[SetBoxScale](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setboxscale)
+[SetBoxScale](/接口/渲染)
 
 客户端
 
 设置BoxShape的大小
 
-[SetColor](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setcolor)
+[SetColor](/接口/渲染)
 
 客户端
 
 设置Shape的颜色
 
-[SetEndPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setendpos)
+[SetEndPos](/接口/渲染)
 
 客户端
 
 设置LineShape或ArrowShape的结束位置
 
-[SetLength](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setlength)
+[SetLength](/接口/渲染)
 
 客户端
 
 设置组成ArrowShape头部的长度
 
-[SetPos](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setpos)
+[SetPos](/接口/渲染)
 
 客户端
 
 设置Shape的位置
 
-[SetPriority](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setpriority)
+[SetPriority](/接口/渲染)
 
 客户端
 
 设置Shape的渲染优先级, 同一像素点处优先渲染优先级高的Shape, 默认为0
 
-[SetRadius](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setradius)
+[SetRadius](/接口/渲染)
 
 客户端
 
 设置CircleShape或ArrowShape或SphereShape的半径
 
-[SetSegments](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setsegments)
+[SetSegments](/接口/渲染)
 
 客户端
 
 设置组成ArrowShape头部的网格数量, 最小为3
 
-[SetText](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#settext)
+[SetText](/接口/渲染)
 
 客户端
 
 设置TextShape的文本内容
 
-[SetVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/渲染.html#setvisible)
+[SetVisible](/接口/渲染)
 
 客户端
 

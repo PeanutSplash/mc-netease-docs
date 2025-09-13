@@ -3095,8 +3095,8 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   备注
     
-    *   网格体模型使用[CombineBlockPaletteToGeometry](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块几何体模型.html#combineblockpalettetogeometry)生成
-    *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#serializeblockpalette)和[DeserializeBlockPalette](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/方块/方块调色板.html#deserializeblockpalette)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
+    *   网格体模型使用[CombineBlockPaletteToGeometry](/接口/方块/方块几何体模型)生成
+    *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](/接口/方块/方块调色板)和[DeserializeBlockPalette](/接口/方块/方块调色板)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
     *   RenderBlockGeometryModel参数params说明： params参数解释如下：
         
         参数

@@ -15,103 +15,103 @@ output_path: "事件/UI.md"
 
 描述
 
-[AchievementButtonMovedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#achievementbuttonmovedclientevent)
+[AchievementButtonMovedClientEvent](/事件/UI)
 
 客户端
 
 触发时机：使用自定义成就系统的时，拖动成就入口结束时触发
 
-[ClientChestCloseEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientchestcloseevent)
+[ClientChestCloseEvent](/事件/UI)
 
 客户端
 
 关闭箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
 
-[ClientChestOpenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientchestopenevent)
+[ClientChestOpenEvent](/事件/UI)
 
 客户端
 
 打开箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
 
-[ClientPlayerInventoryCloseEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientplayerinventorycloseevent)
+[ClientPlayerInventoryCloseEvent](/事件/UI)
 
 客户端
 
 关闭物品背包界面时触发
 
-[ClientPlayerInventoryOpenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#clientplayerinventoryopenevent)
+[ClientPlayerInventoryOpenEvent](/事件/UI)
 
 客户端
 
 打开物品背包界面时触发
 
-[CloseNeteaseShopEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#closeneteaseshopevent)
+[CloseNeteaseShopEvent](/事件/UI)
 
 客户端
 
 关闭商城界面时触发，包括脚本商城和Apollo插件商城
 
-[GridComponentSizeChangedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#gridcomponentsizechangedclientevent)
+[GridComponentSizeChangedClientEvent](/事件/UI)
 
 客户端
 
 UI grid控件里格子重新排列时触发
 
-[HudButtonChangedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#hudbuttonchangedclientevent)
+[HudButtonChangedClientEvent](/事件/UI)
 
 客户端
 
 当原生HUD按钮位置或大小发生改变时触发，例如玩家使用了自定义控件功能会触发，可在该事件中修改mod按钮的位置防止重叠
 
-[OnItemSlotButtonClickedEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#onitemslotbuttonclickedevent)
+[OnItemSlotButtonClickedEvent](/事件/UI)
 
 客户端
 
 点击快捷栏、背包栏、盔甲栏、副手栏的物品槽时触发
 
-[PlayerChatButtonClickClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#playerchatbuttonclickclientevent)
+[PlayerChatButtonClickClientEvent](/事件/UI)
 
 客户端
 
 玩家点击聊天按钮或回车键触发呼出聊天窗口时客户端抛出的事件
 
-[PlayerInventoryOpenScriptServerEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#playerinventoryopenscriptserverevent)
+[PlayerInventoryOpenScriptServerEvent](/事件/UI)
 
 服务端
 
 某个客户端打开物品背包界面时触发
 
-[PopScreenAfterClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#popscreenafterclientevent)
+[PopScreenAfterClientEvent](/事件/UI)
 
 客户端
 
 screen移除触发
 
-[PopScreenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#popscreenevent)
+[PopScreenEvent](/事件/UI)
 
 客户端
 
 screen移除触发
 
-[PushScreenEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#pushscreenevent)
+[PushScreenEvent](/事件/UI)
 
 客户端
 
 screen创建触发
 
-[ScreenSizeChangedClientEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#screensizechangedclientevent)
+[ScreenSizeChangedClientEvent](/事件/UI)
 
 客户端
 
 改变屏幕大小时会触发的事件
 
-[UiInitFinished](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#uiinitfinished)
+[UiInitFinished](/事件/UI)
 
 客户端
 
 UI初始化框架完成,此时可以创建UI
 
-[UrgeShipEvent](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html#urgeshipevent)
+[UrgeShipEvent](/事件/UI)
 
 服务端
 
@@ -350,7 +350,7 @@ UI初始化框架完成,此时可以创建UI
         
         str
         
-        [HUD原生UI枚举值](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/OriginGUIName.html)
+        [HUD原生UI枚举值](/枚举值/OriginGUIName)
         
         beforeSize
         

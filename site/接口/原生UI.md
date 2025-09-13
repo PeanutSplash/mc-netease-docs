@@ -19,259 +19,259 @@ output_path: "接口/原生UI.md"
 
 描述
 
-[ChangeSneakState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#changesneakstate)
+[ChangeSneakState](/接口/原生UI)
 
 客户端
 
 切换潜行状态
 
-[ClickInteractGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#clickinteractgui)
+[ClickInteractGUI](/接口/原生UI)
 
 客户端
 
 模拟点击交互按钮，交互按钮指的在喂食、钓鱼、交易等交互场景出现的按钮
 
-[GetOriginAreaOffset](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getoriginareaoffset)
+[GetOriginAreaOffset](/接口/原生UI)
 
 客户端
 
 获取指定原生UI的offset,包括左上角和右下角
 
-[GetScreenSize](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getscreensize)
+[GetScreenSize](/接口/原生UI)
 
 客户端
 
 获取游戏分辨率
 
-[GetScreenViewInfo](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getscreenviewinfo)
+[GetScreenViewInfo](/接口/原生UI)
 
 客户端
 
 获取游戏视角信息。首先获得当前分辨率下UI放大倍数，计算方式可参考[《我的世界》界面适配方法](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/1-界面编辑器使用说明.html#《我的世界》界面适配方法)。则当前游戏视角的宽度的计算方式为：若当前分辨率的宽度能被该放大倍数整除，则等于当前分辨率，若不能，则等于当前分辨率加放大倍数再减去当前分辨率对放大倍数求余的结果，当前游戏视角的高度计算方法类似。例：以分辨率为1792，828的手机计算，画布是分辨率的3倍，所以x = 1792 + 3 - 1 = 1794；y = 828，该接口返回的结果为(1794.0, 828.0, 0.0, 0.0)
 
-[GetWalkState](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#getwalkstate)
+[GetWalkState](/接口/原生UI)
 
 客户端
 
 获取玩家行走/潜行/跑步状态
 
-[HideAirSupplyGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideairsupplygui)
+[HideAirSupplyGUI](/接口/原生UI)
 
 客户端
 
 隐藏玩家氧气值界面
 
-[HideArmorGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidearmorgui)
+[HideArmorGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的护甲值显示
 
-[HideChangePersonGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidechangepersongui)
+[HideChangePersonGui](/接口/原生UI)
 
 客户端
 
 隐藏切换人称的按钮。隐藏后点击相应位置不会响应
 
-[HideChatGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidechatgui)
+[HideChatGUI](/接口/原生UI)
 
 客户端
 
 隐藏聊天按钮原生UI。该接口在开启新版聊天时不生效
 
-[HideCrossHairGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidecrosshairgui)
+[HideCrossHairGUI](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的十字准心显示
 
-[HideEmoteGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideemotegui)
+[HideEmoteGUI](/接口/原生UI)
 
 客户端
 
 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用。该接口在开启新版聊天时不生效
 
-[HideExpGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideexpgui)
+[HideExpGui](/接口/原生UI)
 
 客户端
 
 非创造者模式下隐藏经验条显示
 
-[HideFoldGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidefoldgui)
+[HideFoldGUI](/接口/原生UI)
 
 客户端
 
 隐藏下拉按钮原生UI。
 
-[HideHealthGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehealthgui)
+[HideHealthGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的血量显示
 
-[HideHorseHealthGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehorsehealthgui)
+[HideHorseHealthGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的坐骑的血量显示
 
-[HideHudGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehudgui)
+[HideHudGUI](/接口/原生UI)
 
 客户端
 
 隐藏HUD游戏界面的游戏原生UI。与原版F1按钮效果一致，只隐藏显示，但点击跳跃键等位置依然会响应
 
-[HideHungerGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidehungergui)
+[HideHungerGui](/接口/原生UI)
 
 客户端
 
 隐藏hud界面的饥饿值显示
 
-[HideInteractGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideinteractgui)
+[HideInteractGui](/接口/原生UI)
 
 客户端
 
 隐藏交互按钮。隐藏后点击相应位置不会响应
 
-[HideJumpGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidejumpgui)
+[HideJumpGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中右下角的跳跃按钮。隐藏后点击相应位置不会响应
 
-[HideMoveGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidemovegui)
+[HideMoveGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中左下角的移动按钮。隐藏后点击相应位置不会响应
 
-[HideNeteaseStoreGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideneteasestoregui)
+[HideNeteaseStoreGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中的网易商店按钮。隐藏后点击相应位置不会响应
 
-[HidePauseGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidepausegui)
+[HidePauseGUI](/接口/原生UI)
 
 客户端
 
 隐藏暂停按钮原生UI。
 
-[HideSlotBarGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideslotbargui)
+[HideSlotBarGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中底部中间的物品栏界面
 
-[HideSneakGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidesneakgui)
+[HideSneakGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中左下角方向键的中心处潜行按钮。隐藏后点击相应位置不会响应
 
-[HideSwimGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hideswimgui)
+[HideSwimGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中的浮潜按钮。隐藏后点击相应位置不会响应。
 
-[HideVoiceGUI](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidevoicegui)
+[HideVoiceGUI](/接口/原生UI)
 
 客户端
 
 隐藏语音按钮原生UI。该接口在开启新版聊天时不生效
 
-[HideWalkGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#hidewalkgui)
+[HideWalkGui](/接口/原生UI)
 
 客户端
 
 隐藏游戏中跑/走按钮。隐藏后点击相应位置不会响应
 
-[OpenChatGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openchatgui)
+[OpenChatGui](/接口/原生UI)
 
 客户端
 
 打开原版聊天栏
 
-[OpenEmoteGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openemotegui)
+[OpenEmoteGui](/接口/原生UI)
 
 客户端
 
 打开表情界面
 
-[OpenFoldGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openfoldgui)
+[OpenFoldGui](/接口/原生UI)
 
 客户端
 
 打开原版下拉界面
 
-[OpenInventoryGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openinventorygui)
+[OpenInventoryGui](/接口/原生UI)
 
 客户端
 
 打开原版背包界面，并支持选中某个分页(支持自定义分页名称)
 
-[OpenNeteaseStoreGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openneteasestoregui)
+[OpenNeteaseStoreGui](/接口/原生UI)
 
 客户端
 
 打开游戏中的网易商店购买商品界面
 
-[OpenPauseGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openpausegui)
+[OpenPauseGui](/接口/原生UI)
 
 客户端
 
 打开原版暂停界面
 
-[OpenReportGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openreportgui)
+[OpenReportGui](/接口/原生UI)
 
 客户端
 
 打开原版举报界面
 
-[OpenVoiceGui](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#openvoicegui)
+[OpenVoiceGui](/接口/原生UI)
 
 客户端
 
 打开原版语音界面
 
-[PlayHudHeartBlinkAnim](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#playhudheartblinkanim)
+[PlayHudHeartBlinkAnim](/接口/原生UI)
 
 客户端
 
 播放原版受伤时血量变化的动效
 
-[SetCrossHair](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#setcrosshair)
+[SetCrossHair](/接口/原生UI)
 
 客户端
 
 设置是否使用“准星瞄准”
 
-[SetEmoteSwitch](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#setemoteswitch)
+[SetEmoteSwitch](/接口/原生UI)
 
 客户端
 
 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用，在原生UI初始化前调用设置
 
-[SetHudChatStackPosition](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#sethudchatstackposition)
+[SetHudChatStackPosition](/接口/原生UI)
 
 客户端
 
 设置HUD界面左上小聊天窗口位置
 
-[SetHudChatStackVisible](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#sethudchatstackvisible)
+[SetHudChatStackVisible](/接口/原生UI)
 
 客户端
 
 设置HUD界面左上小聊天窗口可见性
 
-[SetResponse](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#setresponse)
+[SetResponse](/接口/原生UI)
 
 客户端
 
 设置原生UI是否响应
 
-[SimulateJump](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/接口/原生UI.html#simulatejump)
+[SimulateJump](/接口/原生UI)
 
 客户端
 
@@ -401,7 +401,7 @@ method in mod.client.extraClientApi
     
     str
     
-    原生UI枚举([原生UI枚举](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/OriginGUIName.html))
+    原生UI枚举([原生UI枚举](/枚举值/OriginGUIName))
     
 *   返回值
     
@@ -516,7 +516,7 @@ method in mod.client.extraClientApi
     
     WalkState
     
-    行走/潜行/跑步状态 ([行走状态](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/WalkState.html))
+    行走/潜行/跑步状态 ([行走状态](/枚举值/WalkState))
     
 *   示例
     
@@ -1546,7 +1546,7 @@ method in mod.client.extraClientApi
     
     str
     
-    分页名称([原版分页名称枚举](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/枚举值/InventoryType.html))
+    分页名称([原版分页名称枚举](/枚举值/InventoryType))
     
     isForce
     
