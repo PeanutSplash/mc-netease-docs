@@ -1,0 +1,6 @@
+{
+  "name": "mc-163-docs-vitepress",
+  "type": "module",
+  "private": true,
+  "description": "VitePress documentation site"
+}
