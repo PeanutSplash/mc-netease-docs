@@ -1,8 +1,8 @@
 ---
 title: "Component"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E9%80%9A%E7%94%A8/Component.html?catalog=1"
-scraped_at: "2025-09-13T10:33:25.516Z"
-batch_id: "2025-09-13T10-33-25-510Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E9%80%9A%E7%94%A8/Component.html"
+scraped_at: "2025-09-13T14:55:43.509Z"
+batch_id: "2025-09-13T14-55-43-504Z"
 tree_path: ["接口","通用","Component"]
 output_path: "接口/通用/Component.md"
 ---

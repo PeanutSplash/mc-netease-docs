@@ -1,8 +1,8 @@
 ---
 title: "UI界面"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E7%95%8C%E9%9D%A2.html?catalog=1"
-scraped_at: "2025-09-13T10:33:44.356Z"
-batch_id: "2025-09-13T10-33-25-510Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E7%95%8C%E9%9D%A2.html"
+scraped_at: "2025-09-13T14:56:02.350Z"
+batch_id: "2025-09-13T14-55-43-504Z"
 tree_path: ["接口","自定义UI","UI界面"]
 output_path: "接口/自定义UI/UI界面.md"
 ---
@@ -75,7 +75,7 @@ method in mod.client.ui.screenNode.ScreenNode
 
 *   描述
     
-    设置已绑定实体的UI是否根据绑定实体与本地玩家间的距离动态缩放，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
+    设置已绑定实体的UI是否根据绑定实体与本地玩家间的距离动态缩放，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用#CreateUI)接口**
     
 *   参数
     
@@ -123,7 +123,7 @@ method in mod.client.ui.screenNode.ScreenNode
 
 *   描述
     
-    修改绑定的实体id，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
+    修改绑定的实体id，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用#CreateUI)接口**
     
 *   参数
     
@@ -165,7 +165,7 @@ method in mod.client.ui.screenNode.ScreenNode
 
 *   描述
     
-    修改与绑定实体之间的偏移量，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用)接口**
+    修改与绑定实体之间的偏移量，**只对已绑定实体的UI界面生效，如何将UI与实体绑定详见[CreateUI](/接口/自定义UI/通用#CreateUI)接口**
     
 *   参数
     

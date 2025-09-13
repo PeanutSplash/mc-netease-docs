@@ -1,8 +1,8 @@
 ---
 title: "原生UI"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E5%8E%9F%E7%94%9FUI.html?catalog=1"
-scraped_at: "2025-09-13T10:33:43.080Z"
-batch_id: "2025-09-13T10-33-25-510Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E5%8E%9F%E7%94%9FUI.html"
+scraped_at: "2025-09-13T14:56:00.824Z"
+batch_id: "2025-09-13T14-55-43-504Z"
 tree_path: ["接口","原生UI"]
 output_path: "接口/原生UI.md"
 ---
@@ -19,259 +19,259 @@ output_path: "接口/原生UI.md"
 
 描述
 
-[ChangeSneakState](/接口/原生UI)
+[ChangeSneakState](/接口/原生UI#changesneakstate)
 
 客户端
 
 切换潜行状态
 
-[ClickInteractGUI](/接口/原生UI)
+[ClickInteractGUI](/接口/原生UI#clickinteractgui)
 
 客户端
 
 模拟点击交互按钮，交互按钮指的在喂食、钓鱼、交易等交互场景出现的按钮
 
-[GetOriginAreaOffset](/接口/原生UI)
+[GetOriginAreaOffset](/接口/原生UI#getoriginareaoffset)
 
 客户端
 
 获取指定原生UI的offset,包括左上角和右下角
 
-[GetScreenSize](/接口/原生UI)
+[GetScreenSize](/接口/原生UI#getscreensize)
 
 客户端
 
 获取游戏分辨率
 
-[GetScreenViewInfo](/接口/原生UI)
+[GetScreenViewInfo](/接口/原生UI#getscreenviewinfo)
 
 客户端
 
 获取游戏视角信息。首先获得当前分辨率下UI放大倍数，计算方式可参考[《我的世界》界面适配方法](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/1-界面编辑器使用说明.html#《我的世界》界面适配方法)。则当前游戏视角的宽度的计算方式为：若当前分辨率的宽度能被该放大倍数整除，则等于当前分辨率，若不能，则等于当前分辨率加放大倍数再减去当前分辨率对放大倍数求余的结果，当前游戏视角的高度计算方法类似。例：以分辨率为1792，828的手机计算，画布是分辨率的3倍，所以x = 1792 + 3 - 1 = 1794；y = 828，该接口返回的结果为(1794.0, 828.0, 0.0, 0.0)
 
-[GetWalkState](/接口/原生UI)
+[GetWalkState](/接口/原生UI#getwalkstate)
 
 客户端
 
 获取玩家行走/潜行/跑步状态
 
-[HideAirSupplyGUI](/接口/原生UI)
+[HideAirSupplyGUI](/接口/原生UI#hideairsupplygui)
 
 客户端
 
 隐藏玩家氧气值界面
 
-[HideArmorGui](/接口/原生UI)
+[HideArmorGui](/接口/原生UI#hidearmorgui)
 
 客户端
 
 隐藏hud界面的护甲值显示
 
-[HideChangePersonGui](/接口/原生UI)
+[HideChangePersonGui](/接口/原生UI#hidechangepersongui)
 
 客户端
 
 隐藏切换人称的按钮。隐藏后点击相应位置不会响应
 
-[HideChatGUI](/接口/原生UI)
+[HideChatGUI](/接口/原生UI#hidechatgui)
 
 客户端
 
 隐藏聊天按钮原生UI。该接口在开启新版聊天时不生效
 
-[HideCrossHairGUI](/接口/原生UI)
+[HideCrossHairGUI](/接口/原生UI#hidecrosshairgui)
 
 客户端
 
 隐藏hud界面的十字准心显示
 
-[HideEmoteGUI](/接口/原生UI)
+[HideEmoteGUI](/接口/原生UI#hideemotegui)
 
 客户端
 
 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用。该接口在开启新版聊天时不生效
 
-[HideExpGui](/接口/原生UI)
+[HideExpGui](/接口/原生UI#hideexpgui)
 
 客户端
 
 非创造者模式下隐藏经验条显示
 
-[HideFoldGUI](/接口/原生UI)
+[HideFoldGUI](/接口/原生UI#hidefoldgui)
 
 客户端
 
 隐藏下拉按钮原生UI。
 
-[HideHealthGui](/接口/原生UI)
+[HideHealthGui](/接口/原生UI#hidehealthgui)
 
 客户端
 
 隐藏hud界面的血量显示
 
-[HideHorseHealthGui](/接口/原生UI)
+[HideHorseHealthGui](/接口/原生UI#hidehorsehealthgui)
 
 客户端
 
 隐藏hud界面的坐骑的血量显示
 
-[HideHudGUI](/接口/原生UI)
+[HideHudGUI](/接口/原生UI#hidehudgui)
 
 客户端
 
 隐藏HUD游戏界面的游戏原生UI。与原版F1按钮效果一致，只隐藏显示，但点击跳跃键等位置依然会响应
 
-[HideHungerGui](/接口/原生UI)
+[HideHungerGui](/接口/原生UI#hidehungergui)
 
 客户端
 
 隐藏hud界面的饥饿值显示
 
-[HideInteractGui](/接口/原生UI)
+[HideInteractGui](/接口/原生UI#hideinteractgui)
 
 客户端
 
 隐藏交互按钮。隐藏后点击相应位置不会响应
 
-[HideJumpGui](/接口/原生UI)
+[HideJumpGui](/接口/原生UI#hidejumpgui)
 
 客户端
 
 隐藏游戏中右下角的跳跃按钮。隐藏后点击相应位置不会响应
 
-[HideMoveGui](/接口/原生UI)
+[HideMoveGui](/接口/原生UI#hidemovegui)
 
 客户端
 
 隐藏游戏中左下角的移动按钮。隐藏后点击相应位置不会响应
 
-[HideNeteaseStoreGui](/接口/原生UI)
+[HideNeteaseStoreGui](/接口/原生UI#hideneteasestoregui)
 
 客户端
 
 隐藏游戏中的网易商店按钮。隐藏后点击相应位置不会响应
 
-[HidePauseGUI](/接口/原生UI)
+[HidePauseGUI](/接口/原生UI#hidepausegui)
 
 客户端
 
 隐藏暂停按钮原生UI。
 
-[HideSlotBarGui](/接口/原生UI)
+[HideSlotBarGui](/接口/原生UI#hideslotbargui)
 
 客户端
 
 隐藏游戏中底部中间的物品栏界面
 
-[HideSneakGui](/接口/原生UI)
+[HideSneakGui](/接口/原生UI#hidesneakgui)
 
 客户端
 
 隐藏游戏中左下角方向键的中心处潜行按钮。隐藏后点击相应位置不会响应
 
-[HideSwimGui](/接口/原生UI)
+[HideSwimGui](/接口/原生UI#hideswimgui)
 
 客户端
 
 隐藏游戏中的浮潜按钮。隐藏后点击相应位置不会响应。
 
-[HideVoiceGUI](/接口/原生UI)
+[HideVoiceGUI](/接口/原生UI#hidevoicegui)
 
 客户端
 
 隐藏语音按钮原生UI。该接口在开启新版聊天时不生效
 
-[HideWalkGui](/接口/原生UI)
+[HideWalkGui](/接口/原生UI#hidewalkgui)
 
 客户端
 
 隐藏游戏中跑/走按钮。隐藏后点击相应位置不会响应
 
-[OpenChatGui](/接口/原生UI)
+[OpenChatGui](/接口/原生UI#openchatgui)
 
 客户端
 
 打开原版聊天栏
 
-[OpenEmoteGui](/接口/原生UI)
+[OpenEmoteGui](/接口/原生UI#openemotegui)
 
 客户端
 
 打开表情界面
 
-[OpenFoldGui](/接口/原生UI)
+[OpenFoldGui](/接口/原生UI#openfoldgui)
 
 客户端
 
 打开原版下拉界面
 
-[OpenInventoryGui](/接口/原生UI)
+[OpenInventoryGui](/接口/原生UI#openinventorygui)
 
 客户端
 
 打开原版背包界面，并支持选中某个分页(支持自定义分页名称)
 
-[OpenNeteaseStoreGui](/接口/原生UI)
+[OpenNeteaseStoreGui](/接口/原生UI#openneteasestoregui)
 
 客户端
 
 打开游戏中的网易商店购买商品界面
 
-[OpenPauseGui](/接口/原生UI)
+[OpenPauseGui](/接口/原生UI#openpausegui)
 
 客户端
 
 打开原版暂停界面
 
-[OpenReportGui](/接口/原生UI)
+[OpenReportGui](/接口/原生UI#openreportgui)
 
 客户端
 
 打开原版举报界面
 
-[OpenVoiceGui](/接口/原生UI)
+[OpenVoiceGui](/接口/原生UI#openvoicegui)
 
 客户端
 
 打开原版语音界面
 
-[PlayHudHeartBlinkAnim](/接口/原生UI)
+[PlayHudHeartBlinkAnim](/接口/原生UI#playhudheartblinkanim)
 
 客户端
 
 播放原版受伤时血量变化的动效
 
-[SetCrossHair](/接口/原生UI)
+[SetCrossHair](/接口/原生UI#setcrosshair)
 
 客户端
 
 设置是否使用“准星瞄准”
 
-[SetEmoteSwitch](/接口/原生UI)
+[SetEmoteSwitch](/接口/原生UI#setemoteswitch)
 
 客户端
 
 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用，在原生UI初始化前调用设置
 
-[SetHudChatStackPosition](/接口/原生UI)
+[SetHudChatStackPosition](/接口/原生UI#sethudchatstackposition)
 
 客户端
 
 设置HUD界面左上小聊天窗口位置
 
-[SetHudChatStackVisible](/接口/原生UI)
+[SetHudChatStackVisible](/接口/原生UI#sethudchatstackvisible)
 
 客户端
 
 设置HUD界面左上小聊天窗口可见性
 
-[SetResponse](/接口/原生UI)
+[SetResponse](/接口/原生UI#setresponse)
 
 客户端
 
 设置原生UI是否响应
 
-[SimulateJump](/接口/原生UI)
+[SimulateJump](/接口/原生UI#simulatejump)
 
 客户端
 

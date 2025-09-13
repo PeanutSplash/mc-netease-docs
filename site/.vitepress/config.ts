@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'MC 163 Docs',
+  title: '网易MC基岩版API文档',
   description: 'Scraped and auto-organized documentation',
   themeConfig: {
     search: {

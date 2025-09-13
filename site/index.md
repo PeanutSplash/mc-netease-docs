@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "MC 163 Docs"
-  text: "自动抓取与组织的文档站点"
+  name: "网易MC基岩版"
+  text: "API文档"
   tagline: "使用 VitePress + 本地搜索构建的现代化文档体验"
   actions:
     - theme: brand

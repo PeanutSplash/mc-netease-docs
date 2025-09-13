@@ -1,8 +1,8 @@
 ---
 title: "UI控件"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E6%8E%A7%E4%BB%B6.html?catalog=1"
-scraped_at: "2025-09-13T10:33:44.356Z"
-batch_id: "2025-09-13T10-33-25-510Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E6%8E%A7%E4%BB%B6.html"
+scraped_at: "2025-09-13T14:56:02.350Z"
+batch_id: "2025-09-13T14-55-43-504Z"
 tree_path: ["接口","自定义UI","UI控件"]
 output_path: "接口/自定义UI/UI控件.md"
 ---
@@ -3095,8 +3095,8 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   备注
     
-    *   网格体模型使用[CombineBlockPaletteToGeometry](/接口/方块/方块几何体模型)生成
-    *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](/接口/方块/方块调色板)和[DeserializeBlockPalette](/接口/方块/方块调色板)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
+    *   网格体模型使用[CombineBlockPaletteToGeometry](/接口/方块/方块几何体模型#combineblockpalettetogeometry)生成
+    *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](/接口/方块/方块调色板#serializeblockpalette)和[DeserializeBlockPalette](/接口/方块/方块调色板#deserializeblockpalette)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
     *   RenderBlockGeometryModel参数params说明： params参数解释如下：
         
         参数

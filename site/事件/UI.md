@@ -1,8 +1,8 @@
 ---
 title: "UI"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E4%BA%8B%E4%BB%B6/UI.html?catalog=1"
-scraped_at: "2025-09-13T10:33:50.426Z"
-batch_id: "2025-09-13T10-33-25-510Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E4%BA%8B%E4%BB%B6/UI.html"
+scraped_at: "2025-09-13T14:56:08.523Z"
+batch_id: "2025-09-13T14-55-43-504Z"
 tree_path: ["事件","UI"]
 output_path: "事件/UI.md"
 ---
@@ -15,103 +15,103 @@ output_path: "事件/UI.md"
 
 描述
 
-[AchievementButtonMovedClientEvent](/事件/UI)
+[AchievementButtonMovedClientEvent](/事件/UI#achievementbuttonmovedclientevent)
 
 客户端
 
 触发时机：使用自定义成就系统的时，拖动成就入口结束时触发
 
-[ClientChestCloseEvent](/事件/UI)
+[ClientChestCloseEvent](/事件/UI#clientchestcloseevent)
 
 客户端
 
 关闭箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
 
-[ClientChestOpenEvent](/事件/UI)
+[ClientChestOpenEvent](/事件/UI#clientchestopenevent)
 
 客户端
 
 打开箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
 
-[ClientPlayerInventoryCloseEvent](/事件/UI)
+[ClientPlayerInventoryCloseEvent](/事件/UI#clientplayerinventorycloseevent)
 
 客户端
 
 关闭物品背包界面时触发
 
-[ClientPlayerInventoryOpenEvent](/事件/UI)
+[ClientPlayerInventoryOpenEvent](/事件/UI#clientplayerinventoryopenevent)
 
 客户端
 
 打开物品背包界面时触发
 
-[CloseNeteaseShopEvent](/事件/UI)
+[CloseNeteaseShopEvent](/事件/UI#closeneteaseshopevent)
 
 客户端
 
 关闭商城界面时触发，包括脚本商城和Apollo插件商城
 
-[GridComponentSizeChangedClientEvent](/事件/UI)
+[GridComponentSizeChangedClientEvent](/事件/UI#gridcomponentsizechangedclientevent)
 
 客户端
 
 UI grid控件里格子重新排列时触发
 
-[HudButtonChangedClientEvent](/事件/UI)
+[HudButtonChangedClientEvent](/事件/UI#hudbuttonchangedclientevent)
 
 客户端
 
 当原生HUD按钮位置或大小发生改变时触发，例如玩家使用了自定义控件功能会触发，可在该事件中修改mod按钮的位置防止重叠
 
-[OnItemSlotButtonClickedEvent](/事件/UI)
+[OnItemSlotButtonClickedEvent](/事件/UI#onitemslotbuttonclickedevent)
 
 客户端
 
 点击快捷栏、背包栏、盔甲栏、副手栏的物品槽时触发
 
-[PlayerChatButtonClickClientEvent](/事件/UI)
+[PlayerChatButtonClickClientEvent](/事件/UI#playerchatbuttonclickclientevent)
 
 客户端
 
 玩家点击聊天按钮或回车键触发呼出聊天窗口时客户端抛出的事件
 
-[PlayerInventoryOpenScriptServerEvent](/事件/UI)
+[PlayerInventoryOpenScriptServerEvent](/事件/UI#playerinventoryopenscriptserverevent)
 
 服务端
 
 某个客户端打开物品背包界面时触发
 
-[PopScreenAfterClientEvent](/事件/UI)
+[PopScreenAfterClientEvent](/事件/UI#popscreenafterclientevent)
 
 客户端
 
 screen移除触发
 
-[PopScreenEvent](/事件/UI)
+[PopScreenEvent](/事件/UI#popscreenevent)
 
 客户端
 
 screen移除触发
 
-[PushScreenEvent](/事件/UI)
+[PushScreenEvent](/事件/UI#pushscreenevent)
 
 客户端
 
 screen创建触发
 
-[ScreenSizeChangedClientEvent](/事件/UI)
+[ScreenSizeChangedClientEvent](/事件/UI#screensizechangedclientevent)
 
 客户端
 
 改变屏幕大小时会触发的事件
 
-[UiInitFinished](/事件/UI)
+[UiInitFinished](/事件/UI#uiinitfinished)
 
 客户端
 
 UI初始化框架完成,此时可以创建UI
 
-[UrgeShipEvent](/事件/UI)
+[UrgeShipEvent](/事件/UI#urgeshipevent)
 
 服务端
 
