@@ -1,8 +1,8 @@
 ---
 title: "UI界面"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E7%95%8C%E9%9D%A2.html"
-scraped_at: "2025-09-24T15:54:24.247Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:51:04.011Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["接口","自定义UI","UI界面"]
 output_path: "接口/自定义UI/UI界面.md"
 ---
@@ -21,33 +21,16 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    bindToObjId
-    
-    int
-    
-    绑定的模型对象的id
-    
-    offset
-    
-    tuple(float,float,float)
-    
-    UI与绑定实体的偏移量
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | bindToObjId | int | 绑定的模型对象的id |
+    | offset | tuple(float,float,float) | UI与绑定实体的偏移量 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否修改成功 True:成功 False:失败
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否修改成功 True:成功 False:失败 |
     
 *   备注
     
@@ -79,27 +62,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    autoScale
-    
-    int
-    
-    1:动态缩放 0:不动态缩放
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | autoScale | int | 1:动态缩放 0:不动态缩放 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置成功 True:成功 False:失败
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置成功 True:成功 False:失败 |
     
 *   备注
     
@@ -127,27 +98,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    绑定的实体id
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 绑定的实体id |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否修改成功 True:成功 False:失败
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否修改成功 True:成功 False:失败 |
     
 *   示例
     
@@ -169,27 +128,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    offset
-    
-    tuple(float,float,float)
-    
-    偏移量
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | offset | tuple(float,float,float) | 偏移量 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否修改成功 True:成功 False:失败
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否修改成功 True:成功 False:失败 |
     
 *   备注
     
@@ -214,51 +161,19 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始的控件路径
-    
-    parentPath
-    
-    str
-    
-    为从main节点开始，父节点的控件路径
-    
-    newName
-    
-    str
-    
-    为克隆成功后创建的新控件名称，新控件的路径为parentPath/newName
-    
-    syncRefresh
-    
-    bool
-    
-    是否需要同步刷新，默认值为True。置True为游戏在同一帧计算该控件的Size等相关数据，置False则在下一帧进行计算。**如同一帧有大量clone操作建议置False，操作结束后调用一次UpdateScreen接口刷新界面及相关控件数据**
-    
-    forceUpdate
-    
-    bool
-    
-    是否需要强制刷新，默认值为True。置True则按照syncRefresh逻辑进行同一帧或者下一帧刷新，置False则当前帧和下一帧均不刷新，需要手动调用UpdateScreen进行刷新。如有大量Clone操作且非在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始的控件路径 |
+    | parentPath | str | 为从main节点开始，父节点的控件路径 |
+    | newName | str | 为克隆成功后创建的新控件名称，新控件的路径为parentPath/newName |
+    | syncRefresh | bool | 是否需要同步刷新，默认值为True。置True为游戏在同一帧计算该控件的Size等相关数据，置False则在下一帧进行计算。如同一帧有大量clone操作建议置False，操作结束后调用一次UpdateScreen接口刷新界面及相关控件数据 |
+    | forceUpdate | bool | 是否需要强制刷新，默认值为True。置True则按照syncRefresh逻辑进行同一帧或者下一帧刷新，置False则当前帧和下一帧均不刷新，需要手动调用UpdateScreen进行刷新。如有大量Clone操作且非在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否克隆成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否克隆成功 |
     
 *   示例
     
@@ -320,45 +235,18 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    defName
-    
-    str
-    
-    UI控件路径，格式为"namespace.controlName"。namespace对应uiJson文件中"namespace"对应的值，UI编辑器生成的uiJson文件该值等于文件名。controlName对应想创建的控件的名称。
-    
-    childName
-    
-    str
-    
-    所创建的子控件的名称
-    
-    parentControl
-    
-    BaseUIControl
-    
-    指定所创建的子节点的父节点，默认值为None，表示直接创建在当前画布根节点下。
-    
-    forceUpdate
-    
-    bool
-    
-    是否需要强制刷新，默认值为True。置True则进行同一帧或者下一帧刷新，置False则当前帧和下一帧均不刷新，需要手动调用UpdateScreen进行刷新。如有大量CreateChildControl操作且在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | defName | str | UI控件路径，格式为"namespace.controlName"。namespace对应uiJson文件中"namespace"对应的值，UI编辑器生成的uiJson文件该值等于文件名。controlName对应想创建的控件的名称。 |
+    | childName | str | 所创建的子控件的名称 |
+    | parentControl | BaseUIControl | 指定所创建的子节点的父节点，默认值为None，表示直接创建在当前画布根节点下。 |
+    | forceUpdate | bool | 是否需要强制刷新，默认值为True。置True则进行同一帧或者下一帧刷新，置False则当前帧和下一帧均不刷新，需要手动调用UpdateScreen进行刷新。如有大量CreateChildControl操作且在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseUIControl
-    
-    创建的子控件节点
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseUIControl | 创建的子控件节点 |
     
 *   示例
     
@@ -403,27 +291,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    parentPath
-    
-    str
-    
-    为从main节点开始，父节点的控件路径
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | parentPath | str | 为从main节点开始，父节点的控件路径 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    list(str)
-    
-    返回父节点下的子节点的路径，会递归返回所有子节点，若节点无子节点，返回空list
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | list(str) | 返回父节点下的子节点的路径，会递归返回所有子节点，若节点无子节点，返回空list |
     
 *   示例
     
@@ -446,27 +322,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    path
-    
-    str
-    
-    当前控件的路径
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | path | str | 当前控件的路径 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseUIControl
-    
-    路径对应控件的BaseUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseUIControl | 路径对应控件的BaseUIControl实例 |
     
 *   示例
     
@@ -494,13 +358,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    1:动态缩放 0:不动态缩放
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 1:动态缩放 0:不动态缩放 |
     
 *   示例
     
@@ -526,13 +386,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    绑定的实体id
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 绑定的实体id |
     
 *   示例
     
@@ -558,13 +414,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float,float)
-    
-    偏移量
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float,float) | 偏移量 |
     
 *   示例
     
@@ -590,13 +442,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(int,tuple(float,float,float))
-    
-    (维度,(地点))，无设置则为None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(int,tuple(float,float,float)) | (维度,(地点))，无设置则为None |
     
 *   示例
     
@@ -618,27 +466,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    parentPath
-    
-    str
-    
-    为从main节点开始，父节点的控件路径
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | parentPath | str | 为从main节点开始，父节点的控件路径 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    list(str)
-    
-    返回父节点下的子节点的名称，不会递归返回所有子节点，若节点无子节点，返回空list
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | list(str) | 返回父节点下的子节点的名称，不会递归返回所有子节点，若节点无子节点，返回空list |
     
 *   示例
     
@@ -665,13 +501,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    返回1表示该界面不屏蔽游戏操作，返回0则屏蔽。
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 返回1表示该界面不屏蔽游戏操作，返回0则屏蔽。 |
     
 *   示例
     
@@ -694,27 +526,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始，继承自rich\_text.RichTextPanel控件的路径
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始，继承自rich_text.RichTextPanel控件的路径 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    object
-    
-    RichTextItem 返回一个富文本控件实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | object | RichTextItem 返回一个富文本控件实例 |
     
 *   示例
     
@@ -742,13 +562,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    返回本界面的名称。仅当该界面是调用PushScreen方法生成的时候才有返回值，返回值为注册UI时（调用RegisterUI）所使用的参数 uiScreenDef ，否则为 None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 返回本界面的名称。仅当该界面是调用PushScreen方法生成的时候才有返回值，返回值为注册UI时（调用RegisterUI）所使用的参数 uiScreenDef ，否则为 None |
     
 *   示例
     
@@ -775,13 +591,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ScreenNode
-    
-    零件界面自身
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ScreenNode | 零件界面自身 |
     
 
 ##  OnActive
@@ -840,27 +652,15 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    childControl
-    
-    BaseUIControl
-    
-    所要移除的子控件
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | childControl | BaseUIControl | 所要移除的子控件 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    True表示移除成功，False表示移除失败
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | True表示移除成功，False表示移除失败 |
     
 *   示例
     
@@ -886,23 +686,10 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始，被删除控件路径
-    
-    parentPath
-    
-    str
-    
-    为从main节点开始，父节点的控件路径
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始，被删除控件路径 |
+    | parentPath | str | 为从main节点开始，父节点的控件路径 |
     
 *   返回值
     
@@ -931,33 +718,16 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    dimension
-    
-    int
-    
-    维度id
-    
-    position
-    
-    tuple(float,float,float)
-    
-    坐标
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | dimension | int | 维度id |
+    | position | tuple(float,float,float) | 坐标 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置成功 |
     
 *   示例
     
@@ -979,17 +749,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHud
-    
-    int
-    
-    设置1表示该界面不屏蔽游戏操作，设置0则屏蔽。
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHud | int | 设置1表示该界面不屏蔽游戏操作，设置0则屏蔽。 |
     
 *   返回值
     
@@ -1046,17 +808,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    visible
-    
-    bool
-    
-    False为隐藏该界面，True为显示该界面
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | visible | bool | False为隐藏该界面，True为显示该界面 |
     
 *   返回值
     
@@ -1083,23 +837,10 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始，所要选中控件的路径
-    
-    enable
-    
-    bool
-    
-    True为选中componentPath所代表的控件，False为取消选中
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始，所要选中控件的路径 |
+    | enable | bool | True为选中componentPath所代表的控件，False为取消选中 |
     
 *   返回值
     
@@ -1126,23 +867,10 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始，Grid控件的路径
-    
-    count
-    
-    int
-    
-    设置StackGrid的内容数量
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始，Grid控件的路径 |
+    | count | int | 设置StackGrid的内容数量 |
     
 *   返回值
     
@@ -1170,23 +898,10 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始的控件路径
-    
-    entityIdentifier
-    
-    str
-    
-    生物定义中设定的identifier
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始的控件路径 |
+    | entityIdentifier | str | 生物定义中设定的identifier |
     
 *   返回值
     
@@ -1217,45 +932,18 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始的控件路径
-    
-    modelName
-    
-    str
-    
-    骨骼模型的名称
-    
-    animateName
-    
-    str
-    
-    动画名称，默认为'idle'
-    
-    looped
-    
-    bool
-    
-    是否循环播放动画，默认为True
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始的控件路径 |
+    | modelName | str | 骨骼模型的名称 |
+    | animateName | str | 动画名称，默认为'idle' |
+    | looped | bool | 是否循环播放动画，默认为True |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置成功 |
     
 *   示例
     
@@ -1279,23 +967,10 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    componentPath
-    
-    str
-    
-    为从main节点开始，PaperDoll控件路径
-    
-    scale
-    
-    float
-    
-    PaperDoll的缩放比例，默认为1.0
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | componentPath | str | 为从main节点开始，PaperDoll控件路径 |
+    | scale | float | PaperDoll的缩放比例，默认为1.0 |
     
 *   返回值
     
@@ -1344,17 +1019,9 @@ method in mod.client.ui.screenNode.ScreenNode
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    syncRefresh
-    
-    bool
-    
-    是否需要同步刷新，默认值为True。置True为游戏在同一帧计算各个控件的相关数据，置False则在下一帧进行计算。若置True不建议在同一帧调用多次
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | syncRefresh | bool | 是否需要同步刷新，默认值为True。置True为游戏在同一帧计算各个控件的相关数据，置False则在下一帧进行计算。若置True不建议在同一帧调用多次 |
     
 *   返回值
     

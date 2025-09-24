@@ -1,8 +1,8 @@
 ---
 title: "molang"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E5%AE%9E%E4%BD%93/molang.html"
-scraped_at: "2025-09-24T15:54:14.432Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:50:54.315Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["接口","实体","molang"]
 output_path: "接口/实体/molang.md"
 ---
@@ -23,27 +23,15 @@ method in mod.server.component.queryVariableCompServer.QueryVariableComponentSer
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    expression
-    
-    str
-    
-    molang表达式
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | expression | str | molang表达式 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    dict
-    
-    执行结果在"value"的键中，如果有执行错误，通过"error"的键返回错误信息
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | dict | 执行结果在"value"的键中，如果有执行错误，通过"error"的键返回错误信息 |
     
 *   备注
     
@@ -68,27 +56,15 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    expression
-    
-    str
-    
-    molang表达式
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | expression | str | molang表达式 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    dict
-    
-    执行结果在"value"的键中，如果有执行错误，通过"error"的键返回错误信息
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | dict | 执行结果在"value"的键中，如果有执行错误，通过"error"的键返回错误信息 |
     
 *   备注
     
@@ -119,27 +95,15 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    variableName
-    
-    str
-    
-    节点名称，必须以"query.mod."开头
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | variableName | str | 节点名称，必须以"query.mod."开头 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float
-    
-    节点的值
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float | 节点的值 |
     
 *   示例
     
@@ -167,13 +131,9 @@ method in mod.server.component.queryVariableCompServer.QueryVariableComponentSer
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(str)
-    
-    所有已注册properties，每个str为properties的名称，如果有错误，返回None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(str) | 所有已注册properties，每个str为properties的名称，如果有错误，返回None |
     
 *   备注
     
@@ -200,27 +160,15 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    molangName
-    
-    str
-    
-    molang变量名称，如query.can\_fly
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | molangName | str | molang变量名称，如query.can_fly |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float或long
-    
-    节点的值，不存在返回None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float或long | 节点的值，不存在返回None |
     
 *   备注
     
@@ -249,27 +197,15 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    key
-    
-    str
-    
-    需要计算的字符串变量,如“steve"
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | key | str | 需要计算的字符串变量,如“steve" |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    long
-    
-    结果值，如果传入不是字符串则返回None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | long | 结果值，如果传入不是字符串则返回None |
     
 *   备注
     
@@ -296,33 +232,16 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    variableName
-    
-    str
-    
-    节点名称，必须以"query.mod."开头
-    
-    defalutValue
-    
-    float
-    
-    默认值
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | variableName | str | 节点名称，必须以"query.mod."开头 |
+    | defalutValue | float | 默认值 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    注册是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 注册是否成功 |
     
 *   备注
     
@@ -349,33 +268,16 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    variableName
-    
-    str
-    
-    节点名称，必须以"query.mod."开头
-    
-    value
-    
-    float
-    
-    计算节点的值
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | variableName | str | 节点名称，必须以"query.mod."开头 |
+    | value | float | 计算节点的值 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
@@ -402,33 +304,16 @@ method in mod.server.component.queryVariableCompServer.QueryVariableComponentSer
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    propertyName
-    
-    str
-    
-    属性名，如minecraft:has\_nectar
-    
-    value
-    
-    str/int/float/bool
-    
-    属性值支持int/float/bool/enum(str)，支持molang表达式
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | propertyName | str | 属性名，如minecraft:has_nectar |
+    | value | str/int/float/bool | 属性值支持int/float/bool/enum(str)，支持molang表达式 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否执行成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否执行成功 |
     
 *   备注
     
@@ -455,27 +340,15 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    variableName
-    
-    str
-    
-    节点名称，必须以"query.mod."开头
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | variableName | str | 节点名称，必须以"query.mod."开头 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    注销是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 注销是否成功 |
     
 *   示例
     

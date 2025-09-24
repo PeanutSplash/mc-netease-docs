@@ -1,8 +1,8 @@
 ---
 title: "System"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E9%80%9A%E7%94%A8/System.html"
-scraped_at: "2025-09-24T15:54:05.092Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:50:45.241Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["接口","通用","System"]
 output_path: "接口/通用/System.md"
 ---
@@ -25,13 +25,9 @@ method in mod.client.extraClientApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    type(ClientSystem)
-    
-    客户端系统类
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | type(ClientSystem) | 客户端系统类 |
     
 *   示例
     
@@ -61,13 +57,9 @@ method in mod.server.extraServerApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    type(ServerSystem)
-    
-    服务端系统类
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | type(ServerSystem) | 服务端系统类 |
     
 *   示例
     
@@ -95,33 +87,16 @@ method in mod.server.extraServerApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    nameSpace
-    
-    str
-    
-    命名空间，建议为mod名字
-    
-    systemName
-    
-    str
-    
-    系统名称，自定义名称，可以使用英文、拼音和下划线，建议尽量个性化
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | nameSpace | str | 命名空间，建议为mod名字 |
+    | systemName | str | 系统名称，自定义名称，可以使用英文、拼音和下划线，建议尽量个性化 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ServerSystem
-    
-    返回具体系统的实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ServerSystem | 返回具体系统的实例 |
     
 *   示例
     
@@ -142,33 +117,16 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    nameSpace
-    
-    str
-    
-    系统注册的命名空间，一般为mod名字
-    
-    systemName
-    
-    str
-    
-    要获取的系统名称
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | nameSpace | str | 系统注册的命名空间，一般为mod名字 |
+    | systemName | str | 要获取的系统名称 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ClientSystem
-    
-    返回具体系统的实例，如果获取不到则返回 None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ClientSystem | 返回具体系统的实例，如果获取不到则返回 None |
     
 *   示例
     
@@ -197,39 +155,17 @@ method in mod.server.extraServerApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    nameSpace
-    
-    str
-    
-    命名空间，建议为mod名字
-    
-    systemName
-    
-    str
-    
-    系统名称，自定义名称，可以使用英文、拼音和下划线，建议尽量个性化
-    
-    clsPath
-    
-    str
-    
-    组件类路径，路径从脚本的第一层开始算起
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | nameSpace | str | 命名空间，建议为mod名字 |
+    | systemName | str | 系统名称，自定义名称，可以使用英文、拼音和下划线，建议尽量个性化 |
+    | clsPath | str | 组件类路径，路径从脚本的第一层开始算起 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ServerSystem
-    
-    返回具体系统的实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ServerSystem | 返回具体系统的实例 |
     
 *   示例
     
@@ -254,39 +190,17 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    nameSpace
-    
-    str
-    
-    命名空间，建议为mod名字
-    
-    systemName
-    
-    str
-    
-    系统名称，自定义名称，可以使用英文、拼音和下划线，建议尽量个性化
-    
-    clsPath
-    
-    str
-    
-    组件类路径，路径从脚本的第一层开始算起
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | nameSpace | str | 命名空间，建议为mod名字 |
+    | systemName | str | 系统名称，自定义名称，可以使用英文、拼音和下划线，建议尽量个性化 |
+    | clsPath | str | 组件类路径，路径从脚本的第一层开始算起 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ClientSystem
-    
-    返回具体系统的实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ClientSystem | 返回具体系统的实例 |
     
 *   示例
     

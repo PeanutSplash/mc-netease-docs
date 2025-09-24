@@ -1,8 +1,8 @@
 ---
 title: "UI控件"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E6%8E%A7%E4%BB%B6.html"
-scraped_at: "2025-09-24T15:54:24.247Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:51:04.011Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["接口","自定义UI","UI控件"]
 output_path: "接口/自定义UI/UI控件.md"
 ---
@@ -21,51 +21,19 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    实体Id
-    
-    texturePath
-    
-    str
-    
-    头顶ICON贴图，如textures/blocks/border
-    
-    size
-    
-    tuple(float,float)
-    
-    贴图大小，默认为(4,4)
-    
-    enableRotation
-    
-    bool
-    
-    是否启用实体朝向，默认为False
-    
-    isRevertZRot
-    
-    bool
-    
-    是否翻转实体Z轴旋转，默认为False
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 实体Id |
+    | texturePath | str | 头顶ICON贴图，如textures/blocks/border |
+    | size | tuple(float,float) | 贴图大小，默认为(4,4) |
+    | enableRotation | bool | 是否启用实体朝向，默认为False |
+    | isRevertZRot | bool | 是否翻转实体Z轴旋转，默认为False |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否增加成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否增加成功 |
     
 *   示例
     
@@ -89,39 +57,17 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    实体Id
-    
-    text
-    
-    str
-    
-    文本的内容，可以支持[样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)（§可以设置文字的颜色、格式等，该种用法更加灵活多变）
-    
-    scale
-    
-    float
-    
-    文本缩放倍数，等于文本控件json中的font\_scale\_factor参数，默认缩放倍数为1.0
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 实体Id |
+    | text | str | 文本的内容，可以支持样式代码 (opens new window)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
+    | scale | float | 文本缩放倍数，等于文本控件json中的font_scale_factor参数，默认缩放倍数为1.0 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否增加成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否增加成功 |
     
 *   示例
     
@@ -176,39 +122,17 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    showName
-    
-    str
-    
-    显示文本，必填参数
-    
-    icon
-    
-    str
-    
-    贴图路径，若填写则在下拉框项前端会显示该icon，默认为None
-    
-    userData
-    
-    any
-    
-    自定义数据，在选中该下拉框项时会跟随回调函数传回，默认为None
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | showName | str | 显示文本，必填参数 |
+    | icon | str | 贴图路径，若填写则在下拉框项前端会显示该icon，默认为None |
+    | userData | any | 自定义数据，在选中该下拉框项时会跟随回调函数传回，默认为None |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否添加成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否添加成功 |
     
 *   示例
     
@@ -232,45 +156,18 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    key
-    
-    str
-    
-    标记Id
-    
-    vec2
-    
-    tuple(float,float)
-    
-    地图位置二维坐标(x,z)
-    
-    texturePath
-    
-    str
-    
-    贴图路径
-    
-    size
-    
-    tuple(float,float)
-    
-    贴图大小，默认为(4,4)
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | key | str | 标记Id |
+    | vec2 | tuple(float,float) | 地图位置二维坐标(x,z) |
+    | texturePath | str | 贴图路径 |
+    | size | tuple(float,float) | 贴图大小，默认为(4,4) |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否增加成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否增加成功 |
     
 *   备注
     
@@ -297,45 +194,18 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    key
-    
-    str
-    
-    标记Id
-    
-    vec2
-    
-    tuple(float,float)
-    
-    地图位置二维坐标(x,z)
-    
-    text
-    
-    str
-    
-    文本的内容，可以支持[样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)（§可以设置文字的颜色、格式等，该种用法更加灵活多变）
-    
-    scale
-    
-    float
-    
-    文本缩放倍数，等于文本控件json中的font\_scale\_factor参数，默认缩放倍数为1.0
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | key | str | 标记Id |
+    | vec2 | tuple(float,float) | 地图位置二维坐标(x,z) |
+    | text | str | 文本的内容，可以支持样式代码 (opens new window)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
+    | scale | float | 文本缩放倍数，等于文本控件json中的font_scale_factor参数，默认缩放倍数为1.0 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否增加成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否增加成功 |
     
 *   示例
     
@@ -359,17 +229,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    args
-    
-    dict
-    
-    默认为None，详细说明请见备注。
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | args | dict | 默认为None，详细说明请见备注。 |
     
 *   返回值
     
@@ -378,18 +240,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   备注
     
     *   AddTouchEventParams参数args说明：
-        
-        关键字
-        
-        数据类型
-        
-        说明
-        
-        isSwallow
-        
-        bool
-        
-        默认为True, 按钮是否吞噬事件；或为Ture时，点击按钮时，点击事件不会穿透到世界。如破坏方块、镜头转向不会被响应
+        | 关键字 | 数据类型 | 说明 |
+        | --- | --- | --- |
+        | isSwallow | bool | 默认为True, 按钮是否吞噬事件；或为Ture时，点击按钮时，点击事件不会穿透到世界。如破坏方块、镜头转向不会被响应 |
         
 *   示例
     
@@ -473,13 +326,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -508,13 +357,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -543,13 +388,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    控件计算位置大小所依赖的父节点锚点位置信息，具体返回值的意义可参考SetAnchorFrom接口的备注
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 控件计算位置大小所依赖的父节点锚点位置信息，具体返回值的意义可参考SetAnchorFrom接口的备注 |
     
 *   示例
     
@@ -578,13 +419,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    该控件自身锚点位置信息，具体返回值的意义可参考SetAnchorTo接口的备注
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 该控件自身锚点位置信息，具体返回值的意义可参考SetAnchorTo接口的备注 |
     
 *   示例
     
@@ -609,27 +446,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    childName
-    
-    str
-    
-    子节点名称
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | childName | str | 子节点名称 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseUIControl
-    
-    子控件的BaseUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseUIControl | 子控件的BaseUIControl实例 |
     
 *   示例
     
@@ -654,27 +479,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    childPath
-    
-    str
-    
-    相对当前BaseUIControl路径的路径
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | childPath | str | 相对当前BaseUIControl路径的路径 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseUIControl
-    
-    子控件的BaseUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseUIControl | 子控件的BaseUIControl实例 |
     
 *   示例
     
@@ -703,13 +516,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    图片控件的裁剪方向，返回值的意义可见SetClipDirection接口的备注
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 图片控件的裁剪方向，返回值的意义可见SetClipDirection接口的备注 |
     
 *   示例
     
@@ -737,13 +546,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件的裁剪偏移信息，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件的裁剪偏移信息，第一项为横轴，第二项为纵轴 |
     
 *   示例
     
@@ -772,13 +577,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    该控件是否已开启裁剪内容
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 该控件是否已开启裁剪内容 |
     
 *   示例
     
@@ -807,13 +608,9 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    轮盘当前选择的切片的index，-1表示轮盘当前没有选择任何切片
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 轮盘当前选择的切片的index，-1表示轮盘当前没有选择任何切片 |
     
 *   示例
     
@@ -841,13 +638,9 @@ method in mod.client.ui.controls.textEditBoxUIControl.TextEditBoxUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    文本信息
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 文本信息 |
     
 *   备注
     
@@ -875,47 +668,24 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    axis
-    
-    str
-    
-    要获取的轴向，可选的值有\["x","y"\]，"x"表示获取控件的x坐标，"y"表示获取控件的y坐标
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | axis | str | 要获取的轴向，可选的值有["x","y"]，"x"表示获取控件的x坐标，"y"表示获取控件的y坐标 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    dict
-    
-    控件的大小信息，详见备注
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | dict | 控件的大小信息，详见备注 |
     
 *   备注
     
     *   参见SetFullPosition接口，控件的大小信息描述可由 absoluteValue， followType， relativeValue三个属性描述 因此返回值的结构如下：
-        
-        键值
-        
-        类型
-        
-        "absoluteValue"
-        
-        float
-        
-        "followType"
-        
-        str
-        
-        "relativeValue"
-        
-        float
+        | 键值 | 类型 |
+        | --- | --- |
+        | "absoluteValue" | float |
+        | "followType" | str |
+        | "relativeValue" | float |
         
 *   示例
     
@@ -940,51 +710,25 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    axis
-    
-    str
-    
-    要获取的轴向，可选的值有\["x","y"\]，"x"表示获取控件的宽度，"y"表示获取控件的高度
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | axis | str | 要获取的轴向，可选的值有["x","y"]，"x"表示获取控件的宽度，"y"表示获取控件的高度 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    dict
-    
-    控件的大小信息，详见备注
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | dict | 控件的大小信息，详见备注 |
     
 *   备注
     
     *   参见SetFullSize接口，控件的大小信息描述可由 absoluteValue， followType， relativeValue， fit四个属性描述 因此返回值的结构如下：
-        
-        键值
-        
-        类型
-        
-        "absoluteValue"
-        
-        float
-        
-        "followType"
-        
-        str
-        
-        "relativeValue"
-        
-        float
-        
-        "fit"
-        
-        bool
+        | 键值 | 类型 |
+        | --- | --- |
+        | "absoluteValue" | float |
+        | "followType" | str |
+        | "relativeValue" | float |
+        | "fit" | bool |
         
 *   示例
     
@@ -1013,13 +757,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件全局坐标信息，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件全局坐标信息，第一项为横轴，第二项为纵轴 |
     
 *   示例
     
@@ -1048,13 +788,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float
-    
-    获取图片通过RotateAround函数设置进去的角度值
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float | 获取图片通过RotateAround函数设置进去的角度值 |
     
 *   示例
     
@@ -1082,13 +818,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    获取图片通过RotateAround函数设置进去的point值
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 获取图片通过RotateAround函数设置进去的point值 |
     
 *   示例
     
@@ -1112,33 +844,16 @@ method in mod.client.ui.controls.gridUIControl.GridUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    x
-    
-    int
-    
-    元素在网格的横坐标
-    
-    y
-    
-    int
-    
-    元素在网格的纵坐标
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | x | int | 元素在网格的横坐标 |
+    | y | int | 元素在网格的纵坐标 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseUIControl
-    
-    网格的子节点控件
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseUIControl | 网格的子节点控件 |
     
 *   备注
     
@@ -1172,13 +887,9 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    当前面板是否为模态框
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 当前面板是否为模态框 |
     
 *   示例
     
@@ -1207,13 +918,9 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    当前当前面板输入是否会吞噬事件
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 当前当前面板输入是否会吞噬事件 |
     
 *   示例
     
@@ -1242,13 +949,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件所允许的最大的大小值，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件所允许的最大的大小值，第一项为横轴，第二项为纵轴 |
     
 *   备注
     
@@ -1280,13 +983,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件所允许的最小的大小值，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件所允许的最小的大小值，第一项为横轴，第二项为纵轴 |
     
 *   备注
     
@@ -1318,13 +1017,9 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    骨骼模型Id，失败或者不存在返回-1
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 骨骼模型Id，失败或者不存在返回-1 |
     
 *   备注
     
@@ -1375,13 +1070,9 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件的拖拽偏移量，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件的拖拽偏移量，第一项为横轴，第二项为纵轴 |
     
 *   备注
     
@@ -1413,13 +1104,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    当前下拉框选项数量
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 当前下拉框选项数量 |
     
 *   示例
     
@@ -1443,27 +1130,15 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    name
-    
-    str
-    
-    显示文本
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | name | str | 显示文本 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    索引位置
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 索引位置 |
     
 *   示例
     
@@ -1487,27 +1162,15 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    index
-    
-    int
-    
-    索引位置
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | index | int | 索引位置 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    显示文本
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 显示文本 |
     
 *   示例
     
@@ -1535,13 +1198,9 @@ method in mod.client.ui.controls.stackPanelUIControl.StackPanelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    stackPanel的排列方向，取值有限为\["vertical", "horizontal"\]，分别表示垂直方向，水平方向
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | stackPanel的排列方向，取值有限为["vertical", "horizontal"]，分别表示垂直方向，水平方向 |
     
 *   示例
     
@@ -1570,13 +1229,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    当前控件的相对路径，路径从画布节点开始算起
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 当前控件的相对路径，路径从画布节点开始算起 |
     
 *   示例
     
@@ -1604,13 +1259,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴 |
     
 *   示例
     
@@ -1639,13 +1290,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    PropertyBag
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | PropertyBag |
     
 *   示例
     
@@ -1673,13 +1320,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float
-    
-    获取图片相对自身的旋转锚点旋转的角度
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float | 获取图片相对自身的旋转锚点旋转的角度 |
     
 *   示例
     
@@ -1707,13 +1350,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    获取图片相对自身的旋转锚点，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 获取图片相对自身的旋转锚点，第一项为横轴，第二项为纵轴 |
     
 *   示例
     
@@ -1741,13 +1380,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(tuple(float,float),tuple(float,float),tuple(float,float),tuple(float,float))
-    
-    获取图片当前的四个边角点(每个点都是一个tuple)
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(tuple(float,float),tuple(float,float),tuple(float,float),tuple(float,float)) | 获取图片当前的四个边角点(每个点都是一个tuple) |
     
 *   示例
     
@@ -1775,13 +1410,9 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseUIControl
-    
-    该scroll\_view内容的BaseUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseUIControl | 该scroll_view内容的BaseUIControl实例 |
     
 *   示例
     
@@ -1810,13 +1441,9 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    该scroll\_view内容的路径
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 该scroll_view内容的路径 |
     
 *   示例
     
@@ -1845,13 +1472,9 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    当前scroll\_view内容的百分比位置
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 当前scroll_view内容的百分比位置 |
     
 *   示例
     
@@ -1880,13 +1503,9 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float
-    
-    当前scroll\_view最上方内容的位置
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float | 当前scroll_view最上方内容的位置 |
     
 *   示例
     
@@ -1915,13 +1534,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    当前下拉框选中项索引
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 当前下拉框选中项索引 |
     
 *   示例
     
@@ -1949,13 +1564,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    当前选中项的展示文本
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 当前选中项的展示文本 |
     
 *   示例
     
@@ -1983,13 +1594,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    该控件的大小信息，第一项为横轴，第二项为纵轴
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 该控件的大小信息，第一项为横轴，第二项为纵轴 |
     
 *   示例
     
@@ -2018,13 +1625,9 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    int
-    
-    轮盘可以选择的总切片数量
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | int | 轮盘可以选择的总切片数量 |
     
 *   示例
     
@@ -2052,13 +1655,9 @@ method in mod.client.ui.controls.sliderUIControl.SliderUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float
-    
-    滑动条的值
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float | 滑动条的值 |
     
 *   示例
     
@@ -2087,13 +1686,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    文本信息
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 文本信息 |
     
 *   备注
     
@@ -2125,13 +1720,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    str
-    
-    文本控件的文本对齐方式，具体返回值的意义可参考SetTextAlignment接口的备注
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | str | 文本控件的文本对齐方式，具体返回值的意义可参考SetTextAlignment接口的备注 |
     
 *   示例
     
@@ -2160,13 +1751,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float,float,float)
-    
-    获取文本的颜色信息(r, g, b, a), 取值\[0, 1\]
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float,float,float) | 获取文本的颜色信息(r, g, b, a), 取值[0, 1] |
     
 *   示例
     
@@ -2195,13 +1782,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    float
-    
-    文本控件的行间距，单位为像素
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | float | 文本控件的行间距，单位为像素 |
     
 *   示例
     
@@ -2226,27 +1809,15 @@ method in mod.client.ui.controls.switchToggleUIControl.SwitchToggleUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    toggle\_path
-    
-    str
-    
-    实际toggle控件相对路径，由UI编辑器生成的开关控件该参数即为默认值"/this\_toggle"
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | toggle_path | str | 实际toggle控件相对路径，由UI编辑器生成的开关控件该参数即为默认值"/this_toggle" |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否处于开启状态 True:开启状态 False:关闭状态
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否处于开启状态 True:开启状态 False:关闭状态 |
     
 *   示例
     
@@ -2274,41 +1845,18 @@ method in mod.client.ui.controls.itemRendererUIControl.ItemRendererUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    dict
-    
-    物品字典，详见备注（包含itemName:物品identifier, auxValue:物品附加值, isEnchanted:是否附魔)
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | dict | 物品字典，详见备注（包含itemName:物品identifier, auxValue:物品附加值, isEnchanted:是否附魔) |
     
 *   备注
     
     *   返回值具体如下：
-        
-        键值
-        
-        类型
-        
-        内容
-        
-        "itemName"
-        
-        str
-        
-        物品identifier
-        
-        "auxValue"
-        
-        int
-        
-        物品附加值
-        
-        "isEnchanted"
-        
-        bool
-        
-        是否显示附魔效果
+        | 键值 | 类型 | 内容 |
+        | --- | --- | --- |
+        | "itemName" | str | 物品identifier |
+        | "auxValue" | int | 物品附加值 |
+        | "isEnchanted" | bool | 是否显示附魔效果 |
         
 *   示例
     
@@ -2338,13 +1886,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    该控件是否已显示
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 该控件是否已显示 |
     
 *   示例
     
@@ -2369,27 +1913,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    animName
-    
-    str
-    
-    动画的名称，请不要包含动画的命名空间
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | animName | str | 动画的名称，请不要包含动画的命名空间 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否对名称为animName的动画进行了注册回调
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否对名称为animName的动画进行了注册回调 |
     
 *   备注
     
@@ -2420,13 +1952,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    文本控件是否显示阴影
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 文本控件是否显示阴影 |
     
 *   示例
     
@@ -2451,27 +1979,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    propertyName
-    
-    str
-    
-    动画的属性名称，默认值为"all"，表示暂停所有动画，不为"all"的时候表示单个动画的暂停，比如propertyName=="size"时，表示暂停尺寸属性上的动画
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | propertyName | str | 动画的属性名称，默认值为"all"，表示暂停所有动画，不为"all"的时候表示单个动画的暂停，比如propertyName=="size"时，表示暂停尺寸属性上的动画 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否暂停成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否暂停成功 |
     
 *   备注
     
@@ -2504,27 +2020,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    propertyName
-    
-    str
-    
-    动画的属性名称，默认值为"all"，表示播放所有动画，不为"all"的时候表示单个动画的播放，比如propertyName=="size"时，表示播放尺寸属性上的动画
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | propertyName | str | 动画的属性名称，默认值为"all"，表示播放所有动画，不为"all"的时候表示单个动画的播放，比如propertyName=="size"时，表示播放尺寸属性上的动画 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否播放成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否播放成功 |
     
 *   备注
     
@@ -2557,17 +2061,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callback
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callback | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -2599,17 +2095,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callback
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callback | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -2641,17 +2129,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callback
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callback | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -2660,30 +2140,11 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   备注
     
     *   onSelectItemCallback参数说明：
-        
-        参数
-        
-        类型
-        
-        解释
-        
-        index
-        
-        int
-        
-        当前选中项的索引
-        
-        showName
-        
-        str
-        
-        当前选中项的显示文本
-        
-        userData
-        
-        Unknown
-        
-        当前选中项的自定义数据，若添加下拉框项时未传入自定义数据则此处为None
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | index | int | 当前选中项的索引 |
+        | showName | str | 当前选中项的显示文本 |
+        | userData | Unknown | 当前选中项的自定义数据，若添加下拉框项时未传入自定义数据则此处为None |
         
 *   示例
     
@@ -2711,27 +2172,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    animName
-    
-    str
-    
-    动画的名称，请不要包含动画的命名空间
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | animName | str | 动画的名称，请不要包含动画的命名空间 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否移除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否移除成功 |
     
 *   备注
     
@@ -2759,27 +2208,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    propertyName
-    
-    str
-    
-    要删除动画的属性名称，无默认值，值必须为单一属性（不能填"all"）
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | propertyName | str | 要删除动画的属性名称，无默认值，值必须为单一属性（不能填"all"） |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否删除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否删除成功 |
     
 *   备注
     
@@ -2807,27 +2244,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    实体Id
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 实体Id |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否删除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否删除成功 |
     
 *   示例
     
@@ -2851,27 +2276,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    实体Id
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 实体Id |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否删除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否删除成功 |
     
 *   示例
     
@@ -2895,27 +2308,15 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    index
-    
-    int
-    
-    索引
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | index | int | 索引 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否移除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否移除成功 |
     
 *   示例
     
@@ -2939,27 +2340,15 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    showName
-    
-    str
-    
-    展示文本
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | showName | str | 展示文本 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否移除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否移除成功 |
     
 *   示例
     
@@ -2983,27 +2372,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    key
-    
-    str
-    
-    标记的Id
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | key | str | 标记的Id |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否删除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否删除成功 |
     
 *   示例
     
@@ -3027,27 +2404,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    key
-    
-    str
-    
-    标记Id
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | key | str | 标记Id |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否删除成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否删除成功 |
     
 *   示例
     
@@ -3071,81 +2436,30 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    params
-    
-    dict
-    
-    渲染参数，详细说明请见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | params | dict | 渲染参数，详细说明请见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   备注
     
     *   网格体模型使用[CombineBlockPaletteToGeometry](/接口/方块/方块几何体模型#combineblockpalettetogeometry)生成
     *   每次进入游戏需要重新调用本接口渲染网格体模型，可使用[SerializeBlockPalette](/接口/方块/方块调色板#serializeblockpalette)和[DeserializeBlockPalette](/接口/方块/方块调色板#deserializeblockpalette)实现调色板保存并重载调色板，重新生成网格体模型进行渲染。
     *   RenderBlockGeometryModel参数params说明： params参数解释如下：
-        
-        参数
-        
-        类型
-        
-        解释
-        
-        block\_geometry\_model\_name
-        
-        str
-        
-        网格体模型名称, 可用CombineBlockPaletteToGeometry返回值
-        
-        scale
-        
-        float
-        
-        渲染缩放比例，默认为1.0
-        
-        init\_rot\_y
-        
-        float
-        
-        初始Y方向的朝向
-        
-        init\_rot\_x
-        
-        float
-        
-        初始x方向的朝向
-        
-        init\_rot\_z
-        
-        float
-        
-        初始z方向的朝向
-        
-        molang\_dict
-        
-        dict
-        
-        molang表达式字典，其中key为str，value为float
-        
-        rotation\_axis
-        
-        tuple
-        
-        选择旋转环绕的轴，如(0,1,0)依次代表x、y、z轴，此为绕y轴旋转，该属性只在netease\_paper\_doll\_renderer控件的rotation属性为“freedom\_gesture”时起效
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | block_geometry_model_name | str | 网格体模型名称, 可用CombineBlockPaletteToGeometry返回值 |
+        | scale | float | 渲染缩放比例，默认为1.0 |
+        | init_rot_y | float | 初始Y方向的朝向 |
+        | init_rot_x | float | 初始x方向的朝向 |
+        | init_rot_z | float | 初始z方向的朝向 |
+        | molang_dict | dict | molang表达式字典，其中key为str，value为float |
+        | rotation_axis | tuple | 选择旋转环绕的轴，如(0,1,0)依次代表x、y、z轴，此为绕y轴旋转，该属性只在netease_paper_doll_renderer控件的rotation属性为“freedom_gesture”时起效 |
         
 *   示例
     
@@ -3177,91 +2491,30 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    params
-    
-    dict
-    
-    渲染参数，详细说明请见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | params | dict | 渲染参数，详细说明请见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   备注
     
     *   RenderEntity参数params说明： params参数解释如下：
-        
-        参数
-        
-        类型
-        
-        解释
-        
-        entity\_id
-        
-        str
-        
-        渲染生物的实体Id，与实体的identifier二者选其一即可。如果与entity\_identifier同时定义，则优先使用entity\_id。
-        
-        entity\_identifier
-        
-        str
-        
-        渲染生物的identifier，与实体Id二者选其一即可。如果与entity\_id同时定义，则优先使用entity\_id。
-        
-        scale
-        
-        float
-        
-        渲染缩放比例，默认为1.0
-        
-        render\_depth
-        
-        int
-        
-        渲染深度，对于玩家默认-50，普通生物-15，该参数可解决UI遮挡剔除问题
-        
-        init\_rot\_y
-        
-        float
-        
-        初始Y方向的朝向
-        
-        init\_rot\_x
-        
-        float
-        
-        初始x方向的朝向
-        
-        init\_rot\_z
-        
-        float
-        
-        初始z方向的朝向
-        
-        molang\_dict
-        
-        dict
-        
-        molang表达式字典，其中key为str，value为float
-        
-        rotation\_axis
-        
-        tuple
-        
-        选择旋转环绕的轴，如(0,1,0)依次代表x、y、z轴，此为绕y轴旋转，该属性只在netease\_paper\_doll\_renderer控件的rotation属性为“freedom\_gesture”时起效
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | entity_id | str | 渲染生物的实体Id，与实体的identifier二者选其一即可。如果与entity_identifier同时定义，则优先使用entity_id。 |
+        | entity_identifier | str | 渲染生物的identifier，与实体Id二者选其一即可。如果与entity_id同时定义，则优先使用entity_id。 |
+        | scale | float | 渲染缩放比例，默认为1.0 |
+        | render_depth | int | 渲染深度，对于玩家默认-50，普通生物-15，该参数可解决UI遮挡剔除问题 |
+        | init_rot_y | float | 初始Y方向的朝向 |
+        | init_rot_x | float | 初始x方向的朝向 |
+        | init_rot_z | float | 初始z方向的朝向 |
+        | molang_dict | dict | molang表达式字典，其中key为str，value为float |
+        | rotation_axis | tuple | 选择旋转环绕的轴，如(0,1,0)依次代表x、y、z轴，此为绕y轴旋转，该属性只在netease_paper_doll_renderer控件的rotation属性为“freedom_gesture”时起效 |
         
 *   示例
     
@@ -3305,103 +2558,32 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    params
-    
-    dict
-    
-    渲染参数，详细说明请见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | params | dict | 渲染参数，详细说明请见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   备注
     
     *   RenderSkeletonModel参数params说明： params参数解释如下：
-        
-        参数
-        
-        类型
-        
-        解释
-        
-        skeleton\_model\_name
-        
-        str
-        
-        骨骼模型名称
-        
-        animation
-        
-        str
-        
-        骨骼动作名称，默认为idle
-        
-        animation\_looped
-        
-        bool
-        
-        骨骼动作是否循环播放，默认True
-        
-        scale
-        
-        float
-        
-        渲染缩放比例，默认为1.0
-        
-        render\_depth
-        
-        int
-        
-        渲染深度，对于玩家默认-50，普通生物-15，该参数可解决UI遮挡剔除问题
-        
-        init\_rot\_y
-        
-        float
-        
-        初始Y方向的朝向
-        
-        init\_rot\_x
-        
-        float
-        
-        初始x方向的朝向
-        
-        init\_rot\_z
-        
-        float
-        
-        初始z方向的朝向
-        
-        molang\_dict
-        
-        dict
-        
-        molang表达式字典，其中key为str，value为float
-        
-        rotation\_axis
-        
-        tuple
-        
-        选择旋转环绕的轴，如(0,1,0)依次代表x、y、z轴，此为绕y轴旋转，该属性只在netease\_paper\_doll\_renderer控件的rotation属性为“freedom\_gesture”时起效
-        
-        light\_direction
-        
-        tuple
-        
-        可选参数。控制骨骼模型在纸娃娃中显示时的光照方向，x控制光照的左右方向，y控制光照的上下方向，z控制光照的前后方向，取值为-1,0,1。不填写该参数时模型默认从底部打光。该属性仅对没有自定义材质的骨骼模型生效。如果该骨骼模型定义了自定义材质，则无效。如需要对使用自定义材质的骨骼模型控制其光照方向，可以参考官方骨骼模型vertex shader中getLightColor使用到HIDE\_COLOR的这部分代码。该参数对部分安卓低端设备，极低端设备无效。
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | skeleton_model_name | str | 骨骼模型名称 |
+        | animation | str | 骨骼动作名称，默认为idle |
+        | animation_looped | bool | 骨骼动作是否循环播放，默认True |
+        | scale | float | 渲染缩放比例，默认为1.0 |
+        | render_depth | int | 渲染深度，对于玩家默认-50，普通生物-15，该参数可解决UI遮挡剔除问题 |
+        | init_rot_y | float | 初始Y方向的朝向 |
+        | init_rot_x | float | 初始x方向的朝向 |
+        | init_rot_z | float | 初始z方向的朝向 |
+        | molang_dict | dict | molang表达式字典，其中key为str，value为float |
+        | rotation_axis | tuple | 选择旋转环绕的轴，如(0,1,0)依次代表x、y、z轴，此为绕y轴旋转，该属性只在netease_paper_doll_renderer控件的rotation属性为“freedom_gesture”时起效 |
+        | light_direction | tuple | 可选参数。控制骨骼模型在纸娃娃中显示时的光照方向，x控制光照的左右方向，y控制光照的上下方向，z控制光照的前后方向，取值为-1,0,1。不填写该参数时模型默认从底部打光。该属性仅对没有自定义材质的骨骼模型生效。如果该骨骼模型定义了自定义材质，则无效。如需要对使用自定义材质的骨骼模型控制其光照方向，可以参考官方骨骼模型vertex shader中getLightColor使用到HIDE_COLOR的这部分代码。该参数对部分安卓低端设备，极低端设备无效。 |
         
 *   示例
     
@@ -3465,17 +2647,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    angle
-    
-    float
-    
-    旋转角度
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | angle | float | 旋转角度 |
     
 *   返回值
     
@@ -3503,23 +2677,10 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    point
-    
-    tuple(float,float)
-    
-    全局坐标点
-    
-    angle
-    
-    float
-    
-    旋转角度
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | point | tuple(float,float) | 全局坐标点 |
+    | angle | float | 旋转角度 |
     
 *   返回值
     
@@ -3547,17 +2708,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    alpha
-    
-    float
-    
-    透明度，取值0-1之间，0表示完全透明，1表示完全不透明
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | alpha | float | 透明度，取值0-1之间，0表示完全透明，1表示完全不透明 |
     
 *   返回值
     
@@ -3586,71 +2739,30 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    anchorFrom
-    
-    str
-    
-    相对于父节点的锚点，可选的值详见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | anchorFrom | str | 相对于父节点的锚点，可选的值详见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   anchorFrom可选的值
-        
-        值
-        
-        解释
-        
-        "top\_left"
-        
-        相对于父节点的左上角
-        
-        "top\_middle"
-        
-        相对于父节点的上边中间
-        
-        "top\_right"
-        
-        相对于父节点的右上角
-        
-        "left\_middle"
-        
-        相对于父节点的左边中间
-        
-        "center"
-        
-        相对于父节点的中间
-        
-        "right\_middle"
-        
-        相对于父节点的右边中间
-        
-        "bottom\_left"
-        
-        相对于父节点的底部左边
-        
-        "bottom\_middle"
-        
-        相对于父节点的部中间
-        
-        "bottom\_right"
-        
-        相对于父节点的底部右边
+        | 值 | 解释 |
+        | --- | --- |
+        | "top_left" | 相对于父节点的左上角 |
+        | "top_middle" | 相对于父节点的上边中间 |
+        | "top_right" | 相对于父节点的右上角 |
+        | "left_middle" | 相对于父节点的左边中间 |
+        | "center" | 相对于父节点的中间 |
+        | "right_middle" | 相对于父节点的右边中间 |
+        | "bottom_left" | 相对于父节点的底部左边 |
+        | "bottom_middle" | 相对于父节点的部中间 |
+        | "bottom_right" | 相对于父节点的底部右边 |
         
 *   示例
     
@@ -3676,71 +2788,30 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    anchorTo
-    
-    str
-    
-    控件自身锚点位置，可选的值详见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | anchorTo | str | 控件自身锚点位置，可选的值详见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   anchorTo可选的值
-        
-        值
-        
-        解释
-        
-        "top\_left"
-        
-        自身锚点位于左上角
-        
-        "top\_middle"
-        
-        自身锚点位于上边中间
-        
-        "top\_right"
-        
-        自身锚点位于右上角
-        
-        "left\_middle"
-        
-        自身锚点位于左边中间
-        
-        "center"
-        
-        自身锚点位于中间
-        
-        "right\_middle"
-        
-        自身锚点位于右边中间
-        
-        "bottom\_left"
-        
-        自身锚点位于底部左边
-        
-        "bottom\_middle"
-        
-        自身锚点位于底部中间
-        
-        "bottom\_right"
-        
-        自身锚点位于底部右边
+        | 值 | 解释 |
+        | --- | --- |
+        | "top_left" | 自身锚点位于左上角 |
+        | "top_middle" | 自身锚点位于上边中间 |
+        | "top_right" | 自身锚点位于右上角 |
+        | "left_middle" | 自身锚点位于左边中间 |
+        | "center" | 自身锚点位于中间 |
+        | "right_middle" | 自身锚点位于右边中间 |
+        | "bottom_left" | 自身锚点位于底部左边 |
+        | "bottom_middle" | 自身锚点位于底部中间 |
+        | "bottom_right" | 自身锚点位于底部右边 |
         
 *   示例
     
@@ -3766,33 +2837,16 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    animName
-    
-    str
-    
-    动画的名称，请不要包含动画的命名空间
-    
-    func
-    
-    function
-    
-    回调，无参数无返回值的函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | animName | str | 动画的名称，请不要包含动画的命名空间 |
+    | func | function | 回调，无参数无返回值的函数 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置成功 |
     
 *   备注
     
@@ -3824,45 +2878,18 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    propertyName
-    
-    str
-    
-    要设置的动画的属性名称，无默认值，值必须为单一属性（不能填"all"）
-    
-    namespace
-    
-    str
-    
-    动画的命名空间，类似于自定义控件，动画也是可以定义到某个命名空间的，详见备注
-    
-    animName
-    
-    str
-    
-    动画的名称，详见备注
-    
-    autoPlay
-    
-    bool
-    
-    动画添加后是否自动播放，默认值为False，表示不进行播放
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | propertyName | str | 要设置的动画的属性名称，无默认值，值必须为单一属性（不能填"all"） |
+    | namespace | str | 动画的命名空间，类似于自定义控件，动画也是可以定义到某个命名空间的，详见备注 |
+    | animName | str | 动画的名称，详见备注 |
+    | autoPlay | bool | 动画添加后是否自动播放，默认值为False，表示不进行播放 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否添加成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否添加成功 |
     
 *   备注
     
@@ -3913,17 +2940,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -3933,48 +2952,14 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
     *   将鼠标移入添加了悬浮回调的控件中会触发该事件，该鼠标指PushScreen生成UI后显示的鼠标，F11生成的鼠标无法生效
     *   OnButtonHoverInCallback接收到的参数：
-        
-        参数
-        
-        类型
-        
-        解释
-        
-        isHoverIn
-        
-        int
-        
-        鼠标是否为进入悬浮回调，1为移入，0为移出
-        
-        PrevButtonDownID
-        
-        str
-        
-        上一个被点击Down的按钮的ID，如果没有取值为"-1"
-        
-        TouchPosX
-        
-        float
-        
-        鼠标进入按钮时屏幕上的UI坐标X值
-        
-        TouchPosY
-        
-        float
-        
-        鼠标进入按钮时屏幕上的UI坐标Y值
-        
-        ButtonPath
-        
-        str
-        
-        鼠标进入的按钮的ComponentPath
-        
-        AddHoverEventParams
-        
-        dict
-        
-        在调用AddHoverEventParams接口时传入的参数字典
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | isHoverIn | int | 鼠标是否为进入悬浮回调，1为移入，0为移出 |
+        | PrevButtonDownID | str | 上一个被点击Down的按钮的ID，如果没有取值为"-1" |
+        | TouchPosX | float | 鼠标进入按钮时屏幕上的UI坐标X值 |
+        | TouchPosY | float | 鼠标进入按钮时屏幕上的UI坐标Y值 |
+        | ButtonPath | str | 鼠标进入的按钮的ComponentPath |
+        | AddHoverEventParams | dict | 在调用AddHoverEventParams接口时传入的参数字典 |
         
 *   示例
     
@@ -4002,17 +2987,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4022,36 +2999,12 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
     *   将鼠标移出添加了悬浮回调的控件中会触发该事件，该鼠标指PushScreen生成UI后显示的鼠标，F11生成的鼠标无法生效
     *   OnButtonHoverInCallback接收到的参数：
-        
-        参数
-        
-        类型
-        
-        解释
-        
-        isHoverIn
-        
-        int
-        
-        鼠标是否为进入悬浮回调，1为移入，0为移出
-        
-        PrevButtonDownID
-        
-        str
-        
-        上一个被点击Down的按钮的ID，如果没有取值为"-1"
-        
-        ButtonPath
-        
-        str
-        
-        鼠标退出的按钮的ComponentPath
-        
-        AddHoverEventParams
-        
-        dict
-        
-        在调用AddHoverEventParams接口时传入的参数字典
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | isHoverIn | int | 鼠标是否为进入悬浮回调，1为移入，0为移出 |
+        | PrevButtonDownID | str | 上一个被点击Down的按钮的ID，如果没有取值为"-1" |
+        | ButtonPath | str | 鼠标退出的按钮的ComponentPath |
+        | AddHoverEventParams | dict | 在调用AddHoverEventParams接口时传入的参数字典 |
         
 *   示例
     
@@ -4079,17 +3032,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4124,17 +3069,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4169,17 +3106,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4189,65 +3118,17 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
     *   onButtonTouchDownCallback参数args说明：
         
-        参数
-        
-        类型
-        
-        解释
-        
-        #collection\_name
-        
-        str
-        
-        按钮所属的集合名称
-        
-        #collection\_index
-        
-        int
-        
-        按钮在集合所属的集合序号
-        
-        ButtonState
-        
-        int
-        
-        按钮的状态：Up为0，Down为1，默认是-1，建议使用New
-        
-        TouchEvent
-        
-        int
-        
-        按钮的状态新版本：Up为0，Down为1，Cancel为3，Move为4，默认是-1
-        
-        PrevButtonDownID
-        
-        str
-        
-        上一个被点击Down的按钮的ID，如果没有取值为"-1"
-        
-        TouchPosX
-        
-        float
-        
-        按钮被点击时屏幕上的UI坐标X值
-        
-        TouchPosY
-        
-        float
-        
-        按钮被点击时屏幕上的UI坐标Y值
-        
-        ButtonPath
-        
-        str
-        
-        被点击的按钮的ComponentPath
-        
-        AddTouchEventParams
-        
-        dict
-        
-        在调用AddTouchEventParams接口时传入的参数字典
+        | 参数 | 类型 | 解释 |
+        | --- | --- | --- |
+        | #collection_name | str | 按钮所属的集合名称 |
+        | #collection_index | int | 按钮在集合所属的集合序号 |
+        | ButtonState | int | 按钮的状态：Up为0，Down为1，默认是-1，建议使用New |
+        | TouchEvent | int | 按钮的状态新版本：Up为0，Down为1，Cancel为3，Move为4，默认是-1 |
+        | PrevButtonDownID | str | 上一个被点击Down的按钮的ID，如果没有取值为"-1" |
+        | TouchPosX | float | 按钮被点击时屏幕上的UI坐标X值 |
+        | TouchPosY | float | 按钮被点击时屏幕上的UI坐标Y值 |
+        | ButtonPath | str | 被点击的按钮的ComponentPath |
+        | AddTouchEventParams | dict | 在调用AddTouchEventParams接口时传入的参数字典 |
         
         事件之间的关系如下图所示： ![事件说明](data:image/png;base64,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)
         
@@ -4277,17 +3158,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4323,17 +3196,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4369,17 +3234,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4415,17 +3272,9 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数 |
     
 *   返回值
     
@@ -4460,55 +3309,26 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    clipDirection
-    
-    str
-    
-    图片控件的裁剪方向，可选的值详见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | clipDirection | str | 图片控件的裁剪方向，可选的值详见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   clipDirection可选的值
-        
-        值
-        
-        解释
-        
-        "fromLeftToRight"
-        
-        从左到右
-        
-        "fromRightToLeft"
-        
-        从右到左
-        
-        "fromOutsideToInside"
-        
-        从外到内
-        
-        "fromTopToBottom"
-        
-        从上到下
-        
-        "fromBottomToTop"
-        
-        从下到上
+        | 值 | 解释 |
+        | --- | --- |
+        | "fromLeftToRight" | 从左到右 |
+        | "fromRightToLeft" | 从右到左 |
+        | "fromOutsideToInside" | 从外到内 |
+        | "fromTopToBottom" | 从上到下 |
+        | "fromBottomToTop" | 从下到上 |
         
 *   示例
     
@@ -4533,27 +3353,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    clipOffset
-    
-    tuple(float,float)
-    
-    该控件的裁剪偏移信息，第一项为横轴，第二项为纵轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | clipOffset | tuple(float,float) | 该控件的裁剪偏移信息，第一项为横轴，第二项为纵轴 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -4579,27 +3387,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    clipsChildren
-    
-    bool
-    
-    True表示开启，False表示关闭
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | clipsChildren | bool | True表示开启，False表示关闭 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -4624,17 +3420,9 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    index
-    
-    int
-    
-    轮盘选择的切片的index，取值范围为 \[-1, GetSliceCount() - 1\]，-1表示轮盘无选择
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | index | int | 轮盘选择的切片的index，取值范围为 [-1, GetSliceCount() - 1]，-1表示轮盘无选择 |
     
 *   返回值
     
@@ -4662,17 +3450,9 @@ method in mod.client.ui.controls.textEditBoxUIControl.TextEditBoxUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    text
-    
-    str
-    
-    文本的内容
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | text | str | 文本的内容 |
     
 *   返回值
     
@@ -4702,17 +3482,9 @@ method in mod.client.ui.controls.textEditBoxUIControl.TextEditBoxUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    maxLength
-    
-    int
-    
-    输入框可输入的最大长度，取值\[0, +∞)
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | maxLength | int | 输入框可输入的最大长度，取值[0, +∞) |
     
 *   返回值
     
@@ -4741,96 +3513,37 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    axis
-    
-    str
-    
-    设置的轴向，可选的值有\["x","y"\]，"x"表示设置控件锚点的x坐标，"y"表示设置控件锚点的y坐标
-    
-    paramDict
-    
-    dict
-    
-    设置的参数，具体见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | axis | str | 设置的轴向，可选的值有["x","y"]，"x"表示设置控件锚点的x坐标，"y"表示设置控件锚点的y坐标 |
+    | paramDict | dict | 设置的参数，具体见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   paramDict的键值
-        
-        参数名
-        
-        参数类型
-        
-        解释
-        
-        "followType"
-        
-        str
-        
-        跟随类型，默认值为"none"，可以不写该键值
-        
-        "relativeValue"
-        
-        float
-        
-        相对于跟随控件的比例值，默认值为0，可以不写该键值
-        
-        "absoluteValue"
-        
-        float
-        
-        设置的绝对值，默认值为0，可以不写该键值
+        | 参数名 | 参数类型 | 解释 |
+        | --- | --- | --- |
+        | "followType" | str | 跟随类型，默认值为"none"，可以不写该键值 |
+        | "relativeValue" | float | 相对于跟随控件的比例值，默认值为0，可以不写该键值 |
+        | "absoluteValue" | float | 设置的绝对值，默认值为0，可以不写该键值 |
         
     *   控件的大小支持复杂的计算来实现自适应布局，形式为“absoluteValue + relativeValue \* 跟随值”。 其中跟随值由跟随的控件以及当前设置的属性共同决定。比如当前设置的是控件的x坐标，并且跟随控件为父控件，而跟随值为父控件的宽度。 而跟随的控件是特定的，是与控件本身有一定关系的，比如控件的父控件，子控件等，可以通过设置followType的值来指定。
     *   followType可选的值
-        
-        值
-        
-        解释
-        
-        "none"
-        
-        无跟随，实际计算的时候只考虑absoluteValue
-        
-        "parent"
-        
-        跟随控件为父控件
-        
-        "maxChildren"
-        
-        跟随控件为最大子控件（设置x则为最大宽度，设置y则为最大高度），relativeValue无论如何设置都为1.0
-        
-        "maxSibling"
-        
-        跟随控件为最大兄弟控件（设置x则为最大宽度，设置y则为最大高度），relativeValue无论如何设置都为1.0
-        
-        "children"
-        
-        跟随值等于所有子节点之和（如果是x则计算的是子节点的宽度之和，如果是y则计算的是子节点的高度之和）
-        
-        "x"
-        
-        跟随值等于控件本身的宽度，该值仅当 axis == "y" 才生效
-        
-        "y"
-        
-        跟随值等于控件本身的高度，该值仅当 axis == "x" 才生效
+        | 值 | 解释 |
+        | --- | --- |
+        | "none" | 无跟随，实际计算的时候只考虑absoluteValue |
+        | "parent" | 跟随控件为父控件 |
+        | "maxChildren" | 跟随控件为最大子控件（设置x则为最大宽度，设置y则为最大高度），relativeValue无论如何设置都为1.0 |
+        | "maxSibling" | 跟随控件为最大兄弟控件（设置x则为最大宽度，设置y则为最大高度），relativeValue无论如何设置都为1.0 |
+        | "children" | 跟随值等于所有子节点之和（如果是x则计算的是子节点的宽度之和，如果是y则计算的是子节点的高度之和） |
+        | "x" | 跟随值等于控件本身的宽度，该值仅当 axis == "y" 才生效 |
+        | "y" | 跟随值等于控件本身的高度，该值仅当 axis == "x" 才生效 |
         
     *   设置跟随类型的时候请务必小心，不要造成依赖循环，比如父控件x坐标依赖子控件的宽度，而子控件的宽度又依赖于父控件这类情况，这样即使设置成功，结果也是未知的
 *   示例
@@ -4857,102 +3570,38 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    axis
-    
-    str
-    
-    设置的轴向，可选的值有\["x","y"\]，"x"表示设置控件的宽度，"y"表示设置控件的高度
-    
-    paramDict
-    
-    dict
-    
-    设置的参数，具体见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | axis | str | 设置的轴向，可选的值有["x","y"]，"x"表示设置控件的宽度，"y"表示设置控件的高度 |
+    | paramDict | dict | 设置的参数，具体见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   paramDict的键值
-        
-        参数名
-        
-        参数类型
-        
-        解释
-        
-        "fit"
-        
-        bool
-        
-        是否自适应父控件，默认值为False，可以不写该键值
-        
-        "followType"
-        
-        str
-        
-        跟随类型，默认值为"none"，可以不写该键值
-        
-        "relativeValue"
-        
-        float
-        
-        相对于跟随控件的比例值，默认值为0，可以不写该键值
-        
-        "absoluteValue"
-        
-        float
-        
-        设置的绝对值，默认值为0，可以不写该键值
+        | 参数名 | 参数类型 | 解释 |
+        | --- | --- | --- |
+        | "fit" | bool | 是否自适应父控件，默认值为False，可以不写该键值 |
+        | "followType" | str | 跟随类型，默认值为"none"，可以不写该键值 |
+        | "relativeValue" | float | 相对于跟随控件的比例值，默认值为0，可以不写该键值 |
+        | "absoluteValue" | float | 设置的绝对值，默认值为0，可以不写该键值 |
         
     *   控件的大小支持复杂的计算来实现自适应布局，形式为“absoluteValue + relativeValue \* 跟随值”。 其中跟随值由跟随的控件以及当前设置的属性共同决定。比如当前设置的是控件的宽度，并且跟随控件为父控件，则跟随值为父控件的宽度。 而跟随的控件是特定的，是与控件本身有一定关系的，比如控件的父控件，子控件等，可以通过设置followType的值来指定。
     *   followType可选的值
-        
-        值
-        
-        解释
-        
-        "none"
-        
-        无跟随，实际计算的时候只考虑absoluteValue
-        
-        "parent"
-        
-        跟随控件为父控件
-        
-        "maxChildren"
-        
-        跟随控件为最大子控件（设置宽度则为最大宽度，设置高度则为最大高度），relativeValue无论如何设置都为1.0
-        
-        "maxSibling"
-        
-        跟随控件为最大兄弟控件（设置宽度则为最大宽度，设置高度则为最大高度），relativeValue无论如何设置都为1.0
-        
-        "children"
-        
-        跟随值等于所有子节点之和
-        
-        "x"
-        
-        跟随值等于控件本身的宽度，该值仅当 axis == "y" 才生效
-        
-        "y"
-        
-        跟随值等于控件本身的高度，该值仅当 axis == "x" 才生效
+        | 值 | 解释 |
+        | --- | --- |
+        | "none" | 无跟随，实际计算的时候只考虑absoluteValue |
+        | "parent" | 跟随控件为父控件 |
+        | "maxChildren" | 跟随控件为最大子控件（设置宽度则为最大宽度，设置高度则为最大高度），relativeValue无论如何设置都为1.0 |
+        | "maxSibling" | 跟随控件为最大兄弟控件（设置宽度则为最大宽度，设置高度则为最大高度），relativeValue无论如何设置都为1.0 |
+        | "children" | 跟随值等于所有子节点之和 |
+        | "x" | 跟随值等于控件本身的宽度，该值仅当 axis == "y" 才生效 |
+        | "y" | 跟随值等于控件本身的高度，该值仅当 axis == "x" 才生效 |
         
     *   fit参数用来指定是否自适应父控件，如果是自适应父控件，则absoluteValue，followType，relativeValue参数均会失效，控件的值直接取自父控件的值
     *   设置跟随类型的时候请务必小心，不要造成依赖循环，比如父控件宽度依赖子控件的宽度，而子控件的宽度又依赖于父控件这类情况，这样即使设置成功，结果也是未知的
@@ -4984,17 +3633,9 @@ method in mod.client.ui.controls.gridUIControl.GridUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    dimension
-    
-    tuple(int,int)
-    
-    设置网格的横向与纵向大小
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | dimension | tuple(int,int) | 设置网格的横向与纵向大小 |
     
 *   返回值
     
@@ -5023,27 +3664,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    highestY
-    
-    int
-    
-    绘制高度值
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | highestY | int | 绘制高度值 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   备注
     
@@ -5070,17 +3699,9 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数，并且无参数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数，并且无参数 |
     
 *   返回值
     
@@ -5111,57 +3732,26 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    imageAdaptionType
-    
-    str
-    
-    图片控件的图片适配方式，可选的值详见备注
-    
-    imageAdaptionData
-    
-    tuple(float,float,float,float)
-    
-    如果图片不是九宫适配方式，无需传该值，否则需要设置，tuple的每个值分别代表九宫格切割的四个参数：左，右，上，下
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | imageAdaptionType | str | 图片控件的图片适配方式，可选的值详见备注 |
+    | imageAdaptionData | tuple(float,float,float,float) | 如果图片不是九宫适配方式，无需传该值，否则需要设置，tuple的每个值分别代表九宫格切割的四个参数：左，右，上，下 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   imageAdaptionType可选的值如下
-        
-        值
-        
-        解释
-        
-        "normal"
-        
-        普通适配，不开启九宫并保持宽高比
-        
-        "filled"
-        
-        填充适配，不开启九宫并保持宽高比
-        
-        "oldNineSlice"
-        
-        旧版九宫格适配
-        
-        "originNineSlice"
-        
-        原版九宫格适配
+        | 值 | 解释 |
+        | --- | --- |
+        | "normal" | 普通适配，不开启九宫并保持宽高比 |
+        | "filled" | 填充适配，不开启九宫并保持宽高比 |
+        | "oldNineSlice" | 旧版九宫格适配 |
+        | "originNineSlice" | 原版九宫格适配 |
         
 *   示例
     
@@ -5188,27 +3778,15 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isModal
-    
-    bool
-    
-    当前面板是否为模态框
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isModal | bool | 当前面板是否为模态框 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -5233,27 +3811,15 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isSwallow
-    
-    bool
-    
-    设置当前面板输入是否会吞噬事件
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isSwallow | bool | 设置当前面板输入是否会吞噬事件 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -5278,29 +3844,11 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    layer
-    
-    int
-    
-    设置层级
-    
-    syncRefresh
-    
-    bool
-    
-    是否需要同步刷新，默认值为True。置True为游戏在同一帧根据该控件的层级进行相关计算，置False则在下一帧进行计算。如同一帧有大量SetLayer操作建议置False，操作结束后调用一次ScreenNode.UpdateScreen接口刷新界面及相关控件数据
-    
-    forceUpdate
-    
-    bool
-    
-    是否需要强制刷新，默认值为True。置True则按照syncRefresh逻辑进行同步或者下一帧刷新，置False则当前帧和下一帧均不刷新，需要手动调用UpdateScreen进行刷新。如有大量SetLayer操作且非在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | layer | int | 设置层级 |
+    | syncRefresh | bool | 是否需要同步刷新，默认值为True。置True为游戏在同一帧根据该控件的层级进行相关计算，置False则在下一帧进行计算。如同一帧有大量SetLayer操作建议置False，操作结束后调用一次ScreenNode.UpdateScreen接口刷新界面及相关控件数据 |
+    | forceUpdate | bool | 是否需要强制刷新，默认值为True。置True则按照syncRefresh逻辑进行同步或者下一帧刷新，置False则当前帧和下一帧均不刷新，需要手动调用UpdateScreen进行刷新。如有大量SetLayer操作且非在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据 |
     
 *   返回值
     
@@ -5346,27 +3894,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    maxSize
-    
-    tuple(float,float)
-    
-    该控件所允许的最大的大小值，第一项为横轴，第二项为纵轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | maxSize | tuple(float,float) | 该控件所允许的最大的大小值，第一项为横轴，第二项为纵轴 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
@@ -5395,27 +3931,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    minSize
-    
-    tuple(float,float)
-    
-    该控件所允许的大小值，第一项为横轴，第二项为纵轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | minSize | tuple(float,float) | 该控件所允许的大小值，第一项为横轴，第二项为纵轴 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
@@ -5444,27 +3968,15 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    offset\_delta
-    
-    tuple(float,float)
-    
-    该控件的拖拽偏移量，第一项为横轴，第二项为纵轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | offset_delta | tuple(float,float) | 该控件的拖拽偏移量，第一项为横轴，第二项为纵轴 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置成功 |
     
 *   备注
     
@@ -5492,27 +4004,15 @@ method in mod.client.ui.controls.stackPanelUIControl.StackPanelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    orientation
-    
-    str
-    
-    stackPanel的排列方向，取值有限为\["vertical", "horizontal"\]，分别表示垂直方向，水平方向
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | orientation | str | stackPanel的排列方向，取值有限为["vertical", "horizontal"]，分别表示垂直方向，水平方向 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -5538,17 +4038,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    pos
-    
-    tuple(float,float)
-    
-    该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | pos | tuple(float,float) | 该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴 |
     
 *   返回值
     
@@ -5578,27 +4070,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    params
-    
-    dict
-    
-    需要设置的属性字典，字典键值对的值仅支持设置字符串、数字、布尔值类型，其余类型会导致设置失败
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | params | dict | 需要设置的属性字典，字典键值对的值仅支持设置字符串、数字、布尔值类型，其余类型会导致设置失败 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置成功 |
     
 *   示例
     
@@ -5623,17 +4103,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    pivot
-    
-    tuple(float,float)
-    
-    相对于自身位置的锚点，第一项为横轴x，第二项为纵轴y，锚点实际坐标=图片的position + anchor \* (width, height)
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | pivot | tuple(float,float) | 相对于自身位置的锚点，第一项为横轴x，第二项为纵轴y，锚点实际坐标=图片的position + anchor * (width, height) |
     
 *   返回值
     
@@ -5671,17 +4143,9 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    percent\_value
-    
-    int
-    
-    需要跳转到的百分比位置，一般设置的位置会出现在scroll\_view的最上方。该值取值范围0-100
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | percent_value | int | 需要跳转到的百分比位置，一般设置的位置会出现在scroll_view的最上方。该值取值范围0-100 |
     
 *   返回值
     
@@ -5710,17 +4174,9 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    pos
-    
-    float
-    
-    需要跳转到的位置，一般设置的位置会出现在scroll\_view的最上方。
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | pos | float | 需要跳转到的位置，一般设置的位置会出现在scroll_view的最上方。 |
     
 *   返回值
     
@@ -5749,17 +4205,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    index
-    
-    int
-    
-    索引
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | index | int | 索引 |
     
 *   返回值
     
@@ -5787,17 +4235,9 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    name
-    
-    str
-    
-    索引
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | name | str | 索引 |
     
 *   返回值
     
@@ -5825,23 +4265,10 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    size
-    
-    tuple(float,float)
-    
-    该控件的大小信息，第一项为横轴，第二项为纵轴
-    
-    resizeChildren
-    
-    bool
-    
-    是否同时调整子控件尺寸，默认为False
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | size | tuple(float,float) | 该控件的大小信息，第一项为横轴，第二项为纵轴 |
+    | resizeChildren | bool | 是否同时调整子控件尺寸，默认为False |
     
 *   返回值
     
@@ -5871,17 +4298,9 @@ method in mod.client.ui.controls.sliderUIControl.SliderUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    value
-    
-    float
-    
-    滑动条的值
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | value | float | 滑动条的值 |
     
 *   返回值
     
@@ -5911,17 +4330,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    texturePath
-    
-    str
-    
-    贴图的路径，需要从resource\_pack下面的textures目录开始
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | texturePath | str | 贴图的路径，需要从resource_pack下面的textures目录开始 |
     
 *   返回值
     
@@ -5958,17 +4369,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    clipRatio
-    
-    float
-    
-    图片的裁剪比例（范围0到1），裁剪精度与图片分辨率相关
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | clipRatio | float | 图片的裁剪比例（范围0到1），裁剪精度与图片分辨率相关 |
     
 *   返回值
     
@@ -5999,17 +4402,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    color
-    
-    tuple(float,float,float)
-    
-    图片颜色rgb，取值\[0, 1\]
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | color | tuple(float,float,float) | 图片颜色rgb，取值[0, 1] |
     
 *   返回值
     
@@ -6039,17 +4434,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    gray
-    
-    bool
-    
-    True为将图片置灰，False为恢复原色
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | gray | bool | True为将图片置灰，False为恢复原色 |
     
 *   返回值
     
@@ -6143,17 +4530,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    uv
-    
-    tuple(float,float)
-    
-    图片的左上角为(0,0)，向右为x轴，向下为y轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | uv | tuple(float,float) | 图片的左上角为(0,0)，向右为x轴，向下为y轴 |
     
 *   返回值
     
@@ -6181,17 +4560,9 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    uvSize
-    
-    tuple(float,float)
-    
-    图片向右为x轴，向下为y轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | uvSize | tuple(float,float) | 图片向右为x轴，向下为y轴 |
     
 *   返回值
     
@@ -6219,23 +4590,10 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    text
-    
-    str
-    
-    文本的内容，可以支持[样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)（§可以设置文字的颜色、格式等，该种用法更加灵活多变）
-    
-    syncSize
-    
-    bool
-    
-    是否设置文本时同步更新文本框大小，默认值为False
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | text | str | 文本的内容，可以支持样式代码 (opens new window)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
+    | syncSize | bool | 是否设置文本时同步更新文本框大小，默认值为False |
     
 *   返回值
     
@@ -6265,47 +4623,24 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    textAlignment
-    
-    str
-    
-    文本控件的文本对齐方式，可选的值详见备注
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | textAlignment | str | 文本控件的文本对齐方式，可选的值详见备注 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   备注
     
     *   textAlignment可选的值
-        
-        值
-        
-        解释
-        
-        "left"
-        
-        文本左对齐（水平方向）
-        
-        "right"
-        
-        文本右对齐（水平方向）
-        
-        "center"
-        
-        文本居中对齐（水平方向）
+        | 值 | 解释 |
+        | --- | --- |
+        | "left" | 文本左对齐（水平方向） |
+        | "right" | 文本右对齐（水平方向） |
+        | "center" | 文本居中对齐（水平方向） |
         
 *   示例
     
@@ -6331,17 +4666,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    color
-    
-    tuple(float,float,float)
-    
-    文本的颜色信息(r, g, b)，取值\[0, 1\]
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | color | tuple(float,float,float) | 文本的颜色信息(r, g, b)，取值[0, 1] |
     
 *   返回值
     
@@ -6374,17 +4701,9 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    scale
-    
-    float
-    
-    label的font\_size的作用是Label中的默认字体大小，取值有限为\[small normal large\]，这个scale是在这个默认字体的基础上进行缩放字体大小，默认字体大小为1.0
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | scale | float | label的font_size的作用是Label中的默认字体大小，取值有限为[small normal large]，这个scale是在这个默认字体的基础上进行缩放字体大小，默认字体大小为1.0 |
     
 *   返回值
     
@@ -6413,27 +4732,15 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    textLinePadding
-    
-    float
-    
-    文本控件的行间距，单位为像素
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | textLinePadding | float | 文本控件的行间距，单位为像素 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -6459,23 +4766,10 @@ method in mod.client.ui.controls.switchToggleUIControl.SwitchToggleUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    is\_on
-    
-    bool
-    
-    设置Toggle开关控件是打开还是关闭状态
-    
-    toggle\_path
-    
-    str
-    
-    实际toggle控件相对路径，由UI编辑器生成的开关控件该参数即为默认值"/this\_toggle"
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | is_on | bool | 设置Toggle开关控件是打开还是关闭状态 |
+    | toggle_path | str | 实际toggle控件相对路径，由UI编辑器生成的开关控件该参数即为默认值"/this_toggle" |
     
 *   返回值
     
@@ -6503,17 +4797,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    enable
-    
-    bool
-    
-    False为不响应，True为恢复响应
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | enable | bool | False为不响应，True为恢复响应 |
     
 *   返回值
     
@@ -6542,17 +4828,9 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    callbackFunc
-    
-    function
-    
-    回调函数，必须是UI的类函数，并且无参数
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | callbackFunc | function | 回调函数，必须是UI的类函数，并且无参数 |
     
 *   返回值
     
@@ -6583,45 +4861,18 @@ method in mod.client.ui.controls.itemRendererUIControl.ItemRendererUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    itemName
-    
-    str
-    
-    物品identifier
-    
-    auxValue
-    
-    int
-    
-    物品附加值
-    
-    isEnchanted
-    
-    bool
-    
-    可选参数，是否显示附魔效果，默认为False不显示
-    
-    userData
-    
-    dict
-    
-    可选参数，如果是灾厄旗帜或焰火之星等带有userData的需要传入该参数才能正确显示，目前已知仅有灾厄旗帜和焰火之星需要传
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | itemName | str | 物品identifier |
+    | auxValue | int | 物品附加值 |
+    | isEnchanted | bool | 可选参数，是否显示附魔效果，默认为False不显示 |
+    | userData | dict | 可选参数，如果是灾厄旗帜或焰火之星等带有userData的需要传入该参数才能正确显示，目前已知仅有灾厄旗帜和焰火之星需要传 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否设置结果，True为成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否设置结果，True为成功 |
     
 *   示例
     
@@ -6649,17 +4900,9 @@ method in mod.client.ui.controls.progressBarUIControl.ProgressBarUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    progress
-    
-    float
-    
-    进度，取值\[0, 1\]
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | progress | float | 进度，取值[0, 1] |
     
 *   返回值
     
@@ -6688,23 +4931,10 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    visible
-    
-    bool
-    
-    False为隐藏该控件，True为显示该控件
-    
-    forceUpdate
-    
-    bool
-    
-    是否需要强制刷新，默认值为True。置True则按照马上进行刷新，新的visible状态生效。置False，则需要再次调用UpdateScreen使新状态生效。如有大量SetVisible操作且非在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | visible | bool | False为隐藏该控件，True为显示该控件 |
+    | forceUpdate | bool | 是否需要强制刷新，默认值为True。置True则按照马上进行刷新，新的visible状态生效。置False，则需要再次调用UpdateScreen使新状态生效。如有大量SetVisible操作且非在同一帧执行，建议设置为False,需要更新时再调用UpdateScreen接口刷新界面及相关控件数据 |
     
 *   返回值
     
@@ -6749,27 +4979,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    propertyName
-    
-    str
-    
-    动画的属性名称，默认值为"all"，表示停止所有动画，不为"all"的时候表示单个动画的停止，比如propertyName=="size"时，表示停止尺寸属性上的动画
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | propertyName | str | 动画的属性名称，默认值为"all"，表示停止所有动画，不为"all"的时候表示单个动画的停止，比如propertyName=="size"时，表示停止尺寸属性上的动画 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否停止成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否停止成功 |
     
 *   备注
     
@@ -6802,27 +5020,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    value
-    
-    float
-    
-    在原有基础上的增量值，可以控制放大速度，默认为0.05
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | value | float | 在原有基础上的增量值，可以控制放大速度，默认为0.05 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   示例
     
@@ -6846,27 +5052,15 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    value
-    
-    float
-    
-    在原有基础上的减少值，可以控制缩小速度，默认为0.05
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | value | float | 在原有基础上的减少值，可以控制缩小速度，默认为0.05 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   备注
     
@@ -6897,13 +5091,9 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 是否成功 |
     
 *   示例
     
@@ -6931,13 +5121,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ButtonUIControl
-    
-    ButtonUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ButtonUIControl | ButtonUIControl实例 |
     
 *   示例
     
@@ -6965,13 +5151,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    GridUIControl
-    
-    GridUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | GridUIControl | GridUIControl实例 |
     
 *   示例
     
@@ -6999,13 +5181,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ImageUIControl
-    
-    ImageUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ImageUIControl | ImageUIControl实例 |
     
 *   示例
     
@@ -7033,13 +5211,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    InputPanelUIControl
-    
-    InputPanelUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | InputPanelUIControl | InputPanelUIControl实例 |
     
 *   示例
     
@@ -7066,13 +5240,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ItemRendererUIControl
-    
-    ItemRendererUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ItemRendererUIControl | ItemRendererUIControl实例 |
     
 *   示例
     
@@ -7100,13 +5270,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    LabelUIControl
-    
-    LabelUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | LabelUIControl | LabelUIControl实例 |
     
 *   示例
     
@@ -7134,13 +5300,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    MiniMapUIControl
-    
-    MiniMapUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | MiniMapUIControl | MiniMapUIControl实例 |
     
 *   示例
     
@@ -7168,13 +5330,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    NeteaseComboBoxUIControl
-    
-    NeteaseComboBoxUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | NeteaseComboBoxUIControl | NeteaseComboBoxUIControl实例 |
     
 *   示例
     
@@ -7201,13 +5359,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    NeteasePaperDollUIControl
-    
-    NeteasePaperDollUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | NeteasePaperDollUIControl | NeteasePaperDollUIControl实例 |
     
 *   示例
     
@@ -7231,27 +5385,15 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    fillImagePath
-    
-    str
-    
-    进度条填充图片路径，默认为"/filled\_progress\_bar",该参数影响该控件API的效果
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | fillImagePath | str | 进度条填充图片路径，默认为"/filled_progress_bar",该参数影响该控件API的效果 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ProgressBarUIControl
-    
-    ProgressBarUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ProgressBarUIControl | ProgressBarUIControl实例 |
     
 *   示例
     
@@ -7279,13 +5421,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    ScrollViewUIControl
-    
-    ScrollViewUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | ScrollViewUIControl | ScrollViewUIControl实例 |
     
 *   示例
     
@@ -7313,13 +5451,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    SelectionWheelUIControl
-    
-    SelectionWheelUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | SelectionWheelUIControl | SelectionWheelUIControl实例 |
     
 *   示例
     
@@ -7346,13 +5480,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    SliderUIControl
-    
-    SliderUIControl
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | SliderUIControl | SliderUIControl |
     
 *   示例
     
@@ -7380,13 +5510,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    StackPanelUIControl
-    
-    StackPanelUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | StackPanelUIControl | StackPanelUIControl实例 |
     
 *   示例
     
@@ -7413,13 +5539,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    SwitchToggleUIControl
-    
-    SwitchToggleUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | SwitchToggleUIControl | SwitchToggleUIControl实例 |
     
 *   示例
     
@@ -7447,13 +5569,9 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    TextEditBoxUIControl
-    
-    TextEditBoxUIControl实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | TextEditBoxUIControl | TextEditBoxUIControl实例 |
     
 *   示例
     

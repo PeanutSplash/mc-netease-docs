@@ -1,8 +1,8 @@
 ---
 title: "原生UI"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E5%8E%9F%E7%94%9FUI.html"
-scraped_at: "2025-09-24T15:54:22.898Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:51:02.667Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["接口","原生UI"]
 output_path: "接口/原生UI.md"
 ---
@@ -15,267 +15,51 @@ output_path: "接口/原生UI.md"
 
 * * *
 
-接口
-
-描述
-
-[ChangeSneakState](/接口/原生UI#changesneakstate)
-
-客户端
-
-切换潜行状态
-
-[ClickInteractGUI](/接口/原生UI#clickinteractgui)
-
-客户端
-
-模拟点击交互按钮，交互按钮指的在喂食、钓鱼、交易等交互场景出现的按钮
-
-[GetOriginAreaOffset](/接口/原生UI#getoriginareaoffset)
-
-客户端
-
-获取指定原生UI的offset,包括左上角和右下角
-
-[GetScreenSize](/接口/原生UI#getscreensize)
-
-客户端
-
-获取游戏分辨率
-
-[GetScreenViewInfo](/接口/原生UI#getscreenviewinfo)
-
-客户端
-
-获取游戏视角信息。首先获得当前分辨率下UI放大倍数，计算方式可参考[《我的世界》界面适配方法](https://mc.163.com/dev/mcmanual/mc-dev/mcguide/18-界面与交互/1-界面编辑器使用说明.html#《我的世界》界面适配方法)。则当前游戏视角的宽度的计算方式为：若当前分辨率的宽度能被该放大倍数整除，则等于当前分辨率，若不能，则等于当前分辨率加放大倍数再减去当前分辨率对放大倍数求余的结果，当前游戏视角的高度计算方法类似。例：以分辨率为1792，828的手机计算，画布是分辨率的3倍，所以x = 1792 + 3 - 1 = 1794；y = 828，该接口返回的结果为(1794.0, 828.0, 0.0, 0.0)
-
-[GetWalkState](/接口/原生UI#getwalkstate)
-
-客户端
-
-获取玩家行走/潜行/跑步状态
-
-[HideAirSupplyGUI](/接口/原生UI#hideairsupplygui)
-
-客户端
-
-隐藏玩家氧气值界面
-
-[HideArmorGui](/接口/原生UI#hidearmorgui)
-
-客户端
-
-隐藏hud界面的护甲值显示
-
-[HideChangePersonGui](/接口/原生UI#hidechangepersongui)
-
-客户端
-
-隐藏切换人称的按钮。隐藏后点击相应位置不会响应
-
-[HideChatGUI](/接口/原生UI#hidechatgui)
-
-客户端
-
-隐藏聊天按钮原生UI。该接口在开启新版聊天时不生效
-
-[HideCrossHairGUI](/接口/原生UI#hidecrosshairgui)
-
-客户端
-
-隐藏hud界面的十字准心显示
-
-[HideEmoteGUI](/接口/原生UI#hideemotegui)
-
-客户端
-
-设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用。该接口在开启新版聊天时不生效
-
-[HideExpGui](/接口/原生UI#hideexpgui)
-
-客户端
-
-非创造者模式下隐藏经验条显示
-
-[HideFoldGUI](/接口/原生UI#hidefoldgui)
-
-客户端
-
-隐藏下拉按钮原生UI。
-
-[HideHealthGui](/接口/原生UI#hidehealthgui)
-
-客户端
-
-隐藏hud界面的血量显示
-
-[HideHorseHealthGui](/接口/原生UI#hidehorsehealthgui)
-
-客户端
-
-隐藏hud界面的坐骑的血量显示
-
-[HideHudGUI](/接口/原生UI#hidehudgui)
-
-客户端
-
-隐藏HUD游戏界面的游戏原生UI。与原版F1按钮效果一致，只隐藏显示，但点击跳跃键等位置依然会响应
-
-[HideHungerGui](/接口/原生UI#hidehungergui)
-
-客户端
-
-隐藏hud界面的饥饿值显示
-
-[HideInteractGui](/接口/原生UI#hideinteractgui)
-
-客户端
-
-隐藏交互按钮。隐藏后点击相应位置不会响应
-
-[HideJumpGui](/接口/原生UI#hidejumpgui)
-
-客户端
-
-隐藏游戏中右下角的跳跃按钮。隐藏后点击相应位置不会响应
-
-[HideMoveGui](/接口/原生UI#hidemovegui)
-
-客户端
-
-隐藏游戏中左下角的移动按钮。隐藏后点击相应位置不会响应
-
-[HideNeteaseStoreGui](/接口/原生UI#hideneteasestoregui)
-
-客户端
-
-隐藏游戏中的网易商店按钮。隐藏后点击相应位置不会响应
-
-[HidePauseGUI](/接口/原生UI#hidepausegui)
-
-客户端
-
-隐藏暂停按钮原生UI。
-
-[HideSlotBarGui](/接口/原生UI#hideslotbargui)
-
-客户端
-
-隐藏游戏中底部中间的物品栏界面
-
-[HideSneakGui](/接口/原生UI#hidesneakgui)
-
-客户端
-
-隐藏游戏中左下角方向键的中心处潜行按钮。隐藏后点击相应位置不会响应
-
-[HideSwimGui](/接口/原生UI#hideswimgui)
-
-客户端
-
-隐藏游戏中的浮潜按钮。隐藏后点击相应位置不会响应。
-
-[HideVoiceGUI](/接口/原生UI#hidevoicegui)
-
-客户端
-
-隐藏语音按钮原生UI。该接口在开启新版聊天时不生效
-
-[HideWalkGui](/接口/原生UI#hidewalkgui)
-
-客户端
-
-隐藏游戏中跑/走按钮。隐藏后点击相应位置不会响应
-
-[OpenChatGui](/接口/原生UI#openchatgui)
-
-客户端
-
-打开原版聊天栏
-
-[OpenEmoteGui](/接口/原生UI#openemotegui)
-
-客户端
-
-打开表情界面
-
-[OpenFoldGui](/接口/原生UI#openfoldgui)
-
-客户端
-
-打开原版下拉界面
-
-[OpenInventoryGui](/接口/原生UI#openinventorygui)
-
-客户端
-
-打开原版背包界面，并支持选中某个分页(支持自定义分页名称)
-
-[OpenNeteaseStoreGui](/接口/原生UI#openneteasestoregui)
-
-客户端
-
-打开游戏中的网易商店购买商品界面
-
-[OpenPauseGui](/接口/原生UI#openpausegui)
-
-客户端
-
-打开原版暂停界面
-
-[OpenReportGui](/接口/原生UI#openreportgui)
-
-客户端
-
-打开原版举报界面
-
-[OpenVoiceGui](/接口/原生UI#openvoicegui)
-
-客户端
-
-打开原版语音界面
-
-[PlayHudHeartBlinkAnim](/接口/原生UI#playhudheartblinkanim)
-
-客户端
-
-播放原版受伤时血量变化的动效
-
-[SetCrossHair](/接口/原生UI#setcrosshair)
-
-客户端
-
-设置是否使用“准星瞄准”
-
-[SetEmoteSwitch](/接口/原生UI#setemoteswitch)
-
-客户端
-
-设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用，在原生UI初始化前调用设置
-
-[SetHudChatStackPosition](/接口/原生UI#sethudchatstackposition)
-
-客户端
-
-设置HUD界面左上小聊天窗口位置
-
-[SetHudChatStackVisible](/接口/原生UI#sethudchatstackvisible)
-
-客户端
-
-设置HUD界面左上小聊天窗口可见性
-
-[SetResponse](/接口/原生UI#setresponse)
-
-客户端
-
-设置原生UI是否响应
-
-[SimulateJump](/接口/原生UI#simulatejump)
-
-客户端
-
-模拟跳跃
+| 接口 |  | 描述 |
+| --- | --- | --- |
+| ChangeSneakState | 客户端 | 切换潜行状态 |
+| ClickInteractGUI | 客户端 | 模拟点击交互按钮，交互按钮指的在喂食、钓鱼、交易等交互场景出现的按钮 |
+| GetOriginAreaOffset | 客户端 | 获取指定原生UI的offset,包括左上角和右下角 |
+| GetScreenSize | 客户端 | 获取游戏分辨率 |
+| GetScreenViewInfo | 客户端 | 获取游戏视角信息。首先获得当前分辨率下UI放大倍数，计算方式可参考《我的世界》界面适配方法。则当前游戏视角的宽度的计算方式为：若当前分辨率的宽度能被该放大倍数整除，则等于当前分辨率，若不能，则等于当前分辨率加放大倍数再减去当前分辨率对放大倍数求余的结果，当前游戏视角的高度计算方法类似。例：以分辨率为1792，828的手机计算，画布是分辨率的3倍，所以x = 1792 + 3 - 1 = 1794；y = 828，该接口返回的结果为(1794.0, 828.0, 0.0, 0.0) |
+| GetWalkState | 客户端 | 获取玩家行走/潜行/跑步状态 |
+| HideAirSupplyGUI | 客户端 | 隐藏玩家氧气值界面 |
+| HideArmorGui | 客户端 | 隐藏hud界面的护甲值显示 |
+| HideChangePersonGui | 客户端 | 隐藏切换人称的按钮。隐藏后点击相应位置不会响应 |
+| HideChatGUI | 客户端 | 隐藏聊天按钮原生UI。该接口在开启新版聊天时不生效 |
+| HideCrossHairGUI | 客户端 | 隐藏hud界面的十字准心显示 |
+| HideEmoteGUI | 客户端 | 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用。该接口在开启新版聊天时不生效 |
+| HideExpGui | 客户端 | 非创造者模式下隐藏经验条显示 |
+| HideFoldGUI | 客户端 | 隐藏下拉按钮原生UI。 |
+| HideHealthGui | 客户端 | 隐藏hud界面的血量显示 |
+| HideHorseHealthGui | 客户端 | 隐藏hud界面的坐骑的血量显示 |
+| HideHudGUI | 客户端 | 隐藏HUD游戏界面的游戏原生UI。与原版F1按钮效果一致，只隐藏显示，但点击跳跃键等位置依然会响应 |
+| HideHungerGui | 客户端 | 隐藏hud界面的饥饿值显示 |
+| HideInteractGui | 客户端 | 隐藏交互按钮。隐藏后点击相应位置不会响应 |
+| HideJumpGui | 客户端 | 隐藏游戏中右下角的跳跃按钮。隐藏后点击相应位置不会响应 |
+| HideMoveGui | 客户端 | 隐藏游戏中左下角的移动按钮。隐藏后点击相应位置不会响应 |
+| HideNeteaseStoreGui | 客户端 | 隐藏游戏中的网易商店按钮。隐藏后点击相应位置不会响应 |
+| HidePauseGUI | 客户端 | 隐藏暂停按钮原生UI。 |
+| HideSlotBarGui | 客户端 | 隐藏游戏中底部中间的物品栏界面 |
+| HideSneakGui | 客户端 | 隐藏游戏中左下角方向键的中心处潜行按钮。隐藏后点击相应位置不会响应 |
+| HideSwimGui | 客户端 | 隐藏游戏中的浮潜按钮。隐藏后点击相应位置不会响应。 |
+| HideVoiceGUI | 客户端 | 隐藏语音按钮原生UI。该接口在开启新版聊天时不生效 |
+| HideWalkGui | 客户端 | 隐藏游戏中跑/走按钮。隐藏后点击相应位置不会响应 |
+| OpenChatGui | 客户端 | 打开原版聊天栏 |
+| OpenEmoteGui | 客户端 | 打开表情界面 |
+| OpenFoldGui | 客户端 | 打开原版下拉界面 |
+| OpenInventoryGui | 客户端 | 打开原版背包界面，并支持选中某个分页(支持自定义分页名称) |
+| OpenNeteaseStoreGui | 客户端 | 打开游戏中的网易商店购买商品界面 |
+| OpenPauseGui | 客户端 | 打开原版暂停界面 |
+| OpenReportGui | 客户端 | 打开原版举报界面 |
+| OpenVoiceGui | 客户端 | 打开原版语音界面 |
+| PlayHudHeartBlinkAnim | 客户端 | 播放原版受伤时血量变化的动效 |
+| SetCrossHair | 客户端 | 设置是否使用“准星瞄准” |
+| SetEmoteSwitch | 客户端 | 设置是否开启表情功能，默认PC端关闭，手机端开启，且该接口只能在手机端使用，在原生UI初始化前调用设置 |
+| SetHudChatStackPosition | 客户端 | 设置HUD界面左上小聊天窗口位置 |
+| SetHudChatStackVisible | 客户端 | 设置HUD界面左上小聊天窗口可见性 |
+| SetResponse | 客户端 | 设置原生UI是否响应 |
+| SimulateJump | 客户端 | 模拟跳跃 |
 
 ##  ChangeSneakState
 
@@ -325,50 +109,18 @@ method in mod.client.extraClientApi
 *   备注
     
     *   交互行为
-        
-        条件
-        
-        交互按钮
-        
-        玩家站在坐骑附近
-        
-        【骑乘】
-        
-        玩家手持打火石
-        
-        【点燃】
-        
-        玩家给羊驼、驴、骡连接箱子
-        
-        【连接箱子】
-        
-        玩家和村民交易
-        
-        【交易】
-        
-        玩家拿着栓绳对实体
-        
-        【拴住】/【解开】
-        
-        玩家手持钓竿钓鱼
-        
-        【钓鱼】
-        
-        玩家站在矿车附近
-        
-        【乘坐】
-        
-        玩家在船附近
-        
-        【上船】/【下船】
-        
-        玩家手持装备，或站在盔甲架附近
-        
-        【装备】
-        
-        玩家站在动物附近
-        
-        【喂养】
+        | 条件 | 交互按钮 |
+        | --- | --- |
+        | 玩家站在坐骑附近 | 【骑乘】 |
+        | 玩家手持打火石 | 【点燃】 |
+        | 玩家给羊驼、驴、骡连接箱子 | 【连接箱子】 |
+        | 玩家和村民交易 | 【交易】 |
+        | 玩家拿着栓绳对实体 | 【拴住】/【解开】 |
+        | 玩家手持钓竿钓鱼 | 【钓鱼】 |
+        | 玩家站在矿车附近 | 【乘坐】 |
+        | 玩家在船附近 | 【上船】/【下船】 |
+        | 玩家手持装备，或站在盔甲架附近 | 【装备】 |
+        | 玩家站在动物附近 | 【喂养】 |
         
 *   示例
     
@@ -391,27 +143,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    areaEnum
-    
-    str
-    
-    原生UI枚举([原生UI枚举](/枚举值/OriginGUIName))
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | areaEnum | str | 原生UI枚举(原生UI枚举) |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float,float,float)
-    
-    (xMin, yMin, xMax, yMax)原生UI的Area
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float,float,float) | (xMin, yMin, xMax, yMax)原生UI的Area |
     
 *   备注
     
@@ -442,13 +182,9 @@ method in mod.client.component.gameCompClient.GameComponentClient
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float)
-    
-    宽高（像素）
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float) | 宽高（像素） |
     
 *   示例
     
@@ -476,13 +212,9 @@ method in mod.client.component.gameCompClient.GameComponentClient
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    tuple(float,float,float,float)
-    
-    依次为宽、高、x偏移、y偏移
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | tuple(float,float,float,float) | 依次为宽、高、x偏移、y偏移 |
     
 *   示例
     
@@ -510,13 +242,9 @@ method in mod.client.extraClientApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    WalkState
-    
-    行走/潜行/跑步状态 ([行走状态](/枚举值/WalkState))
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | WalkState | 行走/潜行/跑步状态 (行走状态) |
     
 *   示例
     
@@ -539,27 +267,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -582,27 +298,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -625,17 +329,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -662,17 +358,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -702,27 +390,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -745,17 +421,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -782,17 +450,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -819,17 +479,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -856,27 +508,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -899,27 +539,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -942,17 +570,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    True为隐藏原生HUD，False为恢复显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | True为隐藏原生HUD，False为恢复显示 |
     
 *   返回值
     
@@ -979,27 +599,15 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置是否成功
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置是否成功 |
     
 *   示例
     
@@ -1022,17 +630,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1059,17 +659,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1096,17 +688,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1133,17 +717,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1153,46 +729,17 @@ method in mod.client.extraClientApi
     
     *   由于目前商店本身的实现，短期内无法实现纳入UIStack中管理的流程中
     *   如果需要额外操作商店界面，可考虑使用GetUI获取UINode后进行后续操作.下述UINode的namespace均为"Minecraft"
-        
-        uiKey
-        
-        解释
-        
-        newUIShopAsking
-        
-        余额不足界面
-        
-        newUIShopConfirm
-        
-        购买确认界面
-        
-        newUIShopFlying
-        
-        小图标飞入物品栏界面
-        
-        newUIShopWaiting
-        
-        购买等待界面
-        
-        newUIShopSingleItem
-        
-        物品购买界面
-        
-        newUIShopMain
-        
-        商店主界面
-        
-        newUIShopRecoModel1
-        
-        推荐商品1
-        
-        newUIShopRecoModel2
-        
-        推荐商品2
-        
-        newUIShopDesk
-        
-        商店入口按钮界面
+        | uiKey | 解释 |
+        | --- | --- |
+        | newUIShopAsking | 余额不足界面 |
+        | newUIShopConfirm | 购买确认界面 |
+        | newUIShopFlying | 小图标飞入物品栏界面 |
+        | newUIShopWaiting | 购买等待界面 |
+        | newUIShopSingleItem | 物品购买界面 |
+        | newUIShopMain | 商店主界面 |
+        | newUIShopRecoModel1 | 推荐商品1 |
+        | newUIShopRecoModel2 | 推荐商品2 |
+        | newUIShopDesk | 商店入口按钮界面 |
         
 *   示例
     
@@ -1215,17 +762,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1252,17 +791,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1292,17 +823,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1329,17 +852,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1366,17 +881,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1403,17 +910,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isHide
-    
-    bool
-    
-    是否隐藏，True为隐藏，False为显示
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isHide | bool | 是否隐藏，True为隐藏，False为显示 |
     
 *   返回值
     
@@ -1440,17 +939,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isForce
-    
-    bool
-    
-    是否强制打开，默认False，当已经打开is\_showing\_menu为true的ui时，无法打开
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isForce | bool | 是否强制打开，默认False，当已经打开is_showing_menu为true的ui时，无法打开 |
     
 *   返回值
     
@@ -1536,23 +1027,10 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    categoryName
-    
-    str
-    
-    分页名称([原版分页名称枚举](/枚举值/InventoryType))
-    
-    isForce
-    
-    bool
-    
-    是否强制打开，默认False，当已经打开is\_showing\_menu为true的ui时，无法打开
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | categoryName | str | 分页名称(原版分页名称枚举) |
+    | isForce | bool | 是否强制打开，默认False，当已经打开is_showing_menu为true的ui时，无法打开 |
     
 *   返回值
     
@@ -1582,23 +1060,10 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    categoryName
-    
-    str
-    
-    商品分类名称
-    
-    itemName
-    
-    str
-    
-    商品名称
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | categoryName | str | 商品分类名称 |
+    | itemName | str | 商品名称 |
     
 *   返回值
     
@@ -1625,17 +1090,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isForce
-    
-    bool
-    
-    是否强制打开，默认False，当已经打开is\_showing\_menu为true的ui时，无法打开
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isForce | bool | 是否强制打开，默认False，当已经打开is_showing_menu为true的ui时，无法打开 |
     
 *   返回值
     
@@ -1746,17 +1203,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    visible
-    
-    bool
-    
-    十字模式下True为开启“准星瞄准”，False为关闭，摇杆模式下True为点击互动、False为瞄准十字线
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | visible | bool | 十字模式下True为开启“准星瞄准”，False为关闭，摇杆模式下True为点击互动、False为瞄准十字线 |
     
 *   返回值
     
@@ -1784,27 +1233,15 @@ method in mod.client.component.gameCompClient.GameComponentClient
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    flag
-    
-    bool
-    
-    是否开启表情
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | flag | bool | 是否开启表情 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    设置成功返回true，设置失败返回false
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 设置成功返回true，设置失败返回false |
     
 *   示例
     
@@ -1828,17 +1265,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    pos
-    
-    tuple(float,float)
-    
-    该界面的目标坐标，第一项为横轴，第二项为纵轴，(0,0)点在Hud界面左上角，玩家纸娃娃下方
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | pos | tuple(float,float) | 该界面的目标坐标，第一项为横轴，第二项为纵轴，(0,0)点在Hud界面左上角，玩家纸娃娃下方 |
     
 *   返回值
     
@@ -1865,17 +1294,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    visible
-    
-    bool
-    
-    是否可见
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | visible | bool | 是否可见 |
     
 *   返回值
     
@@ -1905,17 +1326,9 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    response
-    
-    bool
-    
-    是否响应原生UI，True为响应原生UI，即点击屏幕时可以敲击方块/攻击实体，False为不响应原生UI
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | response | bool | 是否响应原生UI，True为响应原生UI，即点击屏幕时可以敲击方块/攻击实体，False为不响应原生UI |
     
 *   返回值
     

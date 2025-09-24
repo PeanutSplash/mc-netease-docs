@@ -1,8 +1,8 @@
 ---
 title: "Component"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E9%80%9A%E7%94%A8/Component.html"
-scraped_at: "2025-09-24T15:54:05.092Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:50:45.241Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["接口","通用","Component"]
 output_path: "接口/通用/Component.md"
 ---
@@ -23,39 +23,17 @@ method in mod.server.extraServerApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str或int
-    
-    该组件属主的实体id
-    
-    nameSpace
-    
-    str
-    
-    组件的命名空间，registerComponent的namespace
-    
-    name
-    
-    str
-    
-    组件的名字
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str或int | 该组件属主的实体id |
+    | nameSpace | str | 组件的命名空间，registerComponent的namespace |
+    | name | str | 组件的名字 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseComponent
-    
-    组件实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseComponent | 组件实例 |
     
 *   示例
     
@@ -77,39 +55,17 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str或int
-    
-    该组件属主的实体id
-    
-    nameSpace
-    
-    str
-    
-    组件的命名空间，registerComponent的namespace
-    
-    name
-    
-    str
-    
-    组件的名字
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str或int | 该组件属主的实体id |
+    | nameSpace | str | 组件的命名空间，registerComponent的namespace |
+    | name | str | 组件的名字 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseComponent
-    
-    组件实例
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseComponent | 组件实例 |
     
 *   示例
     
@@ -135,29 +91,11 @@ method in mod.server.extraServerApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    该组件属主的实体id
-    
-    nameSpace
-    
-    str
-    
-    组件的命名空间，registerComponent的namespace
-    
-    name
-    
-    str
-    
-    组件的名字
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 该组件属主的实体id |
+    | nameSpace | str | 组件的命名空间，registerComponent的namespace |
+    | name | str | 组件的名字 |
     
 *   返回值
     
@@ -183,29 +121,11 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    该组件属主的实体id
-    
-    nameSpace
-    
-    str
-    
-    组件的命名空间，registerComponent的namespace
-    
-    name
-    
-    str
-    
-    组件的名字
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 该组件属主的实体id |
+    | nameSpace | str | 组件的命名空间，registerComponent的namespace |
+    | name | str | 组件的名字 |
     
 *   返回值
     
@@ -234,39 +154,17 @@ method in mod.server.extraServerApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    该组件属主的实体id
-    
-    nameSpace
-    
-    str
-    
-    组件的命名空间，registerComponent的namespace
-    
-    name
-    
-    str
-    
-    组件的名字
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 该组件属主的实体id |
+    | nameSpace | str | 组件的命名空间，registerComponent的namespace |
+    | name | str | 组件的名字 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseComponent
-    
-    组件实例或者None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseComponent | 组件实例或者None |
     
 *   示例
     
@@ -288,39 +186,17 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    entityId
-    
-    str
-    
-    该组件属主的实体id
-    
-    nameSpace
-    
-    str
-    
-    组件的命名空间，registerComponent的namespace
-    
-    name
-    
-    str
-    
-    组件的名字
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | entityId | str | 该组件属主的实体id |
+    | nameSpace | str | 组件的命名空间，registerComponent的namespace |
+    | name | str | 组件的名字 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    BaseComponent
-    
-    组件实例或者None
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | BaseComponent | 组件实例或者None |
     
 *   示例
     
@@ -350,13 +226,9 @@ method in mod.server.extraServerApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    type(BaseComponent)
-    
-    组件基类
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | type(BaseComponent) | 组件基类 |
     
 *   示例
     
@@ -387,13 +259,9 @@ method in mod.client.extraClientApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    type(BaseComponent)
-    
-    组件基类
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | type(BaseComponent) | 组件基类 |
     
 *   示例
     
@@ -428,13 +296,9 @@ method in mod.server.extraServerApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    EngineCompFactoryServer
-    
-    服务端引擎组件工厂
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | EngineCompFactoryServer | 服务端引擎组件工厂 |
     
 *   示例
     
@@ -460,13 +324,9 @@ method in mod.client.extraClientApi
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    EngineCompFactoryClient
-    
-    客户端引擎组件工厂
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | EngineCompFactoryClient | 客户端引擎组件工厂 |
     
 *   示例
     
@@ -492,39 +352,17 @@ method in mod.server.extraServerApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    nameSpace
-    
-    str
-    
-    命名空间，建议为mod名字
-    
-    name
-    
-    str
-    
-    组件名称
-    
-    clsPath
-    
-    str
-    
-    组件类路径，路径从脚本的第一层开始算起
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | nameSpace | str | 命名空间，建议为mod名字 |
+    | name | str | 组件名称 |
+    | clsPath | str | 组件类路径，路径从脚本的第一层开始算起 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    注册成功与否
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 注册成功与否 |
     
 *   示例
     
@@ -548,39 +386,17 @@ method in mod.client.extraClientApi
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    nameSpace
-    
-    str
-    
-    命名空间，建议为mod名字
-    
-    name
-    
-    str
-    
-    组件名称
-    
-    clsPath
-    
-    str
-    
-    组件类路径，路径从脚本的第一层开始算起
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | nameSpace | str | 命名空间，建议为mod名字 |
+    | name | str | 组件名称 |
+    | clsPath | str | 组件类路径，路径从脚本的第一层开始算起 |
     
 *   返回值
     
-    数据类型
-    
-    说明
-    
-    bool
-    
-    注册成功与否
+    | 数据类型 | 说明 |
+    | --- | --- |
+    | bool | 注册成功与否 |
     
 *   示例
     

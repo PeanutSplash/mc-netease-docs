@@ -1,8 +1,8 @@
 ---
 title: "UI"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E4%BA%8B%E4%BB%B6/UI.html"
-scraped_at: "2025-09-24T15:54:30.463Z"
-batch_id: "2025-09-24T15-54-05-087Z"
+scraped_at: "2025-09-24T16:51:10.226Z"
+batch_id: "2025-09-24T16-50-45-237Z"
 tree_path: ["事件","UI"]
 output_path: "事件/UI.md"
 ---
@@ -11,111 +11,25 @@ output_path: "事件/UI.md"
 
 #  索引
 
-事件
-
-描述
-
-[AchievementButtonMovedClientEvent](/事件/UI#achievementbuttonmovedclientevent)
-
-客户端
-
-触发时机：使用自定义成就系统的时，拖动成就入口结束时触发
-
-[ClientChestCloseEvent](/事件/UI#clientchestcloseevent)
-
-客户端
-
-关闭箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
-
-[ClientChestOpenEvent](/事件/UI#clientchestopenevent)
-
-客户端
-
-打开箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件)
-
-[ClientPlayerInventoryCloseEvent](/事件/UI#clientplayerinventorycloseevent)
-
-客户端
-
-关闭物品背包界面时触发
-
-[ClientPlayerInventoryOpenEvent](/事件/UI#clientplayerinventoryopenevent)
-
-客户端
-
-打开物品背包界面时触发
-
-[CloseNeteaseShopEvent](/事件/UI#closeneteaseshopevent)
-
-客户端
-
-关闭商城界面时触发，包括脚本商城和Apollo插件商城
-
-[GridComponentSizeChangedClientEvent](/事件/UI#gridcomponentsizechangedclientevent)
-
-客户端
-
-UI grid控件里格子重新排列时触发
-
-[HudButtonChangedClientEvent](/事件/UI#hudbuttonchangedclientevent)
-
-客户端
-
-当原生HUD按钮位置或大小发生改变时触发，例如玩家使用了自定义控件功能会触发，可在该事件中修改mod按钮的位置防止重叠
-
-[OnItemSlotButtonClickedEvent](/事件/UI#onitemslotbuttonclickedevent)
-
-客户端
-
-点击快捷栏、背包栏、盔甲栏、副手栏的物品槽时触发
-
-[PlayerChatButtonClickClientEvent](/事件/UI#playerchatbuttonclickclientevent)
-
-客户端
-
-玩家点击聊天按钮或回车键触发呼出聊天窗口时客户端抛出的事件
-
-[PlayerInventoryOpenScriptServerEvent](/事件/UI#playerinventoryopenscriptserverevent)
-
-服务端
-
-某个客户端打开物品背包界面时触发
-
-[PopScreenAfterClientEvent](/事件/UI#popscreenafterclientevent)
-
-客户端
-
-screen移除触发
-
-[PopScreenEvent](/事件/UI#popscreenevent)
-
-客户端
-
-screen移除触发
-
-[PushScreenEvent](/事件/UI#pushscreenevent)
-
-客户端
-
-screen创建触发
-
-[ScreenSizeChangedClientEvent](/事件/UI#screensizechangedclientevent)
-
-客户端
-
-改变屏幕大小时会触发的事件
-
-[UiInitFinished](/事件/UI#uiinitfinished)
-
-客户端
-
-UI初始化框架完成,此时可以创建UI
-
-[UrgeShipEvent](/事件/UI#urgeshipevent)
-
-服务端
-
-玩家点击商城催促发货按钮时触发该事件
+| 事件 |  | 描述 |
+| --- | --- | --- |
+| AchievementButtonMovedClientEvent | 客户端 | 触发时机：使用自定义成就系统的时，拖动成就入口结束时触发 |
+| ClientChestCloseEvent | 客户端 | 关闭箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件) |
+| ClientChestOpenEvent | 客户端 | 打开箱子界面时触发，包括小箱子，合并后大箱子和末影箱(实体容器不属于方块，不会触发该事件) |
+| ClientPlayerInventoryCloseEvent | 客户端 | 关闭物品背包界面时触发 |
+| ClientPlayerInventoryOpenEvent | 客户端 | 打开物品背包界面时触发 |
+| CloseNeteaseShopEvent | 客户端 | 关闭商城界面时触发，包括脚本商城和Apollo插件商城 |
+| GridComponentSizeChangedClientEvent | 客户端 | UI grid控件里格子重新排列时触发 |
+| HudButtonChangedClientEvent | 客户端 | 当原生HUD按钮位置或大小发生改变时触发，例如玩家使用了自定义控件功能会触发，可在该事件中修改mod按钮的位置防止重叠 |
+| OnItemSlotButtonClickedEvent | 客户端 | 点击快捷栏、背包栏、盔甲栏、副手栏的物品槽时触发 |
+| PlayerChatButtonClickClientEvent | 客户端 | 玩家点击聊天按钮或回车键触发呼出聊天窗口时客户端抛出的事件 |
+| PlayerInventoryOpenScriptServerEvent | 服务端 | 某个客户端打开物品背包界面时触发 |
+| PopScreenAfterClientEvent | 客户端 | screen移除触发 |
+| PopScreenEvent | 客户端 | screen移除触发 |
+| PushScreenEvent | 客户端 | screen创建触发 |
+| ScreenSizeChangedClientEvent | 客户端 | 改变屏幕大小时会触发的事件 |
+| UiInitFinished | 客户端 | UI初始化框架完成,此时可以创建UI |
+| UrgeShipEvent | 服务端 | 玩家点击商城催促发货按钮时触发该事件 |
 
 #  UI
 
@@ -129,23 +43,10 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    oldPosition
-    
-    tuple(float,float)
-    
-    移动前该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴
-    
-    newPosition
-    
-    tuple(float,float)
-    
-    移动后该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | oldPosition | tuple(float,float) | 移动前该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴 |
+    | newPosition | tuple(float,float) | 移动后该控件相对父节点的坐标信息，第一项为横轴，第二项为纵轴 |
     
 *   返回值
     
@@ -179,35 +80,12 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    playerId
-    
-    str
-    
-    玩家实体id
-    
-    x
-    
-    int
-    
-    箱子位置x值
-    
-    y
-    
-    int
-    
-    箱子位置y值
-    
-    z
-    
-    int
-    
-    箱子位置z值
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | playerId | str | 玩家实体id |
+    | x | int | 箱子位置x值 |
+    | y | int | 箱子位置y值 |
+    | z | int | 箱子位置z值 |
     
 *   返回值
     
@@ -243,23 +121,10 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    isCreative
-    
-    bool
-    
-    是否是创造模式背包界面
-    
-    cancel
-    
-    bool
-    
-    取消打开物品背包界面
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | isCreative | bool | 是否是创造模式背包界面 |
+    | cancel | bool | 取消打开物品背包界面 |
     
 *   返回值
     
@@ -293,17 +158,9 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    path
-    
-    str
-    
-    grid网格所在的路径（从UI根节点算起）
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | path | str | grid网格所在的路径（从UI根节点算起） |
     
 *   返回值
     
@@ -320,17 +177,9 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    changedList
-    
-    tuple(dict)
-    
-    修改后的按钮列表
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | changedList | tuple(dict) | 修改后的按钮列表 |
     
 *   返回值
     
@@ -339,30 +188,11 @@ UI初始化框架完成,此时可以创建UI
 *   备注
     
     *   修改后的按钮列表中，每个按钮的字段如下：
-        
-        字段名
-        
-        类型
-        
-        说明
-        
-        areaEnum
-        
-        str
-        
-        [HUD原生UI枚举值](/枚举值/OriginGUIName)
-        
-        beforeSize
-        
-        tuple(float,float,float,float)
-        
-        (xMin, yMin, xMax, yMax)修改前原生UI的Area
-        
-        afterSize
-        
-        tuple(float,float,float,float)
-        
-        (xMin, yMin, xMax, yMax)修改后原生UI的Area
+        | 字段名 | 类型 | 说明 |
+        | --- | --- | --- |
+        | areaEnum | str | HUD原生UI枚举值 |
+        | beforeSize | tuple(float,float,float,float) | (xMin, yMin, xMax, yMax)修改前原生UI的Area |
+        | afterSize | tuple(float,float,float,float) | (xMin, yMin, xMax, yMax)修改后原生UI的Area |
         
 
 ##  OnItemSlotButtonClickedEvent
@@ -375,17 +205,9 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    slotIndex
-    
-    int
-    
-    点击的物品槽的编号，编号对应位置详见\[[物品栏](https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E6%A0%8F)\]
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | slotIndex | int | 点击的物品槽的编号，编号对应位置详见[物品栏] |
     
 *   返回值
     
@@ -419,23 +241,10 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    playerId
-    
-    str
-    
-    客户端对应的玩家entity的唯一ID
-    
-    isCreative
-    
-    bool
-    
-    是否是创造模式背包界面
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | playerId | str | 客户端对应的玩家entity的唯一ID |
+    | isCreative | bool | 是否是创造模式背包界面 |
     
 *   返回值
     
@@ -457,23 +266,10 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    screenName
-    
-    str
-    
-    UI名字
-    
-    screenDef
-    
-    str
-    
-    包含命名空间的UI名字，格式为namespace.screenName
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | screenName | str | UI名字 |
+    | screenDef | str | 包含命名空间的UI名字，格式为namespace.screenName |
     
 *   返回值
     
@@ -493,23 +289,10 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    screenName
-    
-    str
-    
-    UI名字
-    
-    screenDef
-    
-    str
-    
-    包含命名空间的UI名字，格式为namespace.screenName
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | screenName | str | UI名字 |
+    | screenDef | str | 包含命名空间的UI名字，格式为namespace.screenName |
     
 *   返回值
     
@@ -529,23 +312,10 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    screenName
-    
-    str
-    
-    UI名字
-    
-    screenDef
-    
-    str
-    
-    包含命名空间的UI名字，格式为namespace.screenName
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | screenName | str | UI名字 |
+    | screenDef | str | 包含命名空间的UI名字，格式为namespace.screenName |
     
 *   返回值
     
@@ -562,35 +332,12 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    beforeX
-    
-    float
-    
-    屏幕大小改变前的宽度
-    
-    beforeY
-    
-    float
-    
-    屏幕大小改变前的高度
-    
-    afterX
-    
-    float
-    
-    屏幕大小改变后的宽度
-    
-    afterY
-    
-    float
-    
-    屏幕大小改变后的高度
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | beforeX | float | 屏幕大小改变前的宽度 |
+    | beforeY | float | 屏幕大小改变前的高度 |
+    | afterX | float | 屏幕大小改变后的宽度 |
+    | afterY | float | 屏幕大小改变后的高度 |
     
 *   返回值
     
@@ -630,17 +377,9 @@ UI初始化框架完成,此时可以创建UI
     
 *   参数
     
-    参数名
-    
-    数据类型
-    
-    说明
-    
-    playerId
-    
-    str
-    
-    玩家id
+    | 参数名 | 数据类型 | 说明 |
+    | --- | --- | --- |
+    | playerId | str | 玩家id |
     
 *   返回值
     
