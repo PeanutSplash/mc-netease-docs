@@ -1,8 +1,8 @@
 ---
 title: "API索引表"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/Api%E7%B4%A2%E5%BC%95%E8%A1%A8.html"
-scraped_at: "2025-09-13T14:55:43.509Z"
-batch_id: "2025-09-13T14-55-43-504Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/Api%E7%B4%A2%E5%BC%95%E8%A1%A8.html"
+scraped_at: "2025-09-24T15:54:05.091Z"
+batch_id: "2025-09-24T15-54-05-087Z"
 tree_path: ["接口","API索引表"]
 output_path: "接口/API索引表.md"
 ---
@@ -4422,7 +4422,7 @@ Apollo
 
 服务端
 
-获取玩家[服务端交互中心](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/更新信息/2.8.html#玩家摄像机)的偏移
+获取玩家[服务端交互中心](/更新信息/2.8#玩家摄像机)的偏移
 
 [GetIsBlocking](/接口/玩家/行为#getisblocking)
 

@@ -1,8 +1,8 @@
 ---
 title: "原生UI"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E5%8E%9F%E7%94%9FUI.html"
-scraped_at: "2025-09-13T14:56:00.824Z"
-batch_id: "2025-09-13T14-55-43-504Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E5%8E%9F%E7%94%9FUI.html"
+scraped_at: "2025-09-24T15:54:22.898Z"
+batch_id: "2025-09-24T15-54-05-087Z"
 tree_path: ["接口","原生UI"]
 output_path: "接口/原生UI.md"
 ---
@@ -1883,7 +1883,7 @@ method in mod.client.extraClientApi
     
 *   备注
     
-    *   需要在[UiInitFinished](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/事件/UI.html?key=UiInitFinished&docindex=2&type=0)事件触发后调用
+    *   需要在[UiInitFinished](https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/事件/UI.html?key=UiInitFinished&docindex=2&type=0)事件触发后调用
 *   示例
     
 

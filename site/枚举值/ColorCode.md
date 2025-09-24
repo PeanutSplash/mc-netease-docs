@@ -1,8 +1,8 @@
 ---
 title: "ColorCode"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%9E%9A%E4%B8%BE%E5%80%BC/ColorCode.html"
-scraped_at: "2025-09-13T14:56:14.383Z"
-batch_id: "2025-09-13T14-55-43-504Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/ColorCode.html"
+scraped_at: "2025-09-24T15:54:36.342Z"
+batch_id: "2025-09-24T15-54-05-087Z"
 tree_path: ["枚举值","ColorCode"]
 output_path: "枚举值/ColorCode.md"
 ---

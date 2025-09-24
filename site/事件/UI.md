@@ -1,8 +1,8 @@
 ---
 title: "UI"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E4%BA%8B%E4%BB%B6/UI.html"
-scraped_at: "2025-09-13T14:56:08.523Z"
-batch_id: "2025-09-13T14-55-43-504Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E4%BA%8B%E4%BB%B6/UI.html"
+scraped_at: "2025-09-24T15:54:30.463Z"
+batch_id: "2025-09-24T15-54-05-087Z"
 tree_path: ["事件","UI"]
 output_path: "事件/UI.md"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "UI界面"
-source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI-beta/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E7%95%8C%E9%9D%A2.html"
-scraped_at: "2025-09-13T14:56:02.350Z"
-batch_id: "2025-09-13T14-55-43-504Z"
+source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E7%95%8C%E9%9D%A2.html"
+scraped_at: "2025-09-24T15:54:24.247Z"
+batch_id: "2025-09-24T15-54-05-087Z"
 tree_path: ["接口","自定义UI","UI界面"]
 output_path: "接口/自定义UI/UI界面.md"
 ---

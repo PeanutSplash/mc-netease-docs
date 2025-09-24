@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: '网易MC基岩版API文档',
-  description: 'Scraped and auto-organized documentation',
   base: process.env.NODE_ENV === 'production' ? '/auto-mc-163-docs/' : '/',
+  description: 'Scraped and auto-organized documentation',
   themeConfig: {
     search: {
       provider: 'local'
@@ -786,6 +786,98 @@ export default defineConfig({
       {
         "text": "3.5",
         "link": "/更新信息/3.5"
+      },
+      {
+        "text": "3.4",
+        "link": "/更新信息/3.4"
+      },
+      {
+        "text": "3.3",
+        "link": "/更新信息/3.3"
+      },
+      {
+        "text": "3.2",
+        "link": "/更新信息/3.2"
+      },
+      {
+        "text": "3.1",
+        "link": "/更新信息/3.1"
+      },
+      {
+        "text": "3.0",
+        "link": "/更新信息/3.0"
+      },
+      {
+        "text": "2.12",
+        "link": "/更新信息/2.12"
+      },
+      {
+        "text": "2.11",
+        "link": "/更新信息/2.11"
+      },
+      {
+        "text": "2.10",
+        "link": "/更新信息/2.10"
+      },
+      {
+        "text": "2.9",
+        "link": "/更新信息/2.9"
+      },
+      {
+        "text": "2.8",
+        "link": "/更新信息/2.8"
+      },
+      {
+        "text": "2.7",
+        "link": "/更新信息/2.7"
+      },
+      {
+        "text": "2.6",
+        "link": "/更新信息/2.6"
+      },
+      {
+        "text": "2.5",
+        "link": "/更新信息/2.5"
+      },
+      {
+        "text": "2.4",
+        "link": "/更新信息/2.4"
+      },
+      {
+        "text": "2.3",
+        "link": "/更新信息/2.3"
+      },
+      {
+        "text": "2.2",
+        "link": "/更新信息/2.2"
+      },
+      {
+        "text": "2.1",
+        "link": "/更新信息/2.1"
+      },
+      {
+        "text": "2.0",
+        "link": "/更新信息/2.0"
+      },
+      {
+        "text": "1.25",
+        "link": "/更新信息/1.25"
+      },
+      {
+        "text": "1.24",
+        "link": "/更新信息/1.24"
+      },
+      {
+        "text": "1.23",
+        "link": "/更新信息/1.23"
+      },
+      {
+        "text": "1.22",
+        "link": "/更新信息/1.22"
+      },
+      {
+        "text": "1.21",
+        "link": "/更新信息/1.21"
       }
     ]
   }
