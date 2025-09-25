@@ -1,8 +1,8 @@
 ---
 title: "Component"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E9%80%9A%E7%94%A8/Component.html"
-scraped_at: "2025-09-24T16:50:45.241Z"
-batch_id: "2025-09-24T16-50-45-237Z"
+scraped_at: "2025-09-25T13:58:56.698Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["接口","通用","Component"]
 output_path: "接口/通用/Component.md"
 ---
@@ -38,7 +38,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 comp = serverApi.CreateComponent(entityId, "Minecraft", "item")
 # 拿到comp后就可以做一些逻辑内容，与GetComponent类似，如果已经创建会自动直接Get
@@ -70,7 +70,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.CreateComponent(clientApi.GetLocalPlayerId(), "Minecraft", "item")
 # 拿到comp后就可以做一些逻辑内容，与GetComponent类似，如果已经创建会自动直接Get
@@ -104,7 +104,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 # entityId 根据游戏实际Id获取，这里'-12345678910'只是随便写的
 comp = serverApi.DestroyComponent('-12345678910', "Minecraft", "item")
@@ -134,7 +134,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.DestroyComponent(clientApi.GetLocalPlayerId(), "Minecraft", "item")
 
@@ -169,7 +169,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 comp = serverApi.GetComponent(entityId, "Minecraft", "item")
 # 拿到comp后就可以做一些逻辑内容，如果没有创建过会返回None
@@ -201,7 +201,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetComponent(clientApi.GetLocalPlayerId(), "Minecraft", "item")
 # 拿到comp后就可以做一些逻辑内容，如果没有创建过会返回None
@@ -233,7 +233,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 ServerComponentCls = serverApi.GetComponentCls()
 # Component要继承于基类才能生效
@@ -266,7 +266,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 ClientComponentCls = clientApi.GetComponentCls()
 # Component要继承于基类才能生效
@@ -303,7 +303,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 compFactory = serverApi.GetEngineCompFactory()
 gameComp = compFactory.CreateGame(serverApi.GetLevelId())
@@ -331,7 +331,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 compFactory = clientApi.GetEngineCompFactory()
 gameComp = compFactory.CreateGame(clientApi.GetLevelId())
@@ -367,7 +367,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 @Mod.InitServer()
 def TutorialServerInit(self):
@@ -401,7 +401,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 @Mod.InitClient()
 def TutorialClientInit(self):

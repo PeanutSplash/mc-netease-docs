@@ -1,8 +1,8 @@
 ---
 title: "System"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E9%80%9A%E7%94%A8/System.html"
-scraped_at: "2025-09-24T16:50:45.241Z"
-batch_id: "2025-09-24T16-50-45-237Z"
+scraped_at: "2025-09-25T13:58:56.698Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["接口","通用","System"]
 output_path: "接口/通用/System.md"
 ---
@@ -32,7 +32,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 ClientSystem = clientApi.GetClientSystemCls()
 class FpsClientSystem(ClientSystem):
@@ -64,7 +64,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 ServerSystem = serverApi.GetServerSystemCls()
 class FpsServerSystem(ServerSystem):
@@ -101,7 +101,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 serverSystem = serverApi.GetSystem("TutorialMod", "TutorialServerSystem")
 
@@ -131,7 +131,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 ClientSystem = clientApi.GetClientSystemCls()
 class FpsClientSystem(ClientSystem):
@@ -170,7 +170,7 @@ method in mod.server.extraServerApi
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 # 系统system的注册是在modMain.py的MOD类中
 # 服务端系统system的注册方式
@@ -205,7 +205,7 @@ method in mod.client.extraClientApi
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 # 系统system的注册是在modMain.py的MOD类中
 # 客户端系统system的注册方式

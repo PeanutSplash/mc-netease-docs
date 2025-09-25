@@ -1,8 +1,8 @@
 ---
 title: "TransferServerFailReason"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/TransferServerFailReason.html"
-scraped_at: "2025-09-24T16:48:17.364Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:37.986Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","TransferServerFailReason"]
 output_path: "枚举值/TransferServerFailReason.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     转服判定失败的错误码
     
 
-```
+```python
 class TransferServerFailReason(object):
 	TypeNotExist = 10		# 目标类型的服务器不存在
 	VersionNotExist = 11	# 目标类型的服务器的版本与玩家客户端的版本不符

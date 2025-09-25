@@ -1,8 +1,8 @@
 ---
 title: "EntityColorType"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/EntityColorType.html"
-scraped_at: "2025-09-24T16:48:08.282Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:28.880Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","EntityColorType"]
 output_path: "枚举值/EntityColorType.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     描述实体的颜色种类，截止至网易2.9版本，该枚举值应用于羊和热带鱼的颜色
     
 
-```
+```python
 class EntityColorType:
 	White = 0  		# 白色
 	Orange = 1  	# 橘色

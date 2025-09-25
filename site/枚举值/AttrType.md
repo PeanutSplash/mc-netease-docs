@@ -1,8 +1,8 @@
 ---
 title: "AttrType"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/AttrType.html"
-scraped_at: "2025-09-24T16:48:04.909Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:25.488Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","AttrType"]
 output_path: "枚举值/AttrType.md"
 ---
@@ -21,7 +21,7 @@ class in mod.common.minecraftEnum
     *   各类属性值一般通过entity的json配置，如`minecraft:knockback_resistance : {"value": 100, "max": 100}`
     *   当json文件中未配置时，引擎会针对不同属性进行不同初始值、不同最大值的设置
 
-```
+```python
 class AttrType(object):
 	HEALTH = 0              # 生命值, 原版的值范围为[0,20]
 	SPEED = 1               # 移速, 原版的值范围为[0,+∞]

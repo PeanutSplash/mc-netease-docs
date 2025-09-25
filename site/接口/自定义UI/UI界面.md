@@ -1,8 +1,8 @@
 ---
 title: "UI界面"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E7%95%8C%E9%9D%A2.html"
-scraped_at: "2025-09-24T16:51:04.011Z"
-batch_id: "2025-09-24T16-50-45-237Z"
+scraped_at: "2025-09-25T13:59:15.556Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["接口","自定义UI","UI界面"]
 output_path: "接口/自定义UI/UI界面.md"
 ---
@@ -38,7 +38,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 若是被绑定的UI需要创建多份，则需要使用此方式进行创建:
 uiNode=clientApi.CreateUI("modNamespace","testUI", {
     "bindEntityId": clientApi.GetLocalPlayerId()
@@ -81,7 +81,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 succ = uiNode.ChangeBindAutoScale(1)
 
 ```
@@ -111,7 +111,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 succ = uiNode.ChangeBindEntityId(entityId)
 
 ```
@@ -144,7 +144,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 succ = uiNode.ChangeBindOffset((0, 3, 0))
 
 ```
@@ -178,7 +178,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 克隆text2控件，重命名为text3并以panel为父控件
 parentPath = "/panel"
 text2Path = "/panel/text2"
@@ -251,7 +251,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 在父控件"/panel"下创建命名空间为"ui0"的自定义控件"myImage"，并取名为"myChild"
 parentControl = uiNode.GetBaseUIControl("/panel")
 if parentControl:
@@ -304,7 +304,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # get panel's all children path
 node.GetAllChildrenPath("/panel")
 
@@ -335,7 +335,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 根据路径获得BaseUIControl实例
 text2Path = "/panel/text2"
 text2UIControl = uiNode.GetBaseUIControl(text2Path)
@@ -365,7 +365,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 autoScale = uiNode.GetBindAutoScale()
 
 ```
@@ -393,7 +393,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 entityId = uiNode.GetBindEntityId()
 
 ```
@@ -421,7 +421,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 offset = uiNode.GetBindOffset()
 
 ```
@@ -449,7 +449,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 position = uiNode.GetBindWorldPosition()
 
 ```
@@ -479,7 +479,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # get panel's children name
 node.GetChildrenName("/panel")
 
@@ -508,7 +508,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 我们需要获得本界面的输入模式
 isHud = uiNode.GetIsHud()
 
@@ -539,7 +539,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # we want get a rich-text-item
 richTextPath = "/RichTextPanel"
 richTextItem = uiNode.GetRichTextItem(richTextPath)
@@ -569,7 +569,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 我们需要获得本界面名称
 screenName = uiNode.GetScreenName()
 
@@ -665,7 +665,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 移除"/panel/myChild"控件
 childControl = uiNode.GetBaseUIControl("/panel/myChild")
 if childControl:
@@ -698,7 +698,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # we want to remove text2
 text2Path = "/panel/text2"
 parentPath = "/panel"
@@ -732,7 +732,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 uiNode.SetBindWorldPosition(0, (100,60,100))
 
 ```
@@ -763,7 +763,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 我们需要设置本界面为HUD操作模式
 uiNode.SetIsHud(1)
 
@@ -790,7 +790,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # we want to remove this screen
 uiNode.SetRemove()
 
@@ -819,7 +819,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 我们隐藏当前UI的界面
 uiNode.SetScreenVisible(False)
 
@@ -849,7 +849,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 path = "/text_edit_box0"
 uiNode.SetSelectControl(path, True)
 
@@ -879,7 +879,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # we want change stackgrid count
 stackgridPath = "/stack_grid1"
 uiNode.SetStackGridCount(stackgridPath, 3)
@@ -913,7 +913,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # we want to show an entity model
 imagePath = "/paper_doll0"
 uiNode.SetUiEntity(imagePath, 'minecraft:cat')
@@ -948,7 +948,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # we want to change model
 imagePath = "/paper_doll0"
 uiNode.SetUiModel(imagePath, 'saber', 'idle', True)
@@ -982,7 +982,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 imagePath = "/paper_doll0"
 uiNode.SetUiModelScale(imagePath, 1.2)
 
@@ -1030,7 +1030,7 @@ method in mod.client.ui.screenNode.ScreenNode
 *   示例
     
 
-```
+```python
 # 当前帧刷新界面
 uiNode.UpdateScreen(True)
 # 下一帧刷新界面

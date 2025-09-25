@@ -1,8 +1,8 @@
 ---
 title: "GameDiffculty"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/GameDiffculty.html"
-scraped_at: "2025-09-24T16:48:09.419Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:30.030Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","GameDiffculty"]
 output_path: "枚举值/GameDiffculty.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     描述游戏难度的枚举值
     
 
-```
+```python
 class GameDiffculty(object):
 	Peaceful = 0	# 和平
 	Easy = 1		# 简单

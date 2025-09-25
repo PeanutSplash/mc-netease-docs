@@ -1,8 +1,8 @@
 ---
 title: "AniCheatMoveRewind"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/AniCheatMoveRewind.html"
-scraped_at: "2025-09-24T16:48:03.773Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:24.370Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","AniCheatMoveRewind"]
 output_path: "枚举值/AniCheatMoveRewind.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     反作弊配置枚举值，位移倒带模拟相关参数
     
 
-```
+```python
 class AniCheatMoveRewind(object):
 	PositionThreshold = "player-rewind-position-threshold"		# 某一帧中，客户端位置与服务端位置的距离平方阈值，超过阈值会触发反作弊纠正(float)
 	PositionAcceptance = "player-rewind-position-acceptance"	# 某一帧中，如果客户端位置和服务端位置的距离平方小于这个值，服务端会采用客户端的值(float)

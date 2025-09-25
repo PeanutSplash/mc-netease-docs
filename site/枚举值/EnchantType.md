@@ -1,8 +1,8 @@
 ---
 title: "EnchantType"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/EnchantType.html"
-scraped_at: "2025-09-24T16:48:08.282Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:28.880Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","EnchantType"]
 output_path: "枚举值/EnchantType.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     附魔类型枚举值
     
 
-```
+```python
 class EnchantType(object):
 	ArmorAll = 0				# 保护
 	ArmorFire = 1				# 火焰保护

@@ -1,8 +1,8 @@
 ---
 title: "EntityType"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/EntityType.html"
-scraped_at: "2025-09-24T16:48:09.419Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:30.029Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","EntityType"]
 output_path: "枚举值/EntityType.md"
 ---
@@ -21,7 +21,7 @@ class in mod.common.minecraftEnum
     *   自定义实体未使用runtime\_identifier字段时该实体默认只属于Mob类。
     *   在控制台打印枚举值为位运算结果，例如，EntityType.Zombie 输出为 199456。
 
-```
+```python
 class EntityType(object):
 	Undefined = 1									# 未定义类型
 	TypeMask = 0x000000ff							# 类型过滤

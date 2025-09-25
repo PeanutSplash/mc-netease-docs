@@ -1,8 +1,8 @@
 ---
 title: "UiBaseLayer"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/UiBaseLayer.html"
-scraped_at: "2025-09-24T16:48:17.364Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:37.986Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","UiBaseLayer"]
 output_path: "枚举值/UiBaseLayer.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     自定义UI界面的层次宏定义，用于在多个插件之间协调UI界面的遮挡关系
     
 
-```
+```python
 class UiBaseLayer(object):
 	Desk = 0				# 主界面常驻
 	DeskFloat = 15000		# 主界面浮动提示（浮动提示信息）

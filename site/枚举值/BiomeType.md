@@ -1,8 +1,8 @@
 ---
 title: "BiomeType"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/BiomeType.html"
-scraped_at: "2025-09-24T16:48:04.909Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:25.489Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","BiomeType"]
 output_path: "枚举值/BiomeType.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     生物群系枚举
     
 
-```
+```python
 class BiomeType(object):
 	ocean = 0								# 海洋
 	plains = 1								# 平原

@@ -1,8 +1,8 @@
 ---
 title: "ColorCode"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/ColorCode.html"
-scraped_at: "2025-09-24T16:48:07.160Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:27.759Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","ColorCode"]
 output_path: "枚举值/ColorCode.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     [样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)
     
 
-```
+```python
 class ColorCode(object):
 	BLACK = "\xc2\xa7" "0"          # 黑色
 	DARK_BLUE = "\xc2\xa7" "1"      # 深蓝色

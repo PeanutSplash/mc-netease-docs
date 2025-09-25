@@ -1,8 +1,8 @@
 ---
 title: "ActorDamageCause"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/ActorDamageCause.html"
-scraped_at: "2025-09-24T16:48:02.619Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:23.218Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","ActorDamageCause"]
 output_path: "枚举值/ActorDamageCause.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     描述实体伤害来源枚举值，及实体被伤害的原因。
     
 
-```
+```python
 class ActorDamageCause(object):
     NONE = "none"  							# 其他
     Override = "override"  					# 非正常方式（如脚本直接设置血量为0），这种方式的伤害不会被盔甲与buff吸收

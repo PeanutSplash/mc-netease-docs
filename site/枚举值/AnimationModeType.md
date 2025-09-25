@@ -1,8 +1,8 @@
 ---
 title: "AnimationModeType"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/AnimationModeType.html"
-scraped_at: "2025-09-24T16:48:03.773Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:24.370Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","AnimationModeType"]
 output_path: "枚举值/AnimationModeType.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     描述放置结构体时的动画模式
     
 
-```
+```python
 class AnimationModeType:
 	NONE = 0  		# 无动画模式
 	LAYERS = 1  	# 按照层数放置

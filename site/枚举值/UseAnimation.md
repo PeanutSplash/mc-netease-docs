@@ -1,8 +1,8 @@
 ---
 title: "UseAnimation"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/UseAnimation.html"
-scraped_at: "2025-09-24T16:48:17.365Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:37.986Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","UseAnimation"]
 output_path: "枚举值/UseAnimation.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     使用物品时动画枚举值
     
 
-```
+```python
 class UseAnimation(object):
 	Undefined = 0  		# 未定义
 	Eat = 1				# 吃食物

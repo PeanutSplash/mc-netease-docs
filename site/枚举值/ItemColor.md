@@ -1,8 +1,8 @@
 ---
 title: "ItemColor"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/ItemColor.html"
-scraped_at: "2025-09-24T16:48:11.698Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:32.308Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","ItemColor"]
 output_path: "枚举值/ItemColor.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     物品的颜色枚举值
     
 
-```
+```python
 class ItemColor(object):
 	Black = 0			# 黑色
 	Red = 1				# 红色

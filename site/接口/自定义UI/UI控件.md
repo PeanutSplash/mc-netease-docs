@@ -1,8 +1,8 @@
 ---
 title: "UI控件"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E8%87%AA%E5%AE%9A%E4%B9%89UI/UI%E6%8E%A7%E4%BB%B6.html"
-scraped_at: "2025-09-24T16:51:04.011Z"
-batch_id: "2025-09-24T16-50-45-237Z"
+scraped_at: "2025-09-25T13:59:15.557Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["接口","自定义UI","UI控件"]
 output_path: "接口/自定义UI/UI控件.md"
 ---
@@ -38,7 +38,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.AddEntityMarker(entityId, "textures/ui/custom_head")
@@ -60,7 +60,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     | 参数名 | 数据类型 | 说明 |
     | --- | --- | --- |
     | entityId | str | 实体Id |
-    | text | str | 文本的内容，可以支持样式代码 (opens new window)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
+    | text | str | 文本的内容，可以支持[样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
     | scale | float | 文本缩放倍数，等于文本控件json中的font_scale_factor参数，默认缩放倍数为1.0 |
     
 *   返回值
@@ -72,7 +72,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.AddEntityTextMarker(entityId, "just test", 1.0)
@@ -103,7 +103,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 buttonPath = "/panel/test_btn"
 buttonUIControl = uiNode.GetBaseUIControl("/panel/test_btn").asButton()
 buttonUIControl.AddHoverEventParams()
@@ -137,7 +137,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 success = comboBoxUIControl.AddOption("测试项", "textures/ui/test_icon", {"mydata": "netease"})
@@ -175,7 +175,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.AddStaticMarker("this_is_marker_key", (10,2), "textures/blocks/border", (3,3))
@@ -198,7 +198,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
     | --- | --- | --- |
     | key | str | 标记Id |
     | vec2 | tuple(float,float) | 地图位置二维坐标(x,z) |
-    | text | str | 文本的内容，可以支持样式代码 (opens new window)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
+    | text | str | 文本的内容，可以支持[样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
     | scale | float | 文本缩放倍数，等于文本控件json中的font_scale_factor参数，默认缩放倍数为1.0 |
     
 *   返回值
@@ -210,7 +210,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.AddStaticTextMarker("this_is_marker_key", (10,2), "just test", 1.0)
@@ -247,7 +247,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 buttonPath = "/panel/test_btn"
 buttonUIControl = uiNode.GetBaseUIControl("/panel/test_btn").asButton()
 buttonUIControl.AddTouchEventParams({"isSwallow":True})
@@ -275,7 +275,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 comboBoxUIControl.ClearOptions()
@@ -303,7 +303,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 comboBoxUIControl.ClearSelection()
@@ -333,7 +333,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to diable text2 textShadow
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -364,7 +364,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to enable text2 textShadow
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -395,7 +395,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get image1 anchorFrom
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -426,7 +426,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get image1 anchorTo
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -459,7 +459,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # text1的BaseUIControl实例获得text2的BaseUIControl实例
 text1Path = "/text1"
 text1Control = uiNode.GetBaseUIControl(text1Path)
@@ -492,7 +492,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 根据路径"/text1"的BaseUIControl实例获得路径为"/text1/text2/text3"的BaseUIControl实例
 text1Path = "/text1"
 text1Control = uiNode.GetBaseUIControl(text1Path)
@@ -523,7 +523,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
 imageUIControl.GetClipDirection()
@@ -553,7 +553,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get image1 clipOffset
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -584,7 +584,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to know whether image1 enables clipsChildren
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -615,7 +615,7 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
 *   示例
     
 
-```
+```python
 selectionWheelPath = "/selectionWheel"
 selectionWheelControl = uiNode.GetBaseUIControl(selectionWheelPath).asSelectionWheel()
 selectionWheelControl.GetCurrentSliceIndex()
@@ -648,7 +648,7 @@ method in mod.client.ui.controls.textEditBoxUIControl.TextEditBoxUIControl
 *   示例
     
 
-```
+```python
 # we want to get edit2 content
 editBoxPath = "/panel/edit2"
 textEditBoxUIControl = uiNode.GetBaseUIControl(editBoxPath).asTextEditBox()
@@ -690,7 +690,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
 # 获取image1的锚点x坐标
@@ -733,7 +733,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
 # 获取image1的宽度信息
@@ -764,7 +764,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 global position
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -795,7 +795,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 print imageControl.GetGlobalRotateAngle()
@@ -825,7 +825,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 print imageControl.GetGlobalRotatePoint()
@@ -861,7 +861,7 @@ method in mod.client.ui.controls.gridUIControl.GridUIControl
 *   示例
     
 
-```
+```python
 # we want to get element positioned at (0, 0)
 gridPath = "/grid1"
 gridUIControl = uiNode.GetBaseUIControl(gridPath).asGrid()
@@ -894,7 +894,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to know whether inputPanel1 isModal
 inputPanelPath = "/inputPanel1"
 inputPanel = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
@@ -925,7 +925,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to know whether inputPanel1 isSwallow
 inputPanelPath = "/inputPanel1"
 inputPanel = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
@@ -959,7 +959,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get image1 maxSize
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -993,7 +993,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get image1 minSize
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -1027,7 +1027,7 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 path = '/demoPanel/paper_doll'
 doll = uiNode.GetBaseUIControl(path).asNeteasePaperDoll()
@@ -1080,7 +1080,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to get inputPanel1's offset_delta
 inputPanelPath = "/inputPanel1"
 inputPanel = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
@@ -1111,7 +1111,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 totalNum = comboBoxUIControl.GetOptionCount()
@@ -1143,7 +1143,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 index = comboBoxUIControl.GetOptionIndexByShowName("测试项")
@@ -1175,7 +1175,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 text = comboBoxUIControl.GetOptionShowNameByIndex(0)
@@ -1205,7 +1205,7 @@ method in mod.client.ui.controls.stackPanelUIControl.StackPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to get stackPanel1 orientation
 stackPanelPath = "/stackPanel1"
 stackPanel = uiNode.GetBaseUIControl(stackPanelPath).asStackPanel()
@@ -1236,7 +1236,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
 path = baseUIControl.GetPath()
@@ -1266,7 +1266,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 position
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -1297,7 +1297,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
 propertyBag = baseUIControl.GetPropertyBag()
@@ -1327,7 +1327,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 print imageControl.GetRotateAngle()
@@ -1357,7 +1357,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 print imageControl.GetRotatePivot()
@@ -1387,7 +1387,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 print imageControl.GetRotateRect()
@@ -1417,7 +1417,7 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
 *   示例
     
 
-```
+```python
 # we want get scroll_view content
 scrollViewPath = "/scroll_view0"
 scrollViewUIControl = uiNode.GetBaseUIControl(scrollViewPath).asScrollView()
@@ -1448,7 +1448,7 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
 *   示例
     
 
-```
+```python
 # we want get scroll_view content path
 scrollViewPath = "/scroll_view0"
 scrollViewUIControl = uiNode.GetBaseUIControl(scrollViewPath).asScrollView()
@@ -1479,7 +1479,7 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
 *   示例
     
 
-```
+```python
 # we want get scroll_view percent
 scrollViewPath = "/scroll_view0"
 scrollViewUIControl = uiNode.GetBaseUIControl(scrollViewPath).asScrollView()
@@ -1510,7 +1510,7 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
 *   示例
     
 
-```
+```python
 # we want get scroll_view pos
 scrollViewPath = "/scroll_view0"
 scrollViewUIControl = uiNode.GetBaseUIControl(scrollViewPath).asScrollView()
@@ -1541,7 +1541,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 currentIndex = comboBoxUIControl.GetSelectOptionIndex()
@@ -1571,7 +1571,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 currentText = comboBoxUIControl.GetSelectOptionShowName()
@@ -1601,7 +1601,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 size
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -1632,7 +1632,7 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
 *   示例
     
 
-```
+```python
 selectionWheelPath = "/selectionWheel"
 selectionWheelControl = uiNode.GetBaseUIControl(selectionWheelPath).asSelectionWheel()
 selectionWheelControl.GetSliceCount()
@@ -1662,7 +1662,7 @@ method in mod.client.ui.controls.sliderUIControl.SliderUIControl
 *   示例
     
 
-```
+```python
 # we want to get slider value
 sliderPath = "/panel/slider0"
 sliderUIControl = uiNode.GetBaseUIControl(sliderPath).asSlider()
@@ -1696,7 +1696,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 content
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -1727,7 +1727,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 textAlignment
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -1758,7 +1758,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 color
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -1789,7 +1789,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to get text2 textLinePadding
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -1822,7 +1822,7 @@ method in mod.client.ui.controls.switchToggleUIControl.SwitchToggleUIControl
 *   示例
     
 
-```
+```python
 togglePath = "/toggle1"
 switchToggleUIControl = uiNode.GetBaseUIControl(togglePath).asSwitchToggle()
 print switchToggleUIControl.GetToggleState()
@@ -1861,7 +1861,7 @@ method in mod.client.ui.controls.itemRendererUIControl.ItemRendererUIControl
 *   示例
     
 
-```
+```python
 #获取木板block信息
 itemRenderPath = "/panel/item_renderer"
 itemRendererBaseControl = uiNode.GetBaseUIControl(itemRenderPath)
@@ -1893,7 +1893,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 我们获得panel下面的text2是否显示
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -1929,7 +1929,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 print control.IsAnimEndCallbackRegistered("offset_animation")
@@ -1959,7 +1959,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to know whether text2 has shadow
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -1995,7 +1995,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 # 暂停所有动画
@@ -2036,7 +2036,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 # 播放所有动画
@@ -2072,7 +2072,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 # 注册关闭下拉框事件回调，在点击关闭下拉框时会调用注册的回调函数
 def onCloseComboBoxCallback(args):
     pass
@@ -2106,7 +2106,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 # 注册展开下拉框事件回调，在点击展开下拉框时会调用注册的回调函数
 def onOpenComboBoxCallback(args):
     pass
@@ -2149,7 +2149,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 # 注册选中下拉框内容事件回调，在点击关闭下拉框时会调用注册的回调函数
 def onSelectItemCallback(index, showName, userData):
     pass
@@ -2188,7 +2188,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 # 移除属性动画offset_animation播放结束后的回调
@@ -2224,7 +2224,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 # 删除 位移 属性上的动画
@@ -2257,7 +2257,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.RemoveEntityMarker(entityId)
@@ -2289,7 +2289,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.RemoveEntityTextMarker(entityId)
@@ -2321,7 +2321,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 success = comboBoxUIControl.RemoveOptionByIndex(0)
@@ -2353,7 +2353,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 success = comboBoxUIControl.RemoveOptionByShowName("测试项")
@@ -2385,7 +2385,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.RemoveStaticMarker(entityId)
@@ -2417,7 +2417,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.RemoveStaticTextMarker("this_is_marker_key")
@@ -2464,7 +2464,7 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 path = '/demoPanel/paper_doll'
 param = {
@@ -2519,7 +2519,7 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
 *   示例
     
 
-```
+```python
 path = '/demoPanel/paper_doll'
 # 使用entity_id进行渲染
 param = {
@@ -2588,7 +2588,7 @@ method in mod.client.ui.controls.neteasePaperDollUIControl.NeteasePaperDollUICon
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 path = '/demoPanel/paper_doll'
 param = {
@@ -2628,7 +2628,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.RepaintMiniMap()
@@ -2658,7 +2658,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 imageControl.Rotate(30)
@@ -2689,7 +2689,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 imageControl.RotateAround((50, 50), 30)
@@ -2719,7 +2719,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 设置text2的透明度为半透明
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -2767,7 +2767,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 设置image1控件相对于父节点的左上角
 imagePath = "/panel/image1"
 anchorFrom = "top_left"
@@ -2816,7 +2816,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 设置image1控件锚点到自身中间
 imagePath = "/panel/image1"
 anchorTo = "center"
@@ -2854,7 +2854,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 
@@ -2898,7 +2898,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 
@@ -2964,7 +2964,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonHoveInCallback(args):
     pass
 
@@ -3009,7 +3009,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def OnButtonHoverOutCallback(args):
     pass
 
@@ -3046,7 +3046,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonScreenExitCallback(args):
     pass
 
@@ -3083,7 +3083,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonTouchCancelCallback(args):
     pass
 
@@ -3135,7 +3135,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonTouchDownCallback(args):
     pass
 
@@ -3173,7 +3173,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonTouchMoveCallback(args):
     pass
 
@@ -3211,7 +3211,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonTouchMoveInCallback(args):
     pass
 
@@ -3249,7 +3249,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonTouchMoveOutCallback(args):
     pass
 
@@ -3286,7 +3286,7 @@ method in mod.client.ui.controls.buttonUIControl.ButtonUIControl
 *   示例
     
 
-```
+```python
 def onButtonTouchUpCallback(args):
     pass
 
@@ -3333,7 +3333,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
 clipDirection = "fromOutsideToInside"
@@ -3366,7 +3366,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to set image1 maxSize
 imagePath = "/panel/image1"
 clipOffset = (20, 20)
@@ -3400,7 +3400,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to enable image1 clipsChildren
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
@@ -3431,7 +3431,7 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
 *   示例
     
 
-```
+```python
 selectionWheelPath = "/selectionWheel"
 selectionWheelControl = uiNode.GetBaseUIControl(selectionWheelPath).asSelectionWheel()
 selectionWheelControl.SetCurrentSliceIndex(-1)
@@ -3461,7 +3461,7 @@ method in mod.client.ui.controls.textEditBoxUIControl.TextEditBoxUIControl
 *   示例
     
 
-```
+```python
 # we want to clear edit2 content
 editBoxPath = "/panel/edit2"
 text = ""
@@ -3493,7 +3493,7 @@ method in mod.client.ui.controls.textEditBoxUIControl.TextEditBoxUIControl
 *   示例
     
 
-```
+```python
 # we want to set text_edit_box max input length 10
 editTextPath = "/panel2/text_edit_box"
 textEditBoxUIControl = uiNode.GetBaseUIControl(editBoxPath).asTextEditBox()
@@ -3549,7 +3549,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
 # 设置image1的位置在父控件的中间
@@ -3608,7 +3608,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/panel/image1"
 baseUIControl = uiNode.GetBaseUIControl(imagePath)
 # 设置image1的宽度为父节点的一半，
@@ -3644,7 +3644,7 @@ method in mod.client.ui.controls.gridUIControl.GridUIControl
 *   示例
     
 
-```
+```python
 # we want change grid dimension
 gridPath = "/grid1"
 gridUIControl = uiNode.GetBaseUIControl(gridPath).asGrid()
@@ -3680,7 +3680,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.SetHighestY(255)
@@ -3710,7 +3710,7 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
 *   示例
     
 
-```
+```python
 def onSelectionWheelHover():
     pass
 
@@ -3756,7 +3756,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
 # 普通适配
@@ -3791,7 +3791,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to set inputPanel1 isModal
 inputPanelPath = "/inputPanel1"
 inputPanel = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
@@ -3824,7 +3824,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to set inputPanel1 isSwallow
 inputPanelPath = "/inputPanel1"
 inputPanel = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
@@ -3857,7 +3857,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 设置text2的控件的层级
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -3910,7 +3910,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to set image1 maxSize
 imagePath = "/panel/image1"
 imageMaxSize = (10, 10)
@@ -3947,7 +3947,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to set image1 minSize
 imagePath = "/panel/image1"
 imageMinSize = (10, 10)
@@ -3984,7 +3984,7 @@ method in mod.client.ui.controls.inputPanelUIControl.InputPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to set inputPanel's offset_delta
 inputPanelPath = "/inputPanel1"
 inputPanel = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
@@ -4017,7 +4017,7 @@ method in mod.client.ui.controls.stackPanelUIControl.StackPanelUIControl
 *   示例
     
 
-```
+```python
 # we want to set stackPanel1 orientation
 stackPanelPath = "/stackPanel1"
 stackPanel = uiNode.GetBaseUIControl(stackPanelPath).asStackPanel()
@@ -4049,7 +4049,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to set text2 position
 text2Path = "/panel/text2"
 pos = (10, 10)
@@ -4083,7 +4083,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
 params = {"text": "hello world", "number": 123, "boolean": True}
@@ -4117,7 +4117,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/imagePath"
 imageControl = uiNode.GetBaseUIControl(imagePath).asImage()
 # 设置旋转锚点为图片的左上角
@@ -4154,7 +4154,7 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
 *   示例
     
 
-```
+```python
 # we want set scroll_view percent pos
 scrollViewPath = "/scroll_view0"
 scrollViewUIControl = uiNode.GetBaseUIControl(scrollViewPath).asScrollView()
@@ -4185,7 +4185,7 @@ method in mod.client.ui.controls.scrollViewUIControl.ScrollViewUIControl
 *   示例
     
 
-```
+```python
 # we want set scroll_view pos
 scrollViewPath = "/scroll_view0"
 scrollViewUIControl = uiNode.GetBaseUIControl(scrollViewPath).asScrollView()
@@ -4216,7 +4216,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 comboBoxUIControl.SetSelectOptionByIndex(0)
@@ -4246,7 +4246,7 @@ method in mod.client.ui.controls.neteaseComboBoxUIControl.NeteaseComboBoxUIContr
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 comboBoxUIControl.SetSelectOptionByShowName("测试项")
@@ -4277,7 +4277,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to set text2 size
 text2Path = "/panel/text2"
 text2Size = (10, 10)
@@ -4309,7 +4309,7 @@ method in mod.client.ui.controls.sliderUIControl.SliderUIControl
 *   示例
     
 
-```
+```python
 # we want to set slider value
 sliderPath = "/panel/slider0"
 sliderUIControl = uiNode.GetBaseUIControl(sliderPath).asSlider()
@@ -4344,7 +4344,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 # we want to set image_button textures
 imageButtonPath = "/image_button"
 buttonUIControl = uiNode.GetBaseUIControl(imageButtonPath).asButton()
@@ -4380,7 +4380,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 # 我们想对UI编辑器创建的进度条设置进度
 # 编辑器进度条包含两个image控件（名为empty_progress_bar和filled_progress_bar）
 progress = 0.8  # 用于模拟进度时，下面的裁剪比例需设为(1-进度)，才能得到正确的视觉效果
@@ -4413,7 +4413,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 # 我们想对耐久度条随耐久度变化颜色，满的时候为绿色，空的时候为红色，其中barPath为耐久度条路径
 durabilityRatio = 0.8  # 耐久度比例，1为满耐久
 barPath = "/image_bar"
@@ -4445,7 +4445,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 # we want set image gray
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
@@ -4478,7 +4478,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 # 我们想将当前图片控件设置为我的世界移动端启动器当前帐号的头像框
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
@@ -4510,7 +4510,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 # 我们想将当前图片控件设置为我的世界移动端启动器当前帐号的头像
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
@@ -4541,7 +4541,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
 imageUIControl.SetSpriteUV((10, 0))
@@ -4571,7 +4571,7 @@ method in mod.client.ui.controls.imageUIControl.ImageUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/image"
 imageUIControl = uiNode.GetBaseUIControl(imagePath).asImage()
 imageUIControl.SetSpriteUVSize((40, 30))
@@ -4592,7 +4592,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
     
     | 参数名 | 数据类型 | 说明 |
     | --- | --- | --- |
-    | text | str | 文本的内容，可以支持样式代码 (opens new window)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
+    | text | str | 文本的内容，可以支持[样式代码 (opens new window)](https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81)（§可以设置文字的颜色、格式等，该种用法更加灵活多变） |
     | syncSize | bool | 是否设置文本时同步更新文本框大小，默认值为False |
     
 *   返回值
@@ -4602,7 +4602,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to set text2 content
 text2Path = "/panel/text2"
 text = "Hello World!"
@@ -4645,7 +4645,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to align text2 to center
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -4680,7 +4680,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to set text2 green
 text2Path = "/panel/text2"
 color = (0, 1, 0)
@@ -4712,7 +4712,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # set text font size
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -4745,7 +4745,7 @@ method in mod.client.ui.controls.labelUIControl.LabelUIControl
 *   示例
     
 
-```
+```python
 # we want to set text2 textLinePadding
 text2Path = "/panel/text2"
 labelUIControl = uiNode.GetBaseUIControl(text2Path).asLabel()
@@ -4778,7 +4778,7 @@ method in mod.client.ui.controls.switchToggleUIControl.SwitchToggleUIControl
 *   示例
     
 
-```
+```python
 togglePath = "/toggle1"
 switchToggleUIControl = uiNode.GetBaseUIControl(togglePath).asSwitchToggle()
 switchToggleUIControl.SetToggleState(True)
@@ -4808,7 +4808,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # we want to set image_button unable
 imageButtonPath = "/image_button"
 baseUIControl = uiNode.GetBaseUIControl(imageButtonPath)
@@ -4839,7 +4839,7 @@ method in mod.client.ui.controls.selectionWheelUIControl.SelectionWheelUIControl
 *   示例
     
 
-```
+```python
 def onSelectionWheelTouchUp():
     pass
 
@@ -4877,7 +4877,7 @@ method in mod.client.ui.controls.itemRendererUIControl.ItemRendererUIControl
 *   示例
     
 
-```
+```python
 #设置显示为羊毛wool
 itemRenderPath = "/panel/item_renderer"
 itemName = "minecraft:wool"
@@ -4911,7 +4911,7 @@ method in mod.client.ui.controls.progressBarUIControl.ProgressBarUIControl
 *   示例
     
 
-```
+```python
 # we want to set progress
 progressBarPath = "/panel/progress_bar"
 progressBarUIControl = uiNode.GetBaseUIControl(progressBarPath).asProgressBar()
@@ -4946,7 +4946,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 隐藏panel的子控件text2
 text2Path = "/panel/text2"
 baseUIControl = uiNode.GetBaseUIControl(text2Path)
@@ -4995,7 +4995,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 获取控件
 control = uiNode.GetBaseUIControl("/image")
 # 停止所有动画
@@ -5033,7 +5033,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.ZoomIn(0.2)
@@ -5068,7 +5068,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.ZoomOut(0.2)
@@ -5098,7 +5098,7 @@ method in mod.client.ui.controls.minimapUIControl.MiniMapUIControl
 *   示例
     
 
-```
+```python
 path = "/demoPanel/netease_mini_map"
 map = uiNode.GetBaseUIControl(path).asMiniMap()
 map.ZoomReset(0.2)
@@ -5128,7 +5128,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 buttonPath = "/button"
 buttonBaseControl = uiNode.GetBaseUIControl(buttonPath)
 buttonControl = buttonBaseControl.asButton()
@@ -5158,7 +5158,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 gridPath = "/grid"
 gridBaseControl = uiNode.GetBaseUIControl(gridPath)
 gridControl = gridBaseControl.asGrid()
@@ -5188,7 +5188,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 imagePath = "/image"
 imageBaseControl = uiNode.GetBaseUIControl(imagePath)
 imageControl = imageBaseControl.asImage()
@@ -5218,7 +5218,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 inputPanelPath = "/inputPanel"
 inputPanelUIControl = uiNode.GetBaseUIControl(inputPanelPath).asInputPanel()
 
@@ -5247,7 +5247,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 itemRendererPath = "/item_renderer"
 itemRendererBaseControl = uiNode.GetBaseUIControl(itemRendererPath)
 itemRendererControl = itemRendererBaseControl.asItemRenderer()
@@ -5277,7 +5277,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 text1Path = "/text1"
 text1BaseControl = uiNode.GetBaseUIControl(text1Path)
 text1LabelControl = text1BaseControl.asLabel()
@@ -5307,7 +5307,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 path = "/mini_map"
 miniMapBaseControl = uiNode.GetBaseUIControl(path)
 miniMapControl = miniMapBaseControl.asMiniMap()
@@ -5337,7 +5337,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 comboBoxPath = "/panel/comboBoxPanel"
 comboBoxUIControl = uiNode.GetBaseUIControl(comboBoxPath).asNeteaseComboBox()
 
@@ -5366,7 +5366,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 paperDollPath = "/paper_doll"
 paperDollBaseControl = uiNode.GetBaseUIControl(paperDollPath)
 paperDollControl = paperDollBaseControl.asNeteasePaperDoll()
@@ -5398,7 +5398,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 progressBarPath = "/progress_bar"
 progressBarBaseControl = uiNode.GetBaseUIControl(progressBarPath)
 progressBarControl = progressBarBaseControl.asProgressBar()
@@ -5428,7 +5428,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 scrollViewPath = "/scroll_view"
 scrollViewBaseControl = uiNode.GetBaseUIControl(scrollViewPath)
 scrollViewControl = scrollviewBaseControl.asScrollView()
@@ -5458,7 +5458,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 selectionWheelPath = "/selectionWheel"
 selectionWheelControl = uiNode.GetBaseUIControl(selectionWheelPath).asSelectionWheel()
 
@@ -5487,7 +5487,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 path = "/slider0"
 sliderBaseControl = uiNode.GetBaseUIControl(path)
 sliderControl = sliderBaseControl.asSlider()
@@ -5517,7 +5517,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 stackPanelPath = "/stackPanel"
 stackPanelUIControl = uiNode.GetBaseUIControl(stackPanelPath).asStackPanel()
 
@@ -5546,7 +5546,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 switchTogglePath = "/switch_toggle"
 switchToggleBaseControl = uiNode.GetBaseUIControl(switchTogglePath)
 switchToggleControl = switchToggleBaseControl.asSwitchToggle()
@@ -5576,7 +5576,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 textEditBoxPath = "/text_edit_box"
 textEditBoxBaseControl = uiNode.GetBaseUIControl(textEditBoxPath)
 textEditBoxControl = textEditBoxBaseControl.asTextEditBox()
@@ -5607,7 +5607,7 @@ method in mod.client.ui.controls.baseUIControl.BaseUIControl
 *   示例
     
 
-```
+```python
 # 重置/text1控件上的属性动画
 text1Path = "/text1"
 text1Control = uiNode.GetBaseUIControl(text1Path)

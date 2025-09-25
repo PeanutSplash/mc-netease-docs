@@ -1,8 +1,8 @@
 ---
 title: "molang"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%8E%A5%E5%8F%A3/%E5%AE%9E%E4%BD%93/molang.html"
-scraped_at: "2025-09-24T16:50:54.315Z"
-batch_id: "2025-09-24T16-50-45-237Z"
+scraped_at: "2025-09-25T13:59:05.832Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["接口","实体","molang"]
 output_path: "接口/实体/molang.md"
 ---
@@ -39,7 +39,7 @@ method in mod.server.component.queryVariableCompServer.QueryVariableComponentSer
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 comp = serverApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.EvalMolangExpression('query.can_fly')
@@ -68,7 +68,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
     
 *   备注
     
-    *   ```
+    *   ```python
         本接口执行时没有渲染上下文，某些molang无法通过该种方式获取到正确的值，如query.actor_count【获取最近一帧渲染实体数量】 会永远返回0。
         
         ```
@@ -76,7 +76,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.EvalMolangExpression('query.can_fly')
@@ -108,7 +108,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.Get('query.mod.state')
@@ -141,7 +141,7 @@ method in mod.server.component.queryVariableCompServer.QueryVariableComponentSer
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 comp = serverApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.GetAllProperties()
@@ -178,7 +178,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.GetMolangValue('query.can_fly')
@@ -213,7 +213,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(levelId)
 result = comp.GetStringHash64('steve')
@@ -249,7 +249,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(levelId)
 result = comp.Register('query.mod.state', 0.0)
@@ -285,7 +285,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.Set('query.mod.state', 1.0)
@@ -321,7 +321,7 @@ method in mod.server.component.queryVariableCompServer.QueryVariableComponentSer
 *   示例
     
 
-```
+```python
 import mod.server.extraServerApi as serverApi
 comp = serverApi.GetEngineCompFactory().CreateQueryVariable(entityId)
 result = comp.SetPropertyValue('minecraft:has_nectar', True)
@@ -353,7 +353,7 @@ method in mod.client.component.queryVariableCompClient.QueryVariableComponentCli
 *   示例
     
 
-```
+```python
 import mod.client.extraClientApi as clientApi
 comp = clientApi.GetEngineCompFactory().CreateQueryVariable(levelId)
 result = comp.UnRegister('query.mod.state')

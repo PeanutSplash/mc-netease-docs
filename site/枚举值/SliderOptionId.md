@@ -1,8 +1,8 @@
 ---
 title: "SliderOptionId"
 source_url: "https://mc.163.com/dev/mcmanual/mc-dev/mcdocs/1-ModAPI/%E6%9E%9A%E4%B8%BE%E5%80%BC/SliderOptionId.html"
-scraped_at: "2025-09-24T16:48:16.233Z"
-batch_id: "2025-09-24T16-47-36-886Z"
+scraped_at: "2025-09-25T13:59:36.847Z"
+batch_id: "2025-09-25T13-58-56-694Z"
 tree_path: ["枚举值","SliderOptionId"]
 output_path: "枚举值/SliderOptionId.md"
 ---
@@ -16,7 +16,7 @@ class in mod.common.minecraftEnum
     滑动条设置选项枚举值
     
 
-```
+```python
 class SliderOptionId(object):
 	Undefined = ""
 	MOUSE_SENSITIVITY = "MOUSE_SENSITIVITY"						#键盘和鼠标->鼠标灵敏度 范围:0-1
