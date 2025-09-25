@@ -11,7 +11,7 @@ hero:
       link: /接口/API索引表
     - theme: alt
       text: 查看源码
-      link: https://github.com/PeanutSplash/auto-mc-163-docs
+      link: https://github.com/PeanutSplash/mc-netease-docs
 
 features:
   - icon: 🔧

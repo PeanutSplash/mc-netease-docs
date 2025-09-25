@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: '网易MC基岩版API文档',
-  base: process.env.NODE_ENV === 'production' ? '/auto-mc-163-docs/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/mc-netease-docs/' : '/',
   description: 'Scraped and auto-organized documentation',
   themeConfig: {
     search: {
