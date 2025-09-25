@@ -2,5 +2,13 @@
   "name": "mc-163-docs-vitepress",
   "type": "module",
   "private": true,
-  "description": "VitePress documentation site"
+  "description": "VitePress documentation site",
+  "scripts": {
+    "dev": "vitepress dev site",
+    "build": "vitepress build site",
+    "preview": "vitepress preview site"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  }
 }
